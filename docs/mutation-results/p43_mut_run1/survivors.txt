@@ -1,0 +1,49 @@
+V90Demodulator::progress/4:178 SIGN c96a2ee788 decl unsigned ro -> int
+V90Demodulator::progress/4:180 SIGN 8d53400998 decl unsigned prevRate -> int
+V90Demodulator::progress/4:189 SIGN 87fff8127a decl unsigned tmp -> int
+V90Demodulator::progress/4:228 SIGN 4e71b52dc7 decl unsigned s -> int
+V90Demodulator::progress/4:278 SIGN f1fed714c9 decl int st -> unsigned
+V90Demodulator::progress/4:278 WIDTH 967ffbf898 decl int st -> short
+V90Demodulator::progress/4:280 CMPSIGN 3dfbac3325 compare as uint32_t (no blob compare evidence)
+V90Demodulator::progress/4:280 LIT c2eb4e7ddb 0x23 -> 0x22
+V90Demodulator::progress/4:280 LIT 91ac15e108 0x23 -> 0x24
+V90Demodulator::progress/4:280 LIT 8bdf7add88 0x23 -> 0x25
+V90Demodulator::progress/4:280 REL 95f98ebe7a < -> <=
+V90Demodulator::progress/4:357 SIGN 1847822ff2 decl int f -> unsigned
+V90Demodulator::progress/4:357 WIDTH 3cbbe4e0f0 decl int f -> short
+V90Demodulator::progress/4:359 CMPSIGN 59dc9e91ee compare as uint32_t (no blob compare evidence)
+V90Demodulator::progress/4:359 LIT 36e86669b1 1 -> 2
+V90Demodulator::progress/4:359 REL 3d9a318b09 < -> <=
+V90Demodulator::progress/4:371 CMPSIGN f6f07239e8 compare as int32_t (no blob compare evidence)
+V90Demodulator::progress/4:371 LIT 0888068b54 0x15 -> 0x16
+V90Demodulator::progress/4:371 LIT 66fc2e32af 0x15 -> 0x17
+V90Demodulator::progress/4:499 LIT 85a53cec83 2 -> 0
+V90Demodulator::progress/4:499 LIT de7047e6f3 2 -> 3
+V90Demodulator::progress/4:499 LIT ba7c6c5110 2 -> 4
+V90Demodulator::progress/4:522 REL 835a27fb0a < -> <=
+V90Demodulator::progress/4:524 STMT 927c321d44 delete statement
+V90Demodulator::progress/4:528 REL dbacbec762 < -> <=
+V90Demodulator::progress/4:530 STMT 6ddad58003 delete statement
+V90Demodulator::progress/4:534 REL 04f63803e1 < -> <=
+V90Demodulator::progress/4:542 STMT 71a1ac32ec delete statement
+V90Demodulator::progress/4:548 STMT 60b4a82f91 delete statement
+V90Demodulator::progress/4:552 REL bb7a61f47f < -> <=
+V90Demodulator::progress/4:620 CMPSIGN 7d22bad5bf compare as int32_t (no blob compare evidence)
+V90Demodulator::progress/4:620 LIT 549e15a666 0x1c -> 0x1d
+V90Demodulator::progress/4:620 LIT cb8fa806b8 0x1c -> 0x1e
+V90Demodulator::progress/4:701 REL 34f0c82aa8 >= -> >
+copyWord:143 STMT 90c99c86e0 delete statement
+trunc16:164 CMPSIGN 21bcf96210 compare as int32_t (no blob compare evidence)
+trunc16:164 CMPSIGN e6492f56ed compare as int32_t (no blob compare evidence)
+trunc16:164 CMPSIGN 39f9956959 compare as uint32_t (no blob compare evidence)
+trunc16:164 LIT 20568d8c13 32768 -> 32766
+trunc16:164 LIT 91603120f5 32768 -> 32767
+trunc16:164 LIT 2dc34b7145 32768 -> 32769
+trunc16:164 LIT 16ad05775d 32768 -> 32770
+trunc16:164 LOGIC 85ce9378c5 && -> ||
+trunc16:164 REL 7a508871bd < -> <=
+trunc16:164 REL 9fc716ccb2 > -> >=
+trunc16:165 CAST 72d6597904 cast (int) -> (unsigned)
+trunc64lo:169 CAST dd070dafb9 drop cast (long long)
+wordOf:150 SIGN bd52acf79b decl uint32_t w -> int32_t
+wordOf:152 STMT a239e24ce1 delete statement

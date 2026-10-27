@@ -1,0 +1,54 @@
+# Expected x86-64 failures of test/tier_golden64.sh (default flags: -O2 SSE).  One line per test: "NAME CLASS DETAIL", matched EXACTLY (class and detail) for the
+# default flags, by NAME+CLASS for other FP64_FLAGS.  A listed test that starts to PASS exits 1 (XPASS): delete its line.  A new/changed failure exits 1.
+# This list IS the worklist of the 64-bit conversion of the plain-C files (NOTES.md "T00 DONE", S01 section B).  Causes (measured, T00):
+#  compile <files>   (T03: no test is in this class any more; the "initializer element is not constant" tables compile since T03, src/core/dsp_table_handles.h)
+#  run               a scenario crashes: pointers kept in 32-bit ints / 4-byte object slots.  Backtraces: v34_primitives sc5 = V34descrambler(bigObj as int, address
+#                    truncated, v34_dsp_primitives.c:780); v34_tier10a = VPcmV34RequestDPNotification PTR(obj,0xac3c) (the params_ pointer slot, v34_api.c:370);
+#                    v8* = v8_rxreadqueue / *(short*)(p+0x110) (v8.c:387, the harness passes a 32-bit address in an int); v34_tier5c = HARNESS ERROR "tone_detect model"
+#                    (consistent with S01 B.2: the detector block holds the coefficient-table address in 4 bytes at +0; not bisected further)
+#  diff              output differs: v34_tier10b / v34_tier9a (return values/hashes of the 'simple'/'rand' scenarios differ, first diff a=-1758409567 vs 2536557729: a
+#                    width/pointer-in-int problem; not bisected). (rd was listed here until X1: a strict-aliasing defect of ring_detector.c, fixed in source; it PASSES now at 32-bit -O0/-O2/-O3 and x86-64 -O0/-O2/-O3)
+# T03: the pointer-table files compile (word = handle on x86-64, src/core/dsp_table_handles.h) and the table consumers resolve them (cfgp_ptr), so every former "compile" id now fails
+# at RUN time.  Classified by the first failing scenario (gdb at -O0 -g / the harness message), T03 NOTES.md: b103 / v32* / n04_fsedec / fpm / v23 = the objects keep
+# MALLOC pointers in 4-byte slots (FPM_TONE_create +0x2c/+0x30 overlap, FPM_FSD_init, FPM_MRF_filter takes an output pointer as int; v32_primitives sc0: stack address in
+# an int): U-class, not tables.  v34 tiers 2, 3ab, 4b, 5b, 5d = the UNCONVERTED HARNESS models raw 32-bit offsets ("HARNESS ERROR", coverage failures); 3c, 3d, 4a, 5a,
+# 6a, 7a, 8a = SIGSEGV after the harness stored 32-bit pointers / function pointers into the raw object (PTR / U32 at 32-bit offsets): harness conversion.
+# T04/T05/T06: the v34 tier harnesses keep their model of the V.34 object in the i386 IMAGE layout and marshal it around every call of a function under test (test/v34_img.h,
+# test/v34objmap.h; NOTES.md "T04 DONE", "T05 DONE", "T06 DONE").  PASS on x86-64 (default -O2; the T06 ones also -O0 and -mfpmath=387): v34_primitives, v34_tier3c, 3d, 4b, 5a, 5c, 5d, 8a, 10a.
+# U01: fpm PASSES on x86-64 (default -O2, also -O0, -O3, -mfpmath=387, -O2 -fno-strict-aliasing); its line is gone.
+# U03: v8, v8_fsm, v8_init, v8_jm, v8_lifecycle PASS on x86-64 (default -O2, also -O0, -O3, -mfpmath=387); their lines are gone.  The V.8 object keeps its i386 flat image and holds its 9
+#      pointer slots in an 8-byte tail (src/v8/v8_obj.h); the table words are CFGP handles.
+# U04: b103 and v23 PASS on x86-64 (default -O2, also -O0 and -mfpmath=387); their lines are gone.  Both containers are typed structs with real pointer members and
+#      embedded FPM objects (src/fsk/v21_b103.h, src/fsk/v23.h).
+# U05: ALL v32 ids (v32, v32_ans, v32_capstone, v32_capstone_stagger, v32_loclop, v32_org, v32_primitives, v32_rng, v32_vtb, v32_vtb_decoder, v32_vtb_e2e) and n04_fsedec PASS on x86-64
+#      (default -O2, also -O0, -O3, -mfpmath=387, -O2 -fno-strict-aliasing); their lines are gone.  The V.32 engine / wrapper / hdx objects keep their i386 flat image and hold their
+#      address slots in a tail (src/v32/v32.h; test/v32_hobj.h on the harness side); the embedded FPM objects (MRF, AGC x2) live in the tail as typed objects.
+# T07: the eight v34 ids that were whole-id designed xfails in T06 (v34_tier2, 3ab, 4a, 5b, 6a, 7a, 9a, 10b) are now SCENARIO-LEVEL xfails: lines "NAME scenario N reason" (one per
+# scenario).  tier_golden64.sh then compares every scenario of NAME with its own slice of the golden (test/golden/NAME_blob32.sizes) and the id PASSES when exactly the listed
+# scenarios fail (a failing scenario that is not listed fails the job; a listed scenario that passes is an XPASS and fails the job at the default flags).  Why these scenarios
+# cannot pass: the blob test feeds an index / length that runs past an array into the neighbouring members (on i386 a contiguous run of bytes; on x86-64 the pointer members in
+# between are 8 bytes and the align8 pads move the rest, so the same run covers other bytes), so the recorded blob output is layout dependent.  The ports are not wrong for in-range
+# inputs: NEW scenarios with the same code paths and inputs restricted to the declared arrays (T07; tier2 10, 3ab 13, 4a 11, 5b 11 12 13, 6a 8, 7a 9-16, 9a 8, 10b 8) were recorded from
+# the blob (appended to the goldens, the old scenarios' bytes are unchanged) and PASS on x86-64 (NOTES.md "T07 DONE").  The original scenarios stay in the 32-bit tests.
+v34/v34_agc_demod scenario 3 V34ModulatorProcess: history channels at stride 70..130 + idx + up to 64 taps run past the 136 shorts before the tx block's pointer slots (layout dependent)
+v34/v34_init scenario 11 TimingV34 S[ia]/S[ib] with ia,ib in -200..2000 run past the 22-short S[] into the timing state (layout dependent)
+v34/v34_frame_decoder scenario 2 shellDemapper small draw: Z[E>=128] past Z[128] into the pointer slot 0xe48 and X[B-i] with B<A below X into 0xa24/0xa28 (layout dependent)
+v34/v34_frame_decoder scenario 3 shellDemapper wild 16-bit draw: same out-of-table X/Y/Z reads as scenario 2 (layout dependent)
+v34/v34_echo_rx_timing scenario 2 BackwardClean: cap>42 / signed idx / cap*2 clear and walk past the 84-byte PreFilter delay line over its pointer and fields (layout dependent)
+v34/v34_echo_rx_timing scenario 102 BackwardClean at placement 1 (the scenario 2 draw on an mmap()ed object): same out-of-array clear / walk as scenario 2 (layout dependent)
+v34/v34_echo_rx_timing scenario 202 BackwardClean at placement 2: same as scenario 102 (layout dependent)
+v34/v34_echo_rx_timing scenario 105 modem_serrint at placement 1: same FIR scratch aliased over the pointer slots as scenario 5 (layout dependent)
+v34/v34_echo_rx_timing scenario 205 modem_serrint at placement 2: same as scenario 105 (layout dependent)
+v34/v34_echo_rx_timing scenario 5 modem_serrint: place 2 aliases the FIR scratch over obj+0x30e..0x4a6 including the pointer slots 0x394 / 0x418 (layout dependent)
+v34/v34_echo_rx_timing scenario 7 rxtiming: cnt up to 300 writes S[] past its 60-byte region into p0508_ and the timing state (layout dependent)
+v34/v34_modulator scenario 4 modulatevector tail: k in 9..60 / -100..-1 indexes outside the 8-point block (layout dependent)
+v34/v34_receiver scenario 0 receiver -> TimingV34 S[ia]/S[ib] with ia,ib in -90..150 run past the 22-short S[] into the timing state (layout dependent)
+v34/v34_receiver scenario 1 receiver -> TimingV34 S[ia]/S[ib] with ia,ib in -90..150 run past the 22-short S[] into the timing state (layout dependent)
+v34/v34_receiver scenario 2 receiver -> TimingV34 S[ia]/S[ib] with ia,ib in -90..150 run past the 22-short S[] into the timing state (layout dependent)
+v34/v34_receiver scenario 3 receiver -> TimingV34 S[ia]/S[ib] with ia,ib in -90..150 run past the 22-short S[] into the timing state (layout dependent)
+v34/v34_receiver scenario 4 receiver -> TimingV34 S[ia]/S[ib] with ia,ib in -90..150 run past the 22-short S[] into the timing state (layout dependent)
+v34/v34_receiver scenario 5 receiver -> TimingV34 S[ia]/S[ib] with ia,ib in -90..150 run past the 22-short S[] into the timing state (layout dependent)
+v34/v34_receiver scenario 6 receiver -> TimingV34 S[ia]/S[ib] with ia,ib in -90..150 run past the 22-short S[] into the timing state (layout dependent)
+v34/v34_receiver scenario 7 receiver -> TimingV34 S[ia]/S[ib] with ia,ib in -90..150 run past the 22-short S[] into the timing state (layout dependent)
+vpcm/v34_handshake_init scenario 2 hook poke: the reader pointer is poked to obj+0x9000..0x9bfc and 12 words are stored through it across the pointer slots p9138_..p9148_ (layout dependent)
+v34/v34_unused scenario 5 detectRetrainReq: n up to 25 clears 0x2c-byte bins records across the align8 pad at 0xa94c (layout dependent)

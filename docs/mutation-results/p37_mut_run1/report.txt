@@ -1,0 +1,82 @@
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/p37_phase4_demod_decisions.cpp   functions: storeF,loadF,roundF,absWrap,signChar,intPart,fracPart,u64ld,printSqrtEnergy,decodeStep,stRi,stRiNot,stKnown,stB1d,stSilenceWait,stEchoBefore,stEchoWait,stEchoAfter,stV90RdNot,stV90Rt,stV90RtNot,stV90WaitMP,stV90WaitEd,stV92RdNot,stV92Rt,stV92RtNot,stV92RfNot,cpShortFrame,stV92WaitCP,V90Phase4Demodulator::getV90Decision/1,V90Phase4Demodulator::getV92Decision/1   source hash 4b79cffce76a
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 1298   invalid 144   TCE-equivalent 136   live 1018
+  live: killed 987  survived 27  NOVALUE (probe: never run) 4  pending 0
+  survivors+NOVALUE by value probe: NOVALUE 4 (distinguishing value never occurs: identical on this harness; harness-gap candidates), SEEN 1 (value occurred, difference masked downstream: equivalence candidates), no probe 26
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+ARITH         36       6       0      30       0       0  
+BIT            1       0       0       1       0       0  
+CAST          59       0      57       0       2       0  NOISY=2
+CMPSIGN       30       0      12      13       1       0  UNDIRECTED=1
+LIT          796     125       6     655      10       0  -=10
+LOGIC          9       0       0       9       0       0  
+NEG           54       0       0      54       0       0  
+REL           67       0       0      66       1       0  -=1
+SHIFT          2       0       0       2       0       0  
+SIGN          76       9      51       8       8       0  NOISY=8
+STMT         146       4       0     140       2       0  -=2
+WIDTH         22       0      10       9       3       0  NOISY=3
+
+default directed policy (skips blob-sign-neutral accessor swaps and undirected noisy classes) keeps 1151 of 1298 mutants: TCE-equivalent 28, live 984 (killed 970, survived 14)
+  excluded by policy: CAST/NOISY 49, SIGN/NOISY 76, WIDTH/NOISY 22
+  (equivalent-mutant pre-filter + policy): live mutants needing a run: all 1014 -> policy 984
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 814 s; default-policy subset 694 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {'EXECUTED': 31}
+TCE validation: {"n": 14, "killed": 0, "ids": []}
+
+SURVIVORS (31; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note
+  V90Phase4Demodulator::getV90Decision/1:376  default: return 0;   /* states 4, 16 and > 0x11: the blob returns the caller's edi (undefined) */
+      11f00dce45 [LIT - EXECUTED] 0 -> (-1)   => default: return (-1);   /* states 4, 16 and > 0x11: the blob returns the caller's edi (undefined) */
+      d615a827c4 [LIT - EXECUTED] 0 -> (-2)   => default: return (-2);   /* states 4, 16 and > 0x11: the blob returns the caller's edi (undefined) */
+      d7fa59b4ff [LIT - EXECUTED] 0 -> 1   => default: return 1;   /* states 4, 16 and > 0x11: the blob returns the caller's edi (undefined) */
+      4a1da7e040 [LIT - EXECUTED] 0 -> 2   => default: return 2;   /* states 4, 16 and > 0x11: the blob returns the caller's edi (undefined) */
+  V90Phase4Demodulator::getV92Decision/1:539  default: return 0;   /* states 5, 6 and > 0x11: the blob returns the caller's edi (undefined) */
+      424791cffd [LIT - EXECUTED] 0 -> (-1)   => default: return (-1);   /* states 5, 6 and > 0x11: the blob returns the caller's edi (undefined) */
+      17d63e8507 [LIT - EXECUTED] 0 -> (-2)   => default: return (-2);   /* states 5, 6 and > 0x11: the blob returns the caller's edi (undefined) */
+      7bc36e8d02 [LIT - EXECUTED] 0 -> 1   => default: return 1;   /* states 5, 6 and > 0x11: the blob returns the caller's edi (undefined) */
+      0558b5de16 [LIT - EXECUTED] 0 -> 2   => default: return 2;   /* states 5, 6 and > 0x11: the blob returns the caller's edi (undefined) */
+  absWrap:63  unsigned m = (unsigned)(v >> 31);
+      a944bd442f [LIT - EXECUTED] 31 -> 29   => unsigned m = (unsigned)(v >> 29);
+      a984d7cb6d [LIT - EXECUTED] 31 -> 30   => unsigned m = (unsigned)(v >> 30);
+  cpShortFrame:450  unsigned c = t->cp_->wCa0_;
+      b07e3fa50a [SIGN NOISY EXECUTED] decl unsigned c -> int   => int c = t->cp_->wCa0_;
+  intPart:71  static inline int intPart(LD v) { return dsp_trunc_i32(v < 0.0L ? -v : v); }
+      f559771762 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => static inline int intPart(LD v) { return dsp_trunc_i32((int32_t)(v) < (int32_t)(0.0L) ? -v : v); }
+      d535898dd3 [REL - EXECUTED SEEN] < -> <=   => static inline int intPart(LD v) { return dsp_trunc_i32(v <= 0.0L ? -v : v); }
+  stB1d:149  static inline short stB1d(D *t, short x) {
+      fc1d0f22b7 [SIGN NOISY EXECUTED] decl short x -> unsigned short   => static inline short stB1d(D *t, unsigned short x) {
+  stB1d:153  unsigned i = 0;
+      b22904808d [SIGN NOISY EXECUTED] decl unsigned i -> int   => int i = 0;
+  stB1d:155  int b = t->descr_->process(t->buf_[i]);
+      90b9c94586 [WIDTH NOISY EXECUTED] decl int b -> short   => short b = t->descr_->process(t->buf_[i]);
+  stB1d:160  } while (t->nBytes_ > i);
+      07365ea0e2 [CMPSIGN PTR EXECUTED NOVALUE] compare as int32_t (pointer/address-width compare (always))   => } while ((int32_t)(t->nBytes_) > (int32_t)(i));
+  stEchoAfter:225  int sq = (int)x * (int)x;
+      5cdae3dac8 [SIGN NOISY EXECUTED] decl int sq -> unsigned   => unsigned sq = (int)x * (int)x;
+  stEchoBefore:193  int sq = (int)x * (int)x;
+      3dd7616d60 [CAST NOISY EXECUTED] cast (int) -> (unsigned)   => int sq = (unsigned)x * (int)x;
+      ff9bfba2ad [CAST NOISY EXECUTED] cast (int) -> (unsigned)   => int sq = (int)x * (unsigned)x;
+      3dcd46d2a5 [SIGN NOISY EXECUTED] decl int sq -> unsigned   => unsigned sq = (int)x * (int)x;
+  stKnown:130  d = t->dem_;
+      1f9741d3bc [STMT - EXECUTED] delete statement   => ;
+  stKnown:134  d = t->dem_;
+      6b5edcc8e5 [STMT - EXECUTED] delete statement   => ;
+  stV90WaitEd:321  unsigned i = 0;
+      14881e3ae5 [SIGN NOISY EXECUTED] decl unsigned i -> int   => int i = 0;
+  stV90WaitEd:324  int k = t->mp_->bitsToInfo(b);
+      8ce134a7f6 [WIDTH NOISY EXECUTED] decl int k -> short   => short k = t->mp_->bitsToInfo(b);
+  stV90WaitEd:350  } while (t->nBytes_ > i);
+      82d3c073ef [CMPSIGN PTR EXECUTED NOVALUE] compare as int32_t (pointer/address-width compare (always))   => } while ((int32_t)(t->nBytes_) > (int32_t)(i));
+  stV90WaitMP:299  unsigned i = 0;
+      d27f5517e9 [SIGN NOISY EXECUTED] decl unsigned i -> int   => int i = 0;
+  stV90WaitMP:302  int k = t->mp_->bitsToInfo(b);
+      2c17ef931e [WIDTH NOISY EXECUTED] decl int k -> short   => short k = t->mp_->bitsToInfo(b);
+  stV90WaitMP:311  } while (t->nBytes_ > i);
+      542a90b71f [CMPSIGN PTR EXECUTED NOVALUE] compare as int32_t (pointer/address-width compare (always))   => } while ((int32_t)(t->nBytes_) > (int32_t)(i));
+  stV92WaitCP:464  unsigned i = 0;
+      390961df67 [SIGN NOISY EXECUTED] decl unsigned i -> int   => int i = 0;
+  stV92WaitCP:513  } while (t->nBytes_ > i);
+      425cedb65c [CMPSIGN PTR EXECUTED NOVALUE] compare as int32_t (pointer/address-width compare (always))   => } while ((int32_t)(t->nBytes_) > (int32_t)(i));

@@ -1,0 +1,72 @@
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/p41_equalizer_enter.cpp   functions: storeF,absF,absWrap,signChar,printFix,printFloat,scanCoefs,coefReport,convertCoefs,statsHigh,trunc16,convertHist,V90Equalizer::enterPhase4/0,V90Equalizer::convertEqualizerToMmx/0,V90Equalizer::enterDataPhase/0   source hash 2a630b53b702
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 566   invalid 5   TCE-equivalent 102   live 459
+  live: killed 434  survived 18  NOVALUE (probe: never run) 7  pending 0
+  survivors+NOVALUE by value probe: NOVALUE 9 (distinguishing value never occurs: identical on this harness; harness-gap candidates), SEEN 4 (value occurred, difference masked downstream: equivalence candidates), no probe 12
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+ARITH         27       1       0      26       0       0  
+BIT            2       0       0       2       0       0  
+CAST          74       0      71       2       1       0  NOISY=1
+CMPSIGN       30       0      10      11       3       0  UNDIRECTED=3
+LIT          204       0       0     203       1       0  -=1
+LOGIC          4       0       0       4       0       0  
+NEG           17       0       0      17       0       0  
+REL           42       0       4      34       3       0  -=3
+SHIFT          3       0       0       3       0       0  
+SIGN          30       1      15       6       8       0  NOISY=8
+STMT         116       2       0     114       0       0  
+WIDTH         17       1       2      12       2       0  NOISY=2
+
+default directed policy (skips blob-sign-neutral accessor swaps and undirected noisy classes) keeps 443 of 566 mutants: TCE-equivalent 16, live 417 (killed 410, survived 7)
+  excluded by policy: CAST/NOISY 72, LIT/NOISY 4, SIGN/NOISY 30, WIDTH/NOISY 17
+  (equivalent-mutant pre-filter + policy): live mutants needing a run: all 452 -> policy 417
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 551 s; default-policy subset 452 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {'EXECUTED': 23, 'NOCODE': 2}
+TCE validation: {"n": 19, "killed": 0, "ids": []}
+
+SURVIVORS (25; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note
+  V90Equalizer::enterPhase4/0:249  int sgn;
+      0d993b94d7 [WIDTH NOISY NOCODE] decl int sgn -> short   => short sgn;
+  V90Equalizer::enterPhase4/0:261  for (unsigned k = 0; k < m; ++k) ((unsigned *)dfeCoef_)[k] = 0;
+      90e14b0ca0 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)   => for (unsigned k = 0; (int32_t)(k) < (int32_t)(m); ++k) ((unsigned *)dfeCoef_)[k] = 0;
+      a84a881bcc [SIGN NOISY EXECUTED] decl unsigned k -> int   => for (int k = 0; k < m; ++k) ((unsigned *)dfeCoef_)[k] = 0;
+  V90Equalizer::enterPhase4/0:263  for (unsigned k = 0; k < m + 8; ++k) { rawDfeHi_[k] = 0; rawDfeLo_[k] = 0; }
+      502c4feff4 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)   => for (unsigned k = 0; (int32_t)(k) < (int32_t)(m + 8); ++k) { rawDfeHi_[k] = 0; rawDfeLo_[k] = 0; }
+      16b523c089 [SIGN NOISY EXECUTED] decl unsigned k -> int   => for (int k = 0; k < m + 8; ++k) { rawDfeHi_[k] = 0; rawDfeLo_[k] = 0; }
+  convertCoefs:179  for (unsigned i = 0; i < n; ++i) {
+      e0a0887437 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)   => for (unsigned i = 0; (int32_t)(i) < (int32_t)(n); ++i) {
+      b787d731db [SIGN NOISY EXECUTED] decl unsigned i -> int   => for (int i = 0; i < n; ++i) {
+  convertHist:220  for (unsigned i = 0; i < n; ++i) {
+      9f132306ad [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)   => for (unsigned i = 0; (int32_t)(i) < (int32_t)(n); ++i) {
+      38dd0860e6 [SIGN NOISY EXECUTED] decl unsigned i -> int   => for (int i = 0; i < n; ++i) {
+  convertHist:221  int s = trunc16((LD)src[i]);
+      0961b59533 [WIDTH NOISY EXECUTED] decl int s -> short   => short s = trunc16((LD)src[i]);
+  scanCoefs:115  static inline void scanCoefs(const float *c, unsigned n, float *mx, float *mn, float *sum, float *asum) {
+      842242b173 [SIGN NOISY EXECUTED] decl unsigned n -> int   => static inline void scanCoefs(const float *c, int n, float *mx, float *mn, float *sum, float *asum) {
+  scanCoefs:120  if (n > 1) {
+      ad34e0a510 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)   => if ((int32_t)(n) > (int32_t)(1)) {
+      ff3e81501d [LIT - EXECUTED SEEN] 1 -> 0   => if (n > 0) {
+      b5ab5a8369 [REL - EXECUTED SEEN] > -> >=   => if (n >= 1) {
+  scanCoefs:124  if (a > mxv) { mxv = a; *mx = a; }
+      10058ac07b [REL - EXECUTED SEEN] > -> >=   => if (a >= mxv) { mxv = a; *mx = a; }
+  scanCoefs:125  if (!(a >= mnv)) { mnv = a; *mn = a; }
+      c05f40a8dc [REL - EXECUTED SEEN] >= -> >   => if (!(a > mnv)) { mnv = a; *mn = a; }
+  statsHigh:194  int isum = 0, iabs = 0, imax = 0, imin = 0x10000;
+      45d6733331 [SIGN NOISY EXECUTED] decl int isum -> unsigned   => unsigned isum = 0, iabs = 0, imax = 0, imin = 0x10000;
+  statsHigh:195  for (unsigned i = 0; i < n; ++i) {
+      a82ebfdce2 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)   => for (unsigned i = 0; (int32_t)(i) < (int32_t)(n); ++i) {
+      21eaed9289 [SIGN NOISY EXECUTED] decl unsigned i -> int   => for (int i = 0; i < n; ++i) {
+  statsHigh:197  int a;
+      ed38c4a863 [SIGN NOISY NOCODE] decl int a -> unsigned   => unsigned a;
+  statsHigh:200  if (a > imax) imax = a;
+      db3b8b8ab2 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as uint32_t (no blob compare evidence)   => if ((uint32_t)(a) > (uint32_t)(imax)) imax = a;
+  statsHigh:201  if (a < imin) imin = a;
+      269e80506f [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as uint32_t (no blob compare evidence)   => if ((uint32_t)(a) < (uint32_t)(imin)) imin = a;
+  trunc16:213  if (!(v > -32769.0L && v < 32768.0L)) return -32768;
+      38c3637bf7 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => if (!((int32_t)(v) > (int32_t)(-32769.0L) && v < 32768.0L)) return -32768;
+      4503111ce5 [REL - EXECUTED NOVALUE] < -> <=   => if (!(v > -32769.0L && v <= 32768.0L)) return -32768;
+  trunc16:214  return (int)v;
+      57648ec11f [CAST NOISY EXECUTED] cast (int) -> (unsigned)   => return (unsigned)v;

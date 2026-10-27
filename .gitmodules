@@ -1,0 +1,3 @@
+[submodule "ext/dsplib"]
+	path = ext/dsplib
+	url = https://github.com/aarmono/dsplib.git

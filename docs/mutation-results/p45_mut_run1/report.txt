@@ -1,0 +1,27 @@
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/p45_modem.cpp   functions: dbgOn,modemParamWord54,bannerVersion,ctorBody90,dtorBody90,ctorBody92,dtorBody92,V90Modem::printTitle/0,V90Modem::reset/1,V90Modem::setSessionFlag/1,V90Modem::progress/4,V92Modem::printTitle/0,V92Modem::reset/0,V92Modem::progress/4   source hash 22f318221353
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 320   invalid 52   TCE-equivalent 12   live 256
+  live: killed 256  survived 0  NOVALUE (probe: never run) 0  pending 0
+  survivors+NOVALUE by value probe: NOVALUE 0 (distinguishing value never occurs: identical on this harness; harness-gap candidates), SEEN 0 (value occurred, difference masked downstream: equivalence candidates), no probe 0
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+ARITH         23      22       0       1       0       0  
+BIT            1       1       0       0       0       0  
+CAST           4       0       4       0       0       0  
+CMPSIGN        6       0       3       3       0       0  
+LIT          112      16       0      96       0       0  
+NEG           46       0       0      46       0       0  
+REL           24       0       0      24       0       0  
+SIGN           9       4       5       0       0       0  
+STMT          95       9       0      86       0       0  
+
+default directed policy (skips blob-sign-neutral accessor swaps and undirected noisy classes) keeps 307 of 320 mutants: TCE-equivalent 3, live 256 (killed 256, survived 0)
+  excluded by policy: CAST/NOISY 4, SIGN/NOISY 9
+  (equivalent-mutant pre-filter + policy): live mutants needing a run: all 256 -> policy 256
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 1460 s; default-policy subset 1460 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {}
+TCE validation: {"n": 10, "killed": 0, "ids": []}
+
+SURVIVORS (0; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note

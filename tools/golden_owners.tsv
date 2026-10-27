@@ -1,0 +1,4 @@
+# tools/golden_owners.tsv - jobs whose golden column (test/jobs.tsv) lists the OWN golden of another job (checked by tools/jobs_check.sh).
+# columns (tab separated): job id, id of the job that owns the golden.  Update it with GOLDEN_UPDATE=1 through the OWNER only.
+vpcm/pcm_bits_to_symbol.a	vpcm/pcm_bits_to_symbol.main
+vpcm/pcm_bits_to_symbol.b	vpcm/pcm_bits_to_symbol.main

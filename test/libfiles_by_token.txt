@@ -1,0 +1,68 @@
+# Library files of each run_changed job token (RS4).  tools/run_changed.sh adds, for every token pNN / vNN / zNN a followed script names (the
+# chunk ids of the porting work = the job ids), the files listed on the token's line to the job's key.  Up to RS3 this association came from
+# the flat file names (the globs port/<tok>_* and port/dsp_*_<tok>.*); the RS4 move gave the files descriptive names in src/<module>/, so the
+# association is written down here, generated ONCE from those globs over the old names (tools/filemap.tsv), i.e. the same file sets.
+# Keep it current by hand: a new library file that belongs to the job of token pNN goes on pNN's line (else the job's key misses it unless a
+# script names the file or a compiled file includes it).  Format: <token> <path> ... (paths below slmodemd/dsplibs-port).
+p01 src/dsp/dsp_int_templates.h src/dsp/dsp_int_templates.cpp
+p02 src/dsp/dsp_float_filters.h src/dsp/dsp_float_filters_layout.inc src/dsp/dsp_float_filters.cpp
+p03 src/dsp/dsp_window_fft_psd.h src/dsp/dsp_window_fft_psd_layout.inc src/dsp/dsp_window_fft_psd.cpp
+p04 src/dsp/dsp_tone_detectors.h src/dsp/dsp_tone_detectors_layout.inc src/dsp/dsp_tone_detectors.cpp
+p05 src/dsp/dsp_resampler.h src/dsp/dsp_resampler_layout.inc src/dsp/dsp_resampler.cpp
+p06 src/vpcm/pcm_leaf_classes.h src/vpcm/pcm_leaf_classes_layout.inc src/vpcm/pcm_leaf_classes.cpp
+p07 src/vpcm/pcm_parameters.h src/vpcm/pcm_parameters_layout.inc src/vpcm/pcm_parameters.cpp
+p08 src/vpcm/pcm_parameters_load.cpp
+p09 src/vpcm/v90_mp.h src/vpcm/v90_mp_layout.inc src/vpcm/v90_mp.cpp
+p10 src/vpcm/v90_cp.h src/vpcm/v90_cp_layout.inc src/vpcm/v90_cp.cpp
+p11 src/vpcm/v92_cp.h src/vpcm/v92_cp_layout.inc src/vpcm/v92_cp.cpp
+p12 src/vpcm/pcm_cp_packers.cpp
+p13 src/vpcm/pcm_dil.h src/vpcm/pcm_dil_layout.inc src/vpcm/pcm_dil.cpp
+p14 src/vpcm/pcm_jd.h src/vpcm/pcm_jd_layout.inc src/vpcm/pcm_jd.cpp
+p15 src/vpcm/v92_modulus_encoder.h src/vpcm/v92_modulus_encoder_layout.inc src/vpcm/v92_modulus_encoder.cpp
+p16 src/vpcm/v92_tx_coding.h src/vpcm/v92_tx_coding_layout.inc src/vpcm/v92_tx_coding.cpp
+p17 src/vpcm/v90_connection_evaluator.h src/vpcm/v90_connection_evaluator_layout.inc src/vpcm/v90_connection_evaluator.cpp
+p18 src/vpcm/v90_adid.h src/vpcm/v90_adid_layout.inc src/vpcm/v90_adid_study.cpp
+p19 src/vpcm/v90_adid_pad_gain.cpp
+p20 src/vpcm/v90_adid.cpp
+p21 src/vpcm/v90_spectral_shaper.h src/vpcm/v90_spectral_shaper_layout.inc src/vpcm/v90_spectral_shaper.cpp
+p22 src/vpcm/v92_echo_canceller.h src/vpcm/v92_echo_canceller_layout.inc src/vpcm/v92_echo_canceller.cpp src/vpcm/v90_prefilter_tables.cpp
+p23 src/vpcm/v90_constellation_power.cpp
+p24 src/vpcm/v90_constellation_designer.h src/vpcm/v90_constellation_designer_layout.inc src/vpcm/v90_constellation_noise.cpp
+p25 src/vpcm/v90_constellation_dmin.cpp
+p26 src/vpcm/v90_trn2_designer.h src/vpcm/v90_trn2_designer_layout.inc src/vpcm/v90_trn2_designer.cpp
+p27 src/vpcm/pcm_phase3_modulators.h src/vpcm/pcm_phase3_modulators_layout.inc src/vpcm/pcm_phase3_modulators.cpp
+p28 src/vpcm/v90_mapper.h src/vpcm/v90_mapper_layout.inc src/vpcm/v90_mapper.cpp
+p29 src/vpcm/pcm_bits_to_symbol.h src/vpcm/pcm_bits_to_symbol_layout.inc src/vpcm/pcm_bits_to_symbol.cpp
+p30 src/vpcm/v90_phase4_modulator.h src/vpcm/v90_phase4_modulator_layout.inc src/vpcm/v90_phase4_modulator_symbol.cpp
+p31 src/vpcm/v90_phase4_modulator.cpp
+p32 src/vpcm/v92_phase4_modulator.h src/vpcm/v92_phase4_modulator_layout.inc src/vpcm/v92_phase4_modulator_symbol.cpp
+p33 src/vpcm/v92_phase4_modulator.cpp
+p34 src/vpcm/v90_phase3_demod.h src/vpcm/v90_phase3_demod_layout.inc src/vpcm/v90_phase3_demod_v92_decision.cpp
+p35 src/vpcm/v90_phase3_demod_v90_decision.cpp
+p36 src/vpcm/v90_phase3_demod.cpp
+p37 src/vpcm/v90_phase4_demod.h src/vpcm/v90_phase4_demod_layout.inc src/vpcm/v90_phase4_demod_decisions.cpp
+p38 src/vpcm/v90_phase4_demod.cpp
+p39 src/vpcm/pcm_modulators.h src/vpcm/pcm_modulators_layout.inc
+p40 src/vpcm/v90_equalizer.h src/vpcm/v90_equalizer_layout.inc src/vpcm/v90_equalizer_process.cpp
+p41 src/vpcm/v90_equalizer_phases.cpp
+p42 src/vpcm/v90_equalizer.cpp
+p43 src/vpcm/v90_demodulator.h src/vpcm/v90_demodulator_layout.inc src/vpcm/v90_demodulator_progress.cpp
+p44 src/vpcm/v90_diagnostics.h src/vpcm/v90_diagnostics_layout.inc src/vpcm/v90_demodulator.cpp
+p45 src/vpcm/pcm_modem.h src/vpcm/pcm_modem_layout.inc src/vpcm/pcm_modem.cpp
+p46 src/vpcm/vpcm_flo_modem_run.cpp
+p47 src/vpcm/vpcm_flo_modem.h src/vpcm/vpcm_flo_modem_layout.inc src/vpcm/vpcm_flo_modem.cpp
+v01 src/v34/v34_object.h src/v34/v34_object_layout.inc src/vpcm/vpcm_info1a_retrain.cpp
+v02 src/vpcm/vpcm_phase34_reneg.cpp
+v03 src/vpcm/vpcm_session_wrappers.h src/vpcm/vpcm_session_wrappers_layout.inc src/vpcm/vpcm_session_wrappers.cpp
+v04 src/v34/handshake/v34_handshake.h src/v34/handshake/v34_hs_tables.c
+v05 src/vpcm/vpcm_datapump.cpp
+v06 src/vpcm/vpcm_create.cpp
+v07 src/vpcm/vpcm_progress.cpp
+v22 src/v22/v22_call_setup.c src/v22/v22_data.c src/v22/v22_detectors.c src/v22/v22_equalizer.c src/v22/v22_rx_bandpass.c src/v22/v22_loopback.c src/v22/v22_rx_resampler.c src/v22/v22.h src/v22/v22_pulse_shaping.c src/v22/v22_retrain.c src/v22/v22_scrambler.c src/v22/v22_timing.c src/v22/v22_tables.c src/v22/v22_tables.h
+v23 src/fsk/v23_backchannel_tables.c src/fsk/v23_backchannel_tables.h src/fsk/v23.h
+v32 src/v32/v32_echo_canceller.c src/v32/v32_equalizer.c src/v32/v32_math.c src/v32/v32.h src/v32/v32_pulse_shaping.c src/v32/v32_datapath.c src/v32/v32_scrambler.c src/v32/v32_timing.c src/v32/v32_tables.c src/v32/v32_tables.h src/v32/v32_viterbi_tables.c src/v32/v32_viterbi_tables.h
+v34 src/v34/v34_dsp_primitives.c src/v34/v34_timing_hilbert_tables.c src/v34/v34_timing_hilbert_tables.h src/v34/v34_api_tables.c src/v34/v34_api_tables.h src/vpcm/v34_api.c src/v34/v34_unused.c src/v34/v34_agc_demod.c src/v34/v34_init_tables.c src/v34/v34_init_tables.h src/v34/v34_init.c src/v34/v34_setup.c src/v34/v34_tx_level.c src/v34/v34_frame_tables.c src/v34/v34_frame_tables.h src/v34/v34_frame_decoder.c src/vpcm/v34_modem_init.c src/v34/v34_symbol_tables.c src/v34/v34_symbol_tables.h src/v34/v34_tx_symbol.c src/v34/v34_echo_rx_timing.c src/v34/v34_detectors.c src/v34/v34_handshake_helpers.c src/v34/v34_modulator_tables.c src/v34/v34_modulator_tables.h src/v34/v34_modulator.c src/v34/v34_receiver_tables.c src/v34/v34_receiver_tables.h src/v34/v34_receiver.c src/v34/v34_probe_select.c src/vpcm/v34_handshake_init.c
+z01 src/vpcm/dp_vpcm.h src/vpcm/dp_vpcm_layout.inc src/vpcm/dp_vpcm.cpp
+# "@<token> <path>": the file carried the token in its OLD flat name (v22.c, v32.c up to RS3): a script that names the file also names the token
+@v22 src/v22/v22_engine.c
+@v32 src/v32/v32_engine.c

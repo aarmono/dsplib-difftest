@@ -1,0 +1,1727 @@
+design a=0 b=0 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+design a=0 b=1 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+design a=0 b=2 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+design a=0 b=3 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+design a=0 b=4 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+design a=0 b=77 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+design a=0 b=-1 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+direct a=0 b=0 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+direct a=0 b=1 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+direct a=0 b=2 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+direct a=0 b=3 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+design a=1 b=0 n=1 h=4b72477f9c5c2f98 first=3f800000 last=3f800000
+design a=1 b=1 n=1 h=4b72477f9c5c2f98 first=3f800000 last=3f800000
+design a=1 b=2 n=1 h=4a99077f9ba3d218 first=ffc00000 last=ffc00000
+design a=1 b=3 n=1 h=4a99077f9ba3d218 first=ffc00000 last=ffc00000
+design a=1 b=4 n=1 h=4b72477f9c5c2f98 first=3f800000 last=3f800000
+design a=1 b=77 n=1 h=4b72477f9c5c2f98 first=3f800000 last=3f800000
+design a=1 b=-1 n=1 h=4b72477f9c5c2f98 first=3f800000 last=3f800000
+direct a=1 b=0 n=1 h=4b72477f9c5c2f98 first=3f800000 last=3f800000
+direct a=1 b=1 n=1 h=4b72477f9c5c2f98 first=3f800000 last=3f800000
+direct a=1 b=2 n=1 h=4a99077f9ba3d218 first=ffc00000 last=ffc00000
+direct a=1 b=3 n=1 h=4a99077f9ba3d218 first=ffc00000 last=ffc00000
+design a=2 b=0 n=2 h=0b2d58ee2f147975 first=3f800000 last=3f800000
+design a=2 b=1 n=2 h=2fece5a9aacd3d75 first=3f400000 last=3f400000
+design a=2 b=2 n=2 h=75a600a89c371561 first=3da3d70a last=3da3d70a
+design a=2 b=3 n=2 h=f76c082ab3a043b5 first=a3800000 last=a3800000
+design a=2 b=4 n=2 h=0b2d58ee2f147975 first=3f800000 last=3f800000
+design a=2 b=77 n=2 h=0b2d58ee2f147975 first=3f800000 last=3f800000
+design a=2 b=-1 n=2 h=0b2d58ee2f147975 first=3f800000 last=3f800000
+direct a=2 b=0 n=2 h=0b2d58ee2f147975 first=3f800000 last=3f800000
+direct a=2 b=1 n=2 h=2fece5a9aacd3d75 first=3f400000 last=3f400000
+direct a=2 b=2 n=2 h=75a600a89c371561 first=3da3d70a last=3da3d70a
+direct a=2 b=3 n=2 h=f76c082ab3a043b5 first=a3800000 last=a3800000
+design a=3 b=0 n=3 h=8eec422e25920948 first=3f800000 last=3f800000
+design a=3 b=1 n=3 h=4ccb9101dd4e8948 first=3f000000 last=3f000000
+design a=3 b=2 n=3 h=6d7d25163f7548a4 first=3da3d70a last=3da3d70a
+design a=3 b=3 n=3 h=69b01e71bbfcb6a8 first=a3800000 last=a3800000
+design a=3 b=4 n=3 h=8eec422e25920948 first=3f800000 last=3f800000
+design a=3 b=77 n=3 h=8eec422e25920948 first=3f800000 last=3f800000
+design a=3 b=-1 n=3 h=8eec422e25920948 first=3f800000 last=3f800000
+design a=5 b=-1 n=5 h=17263910e60ca9f8 first=3f800000 last=3f800000
+design a=11 b=1 n=11 h=51c73927827e282c first=3d8930a3 last=3d8930a3
+direct a=16 b=0 n=16 h=4e927ff833e131a5 first=3f800000 last=3f800000
+design a=22 b=2 n=22 h=4c8728d4d42028e1 first=3da3d70a last=3da3d70a
+direct a=27 b=1 n=27 h=932b5e32dd0bd3cc first=3c4d63fb last=3c4d63fb
+design a=33 b=3 n=33 h=a5a3260473d53d48 first=a3800000 last=a3800000
+direct a=38 b=2 n=38 h=a671ff0e29ff2965 first=3da3d70a last=3da3d70a
+design a=44 b=4 n=44 h=d49c88f33b1fa305 first=3f800000 last=3f800000
+direct a=49 b=3 n=49 h=524da942b1f49ca0 first=a3800000 last=a3800000
+design a=55 b=77 n=55 h=041988e88e5a7a28 first=3f800000 last=3f800000
+design a=61 b=0 n=61 h=0ccacd540c0bffb8 first=3f800000 last=3f800000
+design a=66 b=-1 n=66 h=6c5f749c82b70375 first=3f800000 last=3f800000
+design a=72 b=1 n=72 h=d5a9343b63ad303d first=3af29a52 last=3af29a52
+direct a=77 b=0 n=77 h=11c79ddb6812bf38 first=3f800000 last=3f800000
+design a=83 b=2 n=83 h=65b7803cb7df3738 first=3da3d70a last=3da3d70a
+direct a=88 b=1 n=88 h=648e71408b270da5 first=3aa33fa0 last=3aa33fa0
+design a=94 b=3 n=94 h=63535db79d7e25e9 first=a3800000 last=a3800000
+direct a=99 b=2 n=99 h=5244c041b9d83ffc first=3da3d70a last=3da3d70a
+design a=105 b=4 n=105 h=734877b490e902d8 first=3f800000 last=3f800000
+direct a=110 b=3 n=110 h=6682cd1f67ac23ad first=a3800000 last=a3800000
+design a=116 b=77 n=116 h=b49745d8750d7645 first=3f800000 last=3f800000
+design a=122 b=0 n=122 h=af20f504275f0a35 first=3f800000 last=3f800000
+design a=127 b=-1 n=127 h=8aee2f457c03c468 first=3f800000 last=3f800000
+design a=1856 b=1 n=1856 h=0072aacefb485ac5 first=36401174 last=36401174
+direct a=2024 b=0 n=2024 h=ef4d549dfde3f565 first=3f800000 last=3f800000
+design a=1853 b=2 n=1853 h=f0adaa8fdd89b03c first=3da3d70a last=3da3d70a
+direct a=562 b=1 n=562 h=869337610e335c15 first=3802993b last=3802993b
+design a=1778 b=3 n=1778 h=b1e13b395001e949 first=a3800000 last=a3800000
+direct a=2083 b=2 n=2083 h=cae3de09822b0370 first=3da3d70a last=3da3d70a
+design a=559 b=4 n=559 h=a6f641ca8ceae2e8 first=3f800000 last=3f800000
+direct a=1056 b=3 n=1056 h=eb54fd661e754269 first=a3800000 last=a3800000
+design a=1596 b=77 n=1596 h=ad98a2076ae45785 first=3f800000 last=3f800000
+design a=602 b=0 n=602 h=f773576145439535 first=3f800000 last=3f800000
+design a=713 b=-1 n=713 h=47e206ae020b31d8 first=3f800000 last=3f800000
+design a=1771 b=1 n=1771 h=03a8fd87a316a708 first=3652efbf last=3652efbf
+direct a=558 b=0 n=558 h=480d4ba306a00855 first=3f800000 last=3f800000
+design a=1151 b=2 n=1151 h=94a74f00678d234c first=3da3d70a last=3da3d70a
+direct a=895 b=1 n=895 h=0f5edf6bbe2f21c8 first=374e40f5 last=374e40f5
+design a=469 b=3 n=469 h=76b7d3be6d676244 first=a3800000 last=a3800000
+direct a=246 b=2 n=246 h=fdb1466c1c0553bd first=3da3d70a last=3da3d70a
+design a=1607 b=4 n=1607 h=48eb41d2d216eda8 first=3f800000 last=3f800000
+direct a=1735 b=3 n=1735 h=d7688fd106978680 first=a3800000 last=a3800000
+design a=1621 b=77 n=1621 h=643cc4eb638a9578 first=3f800000 last=3f800000
+design a=1802 b=0 n=1802 h=e385cd607590c0b5 first=3f800000 last=3f800000
+design a=2069 b=-1 n=2069 h=d771127cad8a7b78 first=3f800000 last=3f800000
+design a=1120 b=1 n=1120 h=0da9524e7afb5039 first=3703c466 last=3703c466
+direct a=246 b=0 n=246 h=b1fdcfdea40fe995 first=3f800000 last=3f800000
+design a=1067 b=2 n=1067 h=6ccc21952a5cbd68 first=3da3d70a last=3da3d70a
+direct a=1890 b=1 n=1890 h=e7861079b30d4429 first=3639393a last=3639393a
+design a=799 b=3 n=799 h=b8e31791e7ab1360 first=a3800000 last=a3800000
+direct a=834 b=2 n=834 h=7c1fc38f39264001 first=3da3d70a last=3da3d70a
+design a=1811 b=4 n=1811 h=c87428d9b622e0c8 first=3f800000 last=3f800000
+direct a=1381 b=3 n=1381 h=791d94f2baf3e0a8 first=a3800000 last=a3800000
+design a=723 b=77 n=723 h=181c59502cf616c8 first=3f800000 last=3f800000
+design a=648 b=0 n=648 h=44985e554417be65 first=3f800000 last=3f800000
+design a=1936 b=-1 n=1936 h=22472a5de803dda5 first=3f800000 last=3f800000
+design a=1168 b=1 n=1168 h=f9d7d89d4553e569 first=36f25640 last=36f25640
+direct a=428 b=0 n=428 h=01a877c7195c5f05 first=3f800000 last=3f800000
+design a=512 b=2 n=512 h=c70d189277c7a44d first=3da3d70a last=3da3d70a
+direct a=256 b=1 n=256 h=33e8cf4e41e3dbdd first=391cadea last=391cadea
+design a=1023 b=3 n=1023 h=fc5be1510a82fbd8 first=a3800000 last=a3800000
+direct a=4096 b=2 n=4096 h=4f594ce44927540d first=3da3d70a last=3da3d70a
+windows: 346 sizes
+calls: malloc 2768 free 2768
+COV n == 0                       1
+COV n == 1                       1
+COV n == 2                       1
+COV n 3..130                     128
+COV n >= 4096                    3
+COV power of two                 15
+COV boxcar                       1384
+COV hanning                      346
+COV hamming                      346
+COV blackman                     346
+COV designWindow with an out-of-range type 1038
+COV direct calls of the four families 346
+COV model-checked windows        1036
+COV trials with the block around 2^31 347
+COV dtor with a NULL block pointer 0
+HASH a71bc13508992591 lines 9359
+sinc 00000000 -> 3f800000
+sinc 80000000 -> 3f800000
+sinc 7fc00000 -> 3f800000
+sinc ffc01234 -> 3f800000
+sinc 7fc12345 -> 3f800000
+sinc 7f800000 -> ffc00000
+sinc ff800000 -> ffc00000
+sinc 00000004 -> 3f800000
+sinc 80000004 -> 3f800000
+sinc 00000007 -> 3f800000
+sinc 80000007 -> 3f800000
+sinc 0000000a -> 3f800000
+sinc 8000000a -> 3f800000
+sinc 0000000d -> 3f800000
+sinc 8000000d -> 3f800000
+sinc 00000010 -> 3f800000
+sinc 80000010 -> 3f800000
+sinc 00000013 -> 3f800000
+sinc 80000013 -> 3f800000
+sinc 00000016 -> 3f800000
+sinc 80000016 -> 3f800000
+sinc 00000019 -> 3f800000
+sinc 80000019 -> 3f800000
+sinc 0000001c -> 3f800000
+sinc 8000001c -> 3f800000
+sinc 0000001f -> 3f800000
+sinc 8000001f -> 3f800000
+sinc 00000022 -> 3f800000
+sinc 80000022 -> 3f800000
+sinc 00000025 -> 3f800000
+sinc 80000025 -> 3f800000
+sinc 00000028 -> 3f800000
+sinc 80000028 -> 3f800000
+sinc 0000002b -> 3f800000
+sinc 8000002b -> 3f800000
+sinc 0000002e -> 3f800000
+sinc 8000002e -> 3f800000
+sinc 00000031 -> 3f800000
+sinc 80000031 -> 3f800000
+sinc 00000034 -> 3f800000
+sinc c2884000 -> 3aea5d80
+sinc c0ba0000 -> bcf93d32
+sinc 42620000 -> 3bb89bc4
+sinc 42eda000 -> 3ac31742
+sinc c5037000 -> 2433c3f8
+sinc c48a4000 -> a433c3f8
+sinc c2da0000 -> 2433c3f8
+sinc 445e0000 -> a433c3f8
+sinc 44eba000 -> 2433c3f8
+sinc 45342000 -> a433c3f8
+sinc c5049800 -> b91d540f
+sinc c48c9000 -> 399468bc
+sinc c2ff0000 -> bb239d21
+sinc 44596000 -> b9bfeef0
+sinc 44e95000 -> 3932d28c
+sinc 4532f800 -> b8e91f2d
+sinc 42a4a400 -> 3b561810
+sinc 421f7282 -> bb5c1ac6
+sinc 3ea073a8 -> 3f589a4c
+sinc 47902705 -> 350db72c
+sinc bf800000 -> 2433c3f8
+sinc c25fe900 -> b9d23210
+sinc 42765127 -> bba428a1
+sinc bf5b6e9b -> 3e24fa40
+sinc 46f2a3ff -> b3870bef
+sinc bfe00000 -> be03b413
+sinc c295f700 -> 3975b154
+sinc 41f6f87e -> 3b84e1d0
+sinc be378a74 -> 3f72af2a
+sinc b5b21b93 -> 3f800000
+sinc 3e800000 -> 3f667b21
+sinc 428e6180 -> bb25086d
+sinc c200139d -> 3a1cb7c0
+sinc 3eb2f32c -> 3f4f927e
+sinc bcbbdb16 -> 3f7fc753
+sinc 3f800000 -> 2433c3f8
+sinc 422e0b00 -> bbef9547
+sinc c174cbc0 -> bc89cd9d
+sinc be6ee308 -> 3f69b09c
+sinc 3cd30c5d -> 3f7fb879
+sinc 3fe00000 -> be03b413
+sinc c304d1c0 -> 3aa8de3b
+sinc 406b6d60 -> bd960f31
+sinc be33c280 -> 3f73380d
+sinc c6942f64 -> b76630e3
+sinc 3f000000 -> 3f22f983
+sinc 430a4a80 -> 3aeef936
+sinc 4085b2d0 -> 3d259d39
+sinc 3de56f30 -> 3f7abf65
+sinc bf4d3ff7 -> 3e6d2417
+sinc 3fc00000 -> be594caf
+sinc 42d26500 -> bae65a34
+sinc 41a694f4 -> 3c0461cf
+sinc 3ee5d838 -> 3f33301a
+sinc 478e635f -> 365436a5
+sinc be800000 -> 3f667b21
+sinc c2a8c480 -> 3b66eb70
+sinc 401008d0 -> 3dcd2b38
+sinc 3f525117 -> 3e52f493
+sinc 3e3c6715 -> 3f71fb3c
+sinc 3e800000 -> 3f667b21
+sinc 42609200 -> 3b20ec70
+sinc c228786b -> 3b32d901
+sinc bca683e0 -> 3f7fd378
+sinc c8b903b3 -> b557cb40
+sinc 00000000 -> 3f800000
+sinc 430fbc00 -> bad71314
+sinc c238c040 -> 3b7b3646
+sinc bf193f14 -> 3f01a4fa
+sinc 413cf4ed -> bc7872e8
+sinc be800000 -> 3f667b21
+sinc 43186b80 -> 3b048e37
+sinc 42367021 -> bbd74a3f
+sinc 3f0c92dd -> 3f12a25b
+sinc 3882e807 -> 3f800000
+sinc 40000000 -> a433c3f8
+sinc 42b70500 -> bb63dad5
+sinc c1e94132 -> bba93670
+sinc 3f5f1851 -> 3e12f641
+sinc c528af02 -> 37bf85cc
+sinc bfc00000 -> be594caf
+sinc c2e24b80 -> baa4c6ca
+sinc c1626f08 -> 3c29784c
+sinc bf5a8b8e -> 3e2961a3
+sinc c940a0cb -> 34b416be
+sinc 3f400000 -> 3e99a76c
+sinc 4325d100 -> ba8935f0
+sinc 426d04a6 -> bb7c76ca
+sinc bf4c44cf -> 3e7241e1
+sinc c5a4d43b -> 387c1580
+sinc 00000000 -> 3f800000
+sinc 4205d100 -> bc1a45e6
+sinc c21e184b -> bc0395a5
+sinc 3f5cff0b -> 3e1d3ff4
+sinc bfcba0b6 -> be449a8c
+sinc bf000000 -> 3f22f983
+sinc c1242400 -> 3cb8a088
+sinc c08625d8 -> 3d3085fc
+sinc 3e630e8c -> 3f6bcadb
+sinc ba14865e -> 3f7ffff7
+sinc bfe00000 -> be03b413
+sinc 42738700 -> 3af89778
+sinc c19b4fba -> bc816f68
+sinc 3f605043 -> 3e0d083b
+sinc b88f37fb -> 3f800000
+sinc c0000000 -> a433c3f8
+sinc 42f56b00 -> 3b06a8db
+sinc c245d204 -> bbd0cf89
+sinc 3db3e340 -> 3f7cc374
+sinc 3ae2f43b -> 3f7fffad
+sinc bf000000 -> 3f22f983
+sinc c185cc00 -> 3c6d5d19
+sinc 41ab5c2c -> bc6bd324
+sinc 3f0fdae5 -> 3f0e46ab
+sinc 3c376adf -> 3f7ff27e
+sinc 3f800000 -> 2433c3f8
+sinc 4142dc00 -> 3c63fc93
+sinc 425afe21 -> 3b877c66
+sinc bd8ebfe0 -> 3f7df583
+sinc 4956b5fa -> b4b38607
+sinc 3f400000 -> 3e99a76c
+sinc bf450000 -> 3e8c4a0e
+sinc 41c7ad92 -> 3ad2cc2a
+sinc 3f230cc2 -> 3ee89312
+sinc b91a173d -> 3f7fffff
+sinc 00000000 -> 3f800000
+sinc c2caad80 -> bb3408f3
+sinc c232ffb0 -> 3ba4f8e7
+sinc 3efbf0f0 -> 3f258c83
+sinc bbbac547 -> 3f7ffc7f
+sinc bfe00000 -> be03b413
+sinc c2354200 -> bbc02ab7
+sinc c0d7b928 -> 3d0c6bc9
+sinc 3f088ac1 -> 3f17f0be
+sinc bdba034f -> 3f7c8a4d
+sinc 3e800000 -> 3f667b21
+sinc 420ee800 -> bbdd113b
+sinc 3f306280 -> 3ec40cf3
+sinc 3f4f8e6b -> 3e612b9d
+sinc ba20b6f1 -> 3f7ffff6
+sinc bfa00000 -> be386281
+sinc 43287f00 -> 3af797af
+sinc c2230d60 -> 3bad5bcb
+sinc bf616db5 -> 3e07a281
+sinc 4203fd9f -> 3893a53c
+sinc 3f800000 -> 2433c3f8
+sinc 42b0f900 -> 3b6b88a4
+sinc c140318c -> 3a83f5ce
+sinc 3f65b59f -> 3de659d2
+sinc 35ef220e -> 3f800000
+sinc 00000000 -> 3f800000
+sinc 43403c80 -> 3a92bbe9
+sinc 425c0883 -> b91e6e47
+sinc beac5358 -> 3f52e4c1
+sinc 45738fca -> 3662f744
+sinc bfa00000 -> be386281
+sinc 404ae000 -> bd51487f
+sinc c25629ae -> bbc138bb
+sinc 3f569ac5 -> 3e3d2272
+sinc bf928046 -> bdf9d65a
+sinc bf800000 -> 2433c3f8
+sinc 4295ae00 -> 3b06673c
+sinc c21a9736 -> 3bf15c1b
+sinc bf07c021 -> 3f18f9ab
+sinc 384cbe07 -> 3f800000
+sinc be800000 -> 3f667b21
+sinc c26bb100 -> 3aa9f061
+sinc c21cdbe6 -> bba622d5
+sinc 3f55f973 -> 3e40521b
+sinc c5d7b5ec -> 380ce539
+sinc 3f400000 -> 3e99a76c
+sinc 43020d00 -> 39cbda4d
+sinc c25006d3 -> 39065b8a
+sinc 3f4386f7 -> 3e90363e
+sinc 45d1d64a -> 37f78690
+sinc 3e800000 -> 3f667b21
+sinc c1883e00 -> bae8a550
+sinc c21435ca -> bab8f99d
+sinc 3d079540 -> 3f7f89f2
+sinc 49cd1974 -> 344b6bc1
+sinc bfe00000 -> be03b413
+sinc c0cba000 -> 3d3a486f
+sinc 40308500 -> 3da2d027
+sinc 3d511810 -> 3f7ee76f
+sinc b76cfd19 -> 3f800000
+sinc 00000000 -> 3f800000
+sinc c32f9b00 -> bae0a9e6
+sinc c1d47e0e -> 3c40af2f
+sinc 3ecd5fb6 -> 3f416d16
+sinc 4625e2ef -> 37badf0d
+sinc 3f000000 -> 3f22f983
+sinc 432e6a00 -> 3ae68b62
+sinc c234c4b0 -> bb82f8fd
+sinc 3f1b25d4 -> 3efe20ef
+sinc 3f76a133 -> 3d1b474b
+sinc bfe00000 -> be03b413
+sinc 42eb4780 -> bb2088bb
+sinc 425045f6 -> 3aaaab07
+sinc bf48ff68 -> 3e81b541
+sinc c974beb8 -> b4aa7825
+sinc bfe00000 -> be03b413
+sinc 42061e00 -> bc1ae207
+sinc 41779834 -> bca7f944
+sinc 3ee4a910 -> 3f33e637
+sinc c78692a0 -> b65b3952
+sinc 40000000 -> a433c3f8
+sinc 41884200 -> baf793b7
+sinc c23650b7 -> bbdddcae
+sinc 3f21ca46 -> 3eec0501
+sinc bd6177ae -> 3f7eb9d8
+sinc bf800000 -> 2433c3f8
+sinc c33fff40 -> b780000a
+sinc 41da3110 -> bc10fe39
+sinc bb367700 -> 3f7fff2a
+sinc 468e2123 -> 378f66bc
+sinc 40000000 -> a433c3f8
+sinc 423b9a00 -> 3b08ed91
+sinc c2344125 -> bab7cf1a
+sinc 3e6b2314 -> 3f6a5ddf
+sinc 36606ab0 -> 3f800000
+sinc bfa00000 -> be386281
+sinc 41cf7e00 -> bb1f54a4
+sinc c19c4cc2 -> bc848acb
+sinc be870fbe -> 3f63afde
+sinc c3b4b5fc -> ba5fef10
+sinc bfa00000 -> be386281
+sinc 42c4c500 -> 3b464a08
+sinc c22c3b2c -> baaef046
+sinc 3f2ed80b -> 3ec8446d
+sinc c8af7322 -> b4399167
+sinc 3f800000 -> 2433c3f8
+sinc c3368c00 -> 3ae2141f
+sinc 400245a0 -> 3c8e9309
+sinc bf03cbb8 -> 3f1e1bf7
+sinc 431fe452 -> ba2de163
+sinc c0000000 -> a433c3f8
+sinc 4314f3c0 -> 39a7cbd7
+sinc 42644cc5 -> baaa94b8
+sinc 3f76b39f -> 3d1a0bd8
+sinc 3d126f64 -> 3f7f764e
+sinc 3f800000 -> 2433c3f8
+sinc 430c9740 -> 3b0e6167
+sinc 4249754a -> 3bbca04c
+sinc 3e907a38 -> 3f5fc315
+sinc 3ad70963 -> 3f7fffb6
+sinc 3fa00000 -> be386281
+sinc c2834a00 -> bb8ecac1
+sinc 4057e350 -> bdb2229d
+sinc 3eddce2c -> 3f37f979
+sinc c7c36273 -> 3585f6db
+sinc bf000000 -> 3f22f983
+sinc 42f36d00 -> bb0677b7
+sinc c256b404 -> bba56e98
+sinc 3e870d12 -> 3f63b0f3
+sinc c4ed7a6e -> b8b6b78e
+sinc bf000000 -> 3f22f983
+sinc 421f1500 -> bbad1fd4
+sinc 421cea53 -> bbaf19b3
+sinc be7c00f8 -> 3f673f70
+sinc bdb8dc19 -> 3f7c9534
+sinc 3e800000 -> 3f667b21
+sinc 41f56e00 -> 3c0fe5ef
+sinc c2638d6e -> 3afc82da
+sinc 3f4c1e3e -> 3e730b54
+sinc 451327bb -> 390d8fd0
+sinc bf800000 -> 2433c3f8
+sinc 43043040 -> 3ab02777
+sinc 40ada878 -> bd69edc4
+sinc 3db1c810 -> 3f7cd6ab
+sinc c4cda88d -> b916fe1d
+sinc 40000000 -> a433c3f8
+sinc 42ae7380 -> bb1ba7d8
+sinc 426d1a94 -> bb86254c
+sinc 3e94b240 -> 3f5dee6e
+sinc ba536692 -> 3f7fffee
+sinc 3fa00000 -> be386281
+sinc c044c000 -> bcc3fc96
+sinc c25341cf -> 3b599d87
+sinc bf3e42c1 -> 3e9e5522
+sinc bca8700e -> 3f7fd26f
+sinc 3fa00000 -> be386281
+sinc c251fb00 -> 3bc6ab42
+sinc c1fe0166 -> bbe7cabd
+sinc 3ee5a9be -> 3f334c0e
+sinc 478a412e -> 36886659
+sinc be800000 -> 3f667b21
+sinc 42e83400 -> 3a617200
+sinc 41ff1d68 -> bb5ed431
+sinc 3c6f0d40 -> 3f7fe90e
+sinc 4645eff4 -> b57843d4
+sinc 3e800000 -> 3f667b21
+sinc c28a3c00 -> bad93eba
+sinc 41a2312c -> 3c43151f
+sinc 3e52cbd0 -> 3f6e864b
+sinc 38a78a88 -> 3f800000
+sinc 40000000 -> a433c3f8
+sinc c2decb80 -> bb31a1b0
+sinc 4279de31 -> 3ba613ad
+sinc bed2d37e -> 3f3e5779
+sinc bff39237 -> bd4dc850
+sinc 3f000000 -> 3f22f983
+sinc 429daa00 -> 3b053f6d
+sinc 4008b470 -> 3d7cf3e6
+sinc 3f7b2cd0 -> 3c9d45bd
+sinc 485a7d7d -> b460265c
+sinc 3fe00000 -> be03b413
+sinc c1b42600 -> 3c6733ac
+sinc 41a3d53c -> 3c7e1c71
+sinc bec0a850 -> 3f4867fc
+sinc c773f764 -> b6a10442
+sinc c0000000 -> a433c3f8
+sinc 41cfa800 -> bad850cb
+sinc 42352c4b -> bbb7651a
+sinc 3f1d3436 -> 3ef888fb
+sinc 3b46eba2 -> 3f7fff02
+sinc 3f000000 -> 3f22f983
+sinc c1e0a800 -> 3b3d53bf
+sinc 41ff82b6 -> baf983ef
+sinc be5738e4 -> 3f6dcc98
+sinc c50649d7 -> 391150f8
+sinc bf800000 -> 2433c3f8
+sinc c33e8380 -> 3adacafa
+sinc c0ad8908 -> bd696ab0
+sinc bdfd9008 -> 3f7997f7
+sinc c978d29f -> b382d8fb
+sinc 3fc00000 -> be594caf
+sinc 42b92c00 -> 3b592692
+sinc 42509ea0 -> 3b3b0ede
+sinc bdbc7408 -> 3f7c7302
+sinc ba163f74 -> 3f7ffff7
+sinc bf800000 -> 2433c3f8
+sinc c304af00 -> 3b03c987
+sinc 4277621c -> bb1d1331
+sinc 3f11581c -> 3f0c49ab
+sinc b66f1b16 -> 3f800000
+sinc bf000000 -> 3f22f983
+sinc c2a6c200 -> bb684e17
+sinc c26bcd21 -> 3a5c04e2
+sinc bc6fde00 -> 3f7fe8e5
+sinc b8dcb806 -> 3f800000
+sinc bfa00000 -> be386281
+sinc c2ad5e80 -> 3b4950fa
+sinc c265b951 -> bbb15cbf
+sinc 3ddf2578 -> 3f7b07a9
+sinc b74402d6 -> 3f800000
+sinc be800000 -> 3f667b21
+sinc c1b71800 -> 3b9ec9c1
+sinc c2690681 -> 3b811a6a
+sinc 3d406000 -> 3f7f1276
+sinc 397ef695 -> 3f7ffffe
+sinc 3f000000 -> 3f22f983
+sinc 41b8b800 -> bb7ba1a8
+sinc 42145315 -> bb0dd8ea
+sinc bf07be64 -> 3f18fbf0
+sinc c72b0257 -> 36d5bca8
+sinc 3f000000 -> 3f22f983
+sinc 42d8ec00 -> 3b3ee349
+sinc c224f63a -> bbad6592
+sinc 3e0cab00 -> 3f78208b
+sinc c8f55bd6 -> 350d62b1
+sinc bf000000 -> 3f22f983
+sinc c30c5bc0 -> 3b0628e6
+sinc c231bdb9 -> 3be5e564
+sinc bf7dd916 -> 3c0ae146
+sinc c294fc9d -> 3b8bfcbe
+sinc 3fc00000 -> be594caf
+sinc 43099580 -> bb126001
+sinc c2685133 -> 3ab11bc1
+sinc bdd45a98 -> 3f7b7f1e
+sinc 3cf527c4 -> 3f7f9f7f
+sinc bf000000 -> 3f22f983
+sinc 407ab000 -> bcaba443
+sinc 417d5a20 -> bc23a0ee
+sinc bf2d8cf3 -> 3ecbcf0e
+sinc 36da6a3e -> 3f800000
+sinc bf400000 -> 3e99a76c
+sinc 430e94c0 -> 3b0d9716
+sinc c0e76568 -> bcef6e66
+sinc bf785fd1 -> 3cfb25eb
+sinc c47a4148 -> b7a7a780
+sinc bfc00000 -> be594caf
+sinc 42edbe80 -> 3a894ad4
+sinc 4246bd0b -> bbaf9a50
+sinc bf0ba2c8 -> 3f13df9d
+sinc bfc5eb90 -> be50940d
+sinc bfe00000 -> be03b413
+sinc c33abac0 -> 3aa7d5c3
+sinc beedf680 -> 3f2e4150
+sinc bf18edab -> 3f02134a
+sinc b6beb5e3 -> 3f800000
+sinc bf800000 -> 2433c3f8
+sinc c1dc2800 -> bc3d26ea
+sinc c2688eb5 -> 3b181f1b
+sinc 3f362573 -> 3eb45247
+sinc b614d3ce -> 3f800000
+sinc bf400000 -> 3e99a76c
+sinc 42ae6d80 -> bb14e314
+sinc c1c487a4 -> 3c4fb650
+sinc 3ee29c8e -> 3f352000
+sinc 40eaa4ed -> bd19ca2c
+sinc bfe00000 -> be03b413
+sinc 433dc640 -> ba8f1659
+sinc c1fc5684 -> bc23e2cb
+sinc 3f43db92 -> 3e8f54a1
+sinc c1d544b6 -> 3c2bdbcc
+sinc 3fa00000 -> be386281
+sinc 42d32d80 -> bb3dea8d
+sinc c24c50a2 -> bac80188
+sinc 3e899f28 -> 3f62a45f
+sinc 3d495942 -> 3f7efbd0
+sinc 3f400000 -> 3e99a76c
+sinc 430c9f00 -> 3b09bdc9
+sinc 421b9b09 -> 3b237658
+sinc bf741a91 -> 3d46e849
+sinc c3255f3a -> bae8285e
+sinc 3f000000 -> 3f22f983
+sinc 425a2400 -> 3bbe1828
+sinc 4e41c3ac -> a4339c05
+sinc ce43f96f -> a433d5f4
+sinc 4e035c9c -> a433a94c
+sinc ce07b2c0 -> a433cd94
+sinc 5ea2e0e7 -> 3f800000
+sinc 5ea364dd -> 3f800000
+sinc done
+calls: malloc 0 free 0
+COV +0                           1
+COV -0                           1
+COV NaN                          1
+COV inf                          1
+COV denormal                     1
+COV integer arguments            1
+COV half-integer arguments       1
+COV grid k/16                    1
+COV random                       1
+COV huge |x| (> 1e9)             1
+COV pi x >= 2^63 (fsin leaves the operand unchanged) 1
+COV model-checked                31884
+COV negative                     2000
+COV trials with the block around 2^31 1
+COV dtor with a NULL block pointer 0
+HASH 0cd869440963eff0 lines 422125
+s0 n=165 c29c0000
+s1 n=165 bef2094f
+s2 n=165 41c904a8
+s3 n=165 41c73afd
+s4 n=165 409fb11e
+s0 n=3 3ec14dc4
+s1 n=3 3e00de83
+s2 n=3 3ec127b3
+s3 n=3 3eb90bca
+s4 n=3 3f19e6f8
+s0 n=193 00000000
+s1 n=193 00000000
+s2 n=193 00000000
+s3 n=193 00000000
+s4 n=193 00000000
+s0 n=20 beed90da
+s1 n=20 bcbe0d7b
+s2 n=20 3ea51e92
+s3 n=20 3ea4d806
+s4 n=20 3f114229
+s0 n=0 00000000
+s1 n=0 ffc00000
+s2 n=0 ffc00000
+s3 n=0 ffc00000
+s4 n=0 ffc00000
+s0 n=161 7f800000
+s1 n=161 7bf41410
+s2 n=161 7f800000
+s3 n=161 7f800000
+s4 n=161 7f800000
+s0 n=56 be1ecd98
+s1 n=56 bb357d40
+s2 n=56 3e94ef17
+s3 n=56 3e94ee16
+s4 n=56 3f0a11a8
+s0 n=1225 c0ee5652
+s1 n=1225 bbc73afe
+s2 n=1225 3eaf1236
+s3 n=1225 3eaf0d5e
+s4 n=1225 3f15b049
+s1 n=119 00000000
+s2 n=99 51149595
+s3 n=1 80000000
+s4 n=178 7f800000
+s0 n=14 41d80000
+s1 n=39 00000000
+s2 n=167 3eac9475
+s3 n=2993 3eaafa08
+s4 n=34 3f0d5b58
+s0 n=116 4afde3d0
+s1 n=124 c7471261
+s2 n=166 3ea1f704
+s3 n=98 7f800000
+s4 n=1690 409b5ca7
+s0 n=2 be9220ee
+s1 n=179 7ffdbe20
+s2 n=87 00000000
+s3 n=9 80000000
+s4 n=38 3f144654
+s0 n=0 00000000
+s1 n=191 802656cc
+s2 n=11 3eb81a92
+s3 n=17 80000000
+s4 n=43 7ff38108
+s0 n=177 4311a3fe
+s1 n=53 c6ecfe1c
+s2 n=157 3ee15c89
+s3 n=149 3eaf5bee
+s4 n=45 3f1d31c2
+s0 n=149 00000000
+s1 n=126 3d03d6a4
+s2 n=143 00000000
+s3 n=139 41bc03a8
+s4 n=63 00000000
+s0 n=159 41880000
+s1 n=143 bbff764d
+s2 n=136 7f800000
+s3 n=1789 80000000
+s4 n=183 fffea46e
+s0 n=151 7ffe58dc
+s1 n=61 7ffe61c9
+s2 n=154 3ea755d4
+s3 n=122 327e2adc
+s4 n=9 7f800000
+s0 n=36 3ff05632
+s1 n=184 bcda351d
+s2 n=193 00000000
+s3 n=105 3e8ffd42
+s4 n=3700 ffc00000
+s0 n=140 bf8d0b6b
+s1 n=28 ffff0da9
+s2 n=2 00000000
+s3 n=36 b2dde2c8
+s4 n=107 3f118996
+s0 n=151 ff800000
+s1 n=128 bd9500f1
+s2 n=3578 00000000
+s3 n=1456 518222f8
+s4 n=185 7fff9261
+s0 n=150 ca7227b3
+s1 n=128 4629ec8c
+s2 n=17 3eaf93d0
+s3 n=7 3e8a05df
+s4 n=2481 00000000
+s0 n=174 c03df640
+s1 n=1821 ba748242
+s2 n=160 3eb42734
+s3 n=189 2e5b7000
+s4 n=136 ffc00000
+s0 n=72 c855eaa6
+s1 n=165 7fff8b92
+stats done
+calls: malloc 3000 free 3000
+COV trials                       3000
+COV n == 0                       55
+COV n == 1                       50
+COV unit data                    867
+COV random exponents             382
+COV small integers               381
+COV huge data (overflow of the square) 157
+COV denormal / tiny              402
+COV zeros                        384
+COV constant data (variance from rounding only) 307
+COV non-finite result            2034
+COV negative variance (Std NaN)  557
+COV extended result differs from its float rounding 0
+COV n >= 1000                    310
+COV model-checked results        15000
+COV trials with the block around 2^31 3001
+COV dtor with a NULL block pointer 0
+HASH f9bae27a28b55ea4 lines 21019
+four1 a=8 b=-1 n=19 h=de72dfb3cbd4bb80 first=7fe5a5a5 last=7fe5a5a5
+four1 a=512 b=500001 n=1027 h=62fd3c097b683bee first=7fe5a5a5 last=7fe5a5a5
+four1 a=4 b=-1 n=11 h=1f483dc3715e359c first=7fe5a5a5 last=7fe5a5a5
+four1 a=4 b=1 n=11 h=c4201c48ac25e707 first=7fe5a5a5 last=7fe5a5a5
+four1 a=4 b=300001 n=11 h=6bd7774fbf313e98 first=7fe5a5a5 last=7fe5a5a5
+four1 a=7 b=1 n=17 h=c09b74514ea2f8ac first=3e800000 last=bd1ad930
+four1 a=8 b=100001 n=19 h=834d693bd849c3ab first=7fe5a5a5 last=7fe5a5a5
+four1 a=512 b=-1 n=1027 h=109494c20724e551 first=7fe5a5a5 last=7fe5a5a5
+four1 a=64 b=-1 n=131 h=7b6dabcb0856f022 first=7fe5a5a5 last=7fe5a5a5
+four1 a=128 b=200000 n=259 h=ea75771a69a1a40b first=7fe5a5a5 last=7fe5a5a5
+four1 a=7 b=-1 n=17 h=06b071228a710c4d first=3e800000 last=3dd68efc
+four1 a=2 b=-1 n=7 h=7fe423685df85efa first=7fe5a5a5 last=7fe5a5a5
+four1 a=4 b=100001 n=11 h=400c6277487e4b6b first=7fe5a5a5 last=7fe5a5a5
+four1 a=127 b=500001 n=257 h=387d94c7a58e709a first=3e800000 last=c8ffbb2e
+four1 a=4 b=-1 n=11 h=6c813fdcb004f1f0 first=7fe5a5a5 last=7fe5a5a5
+four1 a=128 b=1 n=259 h=eff0efedfbd33be7 first=7fe5a5a5 last=7fe5a5a5
+four1 a=4 b=1 n=11 h=e089cb0e849ec2f9 first=7fe5a5a5 last=7fe5a5a5
+four1 a=8 b=499999 n=19 h=db6d02754c58f58d first=7fe5a5a5 last=7fe5a5a5
+four1 a=256 b=1 n=515 h=795797adbb6aa3b0 first=7fe5a5a5 last=7fe5a5a5
+four1 a=8 b=1 n=19 h=b1f9479882d2956b first=7fe5a5a5 last=7fe5a5a5
+four1 a=512 b=1 n=1027 h=7a3c2b599b64b0d8 first=7fe5a5a5 last=7fe5a5a5
+four1 a=64 b=1 n=131 h=4d682bd05cab8b14 first=7fe5a5a5 last=7fe5a5a5
+four1 a=2 b=-1 n=7 h=42fb5efdb7d2d147 first=7fe5a5a5 last=7fe5a5a5
+four1 a=2 b=1 n=7 h=df09bdf23bca5554 first=7fe5a5a5 last=7fe5a5a5
+four1 a=128 b=1 n=259 h=245e159a25150226 first=7fe5a5a5 last=7fe5a5a5
+four1 a=512 b=499999 n=1027 h=dd85065185871f6c first=7fe5a5a5 last=7fe5a5a5
+four1 a=2 b=1 n=7 h=6f64ec4a21aeeff1 first=7fe5a5a5 last=7fe5a5a5
+four1 a=16 b=-1 n=35 h=127ff06039d45154 first=7fe5a5a5 last=7fe5a5a5
+four1 a=128 b=-1 n=259 h=28738b78172da8b4 first=7fe5a5a5 last=7fe5a5a5
+four1 a=511 b=1 n=1025 h=10c5a562ea592207 first=3e800000 last=420181fd
+four1 a=8 b=-1 n=19 h=85d6ecc07aa848d4 first=7fe5a5a5 last=7fe5a5a5
+four1 a=512 b=1 n=1027 h=e59b437fa4baa63e first=7fe5a5a5 last=7fe5a5a5
+four1 a=256 b=500001 n=515 h=31fa7711e57edd07 first=7fe5a5a5 last=7fe5a5a5
+four1 a=8 b=1 n=19 h=0b3f8df00c5a4b24 first=7fe5a5a5 last=7fe5a5a5
+four1 a=2 b=100001 n=7 h=914fe9ff910f8f4b first=7fe5a5a5 last=7fe5a5a5
+four1 a=131072 b=499999 n=262147 h=eb33e2073f917984 first=7fe5a5a5 last=7fe5a5a5
+four1 a=128 b=1 n=259 h=eb903fc802af35d0 first=7fe5a5a5 last=7fe5a5a5
+four1 a=32 b=1 n=67 h=dacbe67b47fdd8bd first=7fe5a5a5 last=7fe5a5a5
+four1 a=64 b=-1 n=131 h=8ee9e029f3e53dd8 first=7fe5a5a5 last=7fe5a5a5
+four1 a=8 b=1 n=19 h=a43c28a389ebfb93 first=7fe5a5a5 last=7fe5a5a5
+four1 a=8192 b=-1 n=16387 h=68990db586a39166 first=7fe5a5a5 last=7fe5a5a5
+four1 a=512 b=300001 n=1027 h=ee4a0e43f32c439c first=7fe5a5a5 last=7fe5a5a5
+four1 a=4 b=-1 n=11 h=73a5590cc9f26b65 first=7fe5a5a5 last=7fe5a5a5
+four1 a=4 b=-1 n=11 h=b08ded612efb1926 first=7fe5a5a5 last=7fe5a5a5
+four1 a=32 b=-1 n=67 h=ee95a8cf2b3ea0b6 first=7fe5a5a5 last=7fe5a5a5
+four1 a=64 b=200001 n=131 h=23a4e91fb0463d0b first=7fe5a5a5 last=7fe5a5a5
+four1 a=2 b=1 n=7 h=36e3fa2e5e3b8eca first=7fe5a5a5 last=7fe5a5a5
+four1 a=64 b=-1 n=131 h=b4c00db9e90e60a0 first=7fe5a5a5 last=7fe5a5a5
+four1 a=32 b=1 n=67 h=9cc87ec753d64e46 first=7fe5a5a5 last=7fe5a5a5
+four1 a=128 b=1 n=259 h=de26e325c0ebd0c8 first=7fe5a5a5 last=7fe5a5a5
+four1 a=128 b=-1 n=259 h=e7eba6e47d4d380a first=7fe5a5a5 last=7fe5a5a5
+four1 a=64 b=500001 n=131 h=b0d8bcaec4c3923b first=7fe5a5a5 last=7fe5a5a5
+four1 a=15 b=199999 n=33 h=4388b45274a0c2ab first=3e800000 last=be0a8bd4
+four1 a=16 b=-1 n=35 h=4017f3abf29def20 first=7fe5a5a5 last=7fe5a5a5
+fft done
+calls: malloc 2121 free 2121
+COV trials                       900
+COV power-of-two size            794
+COV non-power-of-two size (the memory-safe ones: four1 nn = 2^k - 1, realfft n >> 1 = 2^k - 1) 106
+COV isign == 1                   426
+COV isign == -1                  411
+COV isign not +-1                63
+COV n == 1 / 2                   85
+COV n == 4 / 8                   170
+COV n >= 1024                    44
+COV unit data                    667
+COV impulse                      62
+COV constant                     55
+COV small integers               51
+COV quiet-NaN data               0
+COV random exponents             65
+COV model-checked transforms     630
+COV round trips checked          321
+COV bytes outside the used window untouched 900
+COV trials with the block around 2^31 901
+COV dtor with a NULL block pointer 0
+HASH 974cbba24295e7ee lines 5164
+realfft a=8 b=-1 n=11 h=5697cb63879d5a40 first=7fe5a5a5 last=7fe5a5a5
+realfft a=8 b=100001 n=11 h=d722d88e3a36de32 first=7fe5a5a5 last=7fe5a5a5
+realfft a=256 b=1 n=259 h=460250b08dd0c9ff first=7fe5a5a5 last=7fe5a5a5
+realfft a=30 b=200001 n=33 h=e0032f6c0f5475fe first=3e800000 last=bea73d74
+realfft a=128 b=-1 n=131 h=ba87f391f2b33bcf first=7fe5a5a5 last=7fe5a5a5
+realfft a=128 b=199999 n=131 h=0fd6321f520408ea first=7fe5a5a5 last=7fe5a5a5
+realfft a=2 b=300001 n=5 h=f99b9e554df1cf92 first=7fe5a5a5 last=7fe5a5a5
+realfft a=4 b=99999 n=7 h=bfa87b17c0a97e4b first=7fe5a5a5 last=7fe5a5a5
+realfft a=256 b=-1 n=259 h=c3a69fb95a8fa393 first=7fe5a5a5 last=7fe5a5a5
+realfft a=16 b=300001 n=19 h=913eac51e35c763d first=7fe5a5a5 last=7fe5a5a5
+realfft a=4 b=-1 n=7 h=896d98ec59e8f00f first=7fe5a5a5 last=7fe5a5a5
+realfft a=8 b=499999 n=11 h=ed0f42626cd0e55e first=7fe5a5a5 last=7fe5a5a5
+realfft a=511 b=300001 n=514 h=7543b1620195bd67 first=3e800000 last=3e800000
+realfft a=512 b=199999 n=515 h=35544c0750bbc88e first=7fe5a5a5 last=7fe5a5a5
+realfft a=8 b=1001 n=11 h=96f0bf1a00c9a72d first=7fe5a5a5 last=7fe5a5a5
+realfft a=8 b=-1 n=11 h=21dd218378737f96 first=7fe5a5a5 last=7fe5a5a5
+realfft a=2 b=299999 n=5 h=60bb28efbde9d6eb first=7fe5a5a5 last=7fe5a5a5
+realfft a=512 b=-1 n=515 h=307a308f60a8e070 first=7fe5a5a5 last=7fe5a5a5
+realfft a=64 b=-1 n=67 h=81bc0448fe5e7caa first=7fe5a5a5 last=7fe5a5a5
+realfft a=16 b=300001 n=19 h=bb369ab53161e461 first=7fe5a5a5 last=7fe5a5a5
+realfft a=32768 b=199999 n=32771 h=312a36287bf573c1 first=7fe5a5a5 last=7fe5a5a5
+realfft a=128 b=-1 n=131 h=cc77669be86877d3 first=7fe5a5a5 last=7fe5a5a5
+realfft a=128 b=1 n=131 h=c960326d258655aa first=7fe5a5a5 last=7fe5a5a5
+realfft a=16 b=100001 n=19 h=ddf07d1027789272 first=7fe5a5a5 last=7fe5a5a5
+realfft a=8 b=1 n=11 h=8306c9da3fc8bf71 first=7fe5a5a5 last=7fe5a5a5
+realfft a=128 b=1 n=131 h=6d9ca7261f546134 first=7fe5a5a5 last=7fe5a5a5
+realfft a=512 b=199999 n=515 h=35544c0750bbc88e first=7fe5a5a5 last=7fe5a5a5
+realfft a=64 b=1 n=67 h=849039c27d42e4f7 first=7fe5a5a5 last=7fe5a5a5
+realfft a=32 b=-1 n=35 h=a0b7fdbe4357d618 first=7fe5a5a5 last=7fe5a5a5
+realfft a=32768 b=1 n=32771 h=3f20f1110ff9041f first=7fe5a5a5 last=7fe5a5a5
+realfft a=128 b=299998 n=131 h=8a00e991bd0c473e first=7fe5a5a5 last=7fe5a5a5
+realfft a=128 b=300001 n=131 h=de2687f4ec9c10fb first=7fe5a5a5 last=7fe5a5a5
+realfft a=8 b=1 n=11 h=226fb1edcf587c11 first=7fe5a5a5 last=7fe5a5a5
+realfft a=65536 b=-1 n=65539 h=ad4fc49b4858bf83 first=7fe5a5a5 last=7fe5a5a5
+realfft a=512 b=-1 n=515 h=2662a5d1841605fb first=7fe5a5a5 last=7fe5a5a5
+realfft a=4 b=199998 n=7 h=059cc6b0ae183942 first=7fe5a5a5 last=7fe5a5a5
+realfft a=8 b=199999 n=11 h=201bd6b7df8b81e7 first=7fe5a5a5 last=7fe5a5a5
+realfft a=4 b=200001 n=7 h=841f0ef360bf96ab first=7fe5a5a5 last=7fe5a5a5
+realfft a=1023 b=-1 n=1026 h=2af1d072b986b66c first=3e800000 last=3e800000
+realfft a=2 b=-1 n=5 h=5459747c61524587 first=7fe5a5a5 last=7fe5a5a5
+realfft a=4 b=1001 n=7 h=155483ad55f3b672 first=7fe5a5a5 last=7fe5a5a5
+realfft a=4 b=99999 n=7 h=bfa87b17c0a97e4b first=7fe5a5a5 last=7fe5a5a5
+realfft a=128 b=1 n=131 h=1ba3ec202035a9a1 first=7fe5a5a5 last=7fe5a5a5
+realfft a=256 b=-1 n=259 h=84f4f76ad5d0ae07 first=7fe5a5a5 last=7fe5a5a5
+realfft a=254 b=500001 n=257 h=56fc6e1bd6bc64cc first=3e800000 last=caa7bb65
+realfft a=2 b=-1 n=5 h=52f66c5670a85942 first=7fe5a5a5 last=7fe5a5a5
+realfft a=64 b=1 n=67 h=e647e76b25e53e1a first=7fe5a5a5 last=7fe5a5a5
+realfft a=512 b=-1 n=515 h=dec5df7e50efb958 first=7fe5a5a5 last=7fe5a5a5
+realfft a=512 b=-1 n=515 h=82edd9ecd22557f8 first=7fe5a5a5 last=7fe5a5a5
+realfft a=2047 b=1 n=2050 h=bf48f8ed37c20b7a first=3e800000 last=3e800000
+realfft a=512 b=499999 n=515 h=e784b4b757f93d8c first=7fe5a5a5 last=7fe5a5a5
+realfft a=256 b=-1 n=259 h=43fb7c98d9ea82b5 first=7fe5a5a5 last=7fe5a5a5
+realfft a=16384 b=1 n=16387 h=3739b04b7650de03 first=7fe5a5a5 last=7fe5a5a5
+realfft a=64 b=-1 n=67 h=073439bd55274169 first=7fe5a5a5 last=7fe5a5a5
+realfft a=2046 b=100001 n=2049 h=52548e5cc0eb67f4 first=3e800000 last=3e80c870
+realfft a=16 b=1 n=19 h=a4af0de38ef9f076 first=7fe5a5a5 last=7fe5a5a5
+realfft a=64 b=1 n=67 h=a4c81cda16ec5788 first=7fe5a5a5 last=7fe5a5a5
+realfft a=64 b=301001 n=67 h=5cbfc68b3fb0a6e5 first=7fe5a5a5 last=7fe5a5a5
+fft done
+calls: malloc 2598 free 2598
+COV trials                       1100
+COV power-of-two size            993
+COV non-power-of-two size (the memory-safe ones: four1 nn = 2^k - 1, realfft n >> 1 = 2^k - 1) 107
+COV isign == 1                   527
+COV isign == -1                  503
+COV isign not +-1                70
+COV n == 1 / 2                   109
+COV n == 4 / 8                   206
+COV n >= 1024                    72
+COV unit data                    788
+COV impulse                      67
+COV constant                     74
+COV small integers               88
+COV quiet-NaN data               0
+COV random exponents             83
+COV model-checked transforms     398
+COV round trips checked          398
+COV bytes outside the used window untouched 1100
+COV trials with the block around 2^31 1101
+COV dtor with a NULL block pointer 0
+HASH fef397e92aefdcc2 lines 6318
+Psd ctor size_=64 overlap_=0 window_=A1+0 buf_=A2+0 heap.window_(256)#1d3efe8f2837815b heap.buf_(260)#c0d041041b97ecdf
+psd a=64 b=0 n=32 h=ca803c5bbe1d0fdb first=4116f123 last=414521e8
+buf 68687b99f7463c48
+Psd size_=64 overlap_=0 window_=A1+0 buf_=A2+0 heap.window_(256)#1d3efe8f2837815b heap.buf_(260)#b08a4484fe659a26
+Psd size_=64 overlap_=33 window_=A1+0 buf_=A2+0 heap.window_(256)#1d3efe8f2837815b heap.buf_(260)#b08a4484fe659a26
+Psd setwt size_=64 overlap_=33 window_=A1+0 buf_=A2+0 heap.window_(256)#5fba04771605f477 heap.buf_(260)#b08a4484fe659a26
+Psd size_=64 overlap_=33 window_=A1+0 buf_=A2+0 heap.window_(256)#5fba04771605f477 heap.buf_(260)#b08a4484fe659a26
+freq a=64 b=1166174713 n=33 h=a130660a9a7a3179 first=00000000 last=7fe5a5a5
+Psd size_=64 overlap_=33 window_=A1+0 buf_=A2+0 heap.window_(256)#5fba04771605f477 heap.buf_(260)#b08a4484fe659a26
+Psd ctor size_=32 overlap_=0 window_=A6+0 buf_=A7+0 heap.window_(128)=0ad7a33ddb1fb73d3030f03dfc58263ed46d643efde5973ec3aec23ed4d0f03e5734103fc0c1273fcf193e3f5452523f6397633ffc33713f75997a3f54657f3f54657f3f75997a3ffc33713f6397633f5452523fcf193e3fc0c1273f5734103fd4d0f03ec3aec23efde5973ed46d643efc58263e3030f03ddb1fb73d0ad7a33d heap.buf_(132)=90979ea5acb3bac1c8cfd6dde4ebf2f900070e151c232a31383f464d545b626970777e858c939aa1a8afb6bdc4cbd2d9e0e7eef5fc030a11181f262d343b424951585f666d747b828990979ea5acb3bac1c8cfd6dde4ebf2f900070e151c232a31383f464d545b626970777e858c939aa1a8afb6bdc4cbd2d9e0e7eef5fc030a12192027
+psd a=32 b=0 n=16 h=850b9c972b55a1ff first=411309d6 last=3fb39c9b
+buf dbebda6a7f562a58
+Psd size_=32 overlap_=0 window_=A6+0 buf_=A7+0 heap.window_(128)=0ad7a33ddb1fb73d3030f03dfc58263ed46d643efde5973ec3aec23ed4d0f03e5734103fc0c1273fcf193e3f5452523f6397633ffc33713f75997a3f54657f3f54657f3f75997a3ffc33713f6397633f5452523fcf193e3fc0c1273f5734103fd4d0f03ec3aec23efde5973ed46d643efc58263e3030f03ddb1fb73d0ad7a33d heap.buf_(132)=90979ea5321041c065df9cbf1adb17401d2e5cbe4fb48dbfde63343f42fc5d3f500029bf37b869bec54d4c3ffe8642bf96d441be601620bf33d5153ec802cbbdd6d1453ff4afd83f4aef54bfb6ebfdbe0ddb3ebfd3919abed149a53f295217c084da49bf33a7594039bbcdbf09cbe8bdd9419c3fbab6bbbfe27c9c3fd6c5803f73b688bf
+psd a=32 b=2 n=16 h=7767d189f2170532 first=413de07a last=40fb77b8
+buf 87bd7227bf4def39
+Psd size_=32 overlap_=0 window_=A6+0 buf_=A7+0 heap.window_(128)=0ad7a33ddb1fb73d3030f03dfc58263ed46d643efde5973ec3aec23ed4d0f03e5734103fc0c1273fcf193e3f5452523f6397633ffc33713f75997a3f54657f3f54657f3f75997a3ffc33713f6397633f5452523fcf193e3fc0c1273f5734103fd4d0f03ec3aec23efde5973ed46d643efc58263e3030f03ddb1fb73d0ad7a33d heap.buf_(132)=90979ea5f5a0e13f98ae01c02b31e7bfc746e2bfab54543f63370c3f150c71be41f815bf50114b3fee5fd83fb18db1bea89c00c0f75718bfbfbad43f013aee3f6346023f3b16a2bf66efd0bfebb719bf0141c13fe15a873f9feee3bf1d1bb7be704f77bf90c99e3ea00c1940a5d4e8bf504e9d3f8a80b13f706c50c03800c63e01ddd63f
+psd a=32 b=0 n=16 h=750f2e59177f78f3 first=418277ef last=40a435b0
+buf 843cd1eeafabe45e
+psd a=128 b=1 n=64 h=87d3ba25934b6d25 first=ffc00000 last=ffc00000
+buf 9d72e0493c1e5cc5
+psd a=128 b=1 n=64 h=87d3ba25934b6d25 first=ffc00000 last=ffc00000
+buf 9d72e0493c1e5cc5
+freq a=64 b=-925336091 n=33 h=9f8af8b11fa5ec5c first=80000000 last=7fe5a5a5
+psd a=64 b=2 n=32 h=3546d7dbc669f261 first=4113c716 last=3fe87eb1
+buf cb863eda57cd2bf2
+psd a=128 b=1 n=64 h=87d3ba25934b6d25 first=ffc00000 last=ffc00000
+buf 55275de3f83e86e1
+psd a=128 b=3 n=64 h=d80ac658736bb725 first=00000000 last=00000000
+buf 55275de3f83e86e1
+psd a=128 b=0 n=64 h=87d3ba25934b6d25 first=ffc00000 last=ffc00000
+buf 55275de3f83e86e1
+psd a=8 b=1 n=4 h=7082af87ce57e207 first=00000000 last=c0257578
+psd a=3 b=2 n=1 h=4d25767f9dce13f5 first=00000000 last=00000000
+Psd setwt size_=3 overlap_=2 window_=A39+0 buf_=A40+0 heap.window_(12)=0000803f0000803f0000803f heap.buf_(16)=3d444b52000000000000000000000080
+psd a=4 b=1 n=2 h=0d0cd6d202e04a75 first=ffc00000 last=ffc00000
+psd a=4 b=1 n=2 h=0d0cd6d202e04a75 first=ffc00000 last=ffc00000
+psd a=4 b=1 n=2 h=13a3cf668c16cccf first=00000000 last=c03f9e97
+psd a=4 b=2 n=2 h=6262a1f4554e254d first=4e0e39a3 last=4d93ab8d
+psd a=16 b=2 n=8 h=87d69c9dded9e5b4 first=412ba4ca last=4042d6e0
+psd a=16 b=0 n=8 h=4bfee44d44d29ae1 first=41262f78 last=4118570c
+freq a=16 b=0 n=9 h=0e1dfd2bdb2f5103 first=00000000 last=7fe5a5a5
+psd a=32 b=0 n=16 h=25bede4c18c631a5 first=ffc00000 last=ffc00000
+psd a=32 b=0 n=16 h=25bede4c18c631a5 first=ffc00000 last=ffc00000
+psd a=16 b=2 n=8 h=ea39b825e75af769 first=4dbfdf6e last=4c8c7e27
+psd a=16 b=0 n=8 h=c218f79154394e10 first=42b30f5e last=4299e136
+psd a=16 b=2 n=8 h=122d03bfe91a8b67 first=527480ca last=51f20598
+psd a=16 b=2 n=8 h=6ced22eaf75b959f first=49127210 last=495bc392
+psd a=128 b=0 n=64 h=d6d035b3d0af76a2 first=419093a5 last=417734b5
+psd a=128 b=0 n=64 h=c45712b840b9a127 first=419cdc70 last=417bcadf
+psd a=128 b=0 n=64 h=3da521d768354788 first=4192d252 last=4165368f
+psd a=16 b=0 n=8 h=acc363770c5fcb2f first=40ec0e9b last=4077359b
+psd a=16 b=2 n=8 h=9b81a2093a121cce first=40ebc562 last=402934b6
+psd a=16 b=2 n=8 h=11508b67f411143a first=400d4bc1 last=3ff7645d
+psd a=64 b=0 n=32 h=c6cab4d16cd6f7e5 first=c37a0000 last=c37a0000
+freq a=64 b=-1064528256 n=33 h=4addb74bec1aa08a first=80000000 last=7fe5a5a5
+Psd setwt size_=16 overlap_=0 window_=A99+0 buf_=A100+0 heap.window_(64)=0ad7a33d7f49f53dd1c56d3e48b3cb3e9d8c163fb81e453f8582693f3a6d7d3f3a6d7d3f8582693fb81e453f9d8c163f48b3cb3ed1c56d3e7f49f53d0ad7a33d heap.buf_(68)=4950575e656c737a81888f969da4abb2b9c0c7ced5dce3eaf1f8ff060d141b222930373e454c535a61686f767d848b9299a0a7aeb5bcc3cad1d8dfe6edf4fb020a11181f
+psd a=16 b=2 n=8 h=70b860567e5ef37c first=40fdf020 last=411e4dea
+psd a=32 b=0 n=16 h=b20fa7efd2e4845b first=40df4d3b last=3f06bba7
+psd a=32 b=1 n=16 h=5713d36304a7dd92 first=00000000 last=bfea822a
+psd a=32 b=-3 n=16 h=7d4769b9cba668f2 first=42fc48d2 last=42a48219
+psd a=2 b=0 n=1 h=4a99077f9ba3d218 first=ffc00000 last=ffc00000
+Psd ctor size_=512 overlap_=0 window_=A148+0 buf_=A149+0 heap.window_(2048)#dacb926dd0c26c17 heap.buf_(2052)#4bc877982a081007
+buf caa872dbfb2ce112
+psd a=5 b=2 n=2 h=16cd28a0f5006832 first=3f641139 last=3e871845
+Psd size_=32 overlap_=0 window_=A202+0 buf_=A203+0 heap.window_(128)=0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f heap.buf_(132)=848b92990000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+buf 00ad30c2a1bc4f7b
+Psd size_=4 overlap_=3 window_=A256+0 buf_=A257+0 heap.window_(16)=43e4b03ede8d673fde8d673f43e4b03e heap.buf_(20)=42495057e7a3933f187db5bee88de3bdc3fe1f3f
+Psd size_=256 overlap_=128 window_=A311+0 buf_=A312+0 heap.window_(1024)#33c2f1be22afd4e7 heap.buf_(1028)#6c47e30817c378a4
+psd a=32 b=2 n=16 h=96939fb89065c52a first=43b6c29a last=440bf138
+buf 9993e93051e27a0f
+Psd size_=8 overlap_=5 window_=A418+0 buf_=A419+0 heap.window_(32)=0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f heap.buf_(36)=7c838a91989fa6adb4bbc2c9d0d7dee5ecf3fa01080f161d242b323940474e555c636a71
+buf 7d177b49abaa01cd
+Psd setwt size_=8 overlap_=2 window_=A461+0 buf_=A462+0 heap.window_(32)=0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f heap.buf_(36)=abb2b9c07cd9083fa40974bf40fd123e3699203ffb7686bfe2e622be5de38e3ff368a5be
+buf 539100abb6a8701d
+psd a=4 b=2 n=2 h=7ab10a77e317fb0e first=3f5e4a43 last=3f002cec
+Psd size_=4 overlap_=0 window_=A514+0 buf_=A515+0 heap.window_(16)=0000803f0000803f0000803f0000803f heap.buf_(20)=5c636a71b8af67bff465ba3f89eb823fd38c06bf
+buf 9d090e14f0ebd34f
+Psd size_=8 overlap_=7 window_=A572+0 buf_=A573+0 heap.window_(32)=0ad7a33dbca2813eae71243f8d56743f8d56743fae71243fbca2813e0ad7a33d heap.buf_(36)=4e555c63f27481bdcd70083e9375243d12732b3efe50003f004428b94f2dd1be09c78f3e
+buf 09fddf8dc7c3fa99
+Psd size_=17 overlap_=8 window_=A625+0 buf_=A626+0 heap.window_(68)=0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f heap.buf_(72)=ff060d146e1a3240e87f0b3e936909bfb61104c0b063863f6eeddfbf57820fbf2c787a3f6fb12dbf42b75a402ea41b3f5492cabf9ba5ae3f7ce10f406c434b3f033e463f6fb36fbf
+psd a=4 b=-1 n=2 h=d6a89c3643191d84 first=4058638b last=3fd8638b
+Psd size_=64 overlap_=32 window_=A685+0 buf_=A686+0 heap.window_(256)#1d3efe8f2837815b heap.buf_(260)#d0190b5de06a9d14
+buf 02fe237ac5a71579
+Psd size_=2 overlap_=1 window_=A791+0 buf_=A792+0 heap.window_(8)=000080a3000080a3 heap.buf_(12)=6d747b8261be652364ea66a2
+psd a=2 b=2 n=1 h=f8512467ae5fa3c5 first=3c2325dc last=3c2325dc
+Psd size_=2048 overlap_=0 window_=A899+0 buf_=A900+0 heap.window_(8192)#3f0f1ab36b0229bb heap.buf_(8196)#c6be26b0acfc7f7f
+Psd size_=64 overlap_=0 window_=A958+0 buf_=A959+0 heap.window_(256)#7d034b2b06ca4d83 heap.buf_(260)#ebdab3fe07f01383
+psd a=2 b=1 n=1 h=4d25767f9dce13f5 first=00000000 last=00000000
+Psd ctor size_=8 overlap_=4 window_=A1016+0 buf_=A1017+0 heap.window_(32)=0c92ef3dcb8bd33e0000403fd947783fd947783f0000403fcb8bd33e0c92ef3d heap.buf_(36)=dae1e8eff6fd040b121920272e353c434a51585f666d747b828990979ea5acb3bac1c8cf
+Psd size_=64 overlap_=32 window_=A1067+0 buf_=A1068+0 heap.window_(256)#7d034b2b06ca4d83 heap.buf_(260)#0645df6d67db4443
+buf 27191bc02db52930
+buf 7c5511ab515c60bd
+Psd size_=128 overlap_=64 window_=A1115+0 buf_=A1116+0 heap.window_(512)#fe0afce9c2c8ceb7 heap.buf_(516)#3e206b402ff9613e
+Psd size_=16 overlap_=7 window_=A1168+0 buf_=A1169+0 heap.window_(64)=0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f heap.buf_(68)=9299a0a700000000000000410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+freq a=8 b=1191346890 n=5 h=37073fd6daa3f004 first=00000000 last=7fe5a5a5
+Psd ctor size_=5 overlap_=0 window_=A1229+0 buf_=A1230+0 heap.window_(20)=0000803f0000803f0000803f0000803f0000803f heap.buf_(24)=abb2b9c0c7ced5dce3eaf1f8ff060d141b222930373e454c
+Psd size_=16 overlap_=15 window_=A1331+0 buf_=A1332+0 heap.window_(64)=0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f heap.buf_(68)=d9e0e7eef5fc030a11181f262d343b424950575e656c737a81888f969da4abb2b9c0c7ced5dce3eaf1f8ff060d141b222930373e454c535a61686f767d848b929aa1a8af
+psd a=3 b=2 n=1 h=9aadfc717cd304e2 first=44f70d67 last=44f70d67
+Psd size_=4 overlap_=2 window_=A1377+0 buf_=A1378+0 heap.window_(16)=000080a3ae47213fae47213f000080a3 heap.buf_(20)=2f363d44069be43e57cc12bf52fb813ded8c023f
+buf f783e18758685715
+Psd ctor size_=1024 overlap_=512 window_=A1436+0 buf_=A1437+0 heap.window_(4096)#fbec6889e2e4b453 heap.buf_(4100)#530886af8d659137
+psd a=32 b=1 n=16 h=0bdadb31d421d9d5 first=00000000 last=c0164b6b
+Psd size_=256 overlap_=0 window_=A1589+0 buf_=A1590+0 heap.window_(1024)#99926d1ffb8aed0b heap.buf_(1028)#ac9841ddef2fe4e6
+buf 35260fd777b2fcc8
+psd a=16 b=0 n=8 h=1eb4e6c23ec5000d first=408bfbfb last=4031f2b4
+buf 80e5ac96ab31572c
+Psd ctor size_=8 overlap_=1 window_=A1702+0 buf_=A1703+0 heap.window_(32)=0c92ef3dcb8bd33e0000403fd947783fd947783f0000403fcb8bd33e0c92ef3d heap.buf_(36)=b0b7bec5ccd3dae1e8eff6fd040b121920272e353c434a51585f666d747b828990979ea5
+buf b77da2bc8912a0ff
+Psd size_=8 overlap_=5 window_=A1807+0 buf_=A1808+0 heap.window_(32)=0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f heap.buf_(36)=050c131a21282f363d444b525960676e757c838a91989fa6adb4bbc2c9d0d7dee5ecf3fa
+psd a=32 b=-3 n=16 h=b9b23f3a46fd0825 first=00000000 last=00000000
+Psd size_=16 overlap_=13 window_=A1863+0 buf_=A1864+0 heap.window_(64)=004c0a3da0a0053e17e48d3e1a61e83e6407233f22234d3fead36c3f10d27d3f10d27d3fead36c3f22234d3f6407233f1a61e83e17e48d3ea0a0053e004c0a3d heap.buf_(68)=dde4ebf2f900070e151c232a31383f464d545b626970777e858c939aa1a8afb6bdc4cbd2d9e0e7eef5fc030a11181f262d343b424950575e656c737a81888f969ea5acb3
+Psd size_=3 overlap_=0 window_=A1916+0 buf_=A1917+0 heap.window_(12)=0000003f0000803f0000003f heap.buf_(16)=8e959ca3000000000000000000000080
+buf c0a8e719efb6c099
+psd a=16 b=-2 n=8 h=56bf6cdb18b17241 first=42386b71 last=403205d4
+Psd ctor size_=16 overlap_=8 window_=A2030+0 buf_=A2031+0 heap.window_(64)=004c0a3da0a0053e17e48d3e1a61e83e6407233f22234d3fead36c3f10d27d3f10d27d3fead36c3f22234d3f6407233f1a61e83e17e48d3ea0a0053e004c0a3d heap.buf_(68)=585f666d747b828990979ea5acb3bac1c8cfd6dde4ebf2f900070e151c232a31383f464d545b626970777e858c939aa1a8afb6bdc4cbd2d9e0e7eef5fc030a111920272e
+buf 2770b29c798a2ac1
+Psd ctor size_=32 overlap_=19 window_=A2088+0 buf_=A2089+0 heap.window_(128)=0ad7a33ddb1fb73d3030f03dfc58263ed46d643efde5973ec3aec23ed4d0f03e5734103fc0c1273fcf193e3f5452523f6397633ffc33713f75997a3f54657f3f54657f3f75997a3ffc33713f6397633f5452523fcf193e3fc0c1273f5734103fd4d0f03ec3aec23efde5973ed46d643efc58263e3030f03ddb1fb73d0ad7a33d heap.buf_(132)=4a51585f666d747b828990979ea5acb3bac1c8cfd6dde4ebf2f900070e151c232a31383f464d545b626970777e858c939aa1a8afb6bdc4cbd2d9e0e7eef5fc030b121920272e353c434a51585f666d747b828990979ea5acb3bac1c8cfd6dde4ebf2f900070e151c232a31383f464d545b626970777e858c939aa1a8afb6bdc4ccd3dae1
+Psd size_=16 overlap_=0 window_=A2141+0 buf_=A2142+0 heap.window_(64)=004c0a3da0a0053e17e48d3e1a61e83e6407233f22234d3fead36c3f10d27d3f10d27d3fead36c3f22234d3f6407233f1a61e83e17e48d3ea0a0053e004c0a3d heap.buf_(68)=fb0209105df9b63feb418bbfb94099bff6e041bf73024c3ed8b6723f27a4b4be9f88e8be9540ab3f42760e3f69010bc07e85ddbf6ad8ba3fbee1713ecd721d3f5f7eae3f
+buf cd847db2a86b7f61
+psd a=128 b=2 n=64 h=9b5e22cf485c38cd first=54ee05b8 last=5339e251
+buf 77bf190073f57d7d
+buf 34599632ec63944f
+Psd size_=64 overlap_=0 window_=A2253+0 buf_=A2254+0 heap.window_(256)#5fba04771605f477 heap.buf_(260)#156dfb498c6388cd
+psd a=256 b=1 n=128 h=9ef0ea9eddd5bb4b first=00000000 last=c0d68df5
+buf 0fac73ae0186ca19
+Psd size_=64 overlap_=0 window_=A2352+0 buf_=A2353+0 heap.window_(256)#5fba04771605f477 heap.buf_(260)#b41fc7a733ae5919
+buf 8d204d28606a270b
+Psd ctor size_=16 overlap_=8 window_=A2457+0 buf_=A2458+0 heap.window_(64)=0ad7a33d7f49f53dd1c56d3e48b3cb3e9d8c163fb81e453f8582693f3a6d7d3f3a6d7d3f8582693fb81e453f9d8c163f48b3cb3ed1c56d3e7f49f53d0ad7a33d heap.buf_(68)=070e151c232a31383f464d545b626970777e858c939aa1a8afb6bdc4cbd2d9e0e7eef5fc030a11181f262d343b424950575e656c737a81888f969da4abb2b9c0c8cfd6dd
+buf 66a8cf024a93261d
+psd a=16 b=0 n=8 h=a89d1d70a2af6855 first=41f28762 last=41d13937
+Psd size_=32 overlap_=0 window_=A2507+0 buf_=A2508+0 heap.window_(128)=450a143cd5b3123d6f8ea23dbb720d3ec802573e5da7953e4da5c33eacd1f33e5f37123f5ddd293f0000403f7ad2533f639d643f5cc5713faad07a3fa06b7f3fa06b7f3faad07a3f5cc5713f639d643f7ad2533f0000403f5ddd293f5f37123facd1f33e4da5c33e5da7953ec802573ebb720d3e6f8ea23dd5b3123d450a143c heap.buf_(132)=91989fa6bd09a14083a79dbfea5772c0a6e71a3f10dd6c3f9b2efd3d39778cbe73e9fcbe8d286a3f299308bf4dd63cbf039efa3e6ab5553fb2b9d6bc16d041bfcd91593e048beabef01ff7bd46e1d33fd5bb00c0cbe2c6be99e52140bdd304c0b041dbbe73f44240055e833e529c0cc01145edbeee28883f0ce697bebd267c3e40e1203d
+buf 9252431734cf81da
+psd done
+calls: malloc 2531 free 2531
+COV trials                       400
+COV C2 constructor               109
+COV D2 destructor                134
+COV option 0 (dB / nseg)         274
+COV option 1 (dB / max)          234
+COV option 2 (linear / nseg)     219
+COV option other (raw sums)      75
+COV overlap 0                    170
+COV overlap > 0                  230
+COV no complete segment          88
+COV one segment                  220
+COV >= 8 segments                152
+COV odd N                        33
+COV N >= 512                     14
+COV setWindowType                141
+COV setOverlapLength             100
+COV getFrequencies               127
+COV boxcar                       123
+COV hanning                      104
+COV hamming                      75
+COV blackman                     98
+COV all-zero input (max == 0)    28
+COV model-checked bins           252
+COV non-finite input             0
+COV dtor with a NULL block pointer 55
+COV constant / alternating data with a boxcar window (exactly zero bins next to a non-zero maximum) 49
+COV trials with the block around 2^31 401
+COV dtor with a NULL block pointer 55
+HASH b17d83562ffea719 lines 9575
+design rc=0 n=74 fc=3e99999a gain=3f800000
+LPF coef_=A1+0 n_=74 heap(296)#80d3a82c0826aa8c
+design rc=1 n=2 fc=bf800000 gain=40800000
+design rc=1 n=3 fc=be9e57be gain=3f800000
+design rc=0 n=69 fc=3f000000 gain=3f800000
+LPF coef_=A2+0 n_=69 heap(276)#7016d0bd2f340cf9
+design rc=1 n=0 fc=3e800000 gain=00000000
+design rc=0 n=75 fc=3f400000 gain=3f800000
+LPF coef_=A4+0 n_=75 heap(300)#12253242d59f0a1a
+design rc=0 n=32 fc=3ee978d5 gain=3f800000
+LPF coef_=A5+0 n_=32 heap(128)=8cad8e1f5626a238c102363954034aba3bdcb3bae8aa133b961bb03b32c579bb6c5976bc6e312c3b151f0c3d5815053c425690bd7dc047bd263a2f3e1d22d53e2522d53e433a2f3e47c047bd4d5690bde414053c191f0c3d50322c3b675976bc8fc579bb831bb03b0eab133b18dcb3ba73034aba800236396326a2380cad8e1f
+design rc=0 n=65 fc=3f122d0e gain=3f800000
+LPF coef_=A6+0 n_=65 heap(260)#2deaf38d90daf888
+design rc=0 n=68 fc=3e400000 gain=3f800000
+LPF coef_=A7+0 n_=68 heap(272)#6d9550a184acb3e7
+design rc=0 n=233 fc=3ee872b0 gain=3f800000
+LPF coef_=A8+0 n_=233 heap(936)#a1ffa76f3475cb09
+design rc=0 n=45 fc=3f1c33e2 gain=3f800000
+LPF coef_=A9+0 n_=45 heap(180)=7c45662051fb8137ee52963873c993b9cc18013834f8713a429e8fba3f4e95ba70296c3b45c88fbae778c8bb3d99fd3b76b8873babf38ebcf899083c8d33b83c6cea0bbdb03b06bc60f38b3dd4934cbd842dc9bd8b08983e0d341c3f0f09983eca2cc9bd4c954cbd57f38b3d8b3806bcc4ea0bbdfc32b83c579b083caff38ebceab6873b0d9afd3b7578c8bbd7ca8fba98296c3b2b4d95badf9e8fbad7f7713a13220138a3c993b92c52963815fc81374a456620
+design rc=0 n=21 fc=3e9e353f gain=c0221ac6
+LPF coef_=A11+0 n_=21 heap(84)=0fc4253d8cb992bd87602c3e1a92793da8dda63d060f933e17a0a73defcbd13da3b65a3dbdef0cbebe3eb4bf773d99bf19102dbf8f32e43ae80d18be907cecbd9239db3db3d3843d9c91aa3d9c7b453d2ac4253d
+design rc=0 n=58 fc=3f380cb0 gain=c03a4563
+LPF coef_=A12+0 n_=58 heap(232)#78731aa25f82439d
+design rc=0 n=10 fc=3f666666 gain=c047b685
+LPF coef_=A14+0 n_=10 heap(40)=b98afd3d17d6633e21263a3c13bf143f72666a3e03c45e3f12ec85c04e49abbf5c1beb3eeb05c1bd
+design rc=1 n=183 fc=bea55e6c gain=3f800000
+design rc=0 n=2 fc=3f000000 gain=40080000
+LPF coef_=A16+0 n_=2 heap(8)=0000883f0000883f
+design rc=1 n=75 fc=bedc2cf2 gain=3f800000
+design rc=0 n=2 fc=3e9eb852 gain=3fb00000
+LPF coef_=A21+0 n_=52 heap(208)#da3e846363b46cee
+design rc=1 n=57 fc=7fc00000 gain=3f800000
+LPF coef_=A50+0 n_=20 heap(80)=d8c09b3a4903b13b2c59593ca03ecb3cc25d213dc667643d43da933d12b5b13dbd0ec83d2405d43d2405d43dbd0ec83d12b5b13d43da933dc667643dc25d213da03ecb3c2c59593c4903b13bd8c09b3a
+LPF coef_=A71+0 n_=19 heap(76)=87a93dbbbac24d3ce87efabc5755363dad5ca1bc8c9da6bd669e883ef28dfdbef5aa2f3f61fb3440aeaa2f3fd78dfdbe719e883ec89da6bd055ca1bc3655363de37efabcd5c24d3c03aa3dbb
+design rc=0 n=230 fc=3eba5e35 gain=c02a6eb7
+LPF coef_=A123+0 n_=52 heap(208)#e74bc6a28618bbbf
+design rc=0 n=197 fc=3f06761b gain=3f1bd05c
+LPF coef_=A152+0 n_=22 heap(88)=b06db73ddf76873d0aa9d43cd903f1bc82fcc5bd3f172fbe186e7cbec746a2be9299c0be377cd6be9af3e1be9af3e1be377cd6be9299c0bec746a2be186e7cbe3f172fbe82fcc5bdd903f1bc0aa9d43cdf76873db06db73d
+design rc=0 n=2 fc=3f000000 gain=3f800000
+LPF coef_=A160+0 n_=47 heap(188)=ca39353c3aa709bc25a1973b5fd51fa42897a7bb293e283c103075bcfc1f993c0cbdabbcceffae3c4b50a0bc2a5c7c3c59bb10bc1753cab450e8303c9b46bdbc69dd143dbc2a4cbdc3cd803dbc1f99bd2cacad3de944bdbd4c01c73d809d633f5a05c73da846bdbd0aadad3d202099bdd2cd803d682a4cbdcadc143d0f45bdbc03e5303c2253ca341cbe10bc565e7c3c0851a0bc2e00af3c13bdabbcb31f993c002f75bcc33c283c0294a7bb2253cab406a4973b66a809bc9e3a353c
+design rc=0 n=165 fc=3dabfb18 gain=3f800000
+LPF coef_=A208+0 n_=181 heap(724)#3654bbff3d396f22
+design rc=0 n=54 fc=3edd2f1b gain=c0383902
+LPF coef_=A245+0 n_=54 heap(220)#fb2319891893244d
+LPF coef_=A255+0 n_=52 heap(208)#a185f5a277711213
+LPF coef_=A266+0 n_=242 heap(968)#92d3a7c2f80aad77
+design rc=0 n=30 fc=3d4ccccd gain=bfadb662
+LPF coef_=A297+0 n_=31 heap(124)=7f89d3b61b629636801591b4d259bcb7c24ad8b6596e5db706e533375d7cc29d46547fb75a10803f7bf594b8c5f273384ea4c438ea452ab9cf01163837e4b6b7e68b87afcf717bb83d739eb8f0b8cfb701e8b9b8d54f30b8c91eb9b7f396c11db3ca46b76a5ac1b710f421b89a55bc36354d71b71bea8934ad584d37
+LPF coef_=A306+0 n_=14 heap(56)=83c8ee3987691abcefcb593ce26ae83c5692bfbd89cb153dd736063fd836063fa8cb153d5a92bfbdd46ae83c00cc593c86691abc83c8ee39
+LPF coef_=A330+0 n_=2 heap(8)=0000000000000000
+LPF coef_=A341+0 n_=12 heap(48)=5eb0273a273cc7bbad29d8b9e9410e3da1a204bd36434fbe3c434fbebda204bde9410e3d6326d8b92f3cc7bb41b0273a
+design rc=0 n=39 fc=3f1851ec gain=3f800000
+LPF coef_=A375+0 n_=68 heap(272)#fecfedc82df9bc23
+design rc=0 n=42 fc=3def9db2 gain=3f800000
+LPF coef_=A396+0 n_=26 heap(104)=468c8d323c1204b322d191b259dc93b5e1d6a73309be993338bcb33261339e338c51c6b3ff06db33eca0fc320389c0337bbd6cb3c9b44d33cb6b493386482b3efd06db3342f0be323e0278b2fb74c033bc212dbd256b82338ef69933ca4c8b33d11b0033c2ee35b3
+design rc=0 n=17 fc=3f666666 gain=00000000
+LPF coef_=A418+0 n_=2 heap(8)=0000003f0000003f
+LPF coef_=A429+0 n_=64 heap(256)#11a9ef48c2682bd6
+LPF coef_=A440+0 n_=2 heap(8)=0000003f0000003f
+design rc=0 n=6 fc=3f249ba6 gain=3f200000
+LPF coef_=A460+0 n_=70 heap(280)#dc8105f8d5d9ebb3
+design rc=1 n=0 fc=3e800000 gain=3f5933b4
+LPF coef_=A482+0 n_=207 heap(828)#8a6b18313b96ac6a
+design rc=0 n=259 fc=3f420c4a gain=3f800000
+LPF coef_=A537+0 n_=16 heap(64)=2ad1bbba1a65d13b926283bcb07e033d30386dbd7af1d03da50449bec594213fc594213fa50449be7af1d03d30386dbdb07e033d926283bc1a65d13b2ad1bbba
+design rc=0 n=4 fc=3f000000 gain=3f800000
+LPF coef_=A577+0 n_=56 heap(224)#f2340821e9a50687
+LPF coef_=A609+0 n_=17 heap(68)=bfdec2bc2344193d553452bdfe9c843d4aa79dbd99cfb23df2dec2bd6ce6cc3dd1586a3fc0e5cc3da8dec2bd74cfb23d3da79dbdfd9c843d5f3452bd3644193df2dec2bc
+design rc=0 n=74 fc=3f1ba5e3 gain=bf3dd414
+LPF coef_=A618+0 n_=67 heap(268)#46894f92d18136b0
+LPF coef_=A660+0 n_=5 heap(24)=fc15de3c596d913f7758fb3fc7fc8dbfd60a3fbd81c52abf
+design rc=0 n=80 fc=3f666666 gain=3f800000
+LPF coef_=A719+0 n_=79 heap(316)#8a672f916f863329
+design rc=0 n=56 fc=3f000000 gain=3f800000
+LPF coef_=A760+0 n_=18 heap(76)=69cbccbdef5a07bfdc7e9c3e9f3e9fbe5828a83e6a503abf31fe783f6ffab83f0865f9b812d245c06f597040c8127c3fb3611c3fa8521c3daaa260be808b26b8e203563ffa2932be0000803f
+design rc=0 n=46 fc=3ec08312 gain=3f800000
+LPF coef_=A770+0 n_=3 heap(12)=399ea03d3929c33f399ea03d
+LPF coef_=A789+0 n_=63 heap(252)#c10ef3c1ae4d8855
+design rc=0 n=41 fc=3e99999a gain=00000000
+LPF coef_=A797+0 n_=41 heap(168)=00000000000000000000008000000000000000800000000000000000000000800000000000000080000000800000000000000000000000000000008000000000000000000000008000000000000000800000000000000080000000800000000000000080000000800000000000000000000000800000000000000000000000000000008000000080000000000000008000000000000000800000008000000000000000800000803f
+LPF coef_=A818+0 n_=175 heap(700)#efa7540d1cd91f53
+LPF coef_=A826+0 n_=35 heap(140)=45790e3b111454bbdf0d853bdd4394bbc845943be8a182bb15413c3b13c79bbaaa0585ba24ca6e3b2427d7bb19a01d3c46e94ebc206c7c3cbda591bcff83a03ce6d8a9bc736936be29d8a9bcb083a03c96a591bc036c7c3c48e94ebc2ca01d3c5e27d7bbaaca6e3b5c0685ba71c69bbad3403c3bd0a182bbbb45943bdb4394bbe60d853b2e1454bb6b790e3b
+design rc=1 n=1 fc=3e395810 gain=00000000
+LPF coef_=A857+0 n_=206 heap(824)#3ba9ce359d0e17e6
+LPF coef_=A867+0 n_=44 heap(176)=741a04a1d58788b892ac8e39e85826baef2f973a5086ecba693a253b871c50bbaa4d693b80ee5cbb4417103b4cb1fd390c97aebb5d27573c6bf0cbbcf7d72b3d4dcf87bdf5cecf3d366c1ebe1be17a3ea784e2be13bdb03f7ebdb03fa684e2bedae07a3ee86b1ebe56cecf3dbbce87bdf8d62b3dbceecbbc6024573c5792aebb3278fd39771c103b21f25cbb1550693b0b1e50bb4c3b253b4387ecba6330973a415926bac2ac8e39ea8788b8711a04a1
+LPF coef_=A889+0 n_=78 heap(312)#91f3917a53b722f3
+LPF coef_=A911+0 n_=7 heap(28)=ed553c3d250ebe3ee208a9bd18b0933e3e96bf3ebeacf43dbd20efbd
+design rc=0 n=70 fc=3e99999a gain=3f800000
+LPF coef_=A969+0 n_=179 heap(716)#d95f6dc88510cae2
+LPF coef_=A979+0 n_=9 heap(36)=f2de87bad54a933c6aa2afbdb8583f3e708f433fb8583f3e6aa2afbdd54a933cf2de87ba
+LPF coef_=A990+0 n_=52 heap(208)#8ba01d6287ea28ff
+LPF coef_=A1001+0 n_=79 heap(316)#021894536ef91da4
+LPF coef_=A1025+0 n_=27 heap(112)=a84d8cba17d8f6ba2a97483a373c11380be106bb757c173ba33360bb66b5413f36960e3c640cbfbba51b17bb7d82deb31ffe88bb6a50b23c015a5fb854a6a8bcf11b17bb8600b13b764eebb72858133b3c9b283be209a537feee35baf80f123b382839bb09115e39b8e084baa76a2dbf
+LPF coef_=A1044+0 n_=63 heap(256)#dbc73971d165c7eb
+LPF coef_=A1056+0 n_=225 heap(900)#4e8b1b6c1459985e
+LPF coef_=A1067+0 n_=24 heap(96)=9fc101bc9fd58e3b940cef3b09fff7bcf0294c3d85a704bd44aa48bdfacc333e301c86be7f392d3eacd49a3e1e1911c01e1911c0acd49a3e7f392d3e301c86befacc333e44aa48bd85a704bdf0294c3d09fff7bc940cef3b9fd58e3b9fc101bc
+LPF coef_=A1076+0 n_=13 heap(52)=ed8087b6f2ddc2b6fa9b30b64a3808b7b500803f1d17f8b4694839379bb016b6fbb09cb513532436305c0db602acdfb66aaef5b5
+design rc=0 n=14 fc=3f076c8b gain=bf444e0c
+LPF coef_=A1103+0 n_=181 heap(724)#6ba9c964ed1aac26
+LPF coef_=A1112+0 n_=69 heap(276)#88b14a3b19d9a0f6
+LPF coef_=A1130+0 n_=38 heap(152)=bab0373b872d913a5ba8e1baf999c6bb10b136bc0b836ebcc5284fbc6f550ebb71f68e3cc8292d3d3dbc813d40fa8b3d242d393de0dd5abcd21fd9bdaa9362befaa1adbee529dfbee417fbbedc17fbbed029dfbedea1adbe699362be5c1fd9bd14db5abc8e2d393d52fa8b3d35bc813d9b292d3d11f68e3c93570ebb11294fbc1f836ebcffb036bcbf99c6bb7ea7e1ba292e913ae7b0373b
+LPF coef_=A1140+0 n_=2 heap(8)=0000003f0000003f
+design rc=0 n=8 fc=3e800000 gain=3f800000
+LPF coef_=A1152+0 n_=59 heap(236)#89448fd55eb4f3d3
+LPF coef_=A1163+0 n_=4 heap(16)=fecafc3d5033a03f5033a03ffecafc3d
+LPF coef_=A1174+0 n_=28 heap(112)=dbd0983a3744003bed0b6d3bb184d73bbbbe363cf13a8f3c4fbfd03c65a30e3daf30383dbf1e623dbf91843de2f9943dd6d3a03da80aa73da80aa73dd6d3a03de2f9943dbf91843dbf1e623daf30383d65a30e3d4fbfd03cf13a8f3cbbbe363cb184d73bed0b6d3b3744003bdbd0983a
+LPF coef_=A1186+0 n_=204 heap(816)#0357ccc0166e9f8b
+LPF coef_=A1195+0 n_=73 heap(292)#e12fd928a800ce1a
+design rc=0 n=71 fc=3f29fbe7 gain=3f800000
+LPF coef_=A1219+0 n_=22 heap(88)=1b9c242071dcd838192a02baa6e3a03a9c7506bb7dd70b3b72a3483984def8bbb051c93c104b82bdc59f6e3ef49f6e3e014b82bd5d51c93c8dddf8bbe18f483921d80b3be17506bbcfe3a03a262a02ba68dcd838fb9b2420
+LPF coef_=A1230+0 n_=46 heap(184)=f81e88b64cf813b5dab4d2bfc36895b64578ceb44165ceb5cf0e09b623d2e5b5f4ff3735458dd2356e547bbb0662f733bc066db77cdf87b4526f30bc9cabd036058b95b7f844853683f015b7c52c0b3834d897b62fa582b8a425bd3475c121393ff9a638855ab1b66c2a9ab74f164337521cb2b795b264b786660c37a1b59ab62b7d34b4d5066db7f66fe5b69cb031b6f4a12a36e52203b4bdb41ab68e221d354cc0b5b60fe337b5d0bd51339728453620843535bcb3d2b6
+LPF coef_=A1274+0 n_=19 heap(80)=0000000000000080000000800000000000000080000000000000000000000000000000800000000000000000000000000000000000000080000000800000000000000000000000800000008083ed4b3f
+LPF coef_=A1285+0 n_=190 heap(760)#527b6891edf8b86b
+LPF coef_=A1295+0 n_=6 heap(24)=0000c0ff0000c0ff0000c0ff0000c0ff0000c0ff0000c0ff
+design rc=0 n=80 fc=3f400000 gain=3f800000
+LPF coef_=A1314+0 n_=2 heap(8)=0000c0ff0000c0ff
+LPF coef_=A1322+0 n_=58 heap(232)#4866602a46ffa737
+design rc=0 n=24 fc=3ed6872b gain=becee3d0
+LPF coef_=A1342+0 n_=24 heap(96)=64fefb3168a14932a16843b0cb3f68b29970663141c38138976cf03180561e3291f81ab3b12dceb054c46cb3873041340a41cfbec730163875c6d3af592921b36442ff34149d7032a5553f31e62ce631e370eb312a083dafabb0203a7c900c32
+LPF coef_=A1374+0 n_=19 heap(76)=c92cc43a5ede2da2dee193bb9892493c5ade7dbc5e157a236a04313d9b98d9bde1a2273ee2a10f3fe1a2273e9b98d9bd6a04313d5e157a235ade7dbc9892493cdee193bb5ede2da2c92cc43a
+design rc=0 n=41 fc=3e000000 gain=3f800000
+LPF coef_=A1395+0 n_=7 heap(28)=df64a13c8a7fb33ddf4a713ec0c8a03edf4a713e8a7fb33ddf64a13c
+LPF coef_=A1405+0 n_=3 heap(12)=7daabb3c5845743f7daabb3c
+design rc=0 n=229 fc=3d1d7070 gain=3f800000
+LPF coef_=A1446+0 n_=38 heap(152)=23378b2054750db8c4c10838b307f4397547753a44bd993961c40fbbbb7f9dbbfe0e5abb410a9f3bdf16763ce1e8753c39ff95bba48f12bd077d4abda26949bcfb31ab3d1afb503e6e8a933e6b8a933e0bfb503ed931ab3d556a49bc0f7d4abd958f12bdaafe95bb01e9753cd516763c100a9f3b390f5abbbc7f9dbb4ac40fbb00be99398c47753a9807f43919c108386e750db81d378b20
+LPF coef_=A1468+0 n_=40 heap(160)=04b550208555c5b70ef383b8e1a05db87fe0dc38d2b2103a6ad3c03ae8ef493b48f0b73b29fb173cbde3683caca6a73c43bde43cbbc0143d1b38393dee795d3d4ce97e3d84708d3daf82973d83c89c3d83c89c3daf82973d84708d3d4ce97e3dee795d3d1b38393dbbc0143d43bde43caca6a73cbde3683c29fb173c48f0b73be8ef493b6ad3c03ad2b2103a7fe0dc38e1a05db80ef383b88555c5b704b55020
+design rc=0 n=190 fc=3e800000 gain=3f800000
+LPF coef_=A1498+0 n_=15 heap(60)=9976f339db5d2fbc176d243c66c23b3dd5afacbd750ec7bdf014f63e037d6f3fe814f63e860ec7bdccafacbd6bc23b3d036d243cdc5d2fbc9976f339
+design rc=0 n=7 fc=3f024dd3 gain=3f8c73e0
+LPF coef_=A1521+0 n_=65 heap(260)#6db22d2160f190da
+LPF coef_=A1542+0 n_=68 heap(272)#71c41be466190597
+LPF coef_=A1552+0 n_=46 heap(184)=809b23345d3b413dbe5284b4c8568ab52652c635fbdb5bb4855f1d35a3fd39b59443d8b5c8e5bd35f42dd0b59dc4ee3daae4d8be74131eb55b7aa0b44a021b35bc91233540e50db7147412b6fc1b8337c6159cb7f432bc3619ebf92f0aa8b437747a9eb70f202c3777cc2c37f5be644040e50db711f475ba3b52c3b5af0a2a351bcfb7b5ec6385b67955733662c90db6678d0db6a719d7b556881cb5929031b581a709355ad0e7b48605d5b534300eb6063211b683d31eb3
+LPF coef_=A1583+0 n_=35 heap(140)=45919b3a2be80a3cf3b91e3bb59ff23b97b2d5bb5b4434bc21217d3c253100a3f5d6ef3c7201b23bb767683b1b9545bafa6785bd210944bd6914d93c8e981e3ee0f7483e5b2a9d3e2d60343e52ba5d3df01402bcf936e23a7f117c3d60c486babf81763b93981e3d6bb5593c51aa3aaf0661be3c66db993caa5aa43bd4a33ebc95ce1d3b1d629a3aeccfbfbb
+LPF coef_=A1605+0 n_=78 heap(312)#b16e460dd44ba8e7
+LPF coef_=A1617+0 n_=41 heap(164)=83202e22acbb89b65bf72b3a897d90b8107af0ba0a8a0abd1084863fe1ac2d38736f0e3aa4fcd7b8ba5c6db25454f1399fea14baf17916bb34291cb8d19df3ba06a8c9baad66413a3674ef3bf0a725bce8ea0fbcf7d731ba088b3eba2c3f7e3b332c87bbbd325e3bd75e99b2e4f56a3aec69f7bab133ed36c82da3313b9d41ba390a13b9b051d3b69dac11bb30a4023b427893ba9218cc3a563d2a381b7d89393474bab2
+design rc=0 n=3 fc=3eac0831 gain=3f800000
+LPF coef_=A1654+0 n_=66 heap(268)#829fb479b75d9065
+LPF coef_=A1664+0 n_=5 heap(24)=93ee4ac0d013bec0630b5b41cc3e41bfa5c734c0c09f6a3c
+design rc=1 n=0 fc=3e800000 gain=406a7ea9
+LPF coef_=A1683+0 n_=18 heap(72)=346ea9a1ec579ebaa62ccdbb25fa9b3c7ff73c3d6222c9bdda7449be5868d33ec983b13fc983b13f5868d33eda7449be6222c9bd7ff73c3d25fa9b3ca62ccdbbec579eba346ea9a1
+LPF coef_=A1704+0 n_=231 heap(924)#1b6165756981d426
+design rc=0 n=49 fc=3d03126f gain=3f18bf68
+LPF coef_=A1742+0 n_=35 heap(140)=911ff4afff7db318cc592932764d80b22f48033024bfb999d0ee66b2c071812f9b6f8e3b0085a899f50f4b326932ac307defc332f94c9d99d25663303c750fb38beb0fb33ca67e3f02ea11b2fb31ccb340b053b31ebb7999300f7db2da196c3167998c379ddb8c1b3abf4cb2a73421b2a1deabb324bfb99909db9b31b39d76b2a5456f3acc172f939dcdb92a
+LPF coef_=A1751+0 n_=16 heap(64)=259c1f3da54ede3d045d033e1e02853db902abbdeb7f90be32d5f0be62a215bf62a215bf32d5f0beeb7f90beb902abbd1e02853d045d033ea54ede3d259c1f3d
+design rc=0 n=30 fc=3f672b02 gain=3f800000
+LPF coef_=A1780+0 n_=42 heap(168)=cd8f96bafbf2a83a3b402fbae65869bae0723f3b76c881bb5be70f3b208d3d3bb35914bc7eba3d3cefc3c6bba448f9bb24c5bb3cae1deabcdecc723ce9a4993c7ac36fbdc21ca13da41941bd3b74a4bd5f81163f5f81163f3b74a4bda41941bdc21ca13d7ac36fbde9a4993cdecc723cae1deabc24c5bb3ca448f9bbefc3c6bb7eba3d3cb35914bc208d3d3b5be70f3b76c881bbe0723f3be65869ba3b402fbafbf2a83acd8f96ba
+LPF coef_=A1790+0 n_=19 heap(76)=a364943c647ed83c7ad3493d3ea0b03d427b093e9973403ef530763ef9a7913e13aca03e2bf0a53e13aca03ef8a7913ef530763e9973403e427b093e3da0b03d7ad3493d647ed83ca364943c
+design rc=0 n=25 fc=3ef7cab0 gain=3f800000
+LPF coef_=A1834+0 n_=5 heap(24)=078f0c3adb17803f909940ba44cd10ba388bbf37cc28583e
+design rc=1 n=0 fc=3f220c4a gain=3f800000
+lpf done
+calls: malloc 1865 free 1865
+COV trials                       700
+COV constructor                  348
+COV design(n, fc, wt, gain)      900
+COV design(..., NULL window): hamming 303
+COV design(..., window, adopt 0) 311
+COV design(..., window, adopt 1) 223
+COV fc == 0                      130
+COV fc == 1                      47
+COV fc == 0.5 (integer sinc arguments) 53
+COV fc < 0 or > 1: rejected      200
+COV fc NaN: rejected             45
+COV n <= 1: rejected             107
+COV design on an object that already owns a block 924
+COV negative gain                193
+COV gain 0                       78
+COV rejected design(n, fc, wt, gain) leaks its window block 172
+COV model-checked designs        1177
+COV n >= 200                     105
+COV sinc arguments that are exact integers 179
+COV boxcar                       212
+COV hanning                      226
+COV hamming                      212
+COV blackman                     213
+COV other window type            37
+COV dtor with a NULL block pointer 69
+COV fc == -0                     58
+COV design(4): the window allocation fails (returns 1, nothing changed) 48
+COV trials with the block around 2^31 701
+COV dtor with a NULL block pointer 69
+HASH 305655c2cc024258 lines 7235
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=6 b=0 n=6 h=82d04b66dade72e2 first=00000000 last=c0400000
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=42fe0000 period_=500 count_=494
+agc a=23 b=0 n=23 h=fc729f908df3b6f8 first=bf65791b last=be451c10
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=4303ad39 period_=500 count_=471
+Agc mix_=7fc00000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=4303ad39 period_=500 count_=471
+agc a=2504 b=0 n=2504 h=528fde4e0a2839f8 first=c0e00000 last=c0e00000
+Agc mix_=7fc00000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=41c378d5 acc_=44458000 period_=500 count_=467
+Agc mix_=00000000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=41c378d5 acc_=44458000 period_=500 count_=467
+agc a=725 b=0 n=725 h=9e03b39795b2d456 first=01c6189e last=8052beaf
+Agc mix_=00000000 mixSaved_=3f800000 gain_=3f4ba9a4 target_=3f800000 power_=3fca3d71 acc_=00000000 period_=500 count_=242
+agc a=514 b=0 n=514 h=bbfe3c38aae47784 first=bf45de41 last=bfb5e863
+Agc mix_=00000000 mixSaved_=3f800000 gain_=4036b485 target_=3f800000 power_=3dfb4c2d acc_=426e96b0 period_=500 count_=228
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3efcb2f7 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3efcb2f7 mixSaved_=3f800000 gain_=3f800000 target_=3e2f6670 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=3003 b=0 n=3003 h=d9714c4ea4961b1d first=40e00000 last=bdc6d286
+Agc mix_=3efcb2f7 mixSaved_=3f800000 gain_=3dc6d286 target_=3e2f6670 power_=41c574bc acc_=42e40000 period_=500 count_=497
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3e2f6670 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=494 b=0 n=494 h=4bdd800d175aa405 first=c0000000 last=c0000000
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3e2f6670 power_=00000000 acc_=4643e800 period_=500 count_=6
+agc a=807 b=0 n=807 h=19d321bb7a23c7d1 first=bf165e13 last=3e80b350
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3e2f6670 power_=3e6bcee4 acc_=42963813 period_=500 count_=199
+Agc mix_=3f000000 mixSaved_=3f800000 gain_=3f400000 target_=3f800000 power_=2edbe6ff acc_=00000000 period_=1 count_=1
+Agc mix_=00000000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=00000000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=11 b=0 n=11 h=fd550df102a1f715 first=80000000 last=80000000
+Agc mix_=3f800000 mixSaved_=00000000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=489
+agc a=2501 b=0 n=2501 h=c96300010e9dba0b first=41ef03e7 last=43bf3255
+agc a=4501 b=0 n=4501 h=064a61a9aed9a349 first=004675a9 last=00cb2bdb
+agc a=331 b=0 n=331 h=4eaa18f1116dbbf7 first=3f21c74d last=bc1c4786
+agc a=656 b=0 n=656 h=1597ea9f65db4892 first=3d6e2880 last=bf746efc
+agc a=887 b=0 n=887 h=a53c7295ee8782b3 first=bf3e7314 last=3c3433e0
+agc a=4503 b=0 n=4503 h=925b5ceebb3cc696 first=bc69a184 last=3c075e6a
+agc a=473 b=0 n=473 h=e951c0450bdfa646 first=be9f9a74 last=bc1ff4c0
+agc a=498 b=0 n=498 h=b6247ada80636eca first=bf7835a6 last=bf4e1bc7
+agc a=977 b=0 n=977 h=296c115717fe739f first=3f61b340 last=3f72accc
+agc a=968 b=0 n=968 h=a3cbe1f334ada85e first=bc5b4d0c last=3f0afb0c
+agc a=3501 b=0 n=3501 h=22d24ef333e773bb first=3f3dcb96 last=be05dc98
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e5b1c98 acc_=42dbeb6a period_=500 count_=31
+agc a=9 b=0 n=9 h=d446c7dd4abe486f first=3a9b4937 last=46ee0ce1
+agc a=2500 b=0 n=2500 h=e7ebe81c709506f8 first=bee40434 last=bd91e4d8
+agc a=3 b=0 n=3 h=9f3d020fcf955b15 first=80000000 last=00000000
+agc a=283 b=0 n=283 h=32f3ed0abf25093a first=3f0cd7b2 last=3e3a8680
+agc a=1065 b=0 n=1065 h=a5297a3798dff0a4 first=3c1f290e last=be68c128
+agc a=990 b=0 n=990 h=e95b8a9b39007d17 first=bf1948ce last=3f461ac8
+agc a=2000 b=0 n=2000 h=27318b1e1f3d2548 first=3efc5126 last=3f2dd583
+agc a=4 b=0 n=4 h=1aceaa6e64bbb1a7 first=be9d6cb6 last=3c79ad76
+agc a=817 b=0 n=817 h=72067684a6ef9d48 first=3f7a0fd8 last=bef165ba
+agc a=3504 b=0 n=3504 h=275e64090ecea075 first=bf170ebf last=bf652e75
+agc a=29 b=0 n=29 h=b199c3b366383478 first=bf24b600 last=bc5bd71b
+agc a=10 b=0 n=10 h=d853b2619e108255 first=419eaaed last=c388a463
+agc a=1057 b=0 n=1057 h=99330ab7d8fec950 first=be212c05 last=bb4c51fc
+agc a=25 b=0 n=25 h=5bc3644d7b32c9ba first=3b088a58 last=be146b4c
+agc a=398 b=0 n=398 h=262fc81c45279dc5 first=bdf1d40b last=bb097d33
+agc a=3000 b=0 n=3000 h=00e643a1dfc0f28f first=3d347c60 last=bc20515a
+agc a=797 b=0 n=797 h=4582381dd8630874 first=3f5699f6 last=bd191d30
+agc a=3501 b=0 n=3501 h=dbdb0ac99ab6869e first=bf227058 last=3c6d3aae
+agc a=28 b=0 n=28 h=cb70719a0541aa3c first=be401444 last=3f41b90f
+agc a=11 b=0 n=11 h=d26c6ef627794265 first=40400000 last=c0400000
+Agc mix_=3f000000 mixSaved_=3f800000 gain_=3f400000 target_=3f800000 power_=2edbe6ff acc_=00000000 period_=1 count_=1
+agc a=1162 b=0 n=1162 h=ce15d5a1ef3842c5 first=00000000 last=80000000
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e6f697c acc_=429b295a period_=500 count_=172
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=42caa309 period_=500 count_=79
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e6882df acc_=40cbc4b9 period_=68 count_=32
+agc a=31 b=0 n=31 h=670abf1763a8b5e7 first=be1d1912 last=bd6db09d
+agc a=40 b=0 n=40 h=576fbdc240b114c2 first=c0c00000 last=c1000000
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f115b9c target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=1130 b=0 n=1130 h=8be6d92028d598a8 first=bf03d7e5 last=3f755d9b
+Agc mix_=3e800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=40000000 target_=7f800000 power_=3f800000 acc_=00000000 period_=1 count_=1
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=40000000 target_=7f61b1e6 power_=3f800000 acc_=00000000 period_=1 count_=1
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=5 b=0 n=5 h=fdb62f3cabf2e164 first=7756d9ac last=7f79b3c9
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=7f800000 period_=500 count_=495
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e5b6310 acc_=42606715 period_=500 count_=235
+Agc mix_=3e800000 mixSaved_=00000000 gain_=47927c18 target_=3f800000 power_=2edbe700 acc_=00000000 period_=1 count_=1
+agc a=4503 b=0 n=4503 h=a8b34366a61744dd first=bed4f07e last=bcb8f384
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e70f934 acc_=42b09c2b period_=500 count_=127
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3fe386e4 power_=00000000 acc_=40fe8e89 period_=500 count_=463
+agc a=133 b=0 n=133 h=1504f271e4556e1c first=bed6c53e last=beb725b4
+Agc mix_=00000000 mixSaved_=3f800000 gain_=4000f0a3 target_=3f800000 power_=3e7c47f6 acc_=4273f2e6 period_=500 count_=253
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f000000 mixSaved_=3f800000 gain_=3f400000 target_=3f800000 power_=00000000 acc_=00000000 period_=1 count_=1
+agc a=709 b=0 n=709 h=7f9a0396bd1387b5 first=00000000 last=80000000
+Agc mix_=3f000000 mixSaved_=3f800000 gain_=4743505f target_=3f800000 power_=2edbe700 acc_=00000000 period_=1 count_=1
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=00000000 mixSaved_=3f800000 gain_=400ca1e6 target_=3f800000 power_=3e541326 acc_=42df368e period_=500 count_=42
+agc a=0 b=0 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e583f62 acc_=424ff7c3 period_=2 count_=2
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=52af50fa period_=500 count_=389
+Agc mix_=3f500000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=54ccaf43 period_=2 count_=2
+agc a=21 b=0 n=21 h=844ecf21c9bb8bad first=be3062f2 last=bca3c185
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3e400000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=42873619 period_=500 count_=200
+agc a=956 b=0 n=956 h=27611c88db9cc501 first=3f2e1b08 last=3ed1a26a
+Agc mix_=3df86798 mixSaved_=3f800000 gain_=44ef0131 target_=3f72691d power_=3456c3de acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e79cc41 acc_=415078ab period_=500 count_=428
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=24 b=0 n=24 h=be1f2ca8498ae04b first=bc303b0a last=3e809f2a
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=40000000 target_=7f800000 power_=3f800000 acc_=00000000 period_=1 count_=1
+Agc mix_=7fc00000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=40ca0b6b period_=500 count_=12
+agc a=17 b=0 n=17 h=e795c139a6683d55 first=00000000 last=c0c00000
+Agc mix_=3e800000 mixSaved_=3f800000 gain_=41cc1c84 target_=3f800000 power_=3d045312 acc_=00000000 period_=1 count_=1
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e754755 acc_=7f800000 period_=500 count_=76
+agc a=11 b=0 n=11 h=f2ae73196e33b7d6 first=be738678 last=3e2ed000
+Agc mix_=7fc00000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=7f800000 acc_=4208c794 period_=500 count_=369
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3ec1be40 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=4288cc5f period_=1 count_=1
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=00000000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=971 b=0 n=971 h=126e742df193efdd first=3e2e51cc last=3f402000
+Agc mix_=3ec3d793 mixSaved_=3f800000 gain_=40000000 target_=7f61b1e6 power_=3f800000 acc_=00000000 period_=1 count_=1
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=2 count_=2
+Agc mix_=3f800000 mixSaved_=00000000 gain_=3f800000 target_=40800000 power_=00000000 acc_=00000000 period_=80 count_=80
+agc a=2500 b=0 n=2500 h=fc278903dec17708 first=40400000 last=c0c00000
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=7f800000 period_=500 count_=306
+Agc mix_=3f000000 mixSaved_=3f800000 gain_=4743505f target_=3f800000 power_=2edbe700 acc_=00000000 period_=1 count_=1
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e6f92a6 acc_=3f25ace6 period_=500 count_=498
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=7f800000 acc_=7f800000 period_=500 count_=94
+agc a=27 b=0 n=27 h=f4d3834c3cc2a609 first=bd2dc235 last=bb7d6401
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e7d2d1b acc_=3fa7c440 period_=500 count_=496
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=40c74a6b period_=500 count_=479
+Agc mix_=3e000000 mixSaved_=3f800000 gain_=3fd7396e target_=3f800000 power_=3ee2c7ad acc_=00000000 period_=1 count_=1
+agc a=7 b=0 n=7 h=72c9a7b7c34f05b6 first=3fac3316 last=bf819573
+Agc mix_=3e800000 mixSaved_=3f800000 gain_=3f400000 target_=3f800000 power_=2edbe6fe acc_=00000000 period_=1 count_=1
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=405a557e period_=500 count_=190
+agc a=3 b=0 n=3 h=fa824a8e86a9c05f first=bf4ddd9c last=3f04e0e6
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=7f800000 acc_=7f800000 period_=500 count_=150
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=00000000 mixSaved_=3f800000 gain_=00000000 target_=3f800000 power_=7f800000 acc_=7f800000 period_=500 count_=452
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=1 count_=1
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=456 b=0 n=456 h=9b666df34b87d261 first=3c605180 last=bc5d315b
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=42e5b031 period_=500 count_=36
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=00000000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=51afd4e7 acc_=55d51e59 period_=500 count_=41
+agc a=4004 b=0 n=4004 h=1292b86d5454cbd4 first=ff40b589 last=f8ecdb0c
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e6768fa acc_=3f8817dc period_=500 count_=496
+Agc mix_=3ea00000 mixSaved_=3f800000 gain_=3fde7ef9 target_=3f800000 power_=3e6e1980 acc_=41a41d45 period_=500 count_=426
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e6eeaee acc_=4289e4a4 period_=500 count_=203
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=40000000 target_=7f61b1e6 power_=3f800000 acc_=00000000 period_=1 count_=1
+agc a=366 b=0 n=366 h=b8bef67affbf43bb first=3e8499e4 last=bfa7e2b9
+Agc mix_=7fc00000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e76224a acc_=7f800000 period_=500 count_=214
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e63ae76 acc_=3f2e1b62 period_=500 count_=498
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=52beebab period_=500 count_=462
+agc a=4001 b=0 n=4001 h=2f22e87123223df5 first=80000000 last=80000000
+Agc mix_=7fc00000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=51642c4e acc_=5631f8a6 period_=500 count_=4
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e6b7287 acc_=40a1e763 period_=500 count_=482
+Agc mix_=7fc00000 mixSaved_=3f800000 gain_=3f800000 target_=40800000 power_=3e6c3a60 acc_=3ea1b8e4 period_=500 count_=497
+agc a=4001 b=0 n=4001 h=53f9d9e57766d684 first=0098d291 last=0020ebcd
+agc a=386 b=0 n=386 h=d433484d882c28f4 first=3ebedbc8 last=3edd7cd2
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e7419c5 acc_=42cd5f7b period_=500 count_=95
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=610 b=0 n=610 h=6ceb6ded2e0f27c5 first=80000000 last=00000000
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e3e2651 acc_=42ac1909 period_=500 count_=152
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=40000000 target_=7f800000 power_=3eaa2054 acc_=00000000 period_=1 count_=1
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e65c52a acc_=3f8f872b period_=500 count_=496
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=40800000 power_=00000000 acc_=422fbee1 period_=500 count_=313
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=251 b=0 n=251 h=5f3547c90080167b first=3ef8b15a last=be3606ec
+Agc mix_=3e800000 mixSaved_=3f800000 gain_=429371dc target_=3f800000 power_=3947de44 acc_=00000000 period_=1 count_=1
+Agc mix_=00000000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=3e8386cd period_=500 count_=497
+Agc mix_=3d800000 mixSaved_=3f800000 gain_=3f800000 target_=3e800000 power_=00000000 acc_=4103d94f period_=500 count_=466
+agc a=29 b=0 n=29 h=cd1fd5bda5af6e6b first=bf504c34 last=bf0c740d
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=497
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e566414 acc_=7f800000 period_=500 count_=83
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=946 b=0 n=946 h=80ff9443f8bd4445 first=00000000 last=80000000
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=7f800000 period_=500 count_=283
+agc a=39 b=0 n=39 h=0609550adbf3668d first=40c00000 last=c034f438
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e836346 acc_=3f672bb5 period_=500 count_=499
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=410756ac acc_=44290000 period_=500 count_=478
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=4502 b=0 n=4502 h=7903fece2558f81f first=be651fcc last=3c3d0c04
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e6749ac acc_=426f9f0a period_=500 count_=252
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3c0345d1 acc_=40a23059 period_=500 count_=484
+Agc mix_=3ebb97d6 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=7f800000 acc_=7f800000 period_=500 count_=428
+agc a=303 b=0 n=303 h=95f6dab38ded672c first=bf0289fa last=3c777c57
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=40000000 target_=7f800000 power_=3d471a25 acc_=00000000 period_=1 count_=1
+Agc mix_=3eb621d1 mixSaved_=3f800000 gain_=3fd97ba8 target_=3f800000 power_=3e6b88ff acc_=42b008aa period_=500 count_=82
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=4151fe4a period_=500 count_=459
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=00000000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=2502 b=0 n=2502 h=12ca3d41c889e90a first=818c09c5 last=00ae3600
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=40000000 target_=7f800000 power_=3922fbf1 acc_=00000000 period_=1 count_=1
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e79d80d acc_=40a8d19f period_=500 count_=466
+agc a=33 b=0 n=33 h=2848f5d9d51ce6e4 first=bc255ce0 last=bc045180
+Agc mix_=3f200000 mixSaved_=3f800000 gain_=3f800000 target_=3e800000 power_=00000000 acc_=7f800000 period_=500 count_=438
+Agc mix_=3f000000 mixSaved_=3f800000 gain_=4743505f target_=3f800000 power_=2edbe700 acc_=00000000 period_=1 count_=1
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=974 b=0 n=974 h=1e2165d11804439a first=3efa6ea6 last=bc791c11
+Agc mix_=00000000 mixSaved_=3f800000 gain_=402e37b5 target_=3f800000 power_=3e0a3093 acc_=410d3a3f period_=500 count_=454
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=512d8261 acc_=53661450 period_=500 count_=486
+agc a=76 b=0 n=76 h=a1b9ad2359a38c41 first=bc3dee01 last=3c0a9502
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=7f800000 acc_=7f800000 period_=500 count_=482
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=7f61b1e6 power_=00000000 acc_=00000000 period_=1 count_=1
+agc a=26 b=0 n=26 h=4d313508acd219d7 first=becfa17a last=bf728fdd
+Agc mix_=3ea00000 mixSaved_=3f800000 gain_=3e8a26b4 target_=3f800000 power_=3e6e2e5f acc_=4055d23c period_=500 count_=483
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=51ae4d06 acc_=5529e854 period_=500 count_=314
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e555c91 acc_=4465ee96 period_=500 count_=52
+agc a=27 b=0 n=27 h=b518aaf18642979d first=3d64627e last=bdab8c2a
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3f8d1e96 acc_=53bce143 period_=500 count_=58
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e691ae0 acc_=42ca97ec period_=500 count_=79
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=2502 b=0 n=2502 h=ac433efb03a4c546 first=3f0e98c7 last=be67230c
+Agc mix_=7fc00000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e898ad5 acc_=426659e8 period_=500 count_=252
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e68a059 acc_=41ed5554 period_=500 count_=382
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3e7d1cf0 target_=3f800000 power_=51583360 acc_=55179117 period_=500 count_=318
+agc a=34 b=0 n=34 h=243b006145cb79a2 first=3c208e20 last=3f1d17ca
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e7c573b acc_=414ff383 period_=500 count_=461
+Agc ctor mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+agc a=558 b=0 n=558 h=8ffe1d315d5a3203 first=3d9710f0 last=bf5a71b4
+Agc mix_=3f6e7319 mixSaved_=3f800000 gain_=3f6e7319 target_=3f800000 power_=7f800000 acc_=7f800000 period_=500 count_=278
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=3e816def acc_=41ab87f2 period_=500 count_=395
+agc a=8 b=0 n=8 h=febb215f8d9146e9 first=be825c0c last=be8b6af0
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=00000000 period_=500 count_=500
+Agc mix_=3f800000 mixSaved_=3f800000 gain_=3f800000 target_=3f800000 power_=00000000 acc_=40c0b436 period_=500 count_=481
+agc done
+calls: malloc 10097 free 10097
+COV trials                       800
+COV constructor                  800
+COV reset                        364
+COV freeze                       274
+COV process(n == 0)              157
+COV period boundaries            1534
+COV gain updates                 301
+COV period end with the gain frozen (mix == 1) 1210
+COV period end with power <= 1e-10 47
+COV mix NaN                      99
+COV mix 0                        114
+COV mix in (0,1)                 243
+COV count_ poked                 100
+COV >= 5 periods in one call     746
+COV period 1                     26
+COV non-finite data              169
+COV target != 1                  116
+COV in-place (in == out)         391
+COV model-checked blocks         2622
+COV power-threshold boundary steps 125
+COV ... with power == threshold exactly 35
+COV frozen object with an overflowing target 128
+COV trials with the block around 2^31 801
+COV dtor with a NULL block pointer 0
+HASH c68fadbe76d306ea lines 29818
+Sine ctor amp_=3f8eff40 freq_=c3f1fcea phase_=c0dc68c0 fs_=45fa0000
+sine a=349 b=0 n=349 h=7237e6c4b3d0f187 first=bf2291a2 last=bf6674df
+Sine amp_=3f8eff40 freq_=c3f1fcea phase_=bfa8984a fs_=45fa0000
+sine a=360 b=1 n=360 h=a4310debbd337ec7 first=bf8a6bf0 last=3efa012c
+Sine amp_=3f8eff40 freq_=c3f1fcea phase_=c0c6c00d fs_=45fa0000
+sine a=103 b=2 n=103 h=0677fa2a8f97b643 first=3da52445 last=bf70b3af
+Sine amp_=3f8eff40 freq_=c3f1fcea phase_=bfb0b15e fs_=45fa0000
+Sine ctor amp_=3fb935a4 freq_=bbdcf399 phase_=00000000 fs_=45fa0000
+sine a=167 b=0 n=167 h=0c02f556baa812e2 first=00000000 last=baa6ba50
+Sine amp_=3fb935a4 freq_=bbdcf399 phase_=ba67d7ad fs_=45fa0000
+sine a=0 b=1 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+Sine amp_=3fb935a4 freq_=bbdcf399 phase_=ba67d7ad fs_=45fa0000
+sine a=109 b=2 n=109 h=ab3a6f42e290904a first=baa7bb6f last=bb0a1a49
+Sine amp_=3fb935a4 freq_=bbdcf399 phase_=babf950e fs_=45fa0000
+sine a=104 b=3 n=104 h=192e1eca3ed01def first=bb0a9ad8 last=bb3e54a0
+Sine amp_=3fb935a4 freq_=bbdcf399 phase_=bb03e2e9 fs_=45fa0000
+Sine ctor amp_=3dc83268 freq_=45733000 phase_=51ba43b7 fs_=473f9700
+sine a=1 b=0 n=1 h=3d2d4a594a11856d first=3dc7d17b last=3dc7d17b
+Sine amp_=3dc83268 freq_=45733000 phase_=51d365b2 fs_=473f9700
+sine a=92 b=1 n=92 h=c8f547a9b9148af6 first=3d36acbb last=3da563f6
+Sine amp_=3dc83268 freq_=45733000 phase_=51ec87ad fs_=473f9700
+sine a=347 b=2 n=347 h=237218591abbfbf1 first=bd5547bf last=bbcaa101
+Sine amp_=3dc83268 freq_=45733000 phase_=5202d4d4 fs_=473f9700
+sine a=340 b=3 n=340 h=9a6b99f9602eeb50 first=bdc8206f last=bdb24f5d
+Sine amp_=3dc83268 freq_=45733000 phase_=520f65d2 fs_=473f9700
+sine a=13 b=0 n=13 h=fb97b0169f7cf7d4 first=bf7a757f last=3cf32103
+Sine amp_=3f800000 freq_=4401c000 phase_=3e152ee1 fs_=46db9e00
+sine a=3680 b=0 n=3680 h=05e7ebad3f5b6220 first=bcc99997 last=3f7ffee9
+Sine amp_=3f800000 freq_=454b4000 phase_=406d1ac3 fs_=46160000
+sine a=209 b=1 n=209 h=5facd1f3f02dff16 first=bf08ab6d last=3e9cb125
+Sine amp_=3f800000 freq_=454b4000 phase_=401c1fb5 fs_=46160000
+sine a=395 b=2 n=395 h=d84f93045de0090d first=3f25577e last=bf49fda0
+Sine amp_=3f800000 freq_=454b4000 phase_=3f9c0dd5 fs_=46160000
+sine a=240 b=3 n=240 h=313d902b2ebce306 first=3f705626 last=3f53d345
+sine a=146 b=0 n=146 h=85058986cc360621 first=bf7f5dad last=bf7a07e6
+sine a=13 b=1 n=13 h=6dfde91090094cc1 first=bec5335f last=3f8ed948
+sine a=91 b=2 n=91 h=03cfaf42717ae3d7 first=bde9e835 last=3f8f0920
+sine a=1563 b=3 n=1563 h=97b4fbddfdb6f735 first=be2016e4 last=bf8f014d
+sine a=47 b=0 n=47 h=5ac0a599f6fbe862 first=00000000 last=3f702d20
+sine a=1322 b=0 n=1322 h=b644b3123f70a8de first=00000000 last=3e7fbb5a
+sine a=363 b=1 n=363 h=f727472122c4c639 first=3f56a98f last=befa5540
+sine a=298 b=2 n=298 h=87797d76644bef69 first=3e6ac2a0 last=3f2e58d1
+sine a=44 b=0 n=44 h=d6613c744d1beb74 first=bfc1d49d last=bf9e20c4
+sine a=355 b=1 n=355 h=21e30ae00a103631 first=3fc8a66d last=3fc1304f
+sine a=314 b=2 n=314 h=97631cd41fb0a11a first=bf3fb599 last=3fa28523
+sine a=217 b=3 n=217 h=1e69782e86d580c2 first=be781077 last=bfa9fdf4
+sine a=125 b=0 n=125 h=06c256f1b814313c first=80000000 last=3fdc507e
+sine a=111 b=1 n=111 h=7b9d20d28c627a09 first=4004a036 last=bf8e1de6
+sine a=357 b=2 n=357 h=d732f52ccaf7e69d first=bff2c375 last=3fd4b28d
+sine a=346 b=3 n=346 h=c54ea7fe5db4f438 first=4004762f last=bfea2925
+sine a=53 b=0 n=53 h=880c91a4ee5b57b8 first=00000000 last=33a1880c
+sine a=190 b=0 n=190 h=b831fa06de0fecfc first=80000000 last=3f06b45e
+sine a=2554 b=1 n=2554 h=77ba14eca92cbb10 first=3e3c5751 last=bef614cf
+sine a=46 b=2 n=46 h=196b953da210bcab first=bc8c3c7d last=be88f53a
+sine a=107 b=3 n=107 h=836c38a04f032f96 first=3e93afb5 last=bf07860a
+sine a=22 b=0 n=22 h=ddc5bd7f48ed44fa first=00000000 last=bf5dc4f5
+sine a=96 b=1 n=96 h=bb6a2e9e12253442 first=bf72b6c9 last=bf79bf7c
+sine a=263 b=0 n=263 h=da8cb93672452c88 first=80000000 last=b58890d0
+Sine ctor amp_=3f800000 freq_=44198000 phase_=c030450b fs_=45fa0000
+sine a=0 b=1 n=0 h=cbf29ce484222325 first=00000000 last=00000000
+Sine amp_=c0155465 freq_=449c0000 phase_=406a3ef3 fs_=46160000
+sine a=345 b=1 n=345 h=c28c017870543f67 first=bf77341f last=bf400a9e
+Sine amp_=3ef71850 freq_=44814000 phase_=3d976de8 fs_=46160000
+sine a=64 b=2 n=64 h=1a6ff6e2b3da12f1 first=bff97492 last=bf885633
+Sine ctor amp_=400e4461 freq_=44d1e000 phase_=d598cb8c fs_=46160000
+Sine amp_=3f800000 freq_=43cd8000 phase_=00000000 fs_=45fa0000
+Sine amp_=bcaefb40 freq_=44ac4000 phase_=3fe7281c fs_=45fa0000
+sine a=77 b=2 n=77 h=05648d9d0b4fbf7c first=bf6f03de last=bf151a11
+Sine amp_=c02a409b freq_=00000000 phase_=408b9c66 fs_=45fa0000
+sine a=1 b=1 n=1 h=69dbec31cdacc897 first=3f5faad6 last=3f5faad6
+Sine amp_=3f800000 freq_=c449b86d phase_=c070d863 fs_=45fa0000
+sine a=159 b=2 n=159 h=c47bc5aab1458e7a first=bf8327a8 last=3ed506ef
+Sine amp_=3f98dcfa freq_=44e9e000 phase_=40646720 fs_=45fa0000
+sine a=220 b=0 n=220 h=49c476a1adae7e85 first=7fc00000 last=7fc00000
+Sine amp_=3f800000 freq_=47bd493b phase_=4095b8e5 fs_=45fa0000
+Sine amp_=3f5ab52d freq_=44c28000 phase_=3eb75f3a fs_=45fa0000
+sine a=331 b=0 n=331 h=f8a6af33e4a99d68 first=3d36fc3f last=bf6e223f
+Sine amp_=40087453 freq_=4534c000 phase_=40a0d3bb fs_=46e62600
+Sine amp_=bffd72ad freq_=bbade308 phase_=c0aa64d8 fs_=00000000
+sine a=171 b=0 n=171 h=a14fd5d948b0d649 first=3f502138 last=3f50219b
+Sine amp_=3fbca5a2 freq_=3da84fad phase_=3fb345d7 fs_=46e01200
+Sine ctor amp_=3f800000 freq_=3ddc8be1 phase_=c0b3c848 fs_=46bcb000
+Sine amp_=3f800000 freq_=454f4000 phase_=403ad2fd fs_=45fa0000
+sine a=53 b=1 n=53 h=e647a370f77057b6 first=bdb3ebe1 last=3dccf7ae
+Sine amp_=3f800000 freq_=451aed92 phase_=3fc4ffa5 fs_=45fa0000
+sine a=343 b=2 n=343 h=875e61dad27961c5 first=3fcef07e last=4014e8e3
+Sine amp_=c035d260 freq_=45619b64 phase_=409a5f89 fs_=45fa0000
+Sine ctor amp_=3f800000 freq_=44aae000 phase_=3d576601 fs_=46160000
+Sine amp_=3f800000 freq_=c0561b60 phase_=3ff5fcc2 fs_=46160000
+sine a=2583 b=1 n=2583 h=e86701235a0b4d18 first=be739da9 last=3e18617c
+Sine amp_=3f800000 freq_=454ff000 phase_=4073793b fs_=45fa0000
+Sine amp_=3f800000 freq_=372cfbe6 phase_=bed9a9f8 fs_=45fa0000
+sine a=86 b=2 n=86 h=6bf05f855057b6e8 first=3eff5afa last=bf75204d
+Sine amp_=3f800000 freq_=450a1000 phase_=3f2c5cdb fs_=46160000
+Sine amp_=3f800000 freq_=44dd4000 phase_=406fbb2e fs_=45fa0000
+sine a=315 b=0 n=315 h=d8286ed30c975cf7 first=3f193cc4 last=bf605bff
+Sine amp_=3f800000 freq_=c7d2c776 phase_=c0139c83 fs_=45b74000
+Sine amp_=c0316f00 freq_=00000000 phase_=00000000 fs_=45fa0000
+Sine amp_=3e639718 freq_=454da000 phase_=40996d89 fs_=45fa0000
+sine a=69 b=2 n=69 h=eb8a1656cbd4af78 first=7fc00000 last=7fc00000
+Sine amp_=3f800000 freq_=c04d20b6 phase_=bed74174 fs_=46160000
+sine a=134 b=2 n=134 h=6972f87ce49fb242 first=3d8949d1 last=3d037fbb
+Sine amp_=3f800000 freq_=44e1a000 phase_=3d242fb0 fs_=45fa0000
+sine a=252 b=2 n=252 h=7a3e47ce804ef485 first=ffc00000 last=ffc00000
+Sine amp_=3f800000 freq_=453ae000 phase_=4051728a fs_=45fa0000
+Sine ctor amp_=3f800000 freq_=c5211006 phase_=00000000 fs_=46160000
+sine a=190 b=0 n=190 h=0c2ddbe8224d529b first=bf586e39 last=bf0545e0
+Sine amp_=3f7b23dd freq_=37b491a0 phase_=36297672 fs_=47152c00
+sine a=320 b=2 n=320 h=81ed34c9e4b81dc0 first=bfb8bf43 last=3fb70122
+Sine amp_=3f800000 freq_=c43af9dc phase_=c0157b04 fs_=46160000
+sine a=1 b=1 n=1 h=39652c848f2fe262 first=bf2d8ca7 last=bf2d8ca7
+Sine amp_=3f800000 freq_=45102001 phase_=c033716a fs_=47238000
+Sine ctor amp_=bdb30598 freq_=c5a91e9a phase_=4465d74f fs_=46980a00
+Sine amp_=3f116242 freq_=7f800000 phase_=7f800000 fs_=46b31c00
+sine a=1253 b=2 n=1253 h=524a8a316b686db1 first=bf6a0847 last=3f3a2c5b
+Sine amp_=bfcfdf89 freq_=43be8000 phase_=409e334c fs_=47255100
+Sine amp_=3f800000 freq_=4506b000 phase_=3ffc4d54 fs_=46160000
+sine a=261 b=2 n=261 h=9ba26d4aead0c0dc first=c00cf3b1 last=bf8bab90
+Sine amp_=be15fcd0 freq_=44a64000 phase_=405e3b66 fs_=45fa0000
+Sine ctor amp_=3f800000 freq_=455f8000 phase_=00000000 fs_=4726d400
+Sine amp_=bfeecd36 freq_=37f0767c phase_=4088cead fs_=45fa0000
+sine a=6 b=1 n=6 h=6b73bdc2be957fbd first=bf31c33d last=3e792c5f
+Sine amp_=bf3647d4 freq_=44fe0000 phase_=3f6a133f fs_=45fa0000
+Sine amp_=3f02b31e freq_=c486f1fa phase_=c0b1ff75 fs_=45fa0000
+Sine amp_=3ff6b95c freq_=c0b7436a phase_=bfcf43ee fs_=45fa0000
+sine a=105 b=1 n=105 h=4d17baf1907e880f first=3f89fd8a last=3f897f37
+Sine amp_=c01d6f2a freq_=c1d4083c phase_=c0c80a54 fs_=46160000
+sine a=366 b=2 n=366 h=17577688eb89bd07 first=3fcfaf86 last=bf525feb
+Sine amp_=3f800000 freq_=be88cbf1 phase_=bebc3b83 fs_=45fa0000
+sine a=130 b=2 n=130 h=f0295127aa5ffdd4 first=bfbe90bf last=3ffcf111
+Sine amp_=befa2918 freq_=c4d54b07 phase_=40b72b10 fs_=45fa0000
+sine a=3570 b=1 n=3570 h=c995b6c4125522ba first=3e84b52b last=3ed884fc
+Sine amp_=401d50bc freq_=baa3fe58 phase_=c0be8200 fs_=45fa0000
+Sine amp_=be9ee28a freq_=c0136156 phase_=bf66a89d fs_=45fa0000
+sine a=238 b=0 n=238 h=19b6ce1fed971c55 first=7fc00000 last=7fc00000
+Sine amp_=c002bde2 freq_=bb522879 phase_=b9eb0aea fs_=45fa0000
+Sine amp_=bfbd76d2 freq_=4542200f phase_=40bde77f fs_=46160000
+sine a=358 b=0 n=358 h=fe120451875bd0b5 first=3e0094fe last=3d5e4ffe
+sine done
+calls: malloc 3566 free 3566
+COV trials                       700
+COV generate(n == 0)             74
+COV generate(n == 1)             76
+COV block >= 1000                238
+COV phase wrap with |k| >= 1     1470
+COV negative phase               212
+COV |phase| >= 100               164
+COV NaN / inf parameter          33
+COV fs == 0                      8
+COV freq == 0                    15
+COV model-checked samples        1620
+COV chained blocks               1083
+COV phase / (2 pi) out of the int range (integer indefinite) 0
+COV the wrap used the integer indefinite 146
+COV destructor                   700
+COV constructor with a signalling NaN argument (bit copy) 27
+COV trials with the block around 2^31 701
+COV dtor with a NULL block pointer 0
+HASH 773cb06fe1c4c5ec lines 11418
+site-win a=1 b=1 n=1 h=4b72477f9c5c2f98 first=3f800000 last=3f800000
+site-win a=1 b=2 n=1 h=4a99077f9ba3d218 first=ffc00000 last=ffc00000
+site-win a=1 b=3 n=1 h=4a99077f9ba3d218 first=ffc00000 last=ffc00000
+site-win a=2 b=1 n=2 h=2fece5a9aacd3d75 first=3f400000 last=3f400000
+site-win a=2 b=2 n=2 h=75a600a89c371561 first=3da3d70a last=3da3d70a
+site-win a=2 b=3 n=2 h=f76c082ab3a043b5 first=a3800000 last=a3800000
+site-win a=3 b=1 n=3 h=4ccb9101dd4e8948 first=3f000000 last=3f000000
+site-win a=3 b=2 n=3 h=6d7d25163f7548a4 first=3da3d70a last=3da3d70a
+site-win a=3 b=3 n=3 h=69b01e71bbfcb6a8 first=a3800000 last=a3800000
+site-win a=4 b=1 n=4 h=566e0b93238f394d first=3eb0e443 last=3eb0e443
+site-win a=4 b=2 n=4 h=f9616370a32d8e6d first=3da3d70a last=3da3d70a
+site-win a=4 b=3 n=4 h=6be237894ce45d05 first=a3800000 last=a3800000
+site-win a=5 b=1 n=5 h=8f10f3ab7cf740b8 first=3e800000 last=3e800000
+site-win a=5 b=2 n=5 h=70600648432fbb34 first=3da3d70a last=3da3d70a
+site-win a=5 b=3 n=5 h=18c1288984a9827c first=a3800000 last=a3800000
+site-win a=6 b=1 n=6 h=66089a05a5dbccf1 first=3e40c5f2 last=3e40c5f2
+site-win a=6 b=2 n=6 h=23d821e0d533d841 first=3da3d70a last=3da3d70a
+site-win a=6 b=3 n=6 h=3458384b22453255 first=a3800000 last=a3800000
+site-win a=7 b=1 n=7 h=ed30162c70a0d834 first=3e15f61a last=3e15f61a
+site-win a=7 b=2 n=7 h=0db2463d55fb4a98 first=3da3d70a last=3da3d70a
+site-win a=7 b=3 n=7 h=2e39e9c1d52bb5cc first=a3800000 last=a3800000
+site-win a=8 b=1 n=8 h=d55f4b05659cbce9 first=3def920c last=3def920c
+site-win a=8 b=2 n=8 h=528e9bdeec2506d5 first=3da3d70a last=3da3d70a
+site-win a=8 b=3 n=8 h=8d262a72e92dfe5d first=a3800000 last=a3800000
+site-win a=9 b=1 n=9 h=f35eaea7a1f1c38c first=3dc3910d last=3dc3910d
+site-win a=9 b=2 n=9 h=da23dcf1c2e1ab40 first=3da3d70a last=3da3d70a
+site-win a=9 b=3 n=9 h=9c333e4e486bb510 first=a3800000 last=a3800000
+site-win a=10 b=1 n=10 h=4c30e94566fd6e39 first=3da28e6f last=3da28e6f
+site-win a=10 b=2 n=10 h=e0065b5a69eb1f69 first=3da3d70a last=3da3d70a
+site-win a=10 b=3 n=10 h=fd1b2aeb2eb38d69 first=a3800000 last=a3800000
+site-win a=11 b=1 n=11 h=51c73927827e282c first=3d8930a3 last=3d8930a3
+site-win a=11 b=2 n=11 h=6ad31bb065edc9e0 first=3da3d70a last=3da3d70a
+site-win a=11 b=3 n=11 h=52fe14def43d5ea0 first=a3800000 last=a3800000
+site-win a=12 b=1 n=12 h=03fa7c6fb9b50055 first=3d6a9608 last=3d6a9608
+site-win a=12 b=2 n=12 h=907073ba77cd959d first=3da3d70a last=3da3d70a
+site-win a=12 b=3 n=12 h=82afb3df8223aced first=a3800000 last=a3800000
+site-win a=13 b=1 n=13 h=fba0242eb5ba9510 first=3d4ad0d6 last=3d4ad0d6
+site-win a=13 b=2 n=13 h=8b7aad077be7a500 first=3da3d70a last=3da3d70a
+site-win a=13 b=3 n=13 h=21463dcdc171929c first=a3800000 last=a3800000
+site-win a=14 b=1 n=14 h=4eb6d2b072cc5801 first=3d310f14 last=3d310f14
+site-win a=21 b=2 n=21 h=7d1f28c7a714e2d0 first=3da3d70a last=3da3d70a
+site-win a=41 b=3 n=41 h=6d94f9f410cae818 first=a3800000 last=a3800000
+site-win a=62 b=1 n=62 h=ef796a9e95ab84f5 first=3b22d4e1 last=3b22d4e1
+site-win a=82 b=2 n=82 h=482dee5b725d8f05 first=3da3d70a last=3da3d70a
+site-win a=102 b=3 n=102 h=2b62fa553eab52f1 first=a3800000 last=a3800000
+site-win a=123 b=1 n=123 h=7b2e217aef37c33c first=3a283adf last=3a283adf
+site-win a=143 b=2 n=143 h=41268060d4134410 first=3da3d70a last=3da3d70a
+site-win a=163 b=3 n=163 h=b4f548ad853d45fc first=a3800000 last=a3800000
+site-win a=184 b=1 n=184 h=08942d6e1864ae65 first=39972d33 last=39972d33
+site-win a=204 b=2 n=204 h=a05d46e6d96f6159 first=3da3d70a last=3da3d70a
+site-win a=224 b=3 n=224 h=5417d3022b00d7c5 first=a3800000 last=a3800000
+site-win a=245 b=1 n=245 h=4340449b86c970c8 first=392b00fb last=392b00fb
+site-win a=265 b=2 n=265 h=e9e4ada1dd4999f0 first=3da3d70a last=3da3d70a
+site-win a=285 b=3 n=285 h=d4cf659064f6ca6c first=a3800000 last=a3800000
+site-win a=306 b=1 n=306 h=08f3ddac50129b8d first=38db9a4d last=38db9a4d
+site-win a=326 b=2 n=326 h=dabb5c2ef9582415 first=3da3d70a last=3da3d70a
+site-win a=346 b=3 n=346 h=f44080e9a3c414b5 first=a3800000 last=a3800000
+site-win a=367 b=1 n=367 h=441189077848e664 first=3898d5d1 last=3898d5d1
+site-win a=387 b=2 n=387 h=f80a28f5403d7950 first=3da3d70a last=3da3d70a
+site-win a=407 b=3 n=407 h=bf8f55689333fab4 first=a3800000 last=a3800000
+site-win a=428 b=1 n=428 h=303c8223267ac4a1 first=3860ecbe last=3860ecbe
+site-win a=448 b=2 n=448 h=9e64a84aa937b621 first=3da3d70a last=3da3d70a
+site-win a=468 b=3 n=468 h=057015bbb4324ca9 first=a3800000 last=a3800000
+site-win a=489 b=1 n=489 h=db8141c2cd5725e0 first=382c68de last=382c68de
+site-win a=509 b=2 n=509 h=8b572705083f27b4 first=3da3d70a last=3da3d70a
+site-win a=529 b=3 n=529 h=de3878bcd2b33788 first=a3800000 last=a3800000
+site-win a=550 b=1 n=550 h=592294836c6c3839 first=38085954 last=38085954
+site-win a=570 b=2 n=570 h=273c8a7ddf753b75 first=3da3d70a last=3da3d70a
+site-win a=590 b=3 n=590 h=b297cb6370b80ff5 first=a3800000 last=a3800000
+site-four1 a=256 b=-1 n=515 h=8ead6cf7e9fac4bf first=00000000 last=00000000
+site-psd a=32 b=1 n=16 h=ecc261b1253eae1a first=c0f085ee last=c091a538
+sites done
+calls: malloc 812 free 812
+COV trials with the block around 2^31 43
+COV dtor with a NULL block pointer 0
+HASH e8777fa10abf75b4 lines 3558

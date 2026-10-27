@@ -1,0 +1,103 @@
+VPcmFloModem::getConstellation/2:438 SIGN 6211ee9ab3 decl unsigned n -> int
+VPcmFloModem::getConstellation/2:443 CMPSIGN 2260aba192 compare as int32_t (no blob compare evidence)
+VPcmFloModem::getConstellation/2:452 CMPSIGN 0e22198354 compare as int32_t (no blob compare evidence)
+VPcmFloModem::getConstellation/2:456 WIDTH ceee5ada8b decl int r -> short
+VPcmFloModem::getConstellation/2:458 WIDTH 7401693233 decl int e -> short
+VPcmFloModem::getDFE/2:480 SIGN f2c08459e2 decl unsigned n -> int
+VPcmFloModem::getDFE/2:483 CMPSIGN 80cccf5208 compare as int32_t (no blob compare evidence)
+VPcmFloModem::getLinearEqualizer/2:468 SIGN 1a9bfae433 decl unsigned n -> int
+VPcmFloModem::getLinearEqualizer/2:471 CMPSIGN 6706218ed0 compare as int32_t (no blob compare evidence)
+VPcmFloModem::getUinfoValue/1:363 LIT 05991830d3 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 0ab007cb7a 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 1fb3431776 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 2c446d3fa4 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 2cec56e39f 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 40281694cd 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 64f7d58d47 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 6bd255a41d 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 7152b2bccc 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 798d99cc56 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 7a55584069 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 87e9f20460 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 8d2aa7dc6a 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 94160b4137 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 94f3905a20 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 9da0624143 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT bf501fc276 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT c780c070cb 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT d3d1b71c21 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT e6898f2d0c 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT f97129e406 1 -> 2
+VPcmFloModem::getUinfoValue/1:363 LIT 09acf541b7 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 0a1798fe53 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 13273e49c0 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 1365008e64 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 2de04b00a1 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 41bd65140a 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 59d32b7ac9 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 6b579d627a 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 6c992cbc85 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 84e5bcf0c1 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 8b9e135caf 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 8e17090530 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 92a09669fe 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT 9b3d72fcce 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT bb375ee848 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT c005f74b81 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT c35a32e92f 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT dcb5247fa9 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT e31a961a2a 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT f861e6b95c 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT fda7a0e043 1 -> 3
+VPcmFloModem::getUinfoValue/1:363 LIT b8b2aab750 25 -> 26
+VPcmFloModem::getUinfoValue/1:363 LIT 85acdca68b 25 -> 27
+VPcmFloModem::getUinfoValue/1:372 WIDTH 1c6ea22bb1 decl int k -> short
+VPcmFloModem::getUinfoValue/1:373 LIT 5ac85ad9c8 0 -> (-1)
+VPcmFloModem::getUinfoValue/1:373 LIT fb025551f1 0 -> (-2)
+VPcmFloModem::getUinfoValue/1:373 LIT 9bc4e4d697 24 -> 25
+VPcmFloModem::getUinfoValue/1:373 LIT 13f6da15c5 24 -> 26
+VPcmFloModem::getUinfoValue/1:385 CMPSIGN c34b6ebbaf compare as uint32_t (no blob compare evidence)
+VPcmFloModem::getUinfoValue/1:389 WIDTH 15c8a31434 decl int whole -> short
+VPcmFloModem::getUinfoValue/1:391 LIT bbfce2b4cd 31 -> 29
+VPcmFloModem::getUinfoValue/1:391 LIT 09b538bf87 31 -> 30
+VPcmFloModem::getUinfoValue/1:402 SIGN faf4b4c470 decl int u -> unsigned
+VPcmFloModem::getUinfoValue/1:402 WIDTH 13b7f4400d decl int u -> short
+VPcmFloModem::getV90CpBits/1:247 SIGN f51eb93579 decl int ret -> unsigned
+VPcmFloModem::getV90CpBits/1:247 WIDTH 9070db9ce5 decl int ret -> short
+VPcmFloModem::getV90CpBits/1:250 SIGN 0f8e8fe92e decl unsigned short c -> short
+VPcmFloModem::getV90CpBits/1:256 CAST 66533ccbae cast (short) -> (unsigned short)
+VPcmFloModem::getV90CpBits/1:256 CAST 8e4f624c6d drop cast (short)
+VPcmFloModem::getV90CpBits/1:270 SIGN 38a2df5ca4 decl unsigned short i -> short
+VPcmFloModem::getV90JaBits/1:235 SIGN f96317b307 decl int v -> unsigned
+VPcmFloModem::getV90JaBits/1:237 CAST a88bb75acf cast (short) -> (unsigned short)
+VPcmFloModem::getV90JaBits/1:237 CAST 60c43621c0 drop cast (short)
+VPcmFloModem::qcLineVerification/7:494 WIDTH df7c80a1ec decl int code -> short
+VPcmFloModem::qcLineVerification/7:515 LIT a690795037 2 -> 0
+VPcmFloModem::qcLineVerification/7:515 LIT c3040e8f46 2 -> 3
+VPcmFloModem::qcLineVerification/7:515 LIT 0a1c2da2b9 2 -> 4
+VPcmFloModem::qcLineVerification/7:537 LIT f3502e1417 0x1df -> 0x1e0
+VPcmFloModem::qcLineVerification/7:537 LIT 185955179d 0x1df -> 0x1e1
+VPcmFloModem::qcLineVerification/7:543 CMPSIGN 2ca55cd322 compare as int32_t (no blob compare evidence)
+VPcmFloModem::qcLineVerification/7:544 LIT 65c339af54 0 -> (-1)
+VPcmFloModem::qcLineVerification/7:544 LIT d50d1af03a 0 -> (-2)
+VPcmFloModem::setPhaseIIinfo/2:306 LIT bcc546d03f 7 -> 5
+VPcmFloModem::setPhaseIIinfo/2:306 LIT 2c48d31bdb 7 -> 6
+VPcmFloModem::setPhaseIIinfo/2:306 LIT 97f4dbf44e 7 -> 8
+VPcmFloModem::setPhaseIIinfo/2:306 LIT 52db706b7b 7 -> 9
+VPcmFloModem::setPhaseIIinfo/2:306 WIDTH 9093640654 decl int w -> short
+VPcmFloModem::setPhaseIIinfo/2:307 LIT 9cc2fbd319 0x20 -> 0x1e
+VPcmFloModem::setPhaseIIinfo/2:307 LIT 460293a6cf 0x20 -> 0x1f
+VPcmFloModem::setPhaseIIinfo/2:307 LIT bce7946d25 0x20 -> 0x21
+VPcmFloModem::setPhaseIIinfo/2:307 LIT 636dfd8beb 0x20 -> 0x22
+VPcmFloModem::setPhaseIIinfo/2:307 LIT ab5eefb951 5 -> 6
+VPcmFloModem::setPhaseIIinfo/2:307 LIT ea4374a111 5 -> 7
+VPcmFloModem::setPhaseIIinfo/2:307 LIT 5f4c8aff2c 6 -> 5
+VPcmFloModem::setPhaseIIinfo/2:307 STMT 6e5ce016ee delete statement
+VPcmFloModem::setPhaseIIinfo/2:308 WIDTH 7b5f4d3df7 decl int sum -> short
+VPcmFloModem::setPhaseIIinfo/2:309 CMPSIGN f86fcf7f10 compare as uint32_t (no blob compare evidence)
+VPcmFloModem::setPhaseIIinfo/2:309 WIDTH 2986807f31 decl int i -> short
+copyMpInfo:127 CAST 77f4bcad1c cast (int) -> (unsigned)
+ctorBody:148 LIT 7291f9af03 0x1518 -> 0x1519
+ctorBody:148 LIT 53c3d85fd2 0x1518 -> 0x151a
+ctorBody:157 LIT c21881f703 0xe10 -> 0xe11
+ctorBody:157 LIT f59079b348 0xe10 -> 0xe12

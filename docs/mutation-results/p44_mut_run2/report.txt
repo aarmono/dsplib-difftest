@@ -1,0 +1,61 @@
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/p44_demodulator_rest.cpp   functions: jmpB,absI32,splitValue,edFix,storeF,loadLD,copyWord,wordOf,floatOf,trunc64lo,bitRate,phase4Common,timingStats,ctorBody,dtorBody,getBitRateBody,getRbsPatternBody,indicateRemoteRateRenegBody,getAT_UDBody,V90Demodulator::sessionTermination/0,V90Demodulator::enterPhase4/0,V90Demodulator::enterDataSteadyState/0,V90Demodulator::enterRRN/0,V90Demodulator::enterFPE/0,V90Demodulator::setSessionFlag/1,V90Demodulator::enterPhase3/0,V90Demodulator::exitPhase3/0,V90Demodulator::enterDataPhase/0,V90Demodulator::reInit/0,V90Demodulator::reset/1,V90Demodulator::enterChannelVerification/2   source hash 5af21bdc75a5
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 1246   invalid 82   TCE-equivalent 150   live 1014
+  live: killed 995  survived 19  NOVALUE (probe: never run) 0  pending 0
+  survivors+NOVALUE by value probe: NOVALUE 0 (distinguishing value never occurs: identical on this harness; harness-gap candidates), SEEN 4 (value occurred, difference masked downstream: equivalence candidates), no probe 15
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+ARITH         70      35       0      35       0       0  
+BIT            2       0       0       2       0       0  
+CAST          96       0      92       3       1       0  NOISY=1
+CMPSIGN       36       0      18      18       0       0  
+LIT          644      12       0     622      10       0  -=6 NOISY=4
+NEG           48       0       0      48       0       0  
+REL           57       0       0      56       1       0  -=1
+SHIFT          7       0       0       7       0       0  
+SIGN          46       4      33       9       0       0  
+STMT         225      31       2     186       6       0  -=6
+WIDTH         15       0       5       9       1       0  NOISY=1
+
+default directed policy (skips blob-sign-neutral accessor swaps and undirected noisy classes) keeps 1078 of 1246 mutants: TCE-equivalent 22, live 990 (killed 977, survived 13)
+  excluded by policy: CAST/NOISY 91, LIT/NOISY 16, SIGN/NOISY 46, WIDTH/NOISY 15
+  (equivalent-mutant pre-filter + policy): live mutants needing a run: all 1014 -> policy 990
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 864 s; default-policy subset 812 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {'EXECUTED': 15, 'NOCODE': 4}
+TCE validation: {"n": 10, "killed": 0, "ids": []}
+
+SURVIVORS (19; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note
+  V90Demodulator::enterChannelVerification/2:555  short bv = b;
+      ab7560b1f6 [WIDTH NOISY EXECUTED] decl short bv -> int   => int bv = b;
+  V90Demodulator::enterDataPhase/0:504  dm = dem_;
+      376a36b8df [STMT - EXECUTED] delete statement   => ;
+  V90Demodulator::enterPhase3/0:416  if ((signed char)p->params->unk01[1] < 0) return;               /* cmp BYTE [ebx+2],0; js */
+      7b8dbd0eb0 [LIT - EXECUTED SEEN] 0 -> 1   => if ((signed char)p->params->unk01[1] < 1) return;               /* cmp BYTE [ebx+2],0; js */
+      fb374e2f2f [REL - EXECUTED SEEN] < -> <=   => if ((signed char)p->params->unk01[1] <= 0) return;               /* cmp BYTE [ebx+2],0; js */
+  V90Demodulator::exitPhase3/0:448  ci = cpInfo_;
+      4a8aa4ec20 [STMT - EXECUTED] delete statement   => ;
+  V90Demodulator::exitPhase3/0:473  a = adid_;
+      ed1509b8f5 [STMT - EXECUTED] delete statement   => ;
+  absI32:73  unsigned m = (unsigned)(v >> 31);
+      68747a3db4 [LIT - EXECUTED] 31 -> 29   => unsigned m = (unsigned)(v >> 29);
+      391b2f3711 [LIT - EXECUTED] 31 -> 30   => unsigned m = (unsigned)(v >> 30);
+  copyWord:113  __asm__("" : "+r"(w));
+      5bc9303611 [STMT - EXECUTED] delete statement   => ;
+  getAT_UDBody:291  r->rtdUnits_ = (unsigned)(((unsigned long long)x * 0xaaaaaaabull) >> 32) >> 6;
+      1ea355ca80 [LIT - EXECUTED] 0xaaaaaaabull -> 0xaaaaaaacull   => r->rtdUnits_ = (unsigned)(((unsigned long long)x * 0xaaaaaaacull) >> 32) >> 6;
+  getAT_UDBody:292  unsigned rbs[6];
+      620853bb97 [LIT NOISY NOCODE] 6 -> 4   => unsigned rbs[4];
+      e10ca8f45d [LIT NOISY NOCODE] 6 -> 5   => unsigned rbs[5];
+      117e5ef8c2 [LIT NOISY NOCODE] 6 -> 7   => unsigned rbs[7];
+      21f3f79d43 [LIT NOISY NOCODE] 6 -> 8   => unsigned rbs[8];
+  getAT_UDBody:294  for (unsigned i = 0; i <= 5; i++) rbs[i] = a->suspectedPhase_[i];
+      675f27f100 [LIT - EXECUTED SEEN] 5 -> 6   => for (unsigned i = 0; i <= 6; i++) rbs[i] = a->suspectedPhase_[i];
+      6df9842368 [LIT - EXECUTED SEEN] 5 -> 7   => for (unsigned i = 0; i <= 7; i++) rbs[i] = a->suspectedPhase_[i];
+  loadLD:105  __asm__("" : "+t"(r));
+      fd101073ee [STMT - EXECUTED] delete statement   => ;
+  trunc64lo:132  static inline unsigned trunc64lo(LD v) { return (unsigned)(unsigned long long)(long long)v; }
+      121143ba78 [CAST NOISY EXECUTED] drop cast (long long)   => static inline unsigned trunc64lo(LD v) { return (unsigned)(unsigned long long)v; }
+  wordOf:121  __asm__("" : "+r"(w));
+      0afe471211 [STMT - EXECUTED] delete statement   => ;

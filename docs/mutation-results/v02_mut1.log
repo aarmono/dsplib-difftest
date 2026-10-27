@@ -1,0 +1,72 @@
+[gen] 972 generated, 831 selected by policy/classes/sample
+[prepare] base build of build_and_diff_v02.sh: rc=0 3.6s
+[blob] running 5 scenario(s) of the real blob: 0 1 2 3 4
+[control] unmutated port through the replay pipeline ...
+[tce] compiling 831 mutants at -O2 -S ...
+[tce] done in 19.6s
+[gcov] running 5 scenarios of the -O0 instrumented port ...
+[probes] running 5 scenarios of the instrumented port (78 sites: rel,acc,cv,asg)
+[run] 761 live mutants in 701 distinct object codes; 701 to run (+1 TCE-validation)
+[run] 25/702  1s  killed=25
+[run] 50/702  2s  killed=50
+[run] 75/702  5s  killed=75
+[run] 100/702  8s  killed=100
+[run] 125/702  9s  killed=125
+[run] 150/702  12s  killed=150
+[run] 175/702  14s  killed=175
+[run] 200/702  16s  killed=200
+[run] 225/702  17s  killed=225
+[run] 250/702  19s  killed=250
+[run] 275/702  20s  killed=275
+[run] 300/702  21s  killed=300
+[run] 325/702  23s  killed=325
+[run] 350/702  24s  killed=350
+[run] 375/702  26s  killed=375
+[run] 400/702  27s  killed=400
+[run] 425/702  29s  killed=425
+[run] 450/702  31s  killed=450
+[run] 475/702  32s  killed=475
+[run] 500/702  35s  killed=500
+[run] 525/702  37s  killed=525
+[run] 550/702  38s  killed=550
+[run] 575/702  41s  killed=575
+[run] 600/702  42s  killed=600
+[run] 625/702  76s  killed=623
+[run] 650/702  79s  killed=648
+[run] 675/702  83s  killed=673
+[run] 700/702  92s  killed=695
+[run] phase B wall 135s
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/v02_v34_phase34_reneg.cpp   functions: v90Phase34,k56FlexPhase34,v90RateReneg,v90RateRenegSilence,sendBits,sendFixed,bitsDone,pairA,pairB,pairBdone,scrambledPoint   source hash b7cbeddb6aaa
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 831   invalid 69   TCE-equivalent 1   live 761
+  live: killed 754  survived 7  NOVALUE (probe: never run) 0  pending 0
+  survivors+NOVALUE by value probe: NOVALUE 0 (distinguishing value never occurs: identical on this harness; harness-gap candidates), SEEN 0 (value occurred, difference masked downstream: equivalence candidates), no probe 7
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+ARITH         19       5       0      14       0       0  
+BIT           12       0       0      12       0       0  
+CAST          10       0       0       8       2       0  DIR=2
+CMPSIGN        6       0       1       5       0       0  
+LIT          608      60       0     543       5       0  -=5
+NEG           35       0       0      35       0       0  
+REL           30       0       0      30       0       0  
+SHIFT          1       0       0       1       0       0  
+STMT         110       4       0     106       0       0  
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 540 s; default-policy subset 540 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {'EXECUTED': 7}
+TCE validation: {"n": 1, "killed": 0, "ids": []}
+
+SURVIVORS (7; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note
+  bitsDone:68  if (obj->w3596_ != 0x45) obj->w3596_ = 0x45;
+      28da113dbf [LIT - EXECUTED] 0x45 -> 0x43   => if (obj->w3596_ != 0x43) obj->w3596_ = 0x45;
+      5980cfd147 [LIT - EXECUTED] 0x45 -> 0x44   => if (obj->w3596_ != 0x44) obj->w3596_ = 0x45;
+      c1aed2d138 [LIT - EXECUTED] 0x45 -> 0x46   => if (obj->w3596_ != 0x46) obj->w3596_ = 0x45;
+      b99e6b339e [LIT - EXECUTED] 0x45 -> 0x47   => if (obj->w3596_ != 0x47) obj->w3596_ = 0x45;
+  k56FlexPhase34:239  txmitdibit(obj, (short)((unsigned)obj->k56Word_ >> (sh & 31)));
+      470fe9bdc3 [CAST DIR EXECUTED] cast (unsigned) -> (int)   => txmitdibit(obj, (short)((int)obj->k56Word_ >> (sh & 31)));
+      a12d656cb2 [CAST DIR EXECUTED] drop cast (unsigned)   => txmitdibit(obj, (short)(obj->k56Word_ >> (sh & 31)));
+      142a50112b [LIT - EXECUTED] 31 -> 30   => txmitdibit(obj, (short)((unsigned)obj->k56Word_ >> (sh & 30)));
+
+finished

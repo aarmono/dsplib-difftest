@@ -1,0 +1,19 @@
+# Known, explained differences of test/build_and_diff_h01_heap.sh (blob vs port heap-block dumps, H01).  Format: <exe-prefix|*> S<block size> W<32-bit word index> <hi|any>
+# hi = only the high 16 bits of the word differ (the low halves are equal); any = the whole word may differ.  A listed 'hi' difference that no longer occurs FAILS the job (stale); 'any' entries are optional.
+# 264-byte blocks are FPM_TONE objects (sysdep_malloc(0x108)); word 0 = cfg[0] whose low half is the real value (3000 / 1800 / 600) and whose high half is the
+# blob's stack garbage (the caller builds the cfg on the stack and sets only the low half; deterministic in a test process, different in a live one).  The port stores 0.
+* S264 W0 hi
+# 24-byte blocks are FPM_MTD objects; word 2 = cfg[2] (low half = the threshold used by FPM_MTD_detect, high half unused) built on the caller's stack the same way.
+* S24 W2 hi
+# in the V.32 harnesses (prefix v32_engine: v32_engine.main, .vtb, .loclop, .vtb_decoder ...) the cfg is built differently and the whole word may be stack garbage (a pointer into the executable in some runs).
+v32_engine S24 W2 any
+# V8 object word 662 (+0xa58) is the capabilities pointer the harness passes (a raw stack address of the harness' own main(), different in the two executables).
+v8.lifecycle S3780 W662 any
+# B103FP_create (Originate, cfg[1] != 0, cfg[4] != 0): the blob's secondary FPM_TONE cfg word 1 is a stack slot that is NOT initialised on that path (it only holds the
+# right value when the compiler's reuse of the slot from the main tone's cfg survives); under a 0xa5 heap it holds a pointer left on the stack.  The port writes the table value.
+v21_b103 S264 W1 any
+# FPM_TONE object word 15 in the two-object capstone: a pointer-sized value that is stack garbage in the blob's create path in some runs (seen once in ~8 runs, ASLR dependent).
+v32_engine.capstone S264 W15 any
+# the same stack-garbage class in other words of the 264-byte FPM_TONE objects (word 14 / 15 held a pointer left on the blob's stack in 1 of ~10 runs; the port stores the table value)
+* S264 W14 any
+* S264 W15 any

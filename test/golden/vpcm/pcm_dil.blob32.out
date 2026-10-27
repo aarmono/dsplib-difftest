@@ -1,0 +1,84 @@
+set N_=144 Lsp_=120 Ltp_=120 sp_=#1c1a1f465d7455af tp_=#7aa1d4b2fe7592e3 hr_=[19,39,39,39,39,39,39,19,78,78,78,78,78,78,78,25] to_=#c7b3f46659caff73
+set N_=144 Lsp_=60 Ltp_=60 sp_=#2148ea80303509a1 tp_=#704ae9e4975e1dc5 hr_=[9,19,19,19,19,19,19,9,78,78,78,78,78,78,78,25] to_=#c7b3f46659caff73
+set N_=144 Lsp_=120 Ltp_=120 sp_=#c00082630d27ce0a tp_=#82fb920452742bd2 hr_=[19,39,39,39,39,39,39,19,78,78,78,78,78,78,78,25] to_=#0262ca12421d018a
+set N_=144 Lsp_=60 Ltp_=60 sp_=#36c3357c0594ff8c tp_=#d919e9f2ce1cb385 hr_=[9,19,19,19,19,19,19,9,78,78,78,78,78,78,78,25] to_=#3f0639ce02bf995f
+set N_=144 Lsp_=120 Ltp_=120 sp_=#179fcde9b87024de tp_=#02169d36941b19b5 hr_=[19,39,39,39,39,39,39,19,78,78,78,78,78,78,78,25] to_=#5a7479b0653696ea
+set N_=144 Lsp_=60 Ltp_=60 sp_=#6842192850e216ab tp_=#e02827ba9c40da91 hr_=[9,19,19,19,19,19,19,9,78,78,78,78,78,78,78,25] to_=#34036b2a468e2610
+set N_=144 Lsp_=120 Ltp_=120 sp_=#94425915ef8ae712 tp_=#9b9484c90b3a5843 hr_=[19,39,39,39,39,39,39,19,78,78,78,78,78,78,78,25] to_=#5fb78e3347a97295
+set N_=144 Lsp_=60 Ltp_=60 sp_=#2977dc40ccd3ba8b tp_=#067d08bfcdf2164b hr_=[9,19,19,19,19,19,19,9,78,78,78,78,78,78,78,25] to_=#860da7cd206d58af
+set N_=144 Lsp_=120 Ltp_=120 sp_=#6a44a04321dc537b tp_=#c05f7d0200fa2af7 hr_=[19,39,39,39,39,39,39,19,78,78,78,78,78,78,78,25] to_=#505a00cf0295d0a5
+set N_=144 Lsp_=60 Ltp_=60 sp_=#db3f7df0e7feffbf tp_=#2671072b401a2e36 hr_=[9,19,19,19,19,19,19,9,78,78,78,78,78,78,78,25] to_=#864e6944fd180902
+set N_=144 Lsp_=120 Ltp_=120 sp_=#8db27a0b28a580e3 tp_=#ea01d7bf32ac7465 hr_=[19,39,39,39,39,39,39,19,78,78,78,78,78,78,78,25] to_=#82d4e7fba8728524
+set N_=144 Lsp_=60 Ltp_=60 sp_=#d48d96f82cb4e9e4 tp_=#47c0a3bab6dada1a hr_=[9,19,19,19,19,19,19,9,78,78,78,78,78,78,78,25] to_=#8e82577cfcacedde
+set N_=144 Lsp_=60 Ltp_=60 sp_=#58e89f4cb033adeb tp_=#eddb2fb5e103f10c hr_=[9,19,19,19,19,19,19,9,78,78,78,78,78,78,78,25] to_=#3cb9b0025063ac8e
+set N_=144 Lsp_=120 Ltp_=120 sp_=#b99505e788d61266 tp_=#2803dc85beba6506 hr_=[19,39,39,39,39,39,39,19,78,78,78,78,78,78,78,25] to_=#519dd6b84df7a17b
+set N_=144 Lsp_=60 Ltp_=60 sp_=#14583bb67b745710 tp_=#742d2abd44faba31 hr_=[9,19,19,19,19,19,19,9,78,78,78,78,78,78,78,25] to_=#1984873312fd1736
+set N_=144 Lsp_=120 Ltp_=120 sp_=#b22c77310be19660 tp_=#b8f513ff5ebe2f73 hr_=[19,39,39,39,39,39,39,19,78,78,78,78,78,78,78,25] to_=#d5a9674ec30a0991
+calls: malloc 0 free 0 edprintf 400 dbgprintf 0
+COV type 0                       200
+COV type 1                       200
+COV ADI message                  200
+COV ADI_QC message               200
+COV expected image hash checked  2
+COV trials with the block around 2^31 401
+COV dtor with a NULL block pointer 0
+HASH 423ae2332a40b4e9 lines 1208
+calls: malloc 0 free 0 edprintf 86 dbgprintf 0
+COV pcm 0                        601
+COV pcm 1                        601
+COV segment 0                    648
+COV a middle segment             208
+COV past every limit             346
+COV negative value               12
+COV huge value                   10
+COV calculateDilLength(descriptor) 2142
+COV calculateDilLength(type)     429
+COV NULL descriptor              429
+COV N == 0                       133
+COV segment 8 (H[8] = REF[0])    24376
+COV dead == live on a setDilDescriptor image 86
+COV type > 1                     343
+COV trials with the block around 2^31 3001
+COV dtor with a NULL block pointer 0
+HASH 57b9f77ab9fd8c5b lines 4371
+calls: malloc 0 free 0 edprintf 0 dbgprintf 0
+COV call                         2600
+COV Lsp == 0                     37
+COV Ltp == 0                     40
+COV N == 0                       33
+COV N odd                        936
+COV N even                       1664
+COV last grid index odd (length + 19) 1318
+COV last grid index even (length + 18) 1282
+COV start bit inserted inside zone 1 2343
+COV start bit inserted inside zone 2 2328
+COV Lsp a multiple of 16         300
+COV Lsp or Ltp 255               97
+COV all-one symbols              505
+COV TO rows with N >= 0x90       1404
+COV trials with the block around 2^31 2601
+COV dtor with a NULL block pointer 0
+HASH 93e09b981fc065b0 lines 2617
+calls: malloc 0 free 0 edprintf 0 dbgprintf 11357
+COV call                         2600
+COV Lsp == 0                     48
+COV Ltp == 0                     37
+COV N == 0                       37
+COV N odd                        943
+COV N even                       1657
+COV last grid index odd (length + 19) 1355
+COV last grid index even (length + 18) 1245
+COV start bit inserted inside zone 1 2333
+COV start bit inserted inside zone 2 2326
+COV Lsp a multiple of 16         282
+COV Lsp or Ltp 255               71
+COV all-one symbols              528
+COV TO rows with N >= 0x90       1386
+COV level < 2                    929
+COV level >= 2                   1671
+COV level lowered inside print k 606
+COV all 8 messages               1141
+COV entry chain cut short        1297
+COV trials with the block around 2^31 2601
+COV dtor with a NULL block pointer 0
+HASH 2cf955f25d821f98 lines 13979

@@ -1,0 +1,43 @@
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/p36_phase3_demod_rest.cpp   functions: V90Phase3Demodulator::reset/11,V90Phase3Demodulator::twoLevelDemod/2,V90Phase3Demodulator::JdNotDetector/1,V90Phase3Demodulator::setSessionFlag/1,V90Phase3Demodulator::getDecision/1,V90Phase3Demodulator::resetJdNotDetector/0,V90Phase3Demodulator::clearVerificationStatus/0,V90Phase3Demodulator::exitDIL/0,V90Phase3Demodulator::setDigitalImairmentsInfo/0,V90Phase3Demodulator::incrementFramePosition/0,V90Phase3Demodulator::setAltRbsParams/0,V90Phase3Demodulator::getMaxUcode/0,V90Phase3Demodulator::enterWaitForANSpcmDrop/0,wordOf,floatOfWord,storeWord,copyWordF,paramWordF,levelOf,initialStateNote,pickLevel,ctorBody,dtorBody   source hash 8d16152551d8
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 590   invalid 60   TCE-equivalent 72   live 458
+  live: killed 451  survived 6  NOVALUE (probe: never run) 1  pending 0
+  survivors+NOVALUE by value probe: NOVALUE 1 (distinguishing value never occurs: identical on this harness; harness-gap candidates), SEEN 0 (value occurred, difference masked downstream: equivalence candidates), no probe 6
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+ARITH         14       8       0       6       0       0  
+BIT            3       0       0       3       0       0  
+CAST          52       0      49       2       0       0  
+CMPSIGN       16       0       7       9       0       0  
+LIT          336      40       0     294       2       0  -=2
+LOGIC          6       0       0       6       0       0  
+NEG           24       0       0      24       0       0  
+REL           40       0       0      40       0       0  
+SHIFT          1       0       0       1       0       0  
+SIGN          24       7      14       1       2       0  NOISY=2
+STMT          69       5       0      63       1       0  -=1
+WIDTH          5       0       2       2       1       0  NOISY=1
+
+default directed policy (skips blob-sign-neutral accessor swaps and undirected noisy classes) keeps 509 of 590 mutants: TCE-equivalent 7, live 449 (killed 446, survived 3)
+  excluded by policy: CAST/NOISY 52, SIGN/NOISY 24, WIDTH/NOISY 5
+  (equivalent-mutant pre-filter + policy): live mutants needing a run: all 457 -> policy 449
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 894 s; default-policy subset 857 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {'EXECUTED': 6, 'NOCODE': 1}
+TCE validation: {"n": 11, "killed": 0, "ids": []}
+
+SURVIVORS (7; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note
+  copyWordF:57  uint32_t w;
+      6b46fa0dc5 [WIDTH NOISY NOCODE] decl uint32_t w -> uint16_t   => uint16_t w;
+  copyWordF:58  __builtin_memcpy(&w, src, 4);
+      040f6a4c21 [LIT - EXECUTED] 4 -> 5   => __builtin_memcpy(&w, src, 5);
+      5846b1c0ad [LIT - EXECUTED] 4 -> 6   => __builtin_memcpy(&w, src, 6);
+  initialStateNote:73  static inline void initialStateNote(D *t, unsigned st) {
+      d53ca783aa [SIGN NOISY EXECUTED] decl unsigned st -> int   => static inline void initialStateNote(D *t, int st) {
+  levelOf:66  static inline unsigned short levelOf(unsigned pcm, unsigned char code) {
+      1b70ec1824 [SIGN NOISY EXECUTED] decl unsigned char code -> signed char   => static inline unsigned short levelOf(unsigned pcm, signed char code) {
+  pickLevel:96  unsigned idx = (((unsigned)(unsigned short)t->phase_) << 7) + t->code_;
+      d8a2740c88 [CAST NOISY EXECUTED NOVALUE] cast (unsigned short) -> (short)   => unsigned idx = (((unsigned)(short)t->phase_) << 7) + t->code_;
+  wordOf:43  __asm__("" : "+r"(w));
+      31f1a0d209 [STMT - EXECUTED] delete statement   => ;

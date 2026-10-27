@@ -1,0 +1,25 @@
+V90Equalizer::enterPhase4/0:249 WIDTH 0d993b94d7 decl int sgn -> short
+V90Equalizer::enterPhase4/0:261 CMPSIGN 90e14b0ca0 compare as int32_t (no blob compare evidence)
+V90Equalizer::enterPhase4/0:261 SIGN a84a881bcc decl unsigned k -> int
+V90Equalizer::enterPhase4/0:263 CMPSIGN 502c4feff4 compare as int32_t (no blob compare evidence)
+V90Equalizer::enterPhase4/0:263 SIGN 16b523c089 decl unsigned k -> int
+convertCoefs:179 CMPSIGN e0a0887437 compare as int32_t (no blob compare evidence)
+convertCoefs:179 SIGN b787d731db decl unsigned i -> int
+convertHist:220 CMPSIGN 9f132306ad compare as int32_t (no blob compare evidence)
+convertHist:220 SIGN 38dd0860e6 decl unsigned i -> int
+convertHist:221 WIDTH 0961b59533 decl int s -> short
+scanCoefs:115 SIGN 842242b173 decl unsigned n -> int
+scanCoefs:120 CMPSIGN ad34e0a510 compare as int32_t (no blob compare evidence)
+scanCoefs:120 LIT ff3e81501d 1 -> 0
+scanCoefs:120 REL b5ab5a8369 > -> >=
+scanCoefs:124 REL 10058ac07b > -> >=
+scanCoefs:125 REL c05f40a8dc >= -> >
+statsHigh:194 SIGN 45d6733331 decl int isum -> unsigned
+statsHigh:195 CMPSIGN a82ebfdce2 compare as int32_t (no blob compare evidence)
+statsHigh:195 SIGN 21eaed9289 decl unsigned i -> int
+statsHigh:197 SIGN ed38c4a863 decl int a -> unsigned
+statsHigh:200 CMPSIGN db3b8b8ab2 compare as uint32_t (no blob compare evidence)
+statsHigh:201 CMPSIGN 269e80506f compare as uint32_t (no blob compare evidence)
+trunc16:213 CMPSIGN 38c3637bf7 compare as int32_t (no blob compare evidence)
+trunc16:213 REL 4503111ce5 < -> <=
+trunc16:214 CAST 57648ec11f cast (int) -> (unsigned)

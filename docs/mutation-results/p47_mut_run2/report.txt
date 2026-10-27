@@ -1,0 +1,154 @@
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/p47_vpcmflo_b.cpp   functions: dbgOn,storeF,paramByte3,modemParamByte3,setBaudFlags,clearCpFlags,clearSessionState,copyMpInfo,sessionVersion,info90,info92,chopMul,ctorBody,VPcmFloModem::setTerminateJaFlag/1,VPcmFloModem::setTerminateCpFlag/1,VPcmFloModem::setTerminateCpNotFlag/1,VPcmFloModem::setMinNofTransmitSequences/1,VPcmFloModem::setNofBitsPhase4/1,VPcmFloModem::resetBitPointer/0,VPcmFloModem::getV90JaBits/1,VPcmFloModem::getV90CpBits/1,VPcmFloModem::setV34BaudForV90/0,VPcmFloModem::setV34BaudForV34/0,VPcmFloModem::internalReset/0,VPcmFloModem::copyMpInfoForInterface/0,VPcmFloModem::setPcmSessionType/1,VPcmFloModem::externalReset/0,VPcmFloModem::setPhaseIIinfo/2,VPcmFloModem::getUinfoValue/1,VPcmFloModem::vPcmResetPhase3Modem/0,VPcmFloModem::enterPhase3/0,VPcmFloModem::getConstellation/2,VPcmFloModem::getLinearEqualizer/2,VPcmFloModem::getDFE/2,VPcmFloModem::qcLineVerification/7   source hash 4fce8df8760d
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 103   invalid 0   TCE-equivalent 0   live 103
+  live: killed 4  survived 99  NOVALUE (probe: never run) 0  pending 0
+  survivors+NOVALUE by value probe: NOVALUE 0 (distinguishing value never occurs: identical on this harness; harness-gap candidates), SEEN 2 (value occurred, difference masked downstream: equivalence candidates), no probe 97
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+CAST           5       0       0       0       5       0  NOISY=5
+CMPSIGN        7       0       0       0       7       0  UNDIRECTED=7
+LIT           72       0       0       4      68       0  -=62 NOISY=6
+SIGN           8       0       0       0       8       0  NOISY=8
+STMT           1       0       0       0       1       0  -=1
+WIDTH         10       0       0       0      10       0  NOISY=10
+
+default directed policy (skips blob-sign-neutral accessor swaps and undirected noisy classes) keeps 74 of 103 mutants: TCE-equivalent 0, live 74 (killed 4, survived 70)
+  excluded by policy: CAST/NOISY 5, LIT/NOISY 6, SIGN/NOISY 8, WIDTH/NOISY 10
+  (equivalent-mutant pre-filter + policy): live mutants needing a run: all 103 -> policy 74
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 2786 s; default-policy subset 2026 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {'EXECUTED': 50, 'NOCODE': 49}
+
+SURVIVORS (99; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note
+  VPcmFloModem::getConstellation/2:438  unsigned n = d->eqCnt_;
+      6211ee9ab3 [SIGN NOISY EXECUTED] decl unsigned n -> int   => int n = d->eqCnt_;
+  VPcmFloModem::getConstellation/2:443  for (unsigned i = 0; i < n; i++) {
+      2260aba192 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => for (unsigned i = 0; (int32_t)(i) < (int32_t)(n); i++) {
+  VPcmFloModem::getConstellation/2:452  for (unsigned i = 0; i < n; i++) {
+      0e22198354 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => for (unsigned i = 0; (int32_t)(i) < (int32_t)(n); i++) {
+  VPcmFloModem::getConstellation/2:456  int r = q % 100;
+      ceee5ada8b [WIDTH NOISY EXECUTED] decl int r -> short   => short r = q % 100;
+  VPcmFloModem::getConstellation/2:458  int e = r + (int)(t * 140u);
+      7401693233 [WIDTH NOISY EXECUTED] decl int e -> short   => short e = r + (int)(t * 140u);
+  VPcmFloModem::getDFE/2:480  unsigned n = v90_.dem_->eq_->dfeLen_;
+      f2c08459e2 [SIGN NOISY EXECUTED] decl unsigned n -> int   => int n = v90_.dem_->eq_->dfeLen_;
+  VPcmFloModem::getDFE/2:483  for (unsigned i = 0; i < n; i++) {
+      80cccf5208 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => for (unsigned i = 0; (int32_t)(i) < (int32_t)(n); i++) {
+  VPcmFloModem::getLinearEqualizer/2:468  unsigned n = v90_.dem_->eq_->linLen_;
+      1a9bfae433 [SIGN NOISY EXECUTED] decl unsigned n -> int   => int n = v90_.dem_->eq_->linLen_;
+  VPcmFloModem::getLinearEqualizer/2:471  for (unsigned i = 0; i < n; i++) {
+      6706218ed0 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => for (unsigned i = 0; (int32_t)(i) < (int32_t)(n); i++) {
+  VPcmFloModem::getUinfoValue/1:363  static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      9da0624143 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 2, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      d3d1b71c21 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 2, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      bf501fc276 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 2, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      94f3905a20 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 2, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      64f7d58d47 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 2, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      2cec56e39f [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 2, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      87e9f20460 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 2, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      f97129e406 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 2, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      05991830d3 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 2, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      1fb3431776 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 2, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      8d2aa7dc6a [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 2, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      6bd255a41d [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 2, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      40281694cd [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 2, 1, 1, 1, 1, 1, 1, 1, 1 };
+      94160b4137 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 2, 1, 1, 1, 1, 1, 1, 1 };
+      7a55584069 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 2, 1, 1, 1, 1, 1, 1 };
+      2c446d3fa4 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 2, 1, 1, 1, 1, 1 };
+      e6898f2d0c [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 2, 1, 1, 1, 1 };
+      798d99cc56 [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 2, 1, 1, 1 };
+      c780c070cb [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 2, 1, 1 };
+      7152b2bccc [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 2, 1 };
+      0ab007cb7a [LIT - NOCODE] 1 -> 2   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2 };
+      09acf541b7 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 3, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      1365008e64 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 3, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      bb375ee848 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 3, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      8b9e135caf [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 3, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      c35a32e92f [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 3, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      fda7a0e043 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 3, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      41bd65140a [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 3, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      6b579d627a [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 3, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      0a1798fe53 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 3, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      84e5bcf0c1 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 3, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      9b3d72fcce [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 3, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      dcb5247fa9 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 3, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      13273e49c0 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 3, 1, 1, 1, 1, 1, 1, 1, 1 };
+      c005f74b81 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 3, 1, 1, 1, 1, 1, 1, 1 };
+      6c992cbc85 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 3, 1, 1, 1, 1, 1, 1 };
+      2de04b00a1 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 3, 1, 1, 1, 1, 1 };
+      8e17090530 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 3, 1, 1, 1, 1 };
+      f861e6b95c [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 3, 1, 1, 1 };
+      92a09669fe [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 3, 1, 1 };
+      59d32b7ac9 [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 3, 1 };
+      e31a961a2a [LIT - NOCODE] 1 -> 3   => static const unsigned char keep[25] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 3 };
+      b8b2aab750 [LIT NOISY NOCODE] 25 -> 26   => static const unsigned char keep[26] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+      85acdca68b [LIT NOISY NOCODE] 25 -> 27   => static const unsigned char keep[27] = { 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+  VPcmFloModem::getUinfoValue/1:372  int k = 0;
+      1c6ea22bb1 [WIDTH NOISY EXECUTED] decl int k -> short   => short k = 0;
+  VPcmFloModem::getUinfoValue/1:373  for (int i = 0; i <= 24; i++) {
+      5ac85ad9c8 [LIT - EXECUTED] 0 -> (-1)   => for (int i = (-1); i <= 24; i++) {
+      fb025551f1 [LIT - EXECUTED] 0 -> (-2)   => for (int i = (-2); i <= 24; i++) {
+      9bc4e4d697 [LIT - EXECUTED] 24 -> 25   => for (int i = 0; i <= 25; i++) {
+      13f6da15c5 [LIT - EXECUTED] 24 -> 26   => for (int i = 0; i <= 26; i++) {
+  VPcmFloModem::getUinfoValue/1:385  for (int i = 0xf; i <= 0x14; i++) {
+      c34b6ebbaf [CMPSIGN UNDIRECTED EXECUTED] compare as uint32_t (no blob compare evidence)   => for (int i = 0xf; (uint32_t)(i) <= (uint32_t)(0x14); i++) {
+  VPcmFloModem::getUinfoValue/1:389  int whole = dsp_trunc_i32(v);
+      15c8a31434 [WIDTH NOISY EXECUTED] decl int whole -> short   => short whole = dsp_trunc_i32(v);
+  VPcmFloModem::getUinfoValue/1:391  unsigned m = (unsigned)(frac >> 31);   /* cdq; xor eax, edx; sub eax, edx: the absolute value (INT_MIN stays) */
+      bbfce2b4cd [LIT - EXECUTED] 31 -> 29   => unsigned m = (unsigned)(frac >> 29);   /* cdq; xor eax, edx; sub eax, edx: the absolute value (INT_MIN stays) */
+      09b538bf87 [LIT - EXECUTED] 31 -> 30   => unsigned m = (unsigned)(frac >> 30);   /* cdq; xor eax, edx; sub eax, edx: the absolute value (INT_MIN stays) */
+  VPcmFloModem::getUinfoValue/1:402  int u = (int)(short)v90_.params_->phase2InfoUinfo;
+      faf4b4c470 [SIGN NOISY EXECUTED] decl int u -> unsigned   => unsigned u = (int)(short)v90_.params_->phase2InfoUinfo;
+      13b7f4400d [WIDTH NOISY EXECUTED] decl int u -> short   => short u = (int)(short)v90_.params_->phase2InfoUinfo;
+  VPcmFloModem::getV90CpBits/1:247  int ret = 0;
+      f51eb93579 [SIGN NOISY EXECUTED] decl int ret -> unsigned   => unsigned ret = 0;
+      9070db9ce5 [WIDTH NOISY EXECUTED] decl int ret -> short   => short ret = 0;
+  VPcmFloModem::getV90CpBits/1:250  for (unsigned short c = 0; c < (unsigned)nofBitsPhase4_; c++) {
+      0f8e8fe92e [SIGN NOISY EXECUTED] decl unsigned short c -> short   => for (short c = 0; c < (unsigned)nofBitsPhase4_; c++) {
+  VPcmFloModem::getV90CpBits/1:256  if ((int)bitPtr_ != (int)(short)cpLen_) return 0;
+      66533ccbae [CAST NOISY EXECUTED SEEN] cast (short) -> (unsigned short)   => if ((int)bitPtr_ != (int)(unsigned short)cpLen_) return 0;
+      8e4f624c6d [CAST NOISY EXECUTED] drop cast (short)   => if ((int)bitPtr_ != (int)cpLen_) return 0;
+  VPcmFloModem::getV90CpBits/1:270  for (unsigned short i = 0; (int)i < (int)(short)n; i++) cpFrame_[i] = cpnotFrame_[i];
+      38a2df5ca4 [SIGN NOISY EXECUTED] decl unsigned short i -> short   => for (short i = 0; (int)i < (int)(short)n; i++) cpFrame_[i] = cpnotFrame_[i];
+  VPcmFloModem::getV90JaBits/1:235  int v = cpnotFrame_[idx];
+      f96317b307 [SIGN NOISY EXECUTED] decl int v -> unsigned   => unsigned v = cpnotFrame_[idx];
+  VPcmFloModem::getV90JaBits/1:237  if ((int)bitPtr_ == (int)(short)cpnotLen_) bitPtr_ = 0;
+      a88bb75acf [CAST NOISY EXECUTED SEEN] cast (short) -> (unsigned short)   => if ((int)bitPtr_ == (int)(unsigned short)cpnotLen_) bitPtr_ = 0;
+      60c43621c0 [CAST NOISY EXECUTED] drop cast (short)   => if ((int)bitPtr_ == (int)cpnotLen_) bitPtr_ = 0;
+  VPcmFloModem::qcLineVerification/7:494  int code = (int)v90_.dem_->state_;
+      df7c80a1ec [WIDTH NOISY EXECUTED] decl int code -> short   => short code = (int)v90_.dem_->state_;
+  VPcmFloModem::qcLineVerification/7:515  st = 2;
+      a690795037 [LIT - EXECUTED] 2 -> 0   => st = 0;
+      c3040e8f46 [LIT - EXECUTED] 2 -> 3   => st = 3;
+      0a1c2da2b9 [LIT - EXECUTED] 2 -> 4   => st = 4;
+  VPcmFloModem::qcLineVerification/7:543  for (unsigned i = 0; i < n; i++) ((int *)out)[i] = 0;
+      2ca55cd322 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => for (unsigned i = 0; (int32_t)(i) < (int32_t)(n); i++) ((int *)out)[i] = 0;
+  VPcmFloModem::setPhaseIIinfo/2:306  int w[7];
+      bcc546d03f [LIT NOISY NOCODE] 7 -> 5   => int w[5];
+      2c48d31bdb [LIT NOISY NOCODE] 7 -> 6   => int w[6];
+      97f4dbf44e [LIT NOISY NOCODE] 7 -> 8   => int w[8];
+      52db706b7b [LIT NOISY NOCODE] 7 -> 9   => int w[9];
+      9093640654 [WIDTH NOISY NOCODE] decl int w -> short   => short w[7];
+  VPcmFloModem::setPhaseIIinfo/2:307  w[0] = 1; w[1] = 2; w[2] = 4; w[3] = 8; w[4] = 0x10; w[5] = 0x20; w[6] = 0x40;
+      9cc2fbd319 [LIT - EXECUTED] 0x20 -> 0x1e   => w[0] = 1; w[1] = 2; w[2] = 4; w[3] = 8; w[4] = 0x10; w[5] = 0x1e; w[6] = 0x40;
+      460293a6cf [LIT - EXECUTED] 0x20 -> 0x1f   => w[0] = 1; w[1] = 2; w[2] = 4; w[3] = 8; w[4] = 0x10; w[5] = 0x1f; w[6] = 0x40;
+      bce7946d25 [LIT - EXECUTED] 0x20 -> 0x21   => w[0] = 1; w[1] = 2; w[2] = 4; w[3] = 8; w[4] = 0x10; w[5] = 0x21; w[6] = 0x40;
+      636dfd8beb [LIT - EXECUTED] 0x20 -> 0x22   => w[0] = 1; w[1] = 2; w[2] = 4; w[3] = 8; w[4] = 0x10; w[5] = 0x22; w[6] = 0x40;
+      ab5eefb951 [LIT - EXECUTED] 5 -> 6   => w[0] = 1; w[1] = 2; w[2] = 4; w[3] = 8; w[4] = 0x10; w[6] = 0x20; w[6] = 0x40;
+      ea4374a111 [LIT - EXECUTED] 5 -> 7   => w[0] = 1; w[1] = 2; w[2] = 4; w[3] = 8; w[4] = 0x10; w[7] = 0x20; w[6] = 0x40;
+      5f4c8aff2c [LIT - EXECUTED] 6 -> 5   => w[0] = 1; w[1] = 2; w[2] = 4; w[3] = 8; w[4] = 0x10; w[5] = 0x20; w[5] = 0x40;
+      6e5ce016ee [STMT - EXECUTED] delete statement   => w[0] = 1; w[1] = 2; w[2] = 4; w[3] = 8; w[4] = 0x10; ; w[6] = 0x40;
+  VPcmFloModem::setPhaseIIinfo/2:308  int sum = 0;
+      7b5f4d3df7 [WIDTH NOISY EXECUTED] decl int sum -> short   => short sum = 0;
+  VPcmFloModem::setPhaseIIinfo/2:309  for (int i = 0; i <= 4; i++) sum = (int)((unsigned)sum + (unsigned)p[0x84 / 4 + i] * (unsigned)w[i]);
+      f86fcf7f10 [CMPSIGN UNDIRECTED EXECUTED] compare as uint32_t (no blob compare evidence)   => for (int i = 0; (uint32_t)(i) <= (uint32_t)(4); i++) sum = (int)((unsigned)sum + (unsigned)p[0x84 / 4 + i] * (unsigned)w[i]);
+      2986807f31 [WIDTH NOISY EXECUTED] decl int i -> short   => for (short i = 0; i <= 4; i++) sum = (int)((unsigned)sum + (unsigned)p[0x84 / 4 + i] * (unsigned)w[i]);
+  copyMpInfo:127  m->mpRate2_ = (uint16_t)(2 * (int)(short)m->v90_.mp_.rateMask_);
+      77f4bcad1c [CAST NOISY EXECUTED] cast (int) -> (unsigned)   => m->mpRate2_ = (uint16_t)(2 * (unsigned)(short)m->v90_.mp_.rateMask_);
+  ctorBody:148  sysdep_memset(m->cpnotFrame_, 0, 0x1518);
+      7291f9af03 [LIT - EXECUTED] 0x1518 -> 0x1519   => sysdep_memset(m->cpnotFrame_, 0, 0x1519);
+      53c3d85fd2 [LIT - EXECUTED] 0x1518 -> 0x151a   => sysdep_memset(m->cpnotFrame_, 0, 0x151a);
+  ctorBody:157  sysdep_memset(m->cpFrame_, 0, 0xe10);
+      c21881f703 [LIT - EXECUTED] 0xe10 -> 0xe11   => sysdep_memset(m->cpFrame_, 0, 0xe11);
+      f59079b348 [LIT - EXECUTED] 0xe10 -> 0xe12   => sysdep_memset(m->cpFrame_, 0, 0xe12);

@@ -1,0 +1,45 @@
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/p38_phase4_demod_rest.cpp   functions: ctorBody,dtorBody,levelOfMagnitude,absIdiom,resetOwners,settle,V90Phase4Demodulator::setSessionFlag/1,V90Phase4Demodulator::enterWaitForCP/0,V90Phase4Demodulator::enterWaitForMP/0,V90Phase4Demodulator::enterWaitForEd/0,V90Phase4Demodulator::resetRRNDetector/0,V90Phase4Demodulator::detectRRN/1,V90Phase4Demodulator::resetBeforRRN/0,V90Phase4Demodulator::detectFPE/1,V90Phase4Demodulator::trn2dKnownDemod/0,V90Phase4Demodulator::reset/4,V90Phase4Demodulator::getDecision/1   source hash 6f911fcfc7ac
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 450   invalid 16   TCE-equivalent 80   live 354
+  live: killed 344  survived 10  NOVALUE (probe: never run) 0  pending 0
+  survivors+NOVALUE by value probe: NOVALUE 0 (distinguishing value never occurs: identical on this harness; harness-gap candidates), SEEN 0 (value occurred, difference masked downstream: equivalence candidates), no probe 10
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+ARITH          7       1       0       6       0       0  
+BIT            5       0       0       5       0       0  
+CAST          64       0      63       1       0       0  
+CMPSIGN        2       0       1       1       0       0  
+LIT          256       8       0     244       4       0  -=4
+LOGIC          1       0       0       0       1       0  -=1
+NEG           10       0       0      10       0       0  
+REL           13       0       0      13       0       0  
+SHIFT          3       0       0       3       0       0  
+SIGN          23       7      11       2       3       0  NOISY=3
+STMT          59       0       0      59       0       0  
+WIDTH          7       0       5       0       2       0  NOISY=2
+
+default directed policy (skips blob-sign-neutral accessor swaps and undirected noisy classes) keeps 356 of 450 mutants: TCE-equivalent 1, live 346 (killed 341, survived 5)
+  excluded by policy: CAST/NOISY 64, SIGN/NOISY 23, WIDTH/NOISY 7
+  (equivalent-mutant pre-filter + policy): live mutants needing a run: all 354 -> policy 346
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 1376 s; default-policy subset 1282 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {'EXECUTED': 10}
+TCE validation: {"n": 10, "killed": 0, "ids": []}
+
+SURVIVORS (10; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note
+  V90Phase4Demodulator::reset/4:195  if (mp1_ != 0 && adid_ != 0) dem_->reset(mp1_);
+      dec9ba488e [LOGIC - EXECUTED] && -> ||   => if (mp1_ != 0 || adid_ != 0) dem_->reset(mp1_);
+  V90Phase4Demodulator::trn2dKnownDemod/0:167  int sg = v >> 31;
+      f670e95844 [LIT - EXECUTED] 31 -> 29   => int sg = v >> 29;
+      a8e2c8fbf7 [LIT - EXECUTED] 31 -> 30   => int sg = v >> 30;
+  V90Phase4Demodulator::trn2dKnownDemod/0:170  short sa = (short)a;
+      0d7aa05a72 [SIGN NOISY EXECUTED] decl short sa -> unsigned short   => unsigned short sa = (short)a;
+      1d0d8eb62e [WIDTH NOISY EXECUTED] decl short sa -> int   => int sa = (short)a;
+  absIdiom:68  int s = v >> 31;
+      4cbcdf8f24 [LIT - EXECUTED] 31 -> 29   => int s = v >> 29;
+      b25963ad23 [LIT - EXECUTED] 31 -> 30   => int s = v >> 30;
+      19a3347bbf [SIGN NOISY EXECUTED] decl int s -> unsigned   => unsigned s = v >> 31;
+      f9777d2dcd [WIDTH NOISY EXECUTED] decl int s -> short   => short s = v >> 31;
+  settle:86  static inline void settle(D *t, unsigned n) {
+      df432261bd [SIGN NOISY EXECUTED] decl unsigned n -> int   => static inline void settle(D *t, int n) {

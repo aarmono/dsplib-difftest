@@ -1,0 +1,18 @@
+[gen] 1920 generated, 1920 selected by policy/classes/sample
+[prepare] base build of build_and_diff_p43.sh: rc=0 7.3s
+[blob] running 3 scenario(s) of the real blob: 0 1 2
+[control] unmutated port through the replay pipeline ...
+[tce] compiling 1920 mutants at -O2 -S ...
+[tce] done in 92.2s
+[gcov] running 3 scenarios of the -O0 instrumented port ...
+[probes] running 3 scenarios of the instrumented port (180 sites: rel,acc,cv,asg)
+[run] 1653 live mutants in 1472 distinct object codes; 1472 to run (+18 TCE-validation)
+[run] 25/1490  3s  killed=25
+[run] 50/1490  12s  killed=48
+[run] 75/1490  23s  killed=65
+[run] 100/1490  26s  killed=86
+[run] 125/1490  29s  killed=110
+[run] 150/1490  31s  killed=135
+[run] 175/1490  33s  killed=160
+[run] 200/1490  35s  killed=185
+[run] 225/1490  37s  killed=210

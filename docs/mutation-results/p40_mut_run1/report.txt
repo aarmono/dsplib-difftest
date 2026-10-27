@@ -1,0 +1,265 @@
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/p40_equalizer_process.cpp   functions: copyWord,trunc16,trunc64lo,absWrap,signChar,intPart,frac1000,dot2,mmxUpdate,toMmx,toFloat,printRatio,printHighError,V90Equalizer::process/5   source hash d8f7cb600af2
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 2282   invalid 72   TCE-equivalent 342   live 1868
+  live: killed 1715  survived 130  NOVALUE (probe: never run) 23  pending 0
+  survivors+NOVALUE by value probe: NOVALUE 29 (distinguishing value never occurs: identical on this harness; harness-gap candidates), SEEN 21 (value occurred, difference masked downstream: equivalence candidates), no probe 103
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+ARITH        112       2       0     109       1       0  -=1
+BIT            4       0       0       4       0       0  
+CAST         283       0     248      21      14       0  DIR=8 NOISY=6
+CMPSIGN       98       0      38      30      16       0  UNDIRECTED=16
+LIT         1120      53      30     997      37       0  -=37
+LOGIC         32       0       0      31       1       0  -=1
+NEG          107       0       0     107       0       0  
+REL          201       0       0     188       7       0  -=7
+SHIFT          5       0       0       5       0       0  
+SIGN          59       2      17      10      30       0  NOISY=30
+STMT         238      14       9     199      16       0  -=16
+WIDTH         23       1       0      14       8       0  NOISY=8
+
+default directed policy (skips blob-sign-neutral accessor swaps and undirected noisy classes) keeps 1935 of 2282 mutants: TCE-equivalent 81, live 1762 (killed 1676, survived 86)
+  excluded by policy: CAST/NOISY 265, SIGN/NOISY 59, WIDTH/NOISY 23
+  (equivalent-mutant pre-filter + policy): live mutants needing a run: all 1845 -> policy 1762
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 5952 s; default-policy subset 5455 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {'EXECUTED': 148, 'NOCODE': 5}
+TCE validation: {"n": 30, "killed": 0, "ids": []}
+
+SURVIVORS (153; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note
+  V90Equalizer::process/5:175  int yInt = intPart((LD)yf);
+      293aa23ed0 [SIGN NOISY NOCODE] decl unsigned mmx54 -> int
+  V90Equalizer::process/5:176  int yFrac = absWrap(dsp_trunc_i32(t2 * (LD)1000.0f));
+      51fccdddb6 [SIGN NOISY NOCODE] decl unsigned i -> int
+  V90Equalizer::process/5:177  int eInt = dsp_trunc_i32(ae);
+      169488d963 [SIGN NOISY NOCODE] decl unsigned cnt -> int
+  V90Equalizer::process/5:182  edprintf(PFX "High momentary error, symbol#%d, error = %c%d.%03d,   soft Decision = %c%d.%03d\r\n", (int)i, sgnE, eInt, eFrac, sgnY, yInt, yFrac);
+      72cd3d34d5 [SIGN NOISY NOCODE] decl unsigned ev -> int   => edprintf(PFX "High momentary error, symbol#%d, error = %c%d.%03d,   soft Decision = %c%d.%03d\r\n", (int)i, sgnE, eInt, eFrac, sgnY,intFrac);
+  V90Equalizer::process/5:183  }
+      41dc691b19 [WIDTH NOISY NOCODE] decl int a16 -> short
+  V90Equalizer::process/5:189  unsigned mode;             /* the blob's ecx at 39250 */
+      3b349927a2 [LIT - EXECUTED] 0 -> (-1)
+      d86d3a6e15 [LIT - EXECUTED] 0 -> (-2)
+      85444c8ce6 [LIT - EXECUTED] 0 -> 1
+      4ddda2561a [LIT - EXECUTED] 0 -> 2
+      7b677ab5f0 [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:190  unsigned mmx54;            /* [esp+0x54]: a cache of mmx_ */
+      cdcce564a0 [LIT - EXECUTED] 0 -> (-1)
+      b56cd46f2e [LIT - EXECUTED] 0 -> (-2)
+      1bd16efc5b [LIT - EXECUTED] 0 -> 1
+      49623e71ab [LIT - EXECUTED] 0 -> 2
+      f6ebf66733 [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:191  unsigned i;                /* [esp+0x4c] */
+      4fdab4705f [LIT - EXECUTED] 0 -> (-1)
+      f0cc6aebfd [LIT - EXECUTED] 0 -> (-2)
+      44094d97f5 [LIT - EXECUTED] 0 -> 1
+      2c82c10ed5 [LIT - EXECUTED] 0 -> 2
+      8a3ab6b52d [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:194  int y16, dec88, q2, q1, e1, e2;
+      0ac9703c29 [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:195  volatile float yf, Lf, Df, decF;
+      17115c2c5f [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:196  LD e;
+      7ec1f65612 [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:197  unsigned ev, st, cn, ib, k;
+      267fc641a2 [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:207  e1 = 0;
+      65775bc172 [LIT - EXECUTED] 0 -> (-1)
+      26697b7cf9 [LIT - EXECUTED] 0 -> (-2)
+  V90Equalizer::process/5:210  Lf = 0.0f;
+      d0bb44e992 [SIGN NOISY EXECUTED] decl unsigned t -> int
+  V90Equalizer::process/5:224  const float *s = in;
+      90742472f1 [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:227  if (pend_ != 0) {                          /* 38e45 */
+      7c7b32c633 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+  V90Equalizer::process/5:244  
+      07c79f5052 [CAST DIR EXECUTED] cast (int) -> (unsigned)
+      925ea50e37 [CAST DIR EXECUTED] drop cast (int)   => /* ------------------------------------------------------------------------------------------ the per-symbol loop */
+      70cf15b603 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as uint32_t (no blob compare evidence)
+      8cf195f085 [SIGN NOISY EXECUTED] decl int t -> unsigned
+      890a0376ff [WIDTH NOISY EXECUTED] decl int t -> short
+  V90Equalizer::process/5:248  L_38fc0:
+      6492d30157 [CAST DIR EXECUTED] cast (int) -> (unsigned)   => {                                            /* 38fcc: the 16-bit mode */
+      306db047a3 [CAST DIR EXECUTED] drop cast (int)   => {                                            /* 38fcc: the 16-bit mode */
+      93f3dd0df1 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as uint32_t (no blob compare evidence)
+      6837f7aaf4 [SIGN NOISY EXECUTED] decl int t -> unsigned   => if (mmx54 == 0) goto L_390d0;
+      d5aa43e759 [WIDTH NOISY EXECUTED] decl int t -> short   => if (mmx54 == 0) goto L_390d0;
+  V90Equalizer::process/5:256  h16[idx] = p74[1];
+      60c5881f56 [SIGN NOISY EXECUTED] decl unsigned idx -> int
+  V90Equalizer::process/5:263  for (int t = 0; t < (int)linLen_; ++t) s2 = (int)((unsigned)s2 + (unsigned)((int)linHi_[t] * (int)hp[t]));
+      5a0888c3b5 [SIGN NOISY EXECUTED] decl unsigned idx -> int   => q2 = s2 / linDiv_;
+  V90Equalizer::process/5:303  case 5: goto L_39b87;
+      ed9d06b173 [CMPSIGN UNDIRECTED EXECUTED SEEN] compare as int32_t (no blob compare evidence)
+      62b8359c4b [LIT - EXECUTED SEEN] 0x11 -> 0x12
+      27257abe52 [LIT - EXECUTED SEEN] 0x11 -> 0x13
+  V90Equalizer::process/5:324  case 11: goto L_3ac83;
+      05f83bbba3 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+  V90Equalizer::process/5:327  case 14: goto L_3abb1;
+      cb36c3b5fd [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+  V90Equalizer::process/5:423  } else {
+      c2e1788811 [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:430  }
+      cc0fe93a7f [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:436  if ((unsigned)params_->dfeQcTrn1dFreezeDuration == cn) setDfeBeta(WORDARG(params_->dfeDataBeta));
+      07e7a35835 [REL - EXECUTED SEEN] > -> >=
+  V90Equalizer::process/5:437  }
+      3f028b1ee7 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      2ae6644cd2 [REL - EXECUTED SEEN] >= -> >
+  V90Equalizer::process/5:438  st = p3_->state_;                            /* 3a25a */
+      0e2dbe2840 [CAST DIR EXECUTED] cast (int) -> (unsigned)
+      e7f24b5367 [CAST DIR EXECUTED] drop cast (int)
+      c870e6d8e0 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as uint32_t (no blob compare evidence)
+  V90Equalizer::process/5:445  st = p3_->state_;
+      788dbc9a25 [CAST DIR EXECUTED] cast (int) -> (unsigned)
+      560895e574 [CAST DIR EXECUTED] drop cast (int)
+      9f6befef26 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as uint32_t (no blob compare evidence)
+      520012c1d3 [LIT - EXECUTED NOVALUE] 0x18 -> 0x17
+      fc76456e35 [LIT - EXECUTED SEEN] 0x18 -> 0x19
+      83f447250b [LIT - EXECUTED SEEN] 0x18 -> 0x1a
+      451df45c20 [REL - EXECUTED NOVALUE] > -> >=
+  V90Equalizer::process/5:478  L_3a806:
+      d6354d806d [LIT - EXECUTED] 0 -> (-1)
+      0928e643c7 [LIT - EXECUTED] 0 -> (-2)
+      ec1197a395 [LIT - EXECUTED] 0 -> 1
+      fb7f74fe0f [LIT - EXECUTED] 0 -> 2
+  V90Equalizer::process/5:539  }
+      486e29a2cc [CMPSIGN UNDIRECTED EXECUTED SEEN] compare as int32_t (no blob compare evidence)
+      463fd0c95b [LIT - EXECUTED SEEN] 0x19 -> 0x1a
+      4d8eeb66ab [LIT - EXECUTED SEEN] 0x19 -> 0x1b
+  V90Equalizer::process/5:559  case 0x2c: goto L_3aa52;
+      e1f826b5d6 [LIT - EXECUTED] 1 -> 0
+  V90Equalizer::process/5:603  mseIdx_ = 0;
+      52e7ee2a61 [LIT - EXECUTED] 1 -> 0
+  V90Equalizer::process/5:631  L_3a354:
+      2d4957b55a [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as uint32_t (no blob compare evidence)
+  V90Equalizer::process/5:635  L_3a2b4:
+      6f3f9a5a9a [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:641  decOut[i] = (short)dec88;
+      e93e726595 [LIT - EXECUTED SEEN] 2 -> 3
+      08add409ff [LIT - EXECUTED SEEN] 2 -> 4
+  V90Equalizer::process/5:646  if (absWrap(e1) <= 300 || (int)mode <= 1) goto L_39717;
+      c4907e9001 [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:659  edprintf(PFX "nof consecutive errors = %d\r\n", (int)badCnt_);
+      23d56f2033 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+      9095843611 [LIT - EXECUTED] 1 -> 0
+      d99a6d59dc [REL - EXECUTED SEEN] < -> <=   => badCnt_ = 0;
+  V90Equalizer::process/5:662  }
+      fbf299b4a4 [LIT - EXECUTED NOVALUE] 0 -> 1
+      cf541657f8 [REL - EXECUTED NOVALUE] < -> <=
+  V90Equalizer::process/5:663  }
+      7239bba69d [SIGN NOISY EXECUTED] decl unsigned L -> int
+  V90Equalizer::process/5:665  e2 = (int)(short)(unsigned short)(unsigned)(q2 - dec88);
+      871225a31c [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+  V90Equalizer::process/5:675  dfeHist16_[0] = (short)e2;
+      d21c79abf6 [CAST NOISY EXECUTED] drop cast (LD)
+      0695fcfb05 [CAST NOISY EXECUTED] drop cast (short)
+  V90Equalizer::process/5:676  ni = (int)(ib - 1);
+      86ee5ba5e6 [CAST NOISY EXECUTED] drop cast (short)
+  V90Equalizer::process/5:677  if (ni < 0) {                                /* 398f5: wrap: copy the newest linLen_ samples to the top */
+      1dfa1e7f1a [REL - EXECUTED SEEN] < -> <=
+  V90Equalizer::process/5:682  histPos16_ = (unsigned)ni;
+      7b1e747b38 [STMT - EXECUTED] delete statement
+  V90Equalizer::process/5:688  /* ---- the float mode */
+      544129a2cc [LIT - EXECUTED SEEN] 2 -> 3
+      acf3913118 [LIT - EXECUTED SEEN] 2 -> 4
+  V90Equalizer::process/5:694  if (badCnt_ <= 1) {                          /* 3952b */
+      5e17c9cee1 [STMT - EXECUTED] delete statement   => printHighError(i, e, yf);
+  V90Equalizer::process/5:702  L_397a0:
+      ded9f7a881 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+  V90Equalizer::process/5:704  adapt++;
+      d1fbd93aff [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+  V90Equalizer::process/5:707  edprintf(PFX "nof consecutive errors = %d\r\n", (int)badCnt_);
+      ea880a305d [ARITH - EXECUTED] - -> +
+      eed8803e1e [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+      a973c90f65 [LIT - EXECUTED] 1 -> (-1)
+      ed2ddd9564 [LIT - EXECUTED] 1 -> 0
+      564cb17f26 [REL - EXECUTED SEEN] < -> <=
+  V90Equalizer::process/5:711  }
+      2a1a0805ca [LIT - EXECUTED NOVALUE] 0 -> 1
+      460a176473 [REL - EXECUTED NOVALUE] < -> <=
+  V90Equalizer::process/5:712  L_396b0:
+      02ea62a924 [SIGN NOISY EXECUTED] decl unsigned L -> int   => {
+  V90Equalizer::process/5:714  LD Lerr = (LD)Lf - (LD)decF;
+      afc10d1f0b [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+  V90Equalizer::process/5:723  dfeHist_[0] = (float)Lerr;
+      958b91b64e [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+  V90Equalizer::process/5:731  linPos_ = (unsigned)ni;
+      6766fdf22f [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+  absWrap:72  
+      ba331a7720 [LIT - EXECUTED] 31 -> 29
+      66d7e85e8a [LIT - EXECUTED] 31 -> 30
+  dot2:90  
+      80e3719106 [SIGN NOISY EXECUTED] decl unsigned cnt -> int
+  dot2:92  static inline int signChar(LD v) { return (v <= 0.0L) ? 0x2d : 0x2b; }
+      375bac8a4c [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+      855323d069 [LIT - EXECUTED SEEN] 3 -> 4
+      dc93a72cb1 [LIT - EXECUTED SEEN] 3 -> 5
+  frac1000:84  
+      afa268bc2f [WIDTH NOISY EXECUTED] decl int ip -> short
+  intPart:80  static inline unsigned trunc64lo(LD v) {
+      c1203dc647 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      f5bebb5e79 [REL - EXECUTED SEEN] < -> <=
+  mmxUpdate:109  B += (LD)a[1] * (LD)b[1];
+      cd41dd6cc2 [SIGN NOISY EXECUTED] decl int count -> unsigned
+      9ddd4bec90 [SIGN NOISY EXECUTED] decl int mul -> unsigned
+  mmxUpdate:110  A += (LD)a[2] * (LD)b[2];
+      72098105df [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as uint32_t (no blob compare evidence)
+      af85545786 [SIGN NOISY EXECUTED] decl int k -> unsigned
+      a777f357c4 [WIDTH NOISY EXECUTED] decl int k -> short
+  mmxUpdate:111  B += (LD)a[3] * (LD)b[3];
+      8a16e29c0e [SIGN NOISY EXECUTED] decl int c -> unsigned
+  printHighError:157  *yf = (float)(short)y16;
+      57f8db9f47 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => *(int32_t)(y)f =(int32_t)( (fl)oat)(short)y16;
+      546b91111c [REL - EXECUTED NOVALUE] < -> <=   => *yf<== (float)(short)y16;
+  printHighError:160  }
+      41829021b0 [SIGN NOISY EXECUTED] decl int yInt -> unsigned
+  printHighError:162  /* the debug print of a float x as "%c%d.%03d" (sign of x, chop |x|, 1000 * fraction) through the extended value */
+      f79c93e8da [SIGN NOISY EXECUTED] decl int eInt -> unsigned
+  printHighError:165  int ip = intPart(ratio);
+      35ff7c2c28 [SIGN NOISY EXECUTED] decl int sgnE -> unsigned
+      08d91fc3a2 [WIDTH NOISY EXECUTED] decl int sgnE -> short
+  printHighError:166  int fr = frac1000(ratio);
+      d5b88ac027 [SIGN NOISY EXECUTED] decl int sgnY -> unsigned
+      2aba7ecd30 [WIDTH NOISY EXECUTED] decl int sgnY -> short
+  printRatio:149  }
+      87fddd932f [SIGN NOISY EXECUTED] decl int s -> unsigned
+      9540c01dc3 [WIDTH NOISY EXECUTED] decl int s -> short
+  printRatio:151  /* the MMX -> float conversion after enterRRN / enterFPE succeeded */
+      f30ffc6425 [SIGN NOISY EXECUTED] decl int fr -> unsigned   => /* the MMX -> float conversion afterunsignedterRRN / enterFPE succeeded */
+  toFloat:137  *q2 = trunc16((LD)Lf);
+      e61d65a6a7 [SIGN NOISY EXECUTED] decl int q1 -> unsigned   => *unsigned= trunc16((LD)Lf);
+      7c1c48fc24 [SIGN NOISY EXECUTED] decl int y16 -> unsigned
+      4bc7db09ec [SIGN NOISY EXECUTED] decl unsigned i -> int
+  toFloat:142  {                                            /* (the blob guards cnt == 0 with a jbe: dead, cnt >= 2 here) */
+      f03d925339 [CAST NOISY EXECUTED] drop cast (short)   => {                                      * (the blob guards cnt == 0 with a jbe: dead, cnt >= 2 here) */
+  toFloat:143  short *q = mi;
+      18e6585d8d [STMT - EXECUTED] delete statement
+  toFloat:144  const float *s = in;
+      c2159c1cbf [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+      3ce751d26a [SIGN NOISY EXECUTED] decl unsigned k -> int
+  toMmx:121  }
+      75998159bf [SIGN NOISY EXECUTED] decl unsigned i -> int
+      e89325f6af [SIGN NOISY EXECUTED] decl unsigned n -> int
+  toMmx:124  static inline void mmxUpdate(short *hi, short *lo, const short *hist, int count, int mul, int shift) {
+      996582d5d2 [STMT - EXECUTED] delete statement   => static inline void mmxUpdate(short *hi, short *lo, const short *hist, int count, int mul, int shift) ;(unsigned)(int)hi[k] << 16) | (unsigned)(unsigne
+  toMmx:130  lo[k] = (short)c;
+      46e17a1793 [SIGN NOISY EXECUTED] decl unsigned k -> int
+  toMmx:133  }
+      1e7aa6e538 [CMPSIGN UNDIRECTED EXECUTED NOVALUE] compare as int32_t (no blob compare evidence)
+      0326df8699 [SIGN NOISY EXECUTED] decl unsigned k -> int
+  trunc16:60  static inline __attribute__((always_inline)) uint32_t wordOf(const float &v) {
+      581cb2c417 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      81f5808e2d [REL - EXECUTED SEEN] < -> <=
+  trunc16:61  uint32_t w;
+      ed8a39a191 [CAST NOISY EXECUTED] cast (int) -> (unsigned)
+  trunc64lo:66  static inline __attribute__((always_inline)) float floatOf(uint32_t w) {
+      b3756d3f50 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      40e4f7e143 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      8425b42f80 [CMPSIGN UNDIRECTED EXECUTED] compare as uint32_t (no blob compare evidence)
+      4acbef5148 [CMPSIGN UNDIRECTED EXECUTED] compare as uint32_t (no blob compare evidence)
+      bf325e2314 [LOGIC - EXECUTED] && -> ||
+      b3726d203a [REL - EXECUTED NOVALUE] < -> <=
+      6dfb73a7e2 [REL - EXECUTED NOVALUE] > -> >=
+  trunc64lo:67  float f;
+      42c2ce2a50 [CAST NOISY EXECUTED] drop cast (long long)

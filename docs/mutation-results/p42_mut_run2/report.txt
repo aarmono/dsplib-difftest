@@ -1,0 +1,137 @@
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/p42_equalizer_rest.cpp   functions: copyWord,setWord,wordOf,floatOf,mulF,trunc64lo,absWrap,signChar,printFix,printFloat,join16,unpackCoef,packCoef,betaMmx,clampFade,setFade,zeroDfe,enterState,alignOff,alignPtr,ctorBody,freeBlock,dtorBody,resetTables,resetState,unpackLinear,unpackDfe,printStats,V90Equalizer::reset/1,V90Equalizer::resetMeanErrorEnergyDiagnostics/0,V90Equalizer::setLinearEquBeta/1,V90Equalizer::setDfeBeta/1,V90Equalizer::freeze/0,V90Equalizer::enterPhase3/0,V90Equalizer::getDfeBeta/0,V90Equalizer::zeroLinearEquCoefs/0,V90Equalizer::zeroDfeCoefs/0,V90Equalizer::setLinearEquCoeff/2,V90Equalizer::setDfeCoeff/2,V90Equalizer::loadCoefsFromFile/0,V90Equalizer::linearEquFadeEdges/0,V90Equalizer::restoreEqualizerToFloat/0,V90Equalizer::enterFPE/0,V90Equalizer::enterRRN/0,V90Equalizer::enterChannelVerification/0,V90Equalizer::printEquStuff/0,V90Equalizer::calcMeanErrorStatistics/0,V90Equalizer::setLinearEquEdgesFadingParams/2   source hash 472899d82360
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 79   invalid 0   TCE-equivalent 0   live 79
+  live: killed 5  survived 74  NOVALUE (probe: never run) 0  pending 0
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+ARITH          1       0       0       0       1       0  -=1
+CAST           6       0       0       0       6       0  DIR=5 NOISY=1
+CMPSIGN       25       0       0       0      25       0  UNDIRECTED=25
+LIT           17       0       0       3      14       0  -=14
+LOGIC          1       0       0       0       1       0  -=1
+REL            5       0       0       1       4       0  -=4
+SIGN          19       0       0       0      19       0  NOISY=19
+STMT           4       0       0       1       3       0  -=3
+WIDTH          1       0       0       0       1       0  NOISY=1
+
+default directed policy (skips blob-sign-neutral accessor swaps and undirected noisy classes) keeps 58 of 79 mutants: TCE-equivalent 0, live 58 (killed 5, survived 53)
+  excluded by policy: CAST/NOISY 1, SIGN/NOISY 19, WIDTH/NOISY 1
+  (equivalent-mutant pre-filter + policy): live mutants needing a run: all 79 -> policy 58
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 644 s; default-policy subset 475 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {'EXECUTED': 71, 'NOCODE': 3}
+
+SURVIVORS (74; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note
+  V90Equalizer::calcMeanErrorStatistics/0:623  
+      64aefde9f6 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      85251383c8 [LIT - EXECUTED] 1 -> 0
+  V90Equalizer::linearEquFadeEdges/0:533  
+      cf21cc50e4 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+  V90Equalizer::linearEquFadeEdges/0:540  
+      1fbe27926b [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+  V90Equalizer::linearEquFadeEdges/0:546  
+      b46bab0205 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      3c5760ecb7 [SIGN NOISY EXECUTED] decl unsigned i -> int
+  V90Equalizer::restoreEqualizerToFloat/0:562  
+      93d3fcc1e2 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+  V90Equalizer::restoreEqualizerToFloat/0:569  
+      673226e3b1 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      df3ba73f8d [SIGN NOISY EXECUTED] decl unsigned i -> int
+  V90Equalizer::setDfeCoeff/2:513  
+      82d1cb4669 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+  V90Equalizer::setLinearEquCoeff/2:507  
+      b8b555a2a6 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+  V90Equalizer::zeroDfeCoefs/0:495  
+      6329dbd25e [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+  V90Equalizer::zeroDfeCoefs/0:500  
+      fb800a6ef5 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+  V90Equalizer::zeroLinearEquCoefs/0:482  
+      cc546da2d3 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+  V90Equalizer::zeroLinearEquCoefs/0:487  
+      2cf5266935 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+  alignOff:215  
+      7bffc0d9b8 [CAST DIR EXECUTED] cast (unsigned) -> (int)
+      59b0b27033 [LIT - EXECUTED] 7ul -> 6ul
+      f0f32f5918 [LIT - EXECUTED] 7ul -> 6ul
+  clampFade:150  
+      9ce13c7da5 [REL - EXECUTED] >= -> >
+  clampFade:151  
+      7d553d4375 [REL - EXECUTED] <= -> <
+  ctorBody:219  
+      0a1b0e659c [SIGN NOISY EXECUTED] decl unsigned dfeLen -> int
+      5367d3aa7f [SIGN NOISY EXECUTED] decl unsigned linLen -> int
+  ctorBody:223  
+      25b2daaf8f [SIGN NOISY NOCODE] decl int h -> unsigned
+      bf26d0f8f5 [WIDTH NOISY NOCODE] decl int h -> short
+  ctorBody:235  
+      4aaf702ea5 [ARITH - EXECUTED] + -> -
+      5f03e6c16c [CAST DIR EXECUTED] cast (int) -> (unsigned)
+      bc9d8f26ce [CAST DIR EXECUTED] cast (unsigned) -> (int)
+      8feebf4dc0 [CAST DIR EXECUTED] drop cast (int)
+      75815ca019 [CAST DIR EXECUTED] drop cast (unsigned)
+      f8a589fd86 [LIT - EXECUTED] 31 -> 29
+      14cfc7b0e2 [LIT - EXECUTED] 31 -> 30
+      8fad03cfcc [LIT - EXECUTED] 31 -> 32
+      d8b1ce52c3 [LIT - EXECUTED] 31 -> 33
+  dtorBody:291  
+      616e538812 [LIT - EXECUTED] 0 -> (-1)
+      0a377ab7bf [LIT - EXECUTED] 0 -> (-2)
+      ae330b731b [LIT - EXECUTED] 0 -> 2
+  enterState:208  
+      3e2ef8ffd0 [STMT - EXECUTED] delete statement
+  join16:115  
+      702da3452f [SIGN NOISY EXECUTED] decl short hi -> unsigned short
+  mulF:110  
+      06b2206cad [STMT - EXECUTED] delete statement
+  printStats:388  
+      3c169ca4d5 [SIGN NOISY EXECUTED] decl unsigned n -> int
+  resetTables:314  
+      9fb5f2fc73 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      7f9c49d260 [SIGN NOISY EXECUTED] decl unsigned i -> int
+  resetTables:325  
+      13f80819b8 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      cdf1abec14 [SIGN NOISY EXECUTED] decl unsigned i -> int
+  resetTables:337  
+      5003a4d46c [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      6bf3b7e176 [SIGN NOISY EXECUTED] decl unsigned i -> int
+  resetTables:341  
+      67f052f1ee [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      1ae17b0c0b [SIGN NOISY EXECUTED] decl unsigned i -> int
+  resetTables:347  
+      8cd6da449c [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      3696e38d11 [SIGN NOISY EXECUTED] decl unsigned i -> int
+  setFade:160  
+      c968825183 [SIGN NOISY EXECUTED] decl unsigned la -> int
+  setFade:161  
+      ac3c630bb8 [SIGN NOISY NOCODE] decl unsigned lb -> int
+  trunc64lo:84  
+      b8b8d57eae [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      b4867dad95 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      1b485c73ad [CMPSIGN UNDIRECTED EXECUTED] compare as uint32_t (no blob compare evidence)
+      d71e9a72e3 [CMPSIGN UNDIRECTED EXECUTED] compare as uint32_t (no blob compare evidence)
+      c83578d495 [LIT - EXECUTED] 0 -> (-1)
+      af2a67be1d [LIT - EXECUTED] 0 -> (-2)
+      919c5616bd [LIT - EXECUTED] 0 -> 1
+      7ae2661208 [LIT - EXECUTED] 0 -> 2
+      83afda591e [LOGIC - EXECUTED] && -> ||
+      52aba6b72e [REL - EXECUTED] < -> <=
+      3f8edc3423 [REL - EXECUTED] > -> >=
+  trunc64lo:85  
+      aea7aea119 [CAST NOISY EXECUTED] drop cast (long long)
+  unpackDfe:384  
+      b16b87a34c [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      0836aef661 [SIGN NOISY EXECUTED] decl unsigned i -> int
+  unpackLinear:379  
+      3c590f9727 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      1e7e9e7e6c [SIGN NOISY EXECUTED] decl unsigned i -> int
+  wordOf:72  
+      cfb55e961e [STMT - EXECUTED] delete statement
+  zeroDfe:170  
+      3aac67ec68 [SIGN NOISY EXECUTED] decl unsigned was16 -> int
+  zeroDfe:173  
+      808d6c0ec7 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      cdf68a892e [SIGN NOISY EXECUTED] decl unsigned k -> int
+  zeroDfe:178  
+      4ecf270586 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)
+      bc9dcc6d88 [SIGN NOISY EXECUTED] decl unsigned k -> int

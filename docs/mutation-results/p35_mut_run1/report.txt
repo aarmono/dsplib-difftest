@@ -1,0 +1,69 @@
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/p35_phase3_demod_getv90decision.cpp   functions: V90Phase3Demodulator::getV90Decision/1,trunc16f,advancePhase,copyWordF,absSym,signOf,ucodeOf,adidWord,adidUWord,tblIdx,altPhaseAt,suspectedAt,cntIs,decideBit,trn1dTimeout,termCheck,dilTimeout,signedLevel,signedLevelS   source hash f86ce485185a
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 1821   invalid 137   TCE-equivalent 236   live 1448
+  live: killed 1425  survived 22  NOVALUE (probe: never run) 1  pending 0
+  survivors+NOVALUE by value probe: NOVALUE 1 (distinguishing value never occurs: identical on this harness; harness-gap candidates), SEEN 0 (value occurred, difference masked downstream: equivalence candidates), no probe 22
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+ARITH         27       5       0      22       0       0  
+BIT            5       0       0       5       0       0  
+CAST         157       0     136      18       2       0  NOISY=2
+CMPSIGN       36       0      15      20       1       0  UNDIRECTED=1
+LIT         1028     123       3     894       8       0  -=8
+LOGIC          7       0       0       7       0       0  
+NEG           92       0       0      92       0       0  
+REL          118       0       1     116       1       0  -=1
+SHIFT          2       0       0       2       0       0  
+SIGN          71       4      57       8       2       0  NOISY=2
+STMT         240       1       6     231       2       0  -=2
+WIDTH         38       4      18      10       6       0  NOISY=6
+
+default directed policy (skips blob-sign-neutral accessor swaps and undirected noisy classes) keeps 1563 of 1821 mutants: TCE-equivalent 32, live 1402 (killed 1390, survived 12)
+  excluded by policy: CAST/NOISY 149, SIGN/NOISY 71, WIDTH/NOISY 38
+  (equivalent-mutant pre-filter + policy): live mutants needing a run: all 1447 -> policy 1402
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 714 s; default-policy subset 601 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {'EXECUTED': 20, 'NOCODE': 3}
+TCE validation: {"n": 11, "killed": 0, "ids": []}
+
+SURVIVORS (23; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note
+  V90Phase3Demodulator::getV90Decision/1:161  short s = trunc16f(x);
+      860398e1d4 [WIDTH NOISY EXECUTED] decl short s -> int   => int s = trunc16f(x);
+  V90Phase3Demodulator::getV90Decision/1:237  p = t->params_;
+      c3631ae7f0 [STMT - EXECUTED] delete statement   => ;
+  V90Phase3Demodulator::getV90Decision/1:335  short m = t->mod_.generateSymbol();
+      4194a3ffad [WIDTH NOISY EXECUTED] decl short m -> int   => int m = t->mod_.generateSymbol();
+  V90Phase3Demodulator::getV90Decision/1:351  p = t->params_;
+      85ff030a73 [STMT - EXECUTED] delete statement   => ;
+  V90Phase3Demodulator::getV90Decision/1:416  short r;
+      573b3ddf40 [WIDTH NOISY NOCODE] decl short r -> int   => int r;
+  V90Phase3Demodulator::getV90Decision/1:495  short r;
+      25dbd15023 [WIDTH NOISY NOCODE] decl short r -> int   => int r;
+  V90Phase3Demodulator::getV90Decision/1:525  short r = s;
+      1712c8637f [WIDTH NOISY EXECUTED] decl short r -> int   => int r = s;
+  V90Phase3Demodulator::getV90Decision/1:533  unsigned off = BASE_OFF;
+      cc350e8ede [SIGN NOISY EXECUTED] decl unsigned off -> int   => int off = BASE_OFF;
+  V90Phase3Demodulator::getV90Decision/1:664  return 0;
+      d006ee2c7a [LIT - EXECUTED] 0 -> (-1)   => return (-1);
+      4a23372297 [LIT - EXECUTED] 0 -> (-2)   => return (-2);
+      40da3fa642 [LIT - EXECUTED] 0 -> 1   => return 1;
+      5eaedecb2f [LIT - EXECUTED] 0 -> 2   => return 2;
+  copyWordF:56  uint32_t w;
+      c85acf6d8e [WIDTH NOISY NOCODE] decl uint32_t w -> uint16_t   => uint16_t w;
+  copyWordF:57  __builtin_memcpy(&w, src, 4);
+      055d983c92 [LIT - EXECUTED] 4 -> 5   => __builtin_memcpy(&w, src, 5);
+      3ac4f2999a [LIT - EXECUTED] 4 -> 6   => __builtin_memcpy(&w, src, 6);
+  signOf:68  static inline int signOf(short s) { return ((int)s >> 31) | 1; }
+      6e79833c20 [LIT - EXECUTED] 31 -> 29   => static inline int signOf(short s) { return ((int)s >> 29) | 1; }
+      6be232eb7e [LIT - EXECUTED] 31 -> 30   => static inline int signOf(short s) { return ((int)s >> 30) | 1; }
+  tblIdx:84  static inline unsigned tblIdx(unsigned phase, unsigned ucode) { return (((unsigned)(unsigned short)phase) << 7) + ucode; }
+      df0600027a [CAST NOISY EXECUTED NOVALUE] cast (unsigned short) -> (short)   => static inline unsigned tblIdx(unsigned phase, unsigned ucode) { return (((unsigned)(short)phase) << 7) + ucode; }
+  trunc16f:44  if (!((long double)x > -32769.0L && (long double)x < 32768.0L)) return (short)0x8000;
+      e91f4fa218 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => if (!((int32_t)((long double)x) > (int32_t)(-32769.0L) && (long double)x < 32768.0L)) return (short)0x8000;
+      b1aeafd2ef [REL - EXECUTED] < -> <=   => if (!((long double)x > -32769.0L && (long double)x <= 32768.0L)) return (short)0x8000;
+  trunc16f:45  return (short)(int)x;
+      1d61195e86 [CAST NOISY EXECUTED] cast (int) -> (unsigned)   => return (short)(unsigned)x;
+      70b5a31360 [CAST NOISY EXECUTED] drop cast (int)   => return (short)x;
+  ucodeOf:71  static inline unsigned char ucodeOf(unsigned pcm, int absm) {
+      93b861f0f1 [SIGN NOISY EXECUTED] decl int absm -> unsigned   => static inline unsigned char ucodeOf(unsigned pcm, unsigned absm) {

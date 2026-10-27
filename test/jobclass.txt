@@ -1,0 +1,194 @@
+# id  weight  class  est_seconds  notes
+# T0P job classification, consumed by tools/run_changed.sh -j N (tools/run_pool.py).  Maintained BY HAND (there is no generator): when a job is added / renamed / removed, edit its row; tools/jobs_check.sh checks that the ids are exactly the ids of test/jobs.tsv.  To refresh weights / est_seconds read LOGS/timing.tsv of a `RUN_KEEP_LOGS=1 sh tools/run_changed.sh -j 4 ...` run (wall and cpu seconds per job) and edit the rows.
+# weight = cores the job uses at once (ceil of the measured cpu/wall ratio of the calibration run, 1 if the job is a single process); the pool never runs more than N cores' worth.
+# class: seq = one process at a time (build + run in sequence);  par = INTERNALLY PARALLEL (the script backgrounds its blob/port/-O2/x86-64 scenario runs with '&' and waits, up to 8
+#        processes in bursts, or the job is CPU-heavy: measured cpu/wall >= 1.4);  excl = must run alone (none today; runs after the pool drained, one at a time).
+#        run_changed.sh --strict puts every 'par' job in the exclusive lane (nothing else runs beside it).  est_seconds = wall seconds in the calibration run (-j4, loaded machine):
+#        longest-first ordering only.  Not listed in this file (never in run_changed): n01_matrix.py, n02_replay*.sh (real-time / virtual-clock, pty nullmodem), n01/n02 build helpers (n02_build_vclock.sh), p03_study.sh.
+#        Shared paths of every job (all private in the sandbox): test/*.out, test/*_test_{blob,port,...} binaries, test/*.o, test/*_objs/, test/*.log, test/*.diff, TMPDIR; read-only shared inputs:
+#        ../dsplibs.o, test/golden/*, porting/decompiled/*.  No job writes outside its sandbox (checked by tools/sandbox_audit.sh after a run).
+fsk/v21_b103                             1  seq       4  cpu/wall=1.02
+core/rcfixed_resampler                   1  seq       3  cpu/wall=1.5
+fpm/fpm_toolkit                          1  seq       3  cpu/wall=1.03
+v32/v32_engine.status                    1  seq       3  cpu/wall=0.99
+v32/v32_engine.status.o2                 1  seq       5  cpu/wall=1.01
+v32/v32_engine.uninit                    1  seq       1  cpu/wall=1.02
+v32/fse_decision                         1  seq      24  cpu/wall=0.70
+dsp/dsp_int_templates                    2  par      27  cpu/wall=1.57
+dsp/dsp_float_filters                    2  par      97  cpu/wall=2.05
+dsp/dsp_window_fft_psd                   2  par      70  cpu/wall=1.97
+dsp/dsp_tone_detectors                   2  par      58  cpu/wall=1.92
+dsp/dsp_resampler                        2  par      54  cpu/wall=1.62
+vpcm/pcm_leaf_classes                    2  par      35  cpu/wall=1.55
+vpcm/pcm_parameters.main                 2  par      32  cpu/wall=2.04
+vpcm/v90_mp                              2  par      26  cpu/wall=1.84
+vpcm/v90_cp                              2  par      53  cpu/wall=2.37
+vpcm/v92_cp                              2  par      31  cpu/wall=1.54
+vpcm/pcm_cp_packers                      1  seq      15  cpu/wall=1.08
+vpcm/pcm_dil                             1  seq      10  cpu/wall=1.14
+vpcm/pcm_jd                              1  seq      14  cpu/wall=0.97
+vpcm/v92_modulus_encoder                 1  seq      10  cpu/wall=1.02
+vpcm/v92_tx_coding                       1  seq      16  cpu/wall=1.25
+vpcm/v90_connection_evaluator            2  par      17  cpu/wall=1.85
+vpcm/v90_adid                            2  par      99  cpu/wall=2.05
+vpcm/v90_adid_pad_gain                   2  par      65  cpu/wall=1.91
+vpcm/v90_adid_study                      1  seq      41  cpu/wall=1.34
+vpcm/v90_spectral_shaper                 1  seq      45  cpu/wall=0.98
+vpcm/v92_echo_canceller                  1  seq      24  cpu/wall=1.24
+vpcm/v90_constellation_power             2  par      34  cpu/wall=2.10
+vpcm/v90_constellation_noise             2  par     168  cpu/wall=2.17
+vpcm/v90_constellation_dmin              2  par      38  cpu/wall=1.53
+vpcm/v90_trn2_designer                   1  seq      25  cpu/wall=1.32
+vpcm/pcm_phase3_modulators               2  par      48  cpu/wall=1.67
+vpcm/v90_mapper                          2  par      94  cpu/wall=1.70
+vpcm/pcm_bits_to_symbol.main             2  par      57  cpu/wall=1.43
+vpcm/pcm_bits_to_symbol.a                1  seq       6  cpu/wall=1.21
+vpcm/pcm_bits_to_symbol.b                2  par      17  cpu/wall=1.45
+vpcm/v90_phase4_modulator_symbol         2  par      95  cpu/wall=1.96
+vpcm/v90_phase4_modulator                2  par      70  cpu/wall=2.20
+vpcm/v92_phase4_modulator_symbol         2  par     100  cpu/wall=1.88
+vpcm/v92_phase4_modulator                2  par      48  cpu/wall=1.72
+vpcm/v90_phase3_demod_v92_decision       2  par      55  cpu/wall=1.93
+vpcm/v90_phase3_demod_v90_decision       2  par      57  cpu/wall=1.84
+vpcm/v90_phase3_demod                    2  par      80  cpu/wall=1.87
+vpcm/v90_phase4_demod_decisions          2  par      64  cpu/wall=1.53
+vpcm/v90_phase4_demod                    2  par     125  cpu/wall=2.40
+vpcm/v90_modulator                       2  par     128  cpu/wall=1.68
+vpcm/v90_equalizer_process               2  par      98  cpu/wall=1.95
+vpcm/v90_equalizer_phases                2  par      63  cpu/wall=1.87
+vpcm/v90_equalizer.main                  2  par      42  cpu/wall=2.49
+vpcm/v90_equalizer.integ                 1  seq     110  cpu/wall=0.73
+vpcm/v90_demodulator_progress            2  par      44  cpu/wall=2.02
+vpcm/v90_demodulator.main                2  par      46  cpu/wall=1.88
+vpcm/v90_demodulator.integ               2  par      28  cpu/wall=1.84
+vpcm/pcm_modem                           2  par     250  cpu/wall=1.78
+vpcm/vpcm_flo_modem_run                  2  par     151  cpu/wall=1.48
+vpcm/vpcm_flo_modem                      2  par     181  cpu/wall=1.66
+ring/ring_detector                       1  seq       2  cpu/wall=1.02
+vpcm/vpcm_info1a_retrain                 2  par     467  cpu/wall=2.05
+vpcm/vpcm_phase34_reneg                  2  par     322  cpu/wall=1.90
+vpcm/vpcm_session_wrappers               2  par     341  cpu/wall=2.11
+v34/handshake/v34_handshake              2  par    2191  cpu/wall=2.09
+vpcm/vpcm_datapump                       2  par     294  cpu/wall=1.55
+vpcm/vpcm_create                         3  par     939  cpu/wall=2.58
+vpcm/vpcm_progress                       1  seq     310  cpu/wall=1.31
+fsk/v23                                  1  seq       8  cpu/wall=0.47
+v32/v32_engine.main                      1  seq      20  cpu/wall=0.53
+v32/v32_engine.ans                       1  seq      19  cpu/wall=0.63
+v32/v32_engine.capstone                  1  seq      18  cpu/wall=0.65
+v32/v32_engine.capstone_stagger          1  seq      23  cpu/wall=0.55
+v32/v32_engine.loclop                    1  seq      20  cpu/wall=0.58
+v32/v32_engine.org                       1  seq      20  cpu/wall=0.63
+v32/v32_engine.primitives                1  seq      12  cpu/wall=0.63
+v32/v32_engine.rng                       1  seq      20  cpu/wall=0.53
+v32/v32_engine.vtb                       1  seq      20  cpu/wall=0.54
+v32/v32_engine.vtb_decoder               1  seq      18  cpu/wall=0.62
+v32/v32_engine.vtb_e2e                   1  seq      26  cpu/wall=1.00
+v34/v34_dsp_primitives                   1  seq       4  cpu/wall=0.48
+vpcm/v34_api                             2  par     354  cpu/wall=1.82
+v34/v34_unused                           2  par     173  cpu/wall=1.77
+v34/v34_agc_demod                        1  seq      71  cpu/wall=0.86
+v34/v34_init                             1  seq     113  cpu/wall=0.85
+v34/v34_init_tables                      1  seq     220  cpu/wall=0.82
+v34/v34_tx_level                         2  par     280  cpu/wall=1.77
+v34/v34_frame_decoder                    2  par     189  cpu/wall=2.33
+vpcm/v34_modem_init                      2  par     192  cpu/wall=1.65
+v34/v34_tx_symbol                        2  par     317  cpu/wall=1.85
+v34/v34_echo_rx_timing                   2  par     527  cpu/wall=2.15
+v34/v34_detectors                        2  par     139  cpu/wall=1.66
+v34/v34_handshake_helpers                2  par     426  cpu/wall=2.20
+v34/v34_modulator                        2  par     240  cpu/wall=1.62
+v34/v34_receiver                         2  par     264  cpu/wall=2.50
+v34/v34_probe_select                     2  par     354  cpu/wall=1.79
+vpcm/v34_handshake_init                  2  par     208  cpu/wall=1.86
+v8/v8.main                               1  seq       4  cpu/wall=1.00
+v8/v8.fsm                                1  seq       9  cpu/wall=0.49
+v8/v8.init                               1  seq       7  cpu/wall=0.56
+v8/v8.jm                                 1  seq       3  cpu/wall=1.00
+v8/v8.lifecycle                          1  seq       3  cpu/wall=1.00
+cross/x1_flagdiff                        1  seq      69  cpu/wall=1.01
+vpcm/dp_vpcm                             3  par     275  cpu/wall=3.11
+cross/z01_hybrid                         1  seq      22  cpu/wall=1.00
+cross/h01_datasym                        1  seq      20  cpu/wall=1.00
+cross/h01_heap                           2  par      90  estimate (H01: 19 scripts x 2 fills + rd, run one after the other)
+v34/v34_setup                            3  par      40  estimate (H01: 7 concurrent runs of the tier3c sweep, 15 s each)
+core/dp_wrapper.main                     1  par      10  estimate (R02: 4 scenarios x 3 concurrent runs)
+fsk/dp_v21_b103                          1  par      10  estimate (R02)
+fsk/dp_v23                               1  par      10  estimate (R02)
+v8/dp_v8                                 1  par      10  estimate (R02)
+core/dp_runtime                          1  par      10  estimate (R02)
+core/dp_wrapper.rcfixed                  1  par      10  estimate (R02)
+v32/dp_v32.glue                          1  par      10  estimate (R03: 4 scenarios x 3 concurrent runs)
+v32/v32_engine.data                      2  par      30  estimate (R03: 15 scenarios x 3 concurrent runs, real engine)
+v32/dp_v32.e2e                           2  par      30  estimate (R03: 4 scenarios x 3 concurrent runs, real engine)
+v22/v22_equalizer                        1  par      10  estimate (R04: 5 scenarios x 3 concurrent runs)
+v22/v22_timing                           1  par      15  estimate (R04: 4 scenarios x 3 concurrent runs)
+v22/v22_pulse_shaping                    1  par       5  estimate (R05: 5 scenarios x 3 concurrent runs)
+v22/v22_rx_bandpass                      1  par       3  estimate (R05: 3 scenarios x 3 concurrent runs)
+v22/v22_detectors                        1  par       5  estimate (R05: 3 scenarios x 3 concurrent runs)
+v22/dp_v22.glue                          1  par      10  estimate (R06: 4 scenarios x 3 concurrent runs)
+v22/v22_engine                           2  par      15  estimate (R06: 4 scenarios x 3 concurrent runs, real engine)
+v22/dp_v22.e2e                           2  par      10  estimate (R06: 4 scenarios x 3 concurrent runs, real engine)
+tone/tone_iir                            1  par       3  estimate (R09: 3 scenarios x 3 concurrent runs)
+tone/tone_cadence                        1  par       8  estimate (R09: 3 scenarios x 3 concurrent runs; scenario 4 is 5 s)
+v22/v22_call_setup                       2  par      20  estimate (R07: 5 scenarios x 3 concurrent runs, real engine)
+callprog/dialer                          2  par       20  estimate (R10: 8 scenarios x 3 concurrent runs)
+cid/cid_detect                           1  par      12  estimate (R12: 7 scenarios x 3 concurrent runs)
+cid/cid_modem                            1  par       5  estimate (R13: 5 scenarios x 3 concurrent runs)
+voice/voice_fdsp                         1  par      10  estimate (R14: 4 scenarios x 3 concurrent runs; scenario 3 is the exhaustive x87 Run)
+fax/fax_fifo_sgd                         1  par       6  estimate (R18: 3 scenarios x 3 concurrent runs)
+fax/fax_scrambler                        1  par       8  estimate (R18: 5 scenarios x 3 concurrent runs)
+fax/fax_v21.life                         1  par       8  estimate (R19: 4 scenarios x 3 concurrent runs)
+fax/fax_v21.rx                           1  par      14  estimate (R19: 2 scenarios x 3 concurrent runs)
+fax/fax_v21.tx                           1  par      12  estimate (R19: 2 scenarios x 3 concurrent runs)
+fax/fax_v27_tx.life                      1  par       8  estimate (R20: 3 scenarios x 3 concurrent runs)
+fax/fax_v27_tx.tx                        1  par      14  estimate (R20: 1 scenario x 3 concurrent runs)
+fax/fax_v27_tx.sm                        1  par      16  estimate (R20: 3 scenarios x 3 concurrent runs)
+voice/voice_tone                         2  par      45  estimate (R15: 6 scenarios x 3 concurrent runs; scenario 3 logs 9 million lines, scenario 4 is the 8 million point GetGain cube)
+callprog/callprog_dual_tone              1  par       3  estimate (R11: 4 scenarios x 3 concurrent runs)
+callprog/callprog                        2  par     140  measured (R11: 5 scenarios x 3 concurrent runs; scenario 2 holds the silence-detector scans)
+callprog/dp_call.glue                    2  par      10  estimate (R11: 4 scenarios x 3 concurrent runs)
+callprog/dp_call.e2e                     2  par      60  estimate (R11: 3 scenarios x 3 concurrent runs; every blob / port function real)
+voice/voice_dtmf                         2  par      15  measured (R16: 5 scenarios x 3 concurrent runs, about 10 s each; mutation runs use R16_SWEEP=8)
+v22/v22_data.data                        2  par      70  estimate (R08: 3 scenarios x 3 concurrent runs, real engine)
+v22/v22_data.loops                       2  par     150  estimate (R08: 3 scenarios x 3 concurrent runs, real engine)
+v22/v22_data.retrain                     2  par     170  estimate (R08: 4 scenarios x 3 concurrent runs, real engine)
+voice/voice_engine.main                  3  par     110  measured (R17: 5 scenarios x 3 concurrent runs; scripted components, real FIFO8; cpu/wall 3.3 at -j6)
+voice/voice_api                          2  par      80  measured (R17: 3 scenarios x 3 concurrent runs)
+voice/voice_engine.e2e                   1  par      75  measured (R17: 5 scenarios x 3 concurrent runs; nothing replaced; cpu/wall 1.05 at -j6)
+fax/fax_v27_rx.life                      1  par       8  estimate (R21: 3 scenarios x 3 concurrent runs)
+fax/fax_v27_rx.rx                        1  par      14  estimate (R21: 1 scenario x 3 concurrent runs)
+fax/fax_v27_rx.sm                        1  par      16  estimate (R21: 2 scenarios x 3 concurrent runs)
+fax/fax_v27_rx.dsp                       1  par      12  estimate (R21: 2 scenarios x 3 concurrent runs)
+fax/fax_v29_tx.life                      1  par       8  estimate (R22: 3 scenarios x 3 concurrent runs)
+fax/fax_v29_tx.tx                        1  par      12  estimate (R22: 1 scenario x 3 concurrent runs)
+fax/fax_v29_tx.sm                        1  par      16  estimate (R22: 3 scenarios x 3 concurrent runs)
+fax/fax_v29_rx.life                      1  par       8  estimate (R23: 3 scenarios x 3 concurrent runs)
+fax/fax_v29_rx.rx                        1  par      14  estimate (R23: 1 scenario x 3 concurrent runs)
+fax/fax_v29_rx.sm                        1  par      16  estimate (R23: 2 scenarios x 3 concurrent runs)
+fax/fax_v17_decision.dec                 1  par       8  estimate (R24: 4 scenarios x 3 concurrent runs)
+fax/fax_v17_decision.vtb                 1  par       6  estimate (R24: 2 scenarios x 3 concurrent runs)
+fax/fax_v17_tx.life                      1  par       8  estimate (R25: 3 scenarios x 3 concurrent runs)
+fax/fax_v17_tx.tx                        1  par      12  estimate (R25: 1 scenario x 3 concurrent runs)
+fax/fax_v17_tx.sm                        1  par      16  estimate (R25: 3 scenarios x 3 concurrent runs)
+fax/fax_v17_rx.life                      1  par       8  estimate (R26: 3 scenarios x 3 concurrent runs)
+fax/fax_v17_rx.rx                        1  par      14  estimate (R26: 1 scenario x 3 concurrent runs)
+fax/fax_v17_rx.sm                        1  par      16  estimate (R26: 2 scenarios x 3 concurrent runs)
+fax/fax_vmi.frame                        1  par       8  estimate (R27: 3 scenarios x 3 concurrent runs)
+fax/fax_vmi.life                         1  par       8  estimate (R27: 3 scenarios x 3 concurrent runs)
+fax/fax_vmi.eng                          1  par      14  estimate (R27: 2 scenarios x 3 concurrent runs)
+fax/fax_t30_tx.misc                      1  par       8  estimate (R28: 2 scenarios x 3 concurrent runs)
+fax/fax_t30_tx.hdlc                      1  par      12  estimate (R28: 1 scenario x 3 concurrent runs)
+fax/fax_t30_tx.data                      1  par       8  estimate (R28: 2 scenarios x 3 concurrent runs)
+fax/fax_t30_tx.eng                       1  par      14  estimate (R28: 3 scenarios x 3 concurrent runs)
+fax/fax_t30_rx.in                        1  par       8  estimate (R29: 2 scenarios x 3 concurrent runs)
+fax/fax_t30_rx.hdlc                      1  par      14  estimate (R29: 1 scenario x 3 concurrent runs)
+fax/fax_t30_rx.data                      1  par      10  estimate (R29: 2 scenarios x 3 concurrent runs)
+fax/fax_t30_rx.eng                       1  par      14  estimate (R29: 3 scenarios x 3 concurrent runs)
+fax/fax_class1                           2  par      86  measured -j6 (R30: 4 scenarios x 3 concurrent runs)
+fax/fax_api.glue                         2  par      83  measured -j6 (R30: 2 scenarios x 3 concurrent runs)
+fax/fax_api.eng                          1  par     158  measured -j6 (R30: 4 scenarios x 3 concurrent runs, malloc probes)
+core/dp_registry                         1  par       5  estimate (R31: 4 scenarios x 3 concurrent runs)
+v34/v34_object_layout                    1  seq       3  estimate (X3: g++/gcc probes at -m32 and -m64)
+vpcm/pcm_parameters.native64             1  seq       8  estimate (X4: native -m64 build of 2 port files + run)
+v32/v32_engine.status.native64           1  seq       5  estimate (X5: native -m64 build of the V.32 engine + run)

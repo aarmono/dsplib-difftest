@@ -1,0 +1,28 @@
+V90Phase4Demodulator::getV90Decision/1:376 LIT 11f00dce45 0 -> (-1)
+V90Phase4Demodulator::getV90Decision/1:376 LIT d615a827c4 0 -> (-2)
+V90Phase4Demodulator::getV90Decision/1:376 LIT d7fa59b4ff 0 -> 1
+V90Phase4Demodulator::getV90Decision/1:376 LIT 4a1da7e040 0 -> 2
+V90Phase4Demodulator::getV92Decision/1:539 LIT 424791cffd 0 -> (-1)
+V90Phase4Demodulator::getV92Decision/1:539 LIT 17d63e8507 0 -> (-2)
+V90Phase4Demodulator::getV92Decision/1:539 LIT 7bc36e8d02 0 -> 1
+V90Phase4Demodulator::getV92Decision/1:539 LIT 0558b5de16 0 -> 2
+absWrap:63 LIT a944bd442f 31 -> 29
+absWrap:63 LIT a984d7cb6d 31 -> 30
+cpShortFrame:450 SIGN b07e3fa50a decl unsigned c -> int
+intPart:71 CMPSIGN f559771762 compare as int32_t (no blob compare evidence)
+intPart:71 REL d535898dd3 < -> <=
+stB1d:149 SIGN fc1d0f22b7 decl short x -> unsigned short
+stB1d:153 SIGN b22904808d decl unsigned i -> int
+stB1d:160 CMPSIGN 07365ea0e2 compare as int32_t (pointer/address-width compare (always))
+stEchoAfter:225 SIGN 5cdae3dac8 decl int sq -> unsigned
+stEchoBefore:193 CAST 3dd7616d60 cast (int) -> (unsigned)
+stEchoBefore:193 CAST ff9bfba2ad cast (int) -> (unsigned)
+stEchoBefore:193 SIGN 3dcd46d2a5 decl int sq -> unsigned
+stKnown:130 STMT 1f9741d3bc delete statement
+stKnown:134 STMT 6b5edcc8e5 delete statement
+stV90WaitEd:321 SIGN 14881e3ae5 decl unsigned i -> int
+stV90WaitEd:350 CMPSIGN 82d3c073ef compare as int32_t (pointer/address-width compare (always))
+stV90WaitMP:299 SIGN d27f5517e9 decl unsigned i -> int
+stV90WaitMP:311 CMPSIGN 542a90b71f compare as int32_t (pointer/address-width compare (always))
+stV92WaitCP:464 SIGN 390961df67 decl unsigned i -> int
+stV92WaitCP:513 CMPSIGN 425cedb65c compare as int32_t (pointer/address-width compare (always))

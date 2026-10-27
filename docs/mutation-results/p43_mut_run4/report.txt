@@ -1,0 +1,91 @@
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/p43_demodulator_progress.cpp   functions: jmpB,jmpAe,jmpBe,absI32,splitValue,edFix,dbgFix,edMeans,storeF,copyWord,wordOf,floatOf,trunc16,trunc64lo,retrainState,V90Demodulator::progress/4   source hash e3b95dd301d9
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 1920   invalid 103   TCE-equivalent 166   live 1651
+  live: killed 1610  survived 33  NOVALUE (probe: never run) 8  pending 0
+  survivors+NOVALUE by value probe: NOVALUE 8 (distinguishing value never occurs: identical on this harness; harness-gap candidates), SEEN 8 (value occurred, difference masked downstream: equivalence candidates), no probe 25
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+ARITH         38       0       0      38       0       0  
+BIT            5       0       0       5       0       0  
+CAST         136       0     108      26       2       0  NOISY=2
+CMPSIGN      100       0      43      50       7       0  UNDIRECTED=7
+LIT         1072      98       0     962       8       0  -=8
+LOGIC         23       0       0      22       1       0  -=1
+NEG          119       0       1     118       0       0  
+REL          184       0       2     178       0       0  
+SHIFT          1       0       0       1       0       0  
+SIGN          26       1      11       7       7       0  NOISY=7
+STMT         207       4       1     196       6       0  -=6
+WIDTH          9       0       0       7       2       0  NOISY=2
+
+default directed policy (skips blob-sign-neutral accessor swaps and undirected noisy classes) keeps 1792 of 1920 mutants: TCE-equivalent 65, live 1617 (killed 1595, survived 22)
+  excluded by policy: CAST/NOISY 93, SIGN/NOISY 26, WIDTH/NOISY 9
+  (equivalent-mutant pre-filter + policy): live mutants needing a run: all 1643 -> policy 1617
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 1180 s; default-policy subset 1101 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {'EXECUTED': 37, 'NOCODE': 4}
+TCE validation: {"n": 18, "killed": 0, "ids": []}
+
+SURVIVORS (41; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note
+  V90Demodulator::progress/4:178  unsigned ro;              /* retrainOk_ (ecx of the bll block) */
+      c96a2ee788 [SIGN NOISY NOCODE] decl unsigned ro -> int   => int ro;              /* retrainOk_ (ecx of the bll block) */
+  V90Demodulator::progress/4:180  unsigned prevRate;        /* ebx of the silence rrn redesign */
+      8d53400998 [SIGN NOISY NOCODE] decl unsigned prevRate -> int   => int prevRate;        /* ebx of the silence rrn redesign */
+  V90Demodulator::progress/4:189  unsigned tmp;
+      87fff8127a [SIGN NOISY NOCODE] decl unsigned tmp -> int   => int tmp;
+  V90Demodulator::progress/4:228  unsigned s = n + quietCnt_;
+      4e71b52dc7 [SIGN NOISY EXECUTED] decl unsigned s -> int   => int s = n + quietCnt_;
+  V90Demodulator::progress/4:278  int st = (int)state_;
+      f1fed714c9 [SIGN NOISY EXECUTED] decl int st -> unsigned   => unsigned st = (int)state_;
+      967ffbf898 [WIDTH NOISY EXECUTED] decl int st -> short   => short st = (int)state_;
+  V90Demodulator::progress/4:280  if (st < 0x23) {                                            /* jle 1ced0 */
+      3dfbac3325 [CMPSIGN UNDIRECTED EXECUTED SEEN] compare as uint32_t (no blob compare evidence)   => if ((uint32_t)(st) < (uint32_t)(0x23)) {                                            /* jle 1ced0 */
+      c2eb4e7ddb [LIT - EXECUTED SEEN] 0x23 -> 0x22   => if (st < 0x22) {                                            /* jle 1ced0 */
+      91ac15e108 [LIT - EXECUTED NOVALUE] 0x23 -> 0x24   => if (st < 0x24) {                                            /* jle 1ced0 */
+      8bdf7add88 [LIT - EXECUTED SEEN] 0x23 -> 0x25   => if (st < 0x25) {                                            /* jle 1ced0 */
+      95f98ebe7a [REL - EXECUTED NOVALUE] < -> <=   => if (st <= 0x23) {                                            /* jle 1ced0 */
+  V90Demodulator::progress/4:357  int f = (int)sv_.flag_;
+      1847822ff2 [SIGN NOISY EXECUTED] decl int f -> unsigned   => unsigned f = (int)sv_.flag_;
+      3cbbe4e0f0 [WIDTH NOISY EXECUTED] decl int f -> short   => short f = (int)sv_.flag_;
+  V90Demodulator::progress/4:359  if (f < 1) {                                                /* jle 1e00c */
+      59dc9e91ee [CMPSIGN UNDIRECTED EXECUTED SEEN] compare as uint32_t (no blob compare evidence)   => if ((uint32_t)(f) < (uint32_t)(1)) {                                                /* jle 1e00c */
+      36e86669b1 [LIT - EXECUTED NOVALUE] 1 -> 2   => if (f < 2) {                                                /* jle 1e00c */
+      3d9a318b09 [REL - EXECUTED NOVALUE] < -> <=   => if (f <= 1) {                                                /* jle 1e00c */
+  V90Demodulator::progress/4:371  if (state_ > 0x15) goto L_1d10c;
+      f6f07239e8 [CMPSIGN UNDIRECTED EXECUTED SEEN] compare as int32_t (no blob compare evidence)   => if ((int32_t)(state_) > (int32_t)(0x15)) goto L_1d10c;
+      0888068b54 [LIT - EXECUTED SEEN] 0x15 -> 0x16   => if (state_ > 0x16) goto L_1d10c;
+      66fc2e32af [LIT - EXECUTED SEEN] 0x15 -> 0x17   => if (state_ > 0x17) goto L_1d10c;
+  V90Demodulator::progress/4:524  ro = retrainOk_;
+      927c321d44 [STMT - EXECUTED] delete statement   => ;
+  V90Demodulator::progress/4:530  ro = retrainOk_;
+      6ddad58003 [STMT - EXECUTED] delete statement   => ;
+  V90Demodulator::progress/4:542  ro = retrainOk_;
+      71a1ac32ec [STMT - EXECUTED] delete statement   => ;
+  V90Demodulator::progress/4:548  ro = retrainOk_;
+      60b4a82f91 [STMT - EXECUTED] delete statement   => ;
+  V90Demodulator::progress/4:620  if (state_ - 0x19 > 0x1c) goto L_1d3d3;
+      7d22bad5bf [CMPSIGN UNDIRECTED EXECUTED SEEN] compare as int32_t (no blob compare evidence)   => if ((int32_t)(state_ - 0x19) > (int32_t)(0x1c)) goto L_1d3d3;
+      549e15a666 [LIT - EXECUTED NOVALUE] 0x1c -> 0x1d   => if (state_ - 0x19 > 0x1d) goto L_1d3d3;
+      cb8fa806b8 [LIT - EXECUTED NOVALUE] 0x1c -> 0x1e   => if (state_ - 0x19 > 0x1e) goto L_1d3d3;
+  copyWord:143  __asm__("" : "+r"(w));
+      90c99c86e0 [STMT - EXECUTED] delete statement   => ;
+  trunc16:164  if (!(v > -32769.0L && v < 32768.0L)) return -32768;
+      e6492f56ed [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => if (!((int32_t)(v) > (int32_t)(-32769.0L) && v < 32768.0L)) return -32768;
+      21bcf96210 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => if (!(v > -32769.0L && (int32_t)(v) < (int32_t)(32768.0L))) return -32768;
+      39f9956959 [CMPSIGN UNDIRECTED EXECUTED] compare as uint32_t (no blob compare evidence)   => if (!(v > -32769.0L && (uint32_t)(v) < (uint32_t)(32768.0L))) return -32768;
+      20568d8c13 [LIT - EXECUTED] 32768 -> 32766   => if (!(v > -32769.0L && v < 32768.0L)) return -32766;
+      91603120f5 [LIT - EXECUTED] 32768 -> 32767   => if (!(v > -32769.0L && v < 32768.0L)) return -32767;
+      2dc34b7145 [LIT - EXECUTED] 32768 -> 32769   => if (!(v > -32769.0L && v < 32768.0L)) return -32769;
+      16ad05775d [LIT - EXECUTED] 32768 -> 32770   => if (!(v > -32769.0L && v < 32768.0L)) return -32770;
+      85ce9378c5 [LOGIC - EXECUTED] && -> ||   => if (!(v > -32769.0L || v < 32768.0L)) return -32768;
+      7a508871bd [REL - EXECUTED NOVALUE] < -> <=   => if (!(v > -32769.0L && v <= 32768.0L)) return -32768;
+      9fc716ccb2 [REL - EXECUTED NOVALUE] > -> >=   => if (!(v >= -32769.0L && v < 32768.0L)) return -32768;
+  trunc16:165  return (int)v;
+      72d6597904 [CAST NOISY EXECUTED] cast (int) -> (unsigned)   => return (unsigned)v;
+  trunc64lo:169  static inline unsigned trunc64lo(LD v) { return (unsigned)(unsigned long long)(long long)v; }
+      dd070dafb9 [CAST NOISY EXECUTED] drop cast (long long)   => static inline unsigned trunc64lo(LD v) { return (unsigned)(unsigned long long)v; }
+  wordOf:150  uint32_t w;
+      bd52acf79b [SIGN NOISY NOCODE] decl uint32_t w -> int32_t   => int32_t w;
+  wordOf:152  __asm__("" : "+r"(w));
+      a239e24ce1 [STMT - EXECUTED] delete statement   => ;

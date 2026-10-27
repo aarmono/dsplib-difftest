@@ -1,0 +1,6 @@
+seed 1: SYMBOLS: all 26 blob symbols (name + binding) are defined by the port object MATCH: P47 C++ port (-O0 and -O2 + x86-64 [] vs the 32-bit blob output) is behaviorally identical to dsplibs.o for this test 
+seed 2: SYMBOLS: all 26 blob symbols (name + binding) are defined by the port object MATCH: P47 C++ port (-O0 and -O2 + x86-64 [] vs the 32-bit blob output) is behaviorally identical to dsplibs.o for this test 
+seed 3: SYMBOLS: all 26 blob symbols (name + binding) are defined by the port object MATCH: P47 C++ port (-O0 and -O2 + x86-64 [] vs the 32-bit blob output) is behaviorally identical to dsplibs.o for this test 
+seed 7: SYMBOLS: all 26 blob symbols (name + binding) are defined by the port object MATCH: P47 C++ port (-O0 and -O2 + x86-64 [] vs the 32-bit blob output) is behaviorally identical to dsplibs.o for this test 
+seed 12345: SYMBOLS: all 26 blob symbols (name + binding) are defined by the port object MATCH: P47 C++ port (-O0 and -O2 + x86-64 [] vs the 32-bit blob output) is behaviorally identical to dsplibs.o for this test 
+done

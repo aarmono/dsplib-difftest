@@ -1,0 +1,1171 @@
+TABLE coset 20e2ece7c1359fa5
+TABLE subset 67b6d63052be72a5
+conv mode_=0 state_=0 out_=#b9a17d9388eda649 next_=#a691413e930e13ea
+conv mode_=1 state_=0 out_=#b07781381d91a4b1 next_=#0f237ccc3f1750ae
+conv mode_=2 state_=0 out_=#673f3151f7093383 next_=#e1e275d4771edb83
+conv mode_=-1 state_=0 out_=#27978585af191135 next_=#a498b9c48e7f78f7
+conv mode_=3 state_=0 out_=#2c90d6113fc824c3 next_=#558b9af53b08838b
+conv mode_=4 state_=-470795987 out_=#06579de5fc8c872d next_=#702961184d4284dc
+conv mode_=5 state_=0 out_=#9ecbe442adcc9b64 next_=#a4dc262152c822dc
+conv mode_=100 state_=0 out_=#28e4989ca6945f16 next_=#84be040b7ad66f39
+conv mode_=2147483647 state_=-3499530 out_=#a09cdfc4b5c32dea next_=#90fdc63e8c1e7f12
+conv mode_=-2147483648 state_=260293876 out_=#589c46b1f6d8c95f next_=#9cce1e44223721de
+conv mode_=-256 state_=0 out_=#c0ee82711536dae1 next_=#abd598e397a0ab40
+conv mode_=65536 state_=0 out_=#62a01cc932537afd next_=#0150da2be7a30532
+conv mode_=2 state_=0 out_=#673f3151f7093383 next_=#e1e275d4771edb83
+conv mode_=2 state_=0 out_=#673f3151f7093383 next_=#e1e275d4771edb83
+conv mode_=2 state_=0 out_=#673f3151f7093383 next_=#e1e275d4771edb83
+conv mode_=1 state_=0 out_=#1cd91dcc56019225 next_=#d256f802054208a2
+conv mode_=1 state_=0 out_=#4934d9a66221097a next_=#edc93325e48ca1cb
+conv mode_=-968444969 state_=0 out_=#303d4a0072be9065 next_=#37cda4bafc6815ff
+conv mode_=1 state_=0 out_=#71283fe7bbc0eb00 next_=#add8aefc838535cf
+conv mode_=1 state_=-651574231 out_=#e437f793c651bc20 next_=#eda79fd6090fdfc6
+conv mode_=1 state_=0 out_=#49e57f79a04a9535 next_=#e830180dac1f180d
+conv mode_=508619039 state_=0 out_=#32be1018d1b68269 next_=#71d7c7594e695b28
+conv mode_=1186330744 state_=0 out_=#443d7089efaa1b81 next_=#13ba762b7b98f940
+conv mode_=1 state_=0 out_=#8db62f87dcdb9954 next_=#bb1b784af70b8c7c
+conv mode_=1 state_=0 out_=#66581c5b7fa1590c next_=#c0b198e7acda7027
+conv mode_=-533705099 state_=0 out_=#28cff5a585f31f46 next_=#fafe64718486983d
+conv mode_=1 state_=0 out_=#5e52d7d62eedb870 next_=#eed3395e9a242800
+calls: malloc 1500 free 1500 dbgprintf 0
+COV trials                       1500
+COV reset(0)                     339
+COV reset(1)                     344
+COV reset(2)                     345
+COV reset(mode > 2)              237
+COV reset(mode < 0)              235
+COV C2 / D2 variants             744
+COV D2                           738
+COV makeStateTtransitionTable() called directly 364
+COV makeState... keeps state_    364
+COV reset clears a garbage state_ 1136
+COV entries outside the written set kept 1155
+COV every written entry exactly once (model) 1028
+COV constructor / destructor leave the object alone 1500
+COV huge mode value              454
+COV trials with the block around 2^31 1501
+COV dtor with a NULL block pointer 0
+HASH ce2b77c0bf7293fe lines 6020
+conv mode_=0 state_=8 out_=#b9a17d9388eda649 next_=#a691413e930e13ea
+conv mode_=0 state_=6 out_=#b9a17d9388eda649 next_=#a691413e930e13ea
+conv mode_=1 state_=12 out_=#b045e5de09e7d05d next_=#9ccd69837419a44c
+conv mode_=1 state_=34 out_=#673f3151f7093383 next_=#e1e275d4771edb83
+conv mode_=0 state_=8 out_=#0bc12950a930cd8a next_=#6ebb79dec5e9d64f
+conv mode_=1 state_=31 out_=#b10cfee25ae37538 next_=#c823912d67166659
+conv mode_=2 state_=48 out_=#673f3151f7093383 next_=#e1e275d4771edb83
+conv mode_=1 state_=22 out_=#abdfcd224fef24ac next_=#36d02d61133abf17
+conv mode_=0 state_=7 out_=#69a53ec867290194 next_=#d16562a3689398f8
+conv mode_=0 state_=10 out_=#17e97692b73ac683 next_=#1080c88dbe7b94b4
+conv mode_=1 state_=13 out_=#e73612cbc9c703a2 next_=#122acf43f2f35004
+calls: malloc 600 free 600 dbgprintf 0
+COV trials                       600
+COV process in mode 0            234
+COV process in mode 1            235
+COV process in mode 2            131
+COV mode 0 on a mode-2 table     34
+COV mode 1 on a mode-2 table     35
+COV negative a[k]                21053
+COV |a[k]| >= 2^30               6704
+COV all 16 (a mod 4) combinations of a[0..1] seen 11040
+COV mode 2 with label % 16 on a value >= 8 1198
+COV inverseMap called directly   1325
+COV chains of >= 20 calls        110
+COV state_ at its maximum        406
+COV trials with the block around 2^31 601
+COV dtor with a NULL block pointer 0
+HASH b7a6088b9d378792 lines 15294
+pf ctor unk0_=065ad165 fir_=A1+0 iir_=A3+0 nFir_=1221452445 nIir_=2875536390
+pf ctor.fir coef_=NULL hist_=A2+0 taps_=24 histLen_=123 room_=99 heap(492)#7b829f9c92d7e413
+pf ctor.iir coef_=NULL hist_=A4+0 taps_=24 histLen_=123 room_=99 heap(492)#7b829f9c92d7e413
+pf setc unk0_=065ad165 fir_=A1+0 iir_=A3+0 nFir_=92 nIir_=50
+pf setc.fir coef_=A9+0 hist_=A2+0 taps_=92 histLen_=123 room_=31 heap(492)#7b829f9c92d7e413
+pf setc.iir coef_=A10+0 hist_=A4+0 taps_=48 histLen_=123 room_=75 heap(492)#7b829f9c92d7e413
+pf proc unk0_=065ad165 fir_=A1+0 iir_=A3+0 nFir_=92 nIir_=50
+pf proc.fir coef_=A9+0 hist_=A2+0 taps_=92 histLen_=123 room_=19 heap(492)#49ef83888ce67673
+pf proc.iir coef_=A10+0 hist_=A4+0 taps_=48 histLen_=123 room_=63 heap(492)#9f2a4d5883cfffcd
+pf setc unk0_=065ad165 fir_=A1+0 iir_=A3+0 nFir_=1 nIir_=44
+pf setc.fir coef_=A11+0 hist_=A2+0 taps_=0 histLen_=123 room_=19 heap(492)#49ef83888ce67673
+pf setc.iir coef_=A12+0 hist_=A4+0 taps_=44 histLen_=123 room_=63 heap(492)#9f2a4d5883cfffcd
+pf setc unk0_=065ad165 fir_=A1+0 iir_=A3+0 nFir_=0 nIir_=0
+pf setc.fir coef_=A13+0 hist_=A2+0 taps_=0 histLen_=123 room_=19 heap(492)#49ef83888ce67673
+pf setc.iir coef_=A14+0 hist_=A4+0 taps_=0 histLen_=123 room_=63 heap(492)#9f2a4d5883cfffcd
+pf proc unk0_=065ad165 fir_=A1+0 iir_=A3+0 nFir_=0 nIir_=0
+pf proc.fir coef_=A13+0 hist_=A2+0 taps_=0 histLen_=123 room_=19 heap(492)#49ef83888ce67673
+pf proc.iir coef_=A14+0 hist_=A4+0 taps_=0 histLen_=123 room_=63 heap(492)#9f2a4d5883cfffcd
+pf proc unk0_=065ad165 fir_=A1+0 iir_=A3+0 nFir_=0 nIir_=0
+pf proc.fir coef_=A13+0 hist_=A2+0 taps_=0 histLen_=123 room_=19 heap(492)#49ef83888ce67673
+pf proc.iir coef_=A14+0 hist_=A4+0 taps_=0 histLen_=123 room_=63 heap(492)#9f2a4d5883cfffcd
+pf proc unk0_=065ad165 fir_=A1+0 iir_=A3+0 nFir_=0 nIir_=0
+pf proc.fir coef_=A13+0 hist_=A2+0 taps_=0 histLen_=123 room_=19 heap(492)#49ef83888ce67673
+pf proc.iir coef_=A14+0 hist_=A4+0 taps_=0 histLen_=123 room_=63 heap(492)#9f2a4d5883cfffcd
+pf proc unk0_=065ad165 fir_=A1+0 iir_=A3+0 nFir_=0 nIir_=0
+pf proc.fir coef_=A13+0 hist_=A2+0 taps_=0 histLen_=123 room_=19 heap(492)#49ef83888ce67673
+pf proc.iir coef_=A14+0 hist_=A4+0 taps_=0 histLen_=123 room_=63 heap(492)#9f2a4d5883cfffcd
+pf ctor unk0_=adafdafa fir_=A15+0 iir_=A17+0 nFir_=1706499238 nIir_=418485952
+pf ctor.fir coef_=NULL hist_=A16+0 taps_=28 histLen_=127 room_=99 heap(508)#d5190400a4c1b0d3
+pf ctor.iir coef_=NULL hist_=A18+0 taps_=28 histLen_=127 room_=99 heap(508)#d5190400a4c1b0d3
+pf setc unk0_=adafdafa fir_=A15+0 iir_=A17+0 nFir_=2 nIir_=0
+pf setc.fir coef_=A23+0 hist_=A16+0 taps_=0 histLen_=127 room_=99 heap(508)#d5190400a4c1b0d3
+pf setc.iir coef_=A24+0 hist_=A18+0 taps_=0 histLen_=127 room_=99 heap(508)#d5190400a4c1b0d3
+pf setc unk0_=adafdafa fir_=A15+0 iir_=A17+0 nFir_=60 nIir_=89
+pf setc.fir coef_=A25+0 hist_=A16+0 taps_=60 histLen_=127 room_=67 heap(508)#d5190400a4c1b0d3
+pf setc.iir coef_=A26+0 hist_=A18+0 taps_=88 histLen_=127 room_=39 heap(508)#d5190400a4c1b0d3
+pf proc unk0_=fdb1d743 fir_=A99+0 iir_=A101+0 nFir_=12 nIir_=89
+pf proc.fir coef_=A107+0 hist_=A100+0 taps_=12 histLen_=131 room_=39 heap(524)#9d594b0da72f9c5c
+pf proc.iir coef_=A108+0 hist_=A102+0 taps_=88 histLen_=131 room_=27 heap(524)#50897e2f6b108d2d
+pf setc unk0_=1e5dc860 fir_=A193+0 iir_=A195+0 nFir_=20 nIir_=60
+pf setc.fir coef_=A201+0 hist_=A194+0 taps_=20 histLen_=131 room_=99 heap(524)#2a2f6b772810ad93
+pf setc.iir coef_=A202+0 hist_=A196+0 taps_=60 histLen_=131 room_=71 heap(524)#2a2f6b772810ad93
+pf setc unk0_=82c67d84 fir_=A271+0 iir_=A273+0 nFir_=2 nIir_=46
+pf setc.fir coef_=A281+0 hist_=A272+0 taps_=0 histLen_=107 room_=15 heap(428)#cdb6b48e9dc02de7
+pf setc.iir coef_=A282+0 hist_=A274+0 taps_=44 histLen_=107 room_=3 heap(428)#e65270a22de5b0ee
+pf setc unk0_=5b1ed4ca fir_=A377+0 iir_=A379+0 nFir_=84 nIir_=89
+pf setc.fir coef_=A385+0 hist_=A378+0 taps_=84 histLen_=131 room_=47 heap(524)#2a2f6b772810ad93
+pf setc.iir coef_=A386+0 hist_=A380+0 taps_=88 histLen_=131 room_=43 heap(524)#2a2f6b772810ad93
+pf proc unk0_=ad76f7b3 fir_=A459+0 iir_=A461+0 nFir_=32 nIir_=0
+pf proc.fir coef_=A471+0 hist_=A460+0 taps_=32 histLen_=103 room_=7 heap(412)#cd1030c10ac23c6e
+pf proc.iir coef_=A472+0 hist_=A462+0 taps_=0 histLen_=103 room_=47 heap(412)#4551af84306d9704
+pf setc unk0_=b2bb3f3f fir_=A557+0 iir_=A559+0 nFir_=116 nIir_=82
+pf setc.fir coef_=A567+0 hist_=A558+0 taps_=116 histLen_=123 room_=7 heap(492)#7b829f9c92d7e413
+pf setc.iir coef_=A568+0 hist_=A560+0 taps_=80 histLen_=123 room_=43 heap(492)#7b829f9c92d7e413
+pf proc unk0_=f335898d fir_=A657+0 iir_=A659+0 nFir_=12 nIir_=44
+pf proc.fir coef_=A665+0 hist_=A658+0 taps_=12 histLen_=139 room_=87 heap(556)#11d735c1c9072792
+pf proc.iir coef_=A666+0 hist_=A660+0 taps_=44 histLen_=139 room_=83 heap(556)#eed87d3d6b34fa0a
+pf proc unk0_=add6ca43 fir_=A745+0 iir_=A747+0 nFir_=73 nIir_=98
+pf proc.fir coef_=A755+0 hist_=A746+0 taps_=72 histLen_=167 room_=79 heap(668)#4fba30b3bc2b9509
+pf proc.iir coef_=A756+0 hist_=A748+0 taps_=96 histLen_=167 room_=23 heap(668)#11f9a6b2621e7f86
+pf setc unk0_=fc7109a7 fir_=A841+0 iir_=A843+0 nFir_=64 nIir_=0
+pf setc.fir coef_=A851+0 hist_=A842+0 taps_=64 histLen_=163 room_=87 heap(652)#6c98eec73cde7dd5
+pf setc.iir coef_=A852+0 hist_=A844+0 taps_=0 histLen_=163 room_=87 heap(652)#9e8550aa15b0b16b
+pf setc unk0_=b69b0127 fir_=A923+0 iir_=A925+0 nFir_=36 nIir_=61
+pf setc.fir coef_=A931+0 hist_=A924+0 taps_=36 histLen_=99 room_=63 heap(396)#bfd951d78a0a0793
+pf setc.iir coef_=A932+0 hist_=A926+0 taps_=60 histLen_=99 room_=39 heap(396)#bfd951d78a0a0793
+pf reset unk0_=bf2c1d18 fir_=A1027+0 iir_=A1029+0 nFir_=58 nIir_=0
+pf reset.fir coef_=A1037+0 hist_=A1028+0 taps_=56 histLen_=107 room_=51 heap(428)#8340229f5e349113
+pf reset.iir coef_=A1038+0 hist_=A1030+0 taps_=0 histLen_=107 room_=107 heap(428)#8340229f5e349113
+pf ctor unk0_=3457a37c fir_=A1113+0 iir_=A1115+0 nFir_=3380823414 nIir_=468729198
+pf ctor.fir coef_=NULL hist_=A1114+0 taps_=0 histLen_=99 room_=99 heap(396)#bfd951d78a0a0793
+pf ctor.iir coef_=NULL hist_=A1116+0 taps_=0 histLen_=99 room_=99 heap(396)#bfd951d78a0a0793
+pf setc unk0_=d16842eb fir_=A1211+0 iir_=A1213+0 nFir_=19 nIir_=119
+pf setc.fir coef_=A1221+0 hist_=A1212+0 taps_=16 histLen_=123 room_=71 heap(492)#7b829f9c92d7e413
+pf setc.iir coef_=A1222+0 hist_=A1214+0 taps_=116 histLen_=123 room_=7 heap(492)#7b829f9c92d7e413
+pf proc unk0_=1f4df237 fir_=A1295+0 iir_=A1297+0 nFir_=20 nIir_=0
+pf proc.fir coef_=A1305+0 hist_=A1296+0 taps_=20 histLen_=163 room_=75 heap(652)#38f5b673b89f4f20
+pf proc.iir coef_=A1306+0 hist_=A1298+0 taps_=0 histLen_=163 room_=15 heap(652)#196054a582635393
+pf proc unk0_=c8a8db57 fir_=A1375+0 iir_=A1377+0 nFir_=60 nIir_=65
+pf proc.fir coef_=A1385+0 hist_=A1376+0 taps_=60 histLen_=175 room_=75 heap(700)#5b18ed36b264121b
+pf proc.iir coef_=A1386+0 hist_=A1378+0 taps_=64 histLen_=175 room_=107 heap(700)#327a23fdb605a733
+pf setc unk0_=a9693b38 fir_=A1493+0 iir_=A1495+0 nFir_=58 nIir_=100
+pf setc.fir coef_=A1503+0 hist_=A1494+0 taps_=56 histLen_=107 room_=11 heap(428)#6a6794cd945d2c1c
+pf setc.iir coef_=A1504+0 hist_=A1496+0 taps_=100 histLen_=107 room_=7 heap(428)#a65a7f62cd4ed970
+pf proc unk0_=34a1228d fir_=A1585+0 iir_=A1587+0 nFir_=56 nIir_=106
+pf proc.fir coef_=A1593+0 hist_=A1586+0 taps_=56 histLen_=111 room_=19 heap(444)#f4b39e505e20faa6
+pf proc.iir coef_=A1594+0 hist_=A1588+0 taps_=104 histLen_=111 room_=3 heap(444)#7412cb8d428c0040
+pf ctor unk0_=9063c9b5 fir_=A1689+0 iir_=A1691+0 nFir_=773470125 nIir_=549124623
+pf ctor.fir coef_=NULL hist_=A1690+0 taps_=80 histLen_=179 room_=99 heap(716)#f8c8923165a92693
+pf ctor.iir coef_=NULL hist_=A1692+0 taps_=80 histLen_=179 room_=99 heap(716)#f8c8923165a92693
+pf setc unk0_=6ffeaa52 fir_=A1799+0 iir_=A1801+0 nFir_=0 nIir_=32
+pf setc.fir coef_=A1809+0 hist_=A1800+0 taps_=0 histLen_=119 room_=99 heap(476)#fa6adc6bff874753
+pf setc.iir coef_=A1810+0 hist_=A1802+0 taps_=32 histLen_=119 room_=35 heap(476)#21afb7ed5b6efdbe
+pf proc unk0_=efb574ab fir_=A1869+0 iir_=A1871+0 nFir_=48 nIir_=36
+pf proc.fir coef_=A1881+0 hist_=A1870+0 taps_=48 histLen_=119 room_=47 heap(476)#9f06a8bfa3ad6058
+pf proc.iir coef_=A1882+0 hist_=A1872+0 taps_=36 histLen_=119 room_=59 heap(476)#547e310667afb3d0
+pf proc unk0_=175a9324 fir_=A1953+0 iir_=A1955+0 nFir_=8 nIir_=21
+pf proc.fir coef_=A1961+0 hist_=A1954+0 taps_=8 histLen_=107 room_=51 heap(428)#1905545266b8ff50
+pf proc.iir coef_=A1962+0 hist_=A1956+0 taps_=20 histLen_=107 room_=39 heap(428)#eb064edd3fd1b47a
+pf ctor unk0_=c624fdd4 fir_=A2067+0 iir_=A2069+0 nFir_=3927305241 nIir_=883219028
+pf ctor.fir coef_=NULL hist_=A2068+0 taps_=32 histLen_=131 room_=99 heap(524)#2a2f6b772810ad93
+pf ctor.iir coef_=NULL hist_=A2070+0 taps_=32 histLen_=131 room_=99 heap(524)#2a2f6b772810ad93
+pf proc unk0_=1a66051e fir_=A2159+0 iir_=A2161+0 nFir_=87 nIir_=46
+pf proc.fir coef_=A2169+0 hist_=A2160+0 taps_=84 histLen_=103 room_=15 heap(412)#bfe392723f39227a
+pf proc.iir coef_=A2170+0 hist_=A2162+0 taps_=44 histLen_=103 room_=59 heap(412)#be6b649ca321f774
+pf proc unk0_=8a00aacb fir_=A2249+0 iir_=A2251+0 nFir_=40 nIir_=29
+pf proc.fir coef_=A2261+0 hist_=A2250+0 taps_=40 histLen_=123 room_=19 heap(492)#1283cc623244b5cf
+pf proc.iir coef_=A2262+0 hist_=A2252+0 taps_=28 histLen_=123 room_=23 heap(492)#2def2bba447ddd22
+pf setc unk0_=a574535f fir_=A2347+0 iir_=A2349+0 nFir_=115 nIir_=99
+pf setc.fir coef_=A2357+0 hist_=A2348+0 taps_=112 histLen_=147 room_=35 heap(588)#faf66d6e34308093
+pf setc.iir coef_=A2358+0 hist_=A2350+0 taps_=96 histLen_=147 room_=23 heap(588)#faf66d6e34308093
+pf reset unk0_=17ad6c8f fir_=A2433+0 iir_=A2435+0 nFir_=0 nIir_=81
+pf reset.fir coef_=A2441+0 hist_=A2434+0 taps_=0 histLen_=107 room_=107 heap(428)#8340229f5e349113
+pf reset.iir coef_=A2442+0 hist_=A2436+0 taps_=80 histLen_=107 room_=27 heap(428)#8340229f5e349113
+pf ctor unk0_=155f4669 fir_=A2527+0 iir_=A2529+0 nFir_=2603231714 nIir_=666593878
+pf ctor.fir coef_=NULL hist_=A2528+0 taps_=56 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pf ctor.iir coef_=NULL hist_=A2530+0 taps_=56 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pf proc unk0_=04395ba0 fir_=A2627+0 iir_=A2629+0 nFir_=59 nIir_=52
+pf proc.fir coef_=A2635+0 hist_=A2628+0 taps_=56 histLen_=103 room_=23 heap(412)#fe820efe4b75bff0
+pf proc.iir coef_=A2636+0 hist_=A2630+0 taps_=52 histLen_=103 room_=27 heap(412)#9a3ed161073128f6
+pf setc unk0_=ac29bed9 fir_=A2707+0 iir_=A2709+0 nFir_=52 nIir_=24
+pf setc.fir coef_=A2717+0 hist_=A2708+0 taps_=52 histLen_=119 room_=67 heap(476)#fa6adc6bff874753
+pf setc.iir coef_=A2718+0 hist_=A2710+0 taps_=24 histLen_=119 room_=7 heap(476)#fa6adc6bff874753
+pf proc unk0_=2daa94dd fir_=A2795+0 iir_=A2797+0 nFir_=40 nIir_=0
+pf proc.fir coef_=A2803+0 hist_=A2796+0 taps_=40 histLen_=151 room_=87 heap(604)#15173edde4c859dc
+pf proc.iir coef_=A2804+0 hist_=A2798+0 taps_=0 histLen_=151 room_=99 heap(604)#1708813d416d6d53
+pf setc unk0_=e84782e1 fir_=A2891+0 iir_=A2893+0 nFir_=112 nIir_=48
+pf setc.fir coef_=A2899+0 hist_=A2892+0 taps_=0 histLen_=111 room_=99 heap(444)#a56a423828819dd3
+pf setc.iir coef_=A2902+0 hist_=A2894+0 taps_=48 histLen_=111 room_=63 heap(444)#a56a423828819dd3
+pf proc unk0_=a46f5d3e fir_=A2997+0 iir_=A2999+0 nFir_=113 nIir_=115
+pf proc.fir coef_=A3005+0 hist_=A2998+0 taps_=112 histLen_=127 room_=3 heap(508)#493aa640ddbee26a
+pf proc.iir coef_=A3006+0 hist_=A3000+0 taps_=112 histLen_=127 room_=3 heap(508)#2863fde790fae10d
+pf proc unk0_=a85f1f18 fir_=A3065+0 iir_=A3067+0 nFir_=106 nIir_=16
+pf proc.fir coef_=A3075+0 hist_=A3066+0 taps_=104 histLen_=127 room_=11 heap(508)#a275ad35b1797ca9
+pf proc.iir coef_=A3076+0 hist_=A3068+0 taps_=16 histLen_=127 room_=87 heap(508)#8a04ad0f1401870a
+pf proc unk0_=db8eb435 fir_=A3149+0 iir_=A3151+0 nFir_=95 nIir_=40
+pf proc.fir coef_=A3157+0 hist_=A3150+0 taps_=92 histLen_=99 room_=7 heap(396)#7b824206fd832943
+pf proc.iir coef_=A3158+0 hist_=A3152+0 taps_=40 histLen_=99 room_=35 heap(396)#11cdf1f48220f4c0
+pf proc unk0_=59c6d68d fir_=A3235+0 iir_=A3237+0 nFir_=21 nIir_=36
+pf proc.fir coef_=A3243+0 hist_=A3236+0 taps_=20 histLen_=115 room_=11 heap(460)#7a09439a92395491
+pf proc.iir coef_=A3244+0 hist_=A3238+0 taps_=36 histLen_=115 room_=75 heap(460)#de37c1034ae8c9c2
+pf proc unk0_=d8503051 fir_=A3327+0 iir_=A3329+0 nFir_=0 nIir_=113
+pf proc.fir coef_=A3335+0 hist_=A3328+0 taps_=0 histLen_=163 room_=99 heap(652)#196054a582635393
+pf proc.iir coef_=A3336+0 hist_=A3330+0 taps_=112 histLen_=163 room_=27 heap(652)#185922c3330b404a
+pf setc unk0_=e54d7017 fir_=A3441+0 iir_=A3443+0 nFir_=0 nIir_=100
+pf setc.fir coef_=A3449+0 hist_=A3442+0 taps_=0 histLen_=171 room_=99 heap(684)#c1237a66de33dd13
+pf setc.iir coef_=A3450+0 hist_=A3444+0 taps_=100 histLen_=171 room_=71 heap(684)#c1237a66de33dd13
+pf proc unk0_=5d38462b fir_=A3529+0 iir_=A3531+0 nFir_=16 nIir_=76
+pf proc.fir coef_=A3539+0 hist_=A3530+0 taps_=16 histLen_=127 room_=87 heap(508)#db7adc285c34c653
+pf proc.iir coef_=A3540+0 hist_=A3532+0 taps_=76 histLen_=127 room_=51 heap(508)#861ead9c274f7f51
+pf proc unk0_=0c00eee3 fir_=A3615+0 iir_=A3617+0 nFir_=0 nIir_=60
+pf proc.fir coef_=A3623+0 hist_=A3616+0 taps_=0 histLen_=103 room_=103 heap(412)#c41607e58550b453
+pf proc.iir coef_=A3624+0 hist_=A3618+0 taps_=60 histLen_=103 room_=31 heap(412)#4da487bb2dc11bf6
+pf ctor unk0_=e83ddf31 fir_=A3725+0 iir_=A3727+0 nFir_=1261641275 nIir_=3739116089
+pf ctor.fir coef_=NULL hist_=A3726+0 taps_=4 histLen_=103 room_=99 heap(412)#c41607e58550b453
+pf ctor.iir coef_=NULL hist_=A3728+0 taps_=4 histLen_=103 room_=99 heap(412)#c41607e58550b453
+pf proc unk0_=833ff54b fir_=A3811+0 iir_=A3813+0 nFir_=52 nIir_=0
+pf proc.fir coef_=A3819+0 hist_=A3812+0 taps_=52 histLen_=155 room_=51 heap(620)#02d4b0db912ba615
+pf proc.iir coef_=A3820+0 hist_=A3814+0 taps_=0 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pf reset unk0_=602fb34e fir_=A3907+0 iir_=A3909+0 nFir_=0 nIir_=28
+pf reset.fir coef_=A3917+0 hist_=A3908+0 taps_=0 histLen_=131 room_=131 heap(524)#2a2f6b772810ad93
+pf reset.iir coef_=A3918+0 hist_=A3910+0 taps_=28 histLen_=131 room_=103 heap(524)#2a2f6b772810ad93
+pf setc unk0_=8d547f85 fir_=A4015+0 iir_=A4017+0 nFir_=0 nIir_=81
+pf setc.fir coef_=A4029+0 hist_=A4016+0 taps_=0 histLen_=107 room_=51 heap(428)#ab5b6795248293f4
+pf setc.iir coef_=A4030+0 hist_=A4018+0 taps_=80 histLen_=107 room_=3 heap(428)#0f237b3a58d0aaf1
+pf proc unk0_=e77556c5 fir_=A4141+0 iir_=A4143+0 nFir_=36 nIir_=140
+pf proc.fir coef_=A4149+0 hist_=A4142+0 taps_=36 histLen_=167 room_=63 heap(668)#4d62d6d9aed291af
+pf proc.iir coef_=A4150+0 hist_=A4144+0 taps_=140 histLen_=167 room_=19 heap(668)#132f3f9165048386
+pf setc unk0_=518ce0bb fir_=A4241+0 iir_=A4243+0 nFir_=136 nIir_=0
+pf setc.fir coef_=A4253+0 hist_=A4242+0 taps_=136 histLen_=171 room_=35 heap(684)#c1237a66de33dd13
+pf setc.iir coef_=A4254+0 hist_=A4244+0 taps_=0 histLen_=171 room_=99 heap(684)#c1237a66de33dd13
+pf proc unk0_=37b8a499 fir_=A4327+0 iir_=A4329+0 nFir_=48 nIir_=23
+pf proc.fir coef_=A4335+0 hist_=A4328+0 taps_=48 histLen_=103 room_=51 heap(412)#100ad2fb60771fc6
+pf proc.iir coef_=A4336+0 hist_=A4330+0 taps_=20 histLen_=103 room_=23 heap(412)#c0b75eb83d1ad72a
+pf proc unk0_=d5338e46 fir_=A4415+0 iir_=A4417+0 nFir_=0 nIir_=36
+pf proc.fir coef_=A4425+0 hist_=A4416+0 taps_=0 histLen_=119 room_=99 heap(476)#fa6adc6bff874753
+pf proc.iir coef_=A4426+0 hist_=A4418+0 taps_=36 histLen_=119 room_=59 heap(476)#b6b0546f5ab32992
+pf ctor unk0_=0ab451ff fir_=A4513+0 iir_=A4515+0 nFir_=3116108834 nIir_=1564520705
+pf ctor.fir coef_=NULL hist_=A4514+0 taps_=0 histLen_=99 room_=99 heap(396)#bfd951d78a0a0793
+pf ctor.iir coef_=NULL hist_=A4516+0 taps_=0 histLen_=99 room_=99 heap(396)#bfd951d78a0a0793
+pf setc unk0_=43f3d798 fir_=A4587+0 iir_=A4589+0 nFir_=23 nIir_=86
+pf setc.fir coef_=A4599+0 hist_=A4588+0 taps_=20 histLen_=131 room_=111 heap(524)#2a2f6b772810ad93
+pf setc.iir coef_=A4600+0 hist_=A4590+0 taps_=84 histLen_=131 room_=47 heap(524)#1a0c4e02f37332fb
+pf proc unk0_=8698dd8b fir_=A4683+0 iir_=A4685+0 nFir_=28 nIir_=0
+pf proc.fir coef_=A4693+0 hist_=A4684+0 taps_=28 histLen_=159 room_=75 heap(636)#15f924779a547503
+pf proc.iir coef_=A4694+0 hist_=A4686+0 taps_=0 histLen_=159 room_=75 heap(636)#502a70f9cb6002a5
+pf reset unk0_=9325906e fir_=A4795+0 iir_=A4797+0 nFir_=71 nIir_=103
+pf reset.fir coef_=A4803+0 hist_=A4796+0 taps_=68 histLen_=99 room_=31 heap(396)#bfd951d78a0a0793
+pf reset.iir coef_=NULL hist_=A4798+0 taps_=0 histLen_=99 room_=99 heap(396)#bfd951d78a0a0793
+pf setc unk0_=dda24ebb fir_=A4915+0 iir_=A4917+0 nFir_=54 nIir_=137
+pf setc.fir coef_=A4925+0 hist_=A4916+0 taps_=52 histLen_=159 room_=95 heap(636)#c1b87d20e73ad6d3
+pf setc.iir coef_=A4926+0 hist_=A4918+0 taps_=136 histLen_=159 room_=23 heap(636)#c1b87d20e73ad6d3
+pf proc unk0_=007ce478 fir_=A5037+0 iir_=A5039+0 nFir_=32 nIir_=95
+pf proc.fir coef_=A5045+0 hist_=A5038+0 taps_=32 histLen_=135 room_=87 heap(540)#ec20d1ed2ce79dd7
+pf proc.iir coef_=A5046+0 hist_=A5040+0 taps_=92 histLen_=135 room_=31 heap(540)#59b5b501c331acd7
+pf proc unk0_=db120e19 fir_=A5139+0 iir_=A5141+0 nFir_=69 nIir_=89
+pf proc.fir coef_=A5147+0 hist_=A5140+0 taps_=68 histLen_=143 room_=67 heap(572)#4bfdef232e4a2d66
+pf proc.iir coef_=A5148+0 hist_=A5142+0 taps_=88 histLen_=143 room_=27 heap(572)#920f7e96d72eb82e
+pf setc unk0_=33a8391c fir_=A5229+0 iir_=A5231+0 nFir_=68 nIir_=32
+pf setc.fir coef_=A5239+0 hist_=A5230+0 taps_=68 histLen_=115 room_=47 heap(460)#8d4b574ee6b19a8c
+pf setc.iir coef_=A5240+0 hist_=A5232+0 taps_=32 histLen_=115 room_=83 heap(460)#aba4382e99b2f79c
+pf ctor unk0_=95d0a378 fir_=A5325+0 iir_=A5327+0 nFir_=1092050062 nIir_=3807130013
+pf ctor.fir coef_=NULL hist_=A5326+0 taps_=28 histLen_=127 room_=99 heap(508)#d5190400a4c1b0d3
+pf ctor.iir coef_=NULL hist_=A5328+0 taps_=28 histLen_=127 room_=99 heap(508)#d5190400a4c1b0d3
+pf proc unk0_=8bcde054 fir_=A5431+0 iir_=A5433+0 nFir_=99 nIir_=65
+pf proc.fir coef_=A5439+0 hist_=A5432+0 taps_=96 histLen_=103 room_=3 heap(412)#f5ec237c59772622
+pf proc.iir coef_=A5440+0 hist_=A5434+0 taps_=64 histLen_=103 room_=27 heap(412)#e189dafa502de110
+pf proc unk0_=fd75632f fir_=A5519+0 iir_=A5521+0 nFir_=72 nIir_=95
+pf proc.fir coef_=A5527+0 hist_=A5520+0 taps_=72 histLen_=127 room_=47 heap(508)#75cec00afe364c85
+pf proc.iir coef_=A5528+0 hist_=A5522+0 taps_=92 histLen_=127 room_=23 heap(508)#ecd8143dd2ae846c
+pf proc unk0_=e691f498 fir_=A5609+0 iir_=A5611+0 nFir_=99 nIir_=0
+pf proc.fir coef_=A5617+0 hist_=A5610+0 taps_=96 histLen_=111 room_=3 heap(444)#21391c3dfa3a7bb3
+pf proc.iir coef_=A5618+0 hist_=A5612+0 taps_=0 histLen_=111 room_=99 heap(444)#a56a423828819dd3
+pf ctor unk0_=617662dd fir_=A5703+0 iir_=A5705+0 nFir_=4222239240 nIir_=1671634838
+pf ctor.fir coef_=NULL hist_=A5704+0 taps_=64 histLen_=163 room_=99 heap(652)#196054a582635393
+pf ctor.iir coef_=NULL hist_=A5706+0 taps_=64 histLen_=163 room_=99 heap(652)#196054a582635393
+pf ctor unk0_=d011650a fir_=A5783+0 iir_=A5785+0 nFir_=1726758374 nIir_=3527850156
+pf ctor.fir coef_=NULL hist_=A5784+0 taps_=88 histLen_=187 room_=99 heap(748)#53bd9d549b233013
+pf ctor.iir coef_=NULL hist_=A5786+0 taps_=88 histLen_=187 room_=99 heap(748)#53bd9d549b233013
+pf proc unk0_=a367a8e9 fir_=A5899+0 iir_=A5901+0 nFir_=47 nIir_=156
+pf proc.fir coef_=A5909+0 hist_=A5900+0 taps_=44 histLen_=159 room_=103 heap(636)#e1fed291fe003cf4
+pf proc.iir coef_=A5910+0 hist_=A5902+0 taps_=156 histLen_=159 room_=3 heap(636)#737099c0b074e996
+pf proc unk0_=f0b91eab fir_=A6011+0 iir_=A6013+0 nFir_=21 nIir_=20
+pf proc.fir coef_=A6021+0 hist_=A6012+0 taps_=20 histLen_=111 room_=63 heap(444)#ebc5d3a07cdc1fea
+pf proc.iir coef_=A6022+0 hist_=A6014+0 taps_=20 histLen_=111 room_=91 heap(444)#a6d765a54f1b1d62
+pf proc unk0_=a4313b62 fir_=A6099+0 iir_=A6101+0 nFir_=130 nIir_=46
+pf proc.fir coef_=A6107+0 hist_=A6100+0 taps_=128 histLen_=171 room_=15 heap(684)#aeeff1ebed83c83d
+pf proc.iir coef_=A6108+0 hist_=A6102+0 taps_=44 histLen_=171 room_=27 heap(684)#ea66dc9ff7fe6ed5
+pf proc unk0_=ff09f296 fir_=A6163+0 iir_=A6165+0 nFir_=60 nIir_=0
+pf proc.fir coef_=A6173+0 hist_=A6164+0 taps_=60 histLen_=103 room_=7 heap(412)#793cc3fe9294143b
+pf proc.iir coef_=A6174+0 hist_=A6166+0 taps_=0 histLen_=103 room_=59 heap(412)#2f34dbd045fe4adb
+pf setc unk0_=37bb97ca fir_=A6245+0 iir_=A6247+0 nFir_=118 nIir_=159
+pf setc.fir coef_=A6255+0 hist_=A6246+0 taps_=116 histLen_=175 room_=59 heap(700)#06eb1274d373e9d3
+pf setc.iir coef_=A6256+0 hist_=A6248+0 taps_=156 histLen_=175 room_=19 heap(700)#9fd351819aba71ca
+pf setc unk0_=2efda0f6 fir_=A6351+0 iir_=A6353+0 nFir_=44 nIir_=0
+pf setc.fir coef_=A6359+0 hist_=A6352+0 taps_=44 histLen_=99 room_=55 heap(396)#bfd951d78a0a0793
+pf setc.iir coef_=A6360+0 hist_=A6354+0 taps_=0 histLen_=99 room_=99 heap(396)#bfd951d78a0a0793
+pf reset unk0_=96532d4c fir_=A6447+0 iir_=A6449+0 nFir_=0 nIir_=73
+pf reset.fir coef_=A6457+0 hist_=A6448+0 taps_=0 histLen_=139 room_=139 heap(556)#e9d226ff2d0e3713
+pf reset.iir coef_=A6458+0 hist_=A6450+0 taps_=72 histLen_=139 room_=67 heap(556)#e9d226ff2d0e3713
+pf ctor unk0_=c4b5e046 fir_=A6553+0 iir_=A6555+0 nFir_=2380288765 nIir_=3765496731
+pf ctor.fir coef_=NULL hist_=A6554+0 taps_=60 histLen_=159 room_=99 heap(636)#c1b87d20e73ad6d3
+pf ctor.iir coef_=NULL hist_=A6556+0 taps_=60 histLen_=159 room_=99 heap(636)#c1b87d20e73ad6d3
+pf proc unk0_=44841a86 fir_=A6637+0 iir_=A6639+0 nFir_=12 nIir_=56
+pf proc.fir coef_=A6647+0 hist_=A6638+0 taps_=12 histLen_=99 room_=47 heap(396)#53384f17b2685b2a
+pf proc.iir coef_=A6648+0 hist_=A6640+0 taps_=56 histLen_=99 room_=19 heap(396)#cb97d0c442652406
+pf proc unk0_=c3638899 fir_=A6741+0 iir_=A6743+0 nFir_=46 nIir_=118
+pf proc.fir coef_=A6749+0 hist_=A6742+0 taps_=44 histLen_=123 room_=19 heap(492)#ea815b7e505c0ffb
+pf proc.iir coef_=A6750+0 hist_=A6744+0 taps_=116 histLen_=123 room_=3 heap(492)#78fea84bf1d60381
+pf ctor unk0_=06afdd21 fir_=A6843+0 iir_=A6845+0 nFir_=826536611 nIir_=1604020079
+pf ctor.fir coef_=NULL hist_=A6844+0 taps_=36 histLen_=135 room_=99 heap(540)#7dfba51ae290da53
+pf ctor.iir coef_=NULL hist_=A6846+0 taps_=36 histLen_=135 room_=99 heap(540)#7dfba51ae290da53
+pf proc unk0_=70f3265c fir_=A6919+0 iir_=A6921+0 nFir_=37 nIir_=0
+pf proc.fir coef_=A6929+0 hist_=A6920+0 taps_=36 histLen_=103 room_=31 heap(412)#cf13ecf2ea3cabb7
+pf proc.iir coef_=A6930+0 hist_=A6922+0 taps_=0 histLen_=103 room_=63 heap(412)#c41607e58550b453
+pf ctor unk0_=649e368a fir_=A7009+0 iir_=A7011+0 nFir_=1768826106 nIir_=366217736
+pf ctor.fir coef_=NULL hist_=A7010+0 taps_=40 histLen_=139 room_=99 heap(556)#e9d226ff2d0e3713
+pf ctor.iir coef_=NULL hist_=A7012+0 taps_=40 histLen_=139 room_=99 heap(556)#e9d226ff2d0e3713
+pf ctor unk0_=3fd01fc0 fir_=A7101+0 iir_=A7103+0 nFir_=1286163006 nIir_=1591680018
+pf ctor.fir coef_=NULL hist_=A7102+0 taps_=4 histLen_=103 room_=99 heap(412)#c41607e58550b453
+pf ctor.iir coef_=NULL hist_=A7104+0 taps_=4 histLen_=103 room_=99 heap(412)#c41607e58550b453
+pf proc unk0_=b848d47f fir_=A7185+0 iir_=A7187+0 nFir_=0 nIir_=15
+pf proc.fir coef_=A7195+0 hist_=A7186+0 taps_=0 histLen_=151 room_=75 heap(604)#1457dfa8485091b2
+pf proc.iir coef_=A7196+0 hist_=A7188+0 taps_=12 histLen_=151 room_=75 heap(604)#0026c8441321c6c3
+pf setc unk0_=1ce36f37 fir_=A7281+0 iir_=A7283+0 nFir_=25 nIir_=74
+pf setc.fir coef_=A7291+0 hist_=A7282+0 taps_=24 histLen_=107 room_=19 heap(428)#8340229f5e349113
+pf setc.iir coef_=A7292+0 hist_=A7284+0 taps_=72 histLen_=107 room_=35 heap(428)#8340229f5e349113
+pf proc unk0_=56d4e1fe fir_=A7377+0 iir_=A7379+0 nFir_=80 nIir_=25
+pf proc.fir coef_=A7387+0 hist_=A7378+0 taps_=80 histLen_=139 room_=59 heap(556)#0ecb5b22a2e4fa0b
+pf proc.iir coef_=A7388+0 hist_=A7380+0 taps_=24 histLen_=139 room_=111 heap(556)#dd6f5c9f6f5c0934
+pf proc unk0_=5752f786 fir_=A7475+0 iir_=A7477+0 nFir_=8 nIir_=35
+pf proc.fir coef_=A7483+0 hist_=A7476+0 taps_=8 histLen_=179 room_=87 heap(716)#6a69b938fcb68a7e
+pf proc.iir coef_=A7484+0 hist_=A7478+0 taps_=32 histLen_=179 room_=87 heap(716)#2b7d6b6857ba20ed
+pf proc unk0_=85204e2f fir_=A7571+0 iir_=A7573+0 nFir_=70 nIir_=64
+pf proc.fir coef_=A7579+0 hist_=A7572+0 taps_=68 histLen_=151 room_=47 heap(604)#435ffe37839c3d09
+pf proc.iir coef_=A7580+0 hist_=A7574+0 taps_=64 histLen_=151 room_=51 heap(604)#cd46942e965683e8
+pf proc unk0_=52c694a8 fir_=A7637+0 iir_=A7639+0 nFir_=133 nIir_=52
+pf proc.fir coef_=A7647+0 hist_=A7638+0 taps_=132 histLen_=139 room_=7 heap(556)#6ff88e3e0dff07b8
+pf proc.iir coef_=A7648+0 hist_=A7640+0 taps_=52 histLen_=139 room_=23 heap(556)#e338851654a886e6
+pf setc unk0_=4dc16883 fir_=A7715+0 iir_=A7717+0 nFir_=16 nIir_=26
+pf setc.fir coef_=A7725+0 hist_=A7716+0 taps_=16 histLen_=151 room_=107 heap(604)#dde84c3468ad12d1
+pf setc.iir coef_=A7726+0 hist_=A7718+0 taps_=24 histLen_=151 room_=43 heap(604)#424a98590a10c691
+pf proc unk0_=8fb46bc6 fir_=A7791+0 iir_=A7793+0 nFir_=38 nIir_=48
+pf proc.fir coef_=A7799+0 hist_=A7792+0 taps_=36 histLen_=143 room_=75 heap(572)#20585d3cf61a73eb
+pf proc.iir coef_=A7800+0 hist_=A7794+0 taps_=48 histLen_=143 room_=71 heap(572)#bef0b54cf48c00aa
+pf proc unk0_=1d624bcb fir_=A7901+0 iir_=A7903+0 nFir_=49 nIir_=136
+pf proc.fir coef_=A7909+0 hist_=A7902+0 taps_=48 histLen_=167 room_=87 heap(668)#5ad293e0baffd9bc
+pf proc.iir coef_=A7910+0 hist_=A7904+0 taps_=136 histLen_=167 room_=19 heap(668)#1b729b28fa221c4b
+pf proc unk0_=d406dd55 fir_=A8017+0 iir_=A8019+0 nFir_=76 nIir_=28
+pf proc.fir coef_=A8027+0 hist_=A8018+0 taps_=76 histLen_=103 room_=23 heap(412)#81ed9a582d076c44
+pf proc.iir coef_=A8028+0 hist_=A8020+0 taps_=28 histLen_=103 room_=15 heap(412)#17f19d800b5f914f
+pf reset unk0_=64e73148 fir_=A8115+0 iir_=A8117+0 nFir_=107 nIir_=0
+pf reset.fir coef_=A8123+0 hist_=A8116+0 taps_=104 histLen_=107 room_=3 heap(428)#8340229f5e349113
+pf reset.iir coef_=A8124+0 hist_=A8118+0 taps_=0 histLen_=107 room_=107 heap(428)#8340229f5e349113
+pf setc unk0_=59408b0a fir_=A8215+0 iir_=A8217+0 nFir_=41 nIir_=0
+pf setc.fir coef_=A8225+0 hist_=A8216+0 taps_=40 histLen_=119 room_=79 heap(476)#92c1f20e1257c5d6
+pf setc.iir coef_=A8226+0 hist_=A8218+0 taps_=0 histLen_=119 room_=11 heap(476)#3c97015367b98031
+pf reset unk0_=1b8e4897 fir_=A8321+0 iir_=A8323+0 nFir_=14 nIir_=116
+pf reset.fir coef_=A8329+0 hist_=A8322+0 taps_=12 histLen_=151 room_=139 heap(604)#1708813d416d6d53
+pf reset.iir coef_=A8330+0 hist_=A8324+0 taps_=116 histLen_=151 room_=35 heap(604)#1708813d416d6d53
+pf proc unk0_=5c921b30 fir_=A8433+0 iir_=A8435+0 nFir_=10 nIir_=138
+pf proc.fir coef_=A8441+0 hist_=A8434+0 taps_=8 histLen_=139 room_=87 heap(556)#7b2004428ddf57ed
+pf proc.iir coef_=A8442+0 hist_=A8436+0 taps_=136 histLen_=139 room_=3 heap(556)#07a24b59a63f3532
+pf proc unk0_=4e61db1a fir_=A8523+0 iir_=A8525+0 nFir_=57 nIir_=37
+pf proc.fir coef_=A8531+0 hist_=A8524+0 taps_=56 histLen_=155 room_=63 heap(620)#5f9389e495c329c8
+pf proc.iir coef_=A8532+0 hist_=A8526+0 taps_=36 histLen_=155 room_=63 heap(620)#635f2fbf18ba1698
+pf proc unk0_=bf575130 fir_=A8597+0 iir_=A8599+0 nFir_=19 nIir_=25
+pf proc.fir coef_=A8609+0 hist_=A8598+0 taps_=16 histLen_=151 room_=111 heap(604)#d7a18b2f27cbcb94
+pf proc.iir coef_=A8610+0 hist_=A8600+0 taps_=24 histLen_=151 room_=103 heap(604)#0fb3d31d75b7a5d8
+pf ctor unk0_=9caad121 fir_=A8693+0 iir_=A8695+0 nFir_=4194195589 nIir_=412463660
+pf ctor.fir coef_=NULL hist_=A8694+0 taps_=68 histLen_=167 room_=99 heap(668)#6cf46d712f1d0053
+pf ctor.iir coef_=NULL hist_=A8696+0 taps_=68 histLen_=167 room_=99 heap(668)#6cf46d712f1d0053
+pf ctor unk0_=c8d1e1a3 fir_=A8817+0 iir_=A8819+0 nFir_=860898164 nIir_=2523878930
+pf ctor.fir coef_=NULL hist_=A8818+0 taps_=76 histLen_=175 room_=99 heap(700)#06eb1274d373e9d3
+pf ctor.iir coef_=NULL hist_=A8820+0 taps_=76 histLen_=175 room_=99 heap(700)#06eb1274d373e9d3
+pf ctor unk0_=2e5fa68c fir_=A8901+0 iir_=A8903+0 nFir_=3276150747 nIir_=197204734
+pf ctor.fir coef_=NULL hist_=A8902+0 taps_=80 histLen_=179 room_=99 heap(716)#f8c8923165a92693
+pf ctor.iir coef_=NULL hist_=A8904+0 taps_=80 histLen_=179 room_=99 heap(716)#f8c8923165a92693
+pf proc unk0_=a410c26d fir_=A8989+0 iir_=A8991+0 nFir_=88 nIir_=103
+pf proc.fir coef_=A9001+0 hist_=A8990+0 taps_=88 histLen_=179 room_=47 heap(716)#683a4ca8339bd07f
+pf proc.iir coef_=A9002+0 hist_=A8992+0 taps_=100 histLen_=179 room_=31 heap(716)#6132b482268d7cff
+pf setc unk0_=1e75dd0c fir_=A9083+0 iir_=A9085+0 nFir_=0 nIir_=127
+pf setc.fir coef_=A9091+0 hist_=A9084+0 taps_=0 histLen_=139 room_=99 heap(556)#e9d226ff2d0e3713
+pf setc.iir coef_=A9092+0 hist_=A9086+0 taps_=124 histLen_=139 room_=15 heap(556)#e9d226ff2d0e3713
+pf proc unk0_=9daadc9d fir_=A9181+0 iir_=A9183+0 nFir_=0 nIir_=64
+pf proc.fir coef_=A9189+0 hist_=A9182+0 taps_=0 histLen_=143 room_=99 heap(572)#01c4291cb354c3d3
+pf proc.iir coef_=A9190+0 hist_=A9184+0 taps_=64 histLen_=143 room_=67 heap(572)#a2fe897b94ef4285
+pf setc unk0_=07dfc02b fir_=A9253+0 iir_=A9255+0 nFir_=20 nIir_=74
+pf setc.fir coef_=A9263+0 hist_=A9254+0 taps_=20 histLen_=103 room_=83 heap(412)#c41607e58550b453
+pf setc.iir coef_=A9264+0 hist_=A9256+0 taps_=72 histLen_=103 room_=31 heap(412)#c41607e58550b453
+pf proc unk0_=7e07069d fir_=A9341+0 iir_=A9343+0 nFir_=162 nIir_=144
+pf proc.fir coef_=A9349+0 hist_=A9342+0 taps_=160 histLen_=171 room_=11 heap(684)#f517e1f74166e979
+pf proc.iir coef_=A9350+0 hist_=A9344+0 taps_=144 histLen_=171 room_=11 heap(684)#90c436a47f3d7821
+calls: malloc 9436 free 9436 dbgprintf 0
+COV trials                       800
+COV C2                           240
+COV D2                           236
+COV process: FIR + IIR           2278
+COV process: FIR only            473
+COV process: IIR only            417
+COV process: no stage (copy)     84
+COV copy of a signalling NaN     216
+COV in-place block               520
+COV setCoefficients rejected by a stage 122
+COV reset                        529
+COV second setCoefficients on an object 718
+COV dtor with a NULL FIR pointer 193
+COV dtor with a NULL IIR pointer 223
+COV tap counts 1 .. 3 stored (not processed) 159
+COV tap count not a multiple of 4 792
+COV data with inf / quiet NaN    128
+COV constructor store-order probe 800
+COV blocks processed             3252
+COV output guards checked        3252
+COV trials with the block around 2^31 801
+COV dtor with a NULL block pointer 0
+HASH b509a5a8ea481c1b lines 43644
+pc ctor unk0_=065ad165 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[2083846423,1887651101,-620945911,-1677438214,-725583777,34425129,1008468891,-324266839,-436050683,-768149725,1311212937,1469941201] lc_=[1221452445,-1419430906,-1347785985,-1005949627,865838238,-982784308] fir1_=A1+0 fir2_=A3+0 fb1_=fa1c4121 fb2_=9c22aeb7 n1_=3657255657 n2_=1625209347
+pc ctor.fir1 coef_=NULL hist_=A2+0 taps_=80 histLen_=179 room_=99 heap(716)#f8c8923165a92693
+pc ctor.fir2 coef_=NULL hist_=A4+0 taps_=80 histLen_=179 room_=99 heap(716)#f8c8923165a92693
+pc setc unk0_=065ad165 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[2083846423,1887651101,-620945911,-1677438214,-725583777,34425129,1008468891,-324266839,-436050683,-768149725,1311212937,1469941201] lc_=[1221452445,-1419430906,-1347785985,-1005949627,865838238,-982784308] fir1_=A1+0 fir2_=A3+0 fb1_=fa1c4121 fb2_=9c22aeb7 n1_=51 n2_=98
+pc setc.fir1 coef_=A9+0 hist_=A2+0 taps_=48 histLen_=179 room_=99 heap(716)#f8c8923165a92693
+pc setc.fir2 coef_=A10+0 hist_=A4+0 taps_=96 histLen_=179 room_=83 heap(716)#f8c8923165a92693
+pc setc unk0_=065ad165 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[2083846423,1887651101,-620945911,-1677438214,-725583777,34425129,1008468891,-324266839,-436050683,-768149725,1311212937,1469941201] lc_=[1221452445,-1419430906,-1347785985,-1005949627,865838238,-982784308] fir1_=A1+0 fir2_=A3+0 fb1_=fa1c4121 fb2_=9c22aeb7 n1_=25 n2_=139
+pc setc.fir1 coef_=A11+0 hist_=A2+0 taps_=24 histLen_=179 room_=99 heap(716)#f8c8923165a92693
+pc setc.fir2 coef_=A12+0 hist_=A4+0 taps_=136 histLen_=179 room_=43 heap(716)#f8c8923165a92693
+pc reset0 unk0_=065ad165 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[2083846423,1887651101,-620945911,-1677438214,-725583777,34425129,1008468891,-324266839,-436050683,-768149725,1311212937,1469941201] lc_=[1221452445,-1419430906,-1347785985,-1005949627,865838238,-982784308] fir1_=A1+0 fir2_=A3+0 fb1_=fa1c4121 fb2_=9c22aeb7 n1_=25 n2_=139
+pc reset0.fir1 coef_=A11+0 hist_=A2+0 taps_=24 histLen_=179 room_=155 heap(716)#f8c8923165a92693
+pc reset0.fir2 coef_=A12+0 hist_=A4+0 taps_=136 histLen_=179 room_=43 heap(716)#f8c8923165a92693
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=065ad165 idxc_=NULL lcp_=[A13+0,A14+0,A15+0,A16+0,A17+0,A18+0] m_=[42,279,53,2,8,251,12,52,2,295,38,8] lc_=[81,36,0,94,46,25] fir1_=A1+0 fir2_=A3+0 fb1_=00000000 fb2_=00000000 n1_=25 n2_=139
+pc reset1.fir1 coef_=A11+0 hist_=A2+0 taps_=24 histLen_=179 room_=155 heap(716)#f8c8923165a92693
+pc reset1.fir2 coef_=A12+0 hist_=A4+0 taps_=136 histLen_=179 room_=43 heap(716)#f8c8923165a92693
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=065ad165 idxc_=NULL lcp_=[A13+0,A14+0,A15+0,A16+0,A17+0,A18+0] m_=[42,279,53,2,8,251,12,52,2,295,38,8] lc_=[81,36,0,94,46,25] fir1_=A1+0 fir2_=A3+0 fb1_=00000000 fb2_=00000000 n1_=25 n2_=139
+pc reset1.fir1 coef_=A11+0 hist_=A2+0 taps_=24 histLen_=179 room_=155 heap(716)#f8c8923165a92693
+pc reset1.fir2 coef_=A12+0 hist_=A4+0 taps_=136 histLen_=179 room_=43 heap(716)#f8c8923165a92693
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=065ad165 idxc_=NULL lcp_=[A13+0,A14+0,A15+0,A16+0,A17+0,A18+0] m_=[42,279,53,2,8,251,12,52,2,295,38,8] lc_=[81,36,0,94,46,25] fir1_=A1+0 fir2_=A3+0 fb1_=00000000 fb2_=00000000 n1_=25 n2_=139
+pc reset1.fir1 coef_=A11+0 hist_=A2+0 taps_=24 histLen_=179 room_=155 heap(716)#f8c8923165a92693
+pc reset1.fir2 coef_=A12+0 hist_=A4+0 taps_=136 histLen_=179 room_=43 heap(716)#f8c8923165a92693
+pc ctor unk0_=f19f6e59 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-813078838,-2062657514,1924336518,-135234171,-471826944,-522515240,-296568277,-1214297729,1420479069,834824576,1570233157,-465999195] lc_=[523256786,-957310361,-875879865,-219335736,-1899717054,-969882901] fir1_=A19+0 fir2_=A21+0 fb1_=e1c3a1ba fb2_=9d08c64c n1_=762472843 n2_=4129065396
+pc ctor.fir1 coef_=NULL hist_=A20+0 taps_=72 histLen_=171 room_=99 heap(684)#c1237a66de33dd13
+pc ctor.fir2 coef_=NULL hist_=A22+0 taps_=72 histLen_=171 room_=99 heap(684)#c1237a66de33dd13
+pc setc unk0_=f19f6e59 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-813078838,-2062657514,1924336518,-135234171,-471826944,-522515240,-296568277,-1214297729,1420479069,834824576,1570233157,-465999195] lc_=[523256786,-957310361,-875879865,-219335736,-1899717054,-969882901] fir1_=A19+0 fir2_=A21+0 fb1_=e1c3a1ba fb2_=9d08c64c n1_=172 n2_=32
+pc setc.fir1 coef_=NULL hist_=A20+0 taps_=72 histLen_=171 room_=99 heap(684)#c1237a66de33dd13
+pc setc.fir2 coef_=A28+0 hist_=A22+0 taps_=32 histLen_=171 room_=99 heap(684)#c1237a66de33dd13
+pc setc unk0_=f19f6e59 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-813078838,-2062657514,1924336518,-135234171,-471826944,-522515240,-296568277,-1214297729,1420479069,834824576,1570233157,-465999195] lc_=[523256786,-957310361,-875879865,-219335736,-1899717054,-969882901] fir1_=A19+0 fir2_=A21+0 fb1_=e1c3a1ba fb2_=9d08c64c n1_=28 n2_=129
+pc setc.fir1 coef_=A29+0 hist_=A20+0 taps_=28 histLen_=171 room_=99 heap(684)#c1237a66de33dd13
+pc setc.fir2 coef_=A30+0 hist_=A22+0 taps_=128 histLen_=171 room_=43 heap(684)#c1237a66de33dd13
+pc reset0 unk0_=f19f6e59 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-813078838,-2062657514,1924336518,-135234171,-471826944,-522515240,-296568277,-1214297729,1420479069,834824576,1570233157,-465999195] lc_=[523256786,-957310361,-875879865,-219335736,-1899717054,-969882901] fir1_=A19+0 fir2_=A21+0 fb1_=e1c3a1ba fb2_=9d08c64c n1_=28 n2_=129
+pc reset0.fir1 coef_=A29+0 hist_=A20+0 taps_=28 histLen_=171 room_=143 heap(684)#c1237a66de33dd13
+pc reset0.fir2 coef_=A30+0 hist_=A22+0 taps_=128 histLen_=171 room_=43 heap(684)#c1237a66de33dd13
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=f19f6e59 idxc_=NULL lcp_=[A31+0,A32+0,A33+0,A34+0,A35+0,A36+0] m_=[54,12,45,5,208,1,33,1,49,12,4,4] lc_=[12,92,114,3,123,127] fir1_=A19+0 fir2_=A21+0 fb1_=00000000 fb2_=00000000 n1_=28 n2_=129
+pc reset1.fir1 coef_=A29+0 hist_=A20+0 taps_=28 histLen_=171 room_=143 heap(684)#c1237a66de33dd13
+pc reset1.fir2 coef_=A30+0 hist_=A22+0 taps_=128 histLen_=171 room_=43 heap(684)#c1237a66de33dd13
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=f865f4cb idxc_=NULL lcp_=[A185+0,A186+0,A187+0,A188+0,A189+0,A190+0] m_=[15,1,3,4,19,44,1,3,22,1,11,353] lc_=[95,2,14,3,45,-5] fir1_=A175+0 fir2_=A177+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=20
+pc reset1.fir1 coef_=A183+0 hist_=A176+0 taps_=0 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pc reset1.fir2 coef_=A184+0 hist_=A178+0 taps_=20 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pc setc unk0_=037a0cbf idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[1333505845,-153985964,-524107288,372341822,-1465247985,872378348,-65083054,1964161033,-351780969,-1371719904,-298110544,-1589272734] lc_=[-651494188,-392188037,-329640040,1920045830,960275028,-1445931123] fir1_=A353+0 fir2_=A355+0 fb1_=c32d8ae5 fb2_=11c0990d n1_=0 n2_=34
+pc setc.fir1 coef_=A365+0 hist_=A354+0 taps_=0 histLen_=135 room_=71 heap(540)#7dfba51ae290da53
+pc setc.fir2 coef_=A366+0 hist_=A356+0 taps_=32 histLen_=135 room_=47 heap(540)#7dfba51ae290da53
+pc reset0 idxc_ = &mp->idxc_
+pc reset0 unk0_=e9ce74ed idxc_=NULL lcp_=[A549+0,A550+0,A551+0,A552+0,A553+0,A554+0] m_=[46,191,41,47,1,6,23,62,9,44,384,34] lc_=[25,16,82,127,0,51] fir1_=A533+0 fir2_=A535+0 fb1_=00000000 fb2_=00000000 n1_=125 n2_=0
+pc reset0.fir1 coef_=A555+0 hist_=A534+0 taps_=84 histLen_=123 room_=39 heap(492)#7b829f9c92d7e413
+pc reset0.fir2 coef_=A558+0 hist_=A536+0 taps_=0 histLen_=123 room_=123 heap(492)#7b829f9c92d7e413
+pc reset0 unk0_=dad43e89 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[778973657,-1252981777,1962373126,2017435677,-1096887824,1204021379,-2038887408,-1609500391,-1282923997,-1439500859,1614887476,-315413670] lc_=[-59030102,1425220112,-676071023,479056657,-1264257099,98559414] fir1_=A727+0 fir2_=A729+0 fb1_=e38f6a42 fb2_=6af74402 n1_=36 n2_=65
+pc reset0.fir1 coef_=A737+0 hist_=A728+0 taps_=36 histLen_=119 room_=83 heap(476)#fa6adc6bff874753
+pc reset0.fir2 coef_=A738+0 hist_=A730+0 taps_=64 histLen_=119 room_=55 heap(476)#fa6adc6bff874753
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=d991ba23 idxc_=NULL lcp_=[A917+0,A918+0,A919+0,A920+0,A921+0,A922+0] m_=[6,6,4,44,63,267,365,276,42,289,163,19] lc_=[91,34,48,95,89,128] fir1_=A907+0 fir2_=A909+0 fb1_=00000000 fb2_=00000000 n1_=56 n2_=48
+pc reset1.fir1 coef_=A923+0 hist_=A908+0 taps_=56 histLen_=175 room_=119 heap(700)#06eb1274d373e9d3
+pc reset1.fir2 coef_=A924+0 hist_=A910+0 taps_=48 histLen_=175 room_=127 heap(700)#06eb1274d373e9d3
+pc setc unk0_=cb1d72d0 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[1842880573,1104184036,592807041,1640407518,1214914609,-1118510401,295886497,1399605690,1648413408,-1569325900,1449838657,-1994739935] lc_=[-2009348565,-70240991,235413054,-268887642,512819818,32144368] fir1_=A1085+0 fir2_=A1087+0 fb1_=318c43da fb2_=a50956f0 n1_=71 n2_=96
+pc setc.fir1 coef_=A1093+0 hist_=A1086+0 taps_=68 histLen_=103 room_=35 heap(412)#c41607e58550b453
+pc setc.fir2 coef_=A1094+0 hist_=A1088+0 taps_=96 histLen_=103 room_=7 heap(412)#c41607e58550b453
+pc setc idxc_ = &mp->idxc_
+pc setc unk0_=8aaf3469 idxc_=NULL lcp_=[A1255+0,A1256+0,A1257+0,A1258+0,A1259+0,A1260+0] m_=[41,28,1,8,20,1,49,5,29,1,5,4] lc_=[3,73,127,69,9,3] fir1_=A1245+0 fir2_=A1247+0 fb1_=00000000 fb2_=00000000 n1_=24 n2_=28
+pc setc.fir1 coef_=A1265+0 hist_=A1246+0 taps_=24 histLen_=151 room_=51 heap(604)#1708813d416d6d53
+pc setc.fir2 coef_=A1266+0 hist_=A1248+0 taps_=28 histLen_=151 room_=7 heap(604)#1708813d416d6d53
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=d1a827f3 idxc_=NULL lcp_=[A1477+0,A1478+0,A1479+0,A1480+0,A1481+0,A1482+0] m_=[5,4,43,1,4,8,316,2,3,10,20,34] lc_=[34,38,0,18,128,20] fir1_=A1465+0 fir2_=A1467+0 fb1_=00000000 fb2_=00000000 n1_=99 n2_=64
+pc reset1.fir1 coef_=A1475+0 hist_=A1466+0 taps_=96 histLen_=127 room_=31 heap(508)#d5190400a4c1b0d3
+pc reset1.fir2 coef_=A1476+0 hist_=A1468+0 taps_=64 histLen_=127 room_=55 heap(508)#d5190400a4c1b0d3
+pc setc idxc_ = &mp->idxc_
+pc setc unk0_=b03d3077 idxc_=NULL lcp_=[A1689+0,A1690+0,A1691+0,A1692+0,A1693+0,A1694+0] m_=[1,292,39,1,54,1,3,32,1,17,20,2] lc_=[90,49,63,64,54,118] fir1_=A1671+0 fir2_=A1673+0 fb1_=00000000 fb2_=00000000 n1_=64 n2_=109
+pc setc.fir1 coef_=A1695+0 hist_=A1672+0 taps_=64 histLen_=107 room_=43 heap(428)#8340229f5e349113
+pc setc.fir2 coef_=A1688+0 hist_=A1674+0 taps_=76 histLen_=107 room_=31 heap(428)#8340229f5e349113
+pc ctor unk0_=424db07f idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-125540534,-1915594488,1644165839,1014558990,-819761958,-1278459229,-1219172458,-1163548452,-1482445446,-1985408247,-1948052082,-122706650] lc_=[-2043264149,-409574904,1155397817,-2083911376,668459787,1798051615] fir1_=A1889+0 fir2_=A1891+0 fb1_=501a0549 fb2_=13f3a1da n1_=3378176492 n2_=75232378
+pc ctor.fir1 coef_=NULL hist_=A1890+0 taps_=80 histLen_=179 room_=99 heap(716)#f8c8923165a92693
+pc ctor.fir2 coef_=NULL hist_=A1892+0 taps_=80 histLen_=179 room_=99 heap(716)#f8c8923165a92693
+pc setc unk0_=950554b0 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-417981569,-420180740,-128169097,1601640726,565113228,-1846843262,-582596809,980373712,-451177818,-1678267417,-292482976,561021125] lc_=[-1648354450,-382902182,-863347495,951213063,761362783,666548574] fir1_=A2079+0 fir2_=A2081+0 fb1_=a9a47c99 fb2_=39a551f1 n1_=130 n2_=31
+pc setc.fir1 coef_=A2087+0 hist_=A2080+0 taps_=128 histLen_=179 room_=51 heap(716)#f8c8923165a92693
+pc setc.fir2 coef_=A2088+0 hist_=A2082+0 taps_=28 histLen_=179 room_=99 heap(716)#f8c8923165a92693
+pc ctor unk0_=a3615046 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-1099846379,1243026229,708047001,309077778,-2037835589,-1828366025,1440989078,422611526,1296662346,-1736871103,-1836886100,1867932050] lc_=[971801021,54035561,1701769871,1371806932,-1467879774,1001868427] fir1_=A2279+0 fir2_=A2281+0 fb1_=d51e492d fb2_=f7bf03d3 n1_=2207833873 n2_=3233864339
+pc ctor.fir1 coef_=NULL hist_=A2280+0 taps_=36 histLen_=135 room_=99 heap(540)#7dfba51ae290da53
+pc ctor.fir2 coef_=NULL hist_=A2282+0 taps_=36 histLen_=135 room_=99 heap(540)#7dfba51ae290da53
+pc reset0 idxc_ = &mp->idxc_
+pc reset0 unk0_=369f57f7 idxc_=NULL lcp_=[A2459+0,A2460+0,A2461+0,A2462+0,A2463+0,A2464+0] m_=[302,10,298,5,4,50,300,64,8,1,168,2] lc_=[46,94,109,127,3,96] fir1_=A2439+0 fir2_=A2441+0 fb1_=00000000 fb2_=00000000 n1_=114 n2_=59
+pc reset0.fir1 coef_=A2451+0 hist_=A2440+0 taps_=112 histLen_=127 room_=15 heap(508)#d5190400a4c1b0d3
+pc reset0.fir2 coef_=A2452+0 hist_=A2442+0 taps_=56 histLen_=127 room_=71 heap(508)#d5190400a4c1b0d3
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=0ba5a88d idxc_=NULL lcp_=[A2635+0,A2636+0,A2637+0,A2638+0,A2639+0,A2640+0] m_=[16,5,9,3,33,32,1,1,2,21,33,1] lc_=[104,114,110,58,99,0] fir1_=A2625+0 fir2_=A2627+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=20
+pc reset1.fir1 coef_=A2633+0 hist_=A2626+0 taps_=0 histLen_=99 room_=99 heap(396)#bfd951d78a0a0793
+pc reset1.fir2 coef_=A2634+0 hist_=A2628+0 taps_=20 histLen_=99 room_=79 heap(396)#bfd951d78a0a0793
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=6026808b idxc_=NULL lcp_=[A2805+0,A2806+0,A2807+0,A2808+0,A2809+0,A2810+0] m_=[22,25,2,48,16,1,6,371,1,7,41,4] lc_=[112,-4,91,30,128,112] fir1_=A2787+0 fir2_=A2789+0 fb1_=00000000 fb2_=00000000 n1_=12 n2_=87
+pc reset1.fir1 coef_=A2803+0 hist_=A2788+0 taps_=12 histLen_=163 room_=99 heap(652)#196054a582635393
+pc reset1.fir2 coef_=A2804+0 hist_=A2790+0 taps_=84 histLen_=163 room_=79 heap(652)#196054a582635393
+pc setc idxc_ = &mp->idxc_
+pc setc unk0_=55b0b151 idxc_=NULL lcp_=[A2975+0,A2976+0,A2977+0,A2978+0,A2979+0,A2980+0] m_=[48,1,24,7,134,361,349,5,11,6,9,28] lc_=[0,59,91,122,84,93] fir1_=A2959+0 fir2_=A2961+0 fb1_=00000000 fb2_=00000000 n1_=60 n2_=93
+pc setc.fir1 coef_=A2983+0 hist_=A2960+0 taps_=60 histLen_=151 room_=91 heap(604)#1708813d416d6d53
+pc setc.fir2 coef_=A2984+0 hist_=A2962+0 taps_=92 histLen_=151 room_=59 heap(604)#1708813d416d6d53
+pc ctor unk0_=3804204b idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-1838551574,-1939491580,1310268436,1671500324,-1799228371,68011313,-1717222210,948859818,-1928421668,1475314215,-900006770,-1392508694] lc_=[1684146002,-1666532515,-1318209324,-1228585857,1441835676,1731893654] fir1_=A3167+0 fir2_=A3169+0 fb1_=a0f0ddcc fb2_=f695aabc n1_=1067376767 n2_=3779488356
+pc ctor.fir1 coef_=NULL hist_=A3168+0 taps_=40 histLen_=139 room_=99 heap(556)#e9d226ff2d0e3713
+pc ctor.fir2 coef_=NULL hist_=A3170+0 taps_=40 histLen_=139 room_=99 heap(556)#e9d226ff2d0e3713
+pc setc unk0_=ca379ba8 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[830847923,1793460412,-1126931346,2008217689,-429503503,-2072313890,1171103599,807193252,902990935,-855948100,591938087,1602944765] lc_=[1170152320,-579357883,-1148544997,-730183613,793430464,-402665825] fir1_=A3357+0 fir2_=A3359+0 fb1_=032a07a7 fb2_=07b657a9 n1_=35 n2_=82
+pc setc.fir1 coef_=A3371+0 hist_=A3358+0 taps_=32 histLen_=111 room_=19 heap(444)#a56a423828819dd3
+pc setc.fir2 coef_=A3372+0 hist_=A3360+0 taps_=80 histLen_=111 room_=31 heap(444)#a56a423828819dd3
+pc setc unk0_=ade87252 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-1975386356,1619118136,-1119997663,687785659,1156331448,-1394096404,-1348682873,1415098702,-1669962480,-196716199,-1851625076,824708375] lc_=[646549865,-1573201385,-2116658775,708285067,-1597173780,-1558501906] fir1_=A3535+0 fir2_=A3537+0 fb1_=52a494f0 fb2_=e0048c4f n1_=14 n2_=103
+pc setc.fir1 coef_=A3545+0 hist_=A3536+0 taps_=12 histLen_=131 room_=31 heap(524)#2a2f6b772810ad93
+pc setc.fir2 coef_=A3546+0 hist_=A3538+0 taps_=100 histLen_=131 room_=31 heap(524)#2a2f6b772810ad93
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=19d7698c idxc_=NULL lcp_=[A3707+0,A3708+0,A3709+0,A3710+0,A3711+0,A3712+0] m_=[245,8,8,6,1,62,8,296,1,211,53,44] lc_=[66,87,94,90,128,91] fir1_=A3687+0 fir2_=A3689+0 fb1_=00000000 fb2_=00000000 n1_=14 n2_=44
+pc reset1.fir1 coef_=A3713+0 hist_=A3688+0 taps_=12 histLen_=111 room_=3 heap(444)#a56a423828819dd3
+pc reset1.fir2 coef_=A3714+0 hist_=A3690+0 taps_=44 histLen_=111 room_=67 heap(444)#a56a423828819dd3
+pc ctor unk0_=b1c22a30 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[1052628921,-467436252,625500617,-253740161,-1816622259,1013204005,561709364,1724378194,-143820140,-1203625066,-1554465203,1650793190] lc_=[-2053454156,-133398357,-1455068368,876259747,-293683215,709475531] fir1_=A3889+0 fir2_=A3891+0 fb1_=73ce36a6 fb2_=05827dd3 n1_=907575665 n2_=770157758
+pc ctor.fir1 coef_=NULL hist_=A3890+0 taps_=48 histLen_=147 room_=99 heap(588)#faf66d6e34308093
+pc ctor.fir2 coef_=NULL hist_=A3892+0 taps_=48 histLen_=147 room_=99 heap(588)#faf66d6e34308093
+pc reset0 idxc_ = &mp->idxc_
+pc reset0 unk0_=7c8956df idxc_=NULL lcp_=[A4047+0,A4048+0,A4049+0,A4050+0,A4051+0,A4052+0] m_=[58,3,367,161,50,129,9,3,41,2,28,5] lc_=[69,12,9,38,29,127] fir1_=A4029+0 fir2_=A4031+0 fb1_=00000000 fb2_=00000000 n1_=16 n2_=85
+pc reset0.fir1 coef_=A4045+0 hist_=A4030+0 taps_=16 histLen_=111 room_=95 heap(444)#a56a423828819dd3
+pc reset0.fir2 coef_=A4046+0 hist_=A4032+0 taps_=84 histLen_=111 room_=27 heap(444)#a56a423828819dd3
+pc setc idxc_ = &mp->idxc_
+pc setc unk0_=af13bbd4 idxc_=NULL lcp_=[A4253+0,A4254+0,A4255+0,A4256+0,A4257+0,A4258+0] m_=[1,8,3,4,397,7,34,1,62,5,19,3] lc_=[18,80,83,7,24,50] fir1_=A4233+0 fir2_=A4235+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=139
+pc setc.fir1 coef_=A4259+0 hist_=A4234+0 taps_=0 histLen_=139 room_=39 heap(556)#e9d226ff2d0e3713
+pc setc.fir2 coef_=A4260+0 hist_=A4236+0 taps_=136 histLen_=139 room_=3 heap(556)#e9d226ff2d0e3713
+pc setc unk0_=9cd1a014 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-1655561836,221575766,37542921,-1308409783,1787729002,502856596,-1321963795,-1900806657,1762179708,583140579,879072695,436670907] lc_=[523766340,1593810677,-1418498240,146236341,-210157337,223066240] fir1_=A4453+0 fir2_=A4455+0 fb1_=afd0d3dd fb2_=78744f4a n1_=86 n2_=0
+pc setc.fir1 coef_=A4463+0 hist_=A4454+0 taps_=84 histLen_=115 room_=31 heap(460)#b85ca13f0b03da93
+pc setc.fir2 coef_=A4464+0 hist_=A4456+0 taps_=0 histLen_=115 room_=99 heap(460)#b85ca13f0b03da93
+pc setc unk0_=b5ca926e idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[905748799,-47186303,-2076413444,380370286,-1553205134,-1232158422,-1205823500,-1174321839,-1115569465,-1683925655,468118020,1553416434] lc_=[-749770695,-1648622554,1253585585,-1422631191,-52078409,-914834428] fir1_=A4661+0 fir2_=A4663+0 fb1_=e390cf5a fb2_=b79520bc n1_=9 n2_=8
+pc setc.fir1 coef_=A4669+0 hist_=A4662+0 taps_=8 histLen_=167 room_=99 heap(668)#6cf46d712f1d0053
+pc setc.fir2 coef_=A4670+0 hist_=A4664+0 taps_=8 histLen_=167 room_=99 heap(668)#6cf46d712f1d0053
+pc setc idxc_ = &mp->idxc_
+pc setc unk0_=0a8a82b5 idxc_=NULL lcp_=[A4873+0,A4874+0,A4875+0,A4876+0,A4877+0,A4878+0] m_=[39,47,48,33,1,1,7,1,6,9,10,29] lc_=[127,127,78,112,114,17] fir1_=A4863+0 fir2_=A4865+0 fb1_=00000000 fb2_=00000000 n1_=96 n2_=73
+pc setc.fir1 coef_=A4881+0 hist_=A4864+0 taps_=96 histLen_=115 room_=11 heap(460)#b85ca13f0b03da93
+pc setc.fir2 coef_=A4882+0 hist_=A4866+0 taps_=72 histLen_=115 room_=43 heap(460)#b85ca13f0b03da93
+pc setc unk0_=27dd6729 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-1784582541,-448817729,-1155014739,2040372198,-485481337,-779312763,-1152482737,-1243990038,776016840,-1081469808,-2059649403,1776385243] lc_=[1529490727,1532565374,-1094274375,1756776519,779239642,-1460977621] fir1_=A5075+0 fir2_=A5077+0 fb1_=ec9aa546 fb2_=f88408bc n1_=40 n2_=30
+pc setc.fir1 coef_=A5083+0 hist_=A5076+0 taps_=40 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pc setc.fir2 coef_=A5084+0 hist_=A5078+0 taps_=28 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=198fdd78 idxc_=NULL lcp_=[A5301+0,A5302+0,A5303+0,A5304+0,A5305+0,A5306+0] m_=[61,63,89,104,56,1,10,7,1,1,1,4] lc_=[16,94,5,127,75,28] fir1_=A5277+0 fir2_=A5279+0 fb1_=00000000 fb2_=00000000 n1_=25 n2_=0
+pc reset1.fir1 coef_=A5287+0 hist_=A5278+0 taps_=24 histLen_=151 room_=127 heap(604)#1708813d416d6d53
+pc reset1.fir2 coef_=A5288+0 hist_=A5280+0 taps_=0 histLen_=151 room_=151 heap(604)#1708813d416d6d53
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=c71c50f9 idxc_=NULL lcp_=[A5493+0,A5494+0,A5495+0,A5496+0,A5497+0,A5498+0] m_=[225,159,1,5,41,106,41,56,8,1,63,20] lc_=[128,127,109,36,2,64] fir1_=A5483+0 fir2_=A5485+0 fb1_=00000000 fb2_=00000000 n1_=24 n2_=105
+pc reset1.fir1 coef_=A5491+0 hist_=A5484+0 taps_=24 histLen_=119 room_=95 heap(476)#fa6adc6bff874753
+pc reset1.fir2 coef_=A5492+0 hist_=A5486+0 taps_=104 histLen_=119 room_=15 heap(476)#fa6adc6bff874753
+pc setc unk0_=2393b4e4 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-2139816570,562277219,-56766099,-541879323,-34135794,165494912,1990823384,-1371816474,1605395327,-871972751,-1557510187,-2129257067] lc_=[55525113,1083803392,-1475262685,-1839215793,-1676199843,1242509025] fir1_=A5679+0 fir2_=A5681+0 fb1_=8ce791e1 fb2_=7c687ed6 n1_=4 n2_=0
+pc setc.fir1 coef_=A5689+0 hist_=A5680+0 taps_=4 histLen_=135 room_=75 heap(540)#7dfba51ae290da53
+pc setc.fir2 coef_=A5690+0 hist_=A5682+0 taps_=0 histLen_=135 room_=99 heap(540)#7dfba51ae290da53
+pc reset0 idxc_ = &mp->idxc_
+pc reset0 unk0_=2fae2512 idxc_=NULL lcp_=[A5849+0,A5850+0,A5851+0,A5852+0,A5853+0,A5854+0] m_=[11,274,12,48,11,22,49,259,17,393,43,4] lc_=[86,98,128,128,116,0] fir1_=A5837+0 fir2_=A5839+0 fb1_=00000000 fb2_=00000000 n1_=10 n2_=52
+pc reset0.fir1 coef_=A5857+0 hist_=A5838+0 taps_=8 histLen_=179 room_=171 heap(716)#f8c8923165a92693
+pc reset0.fir2 coef_=A5858+0 hist_=A5840+0 taps_=52 histLen_=179 room_=127 heap(716)#f8c8923165a92693
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=1d4f79d4 idxc_=NULL lcp_=[A6059+0,A6060+0,A6061+0,A6062+0,A6063+0,A6064+0] m_=[1,184,16,37,41,1,1,6,355,64,365,1] lc_=[0,103,43,128,79,56] fir1_=A6049+0 fir2_=A6051+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=8
+pc reset1.fir1 coef_=A6057+0 hist_=A6050+0 taps_=0 histLen_=119 room_=99 heap(476)#fa6adc6bff874753
+pc reset1.fir2 coef_=A6058+0 hist_=A6052+0 taps_=8 histLen_=119 room_=99 heap(476)#fa6adc6bff874753
+pc setc unk0_=d04b61f3 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-1809635988,-1871930529,-368993970,-1564995908,1308925965,1818424419,640612933,313434784,-59534417,414280603,-1092634698,596510854] lc_=[-1521590656,1384267531,948778870,647716425,797207779,1623264612] fir1_=A6243+0 fir2_=A6245+0 fb1_=b6bf4a79 fb2_=926be983 n1_=39 n2_=24
+pc setc.fir1 coef_=A6253+0 hist_=A6244+0 taps_=36 histLen_=103 room_=67 heap(412)#c41607e58550b453
+pc setc.fir2 coef_=A6254+0 hist_=A6246+0 taps_=24 histLen_=103 room_=71 heap(412)#c41607e58550b453
+pc reset0 idxc_ = &mp->idxc_
+pc reset0 unk0_=59a33939 idxc_=NULL lcp_=[A6419+0,A6420+0,A6421+0,A6422+0,A6423+0,A6424+0] m_=[162,230,1,309,58,3,296,6,5,1,82,44] lc_=[-3,58,29,94,0,81] fir1_=A6407+0 fir2_=A6409+0 fb1_=00000000 fb2_=00000000 n1_=55 n2_=4
+pc reset0.fir1 coef_=A6425+0 hist_=A6408+0 taps_=52 histLen_=119 room_=67 heap(476)#fa6adc6bff874753
+pc reset0.fir2 coef_=A6426+0 hist_=A6410+0 taps_=4 histLen_=119 room_=115 heap(476)#fa6adc6bff874753
+pc ctor unk0_=b57e9f1e idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[106045763,-589034343,-1501820322,-356403671,-680559369,-1004223584,-914954353,-217228725,1486723984,1297791527,24033247,-227034771] lc_=[-1792529073,1280478270,-86850922,-112110257,-1828846558,1987696633] fir1_=A6609+0 fir2_=A6611+0 fb1_=fdef588c fb2_=d54006eb n1_=2548843130 n2_=509312543
+pc ctor.fir1 coef_=NULL hist_=A6610+0 taps_=40 histLen_=139 room_=99 heap(556)#e9d226ff2d0e3713
+pc ctor.fir2 coef_=NULL hist_=A6612+0 taps_=40 histLen_=139 room_=99 heap(556)#e9d226ff2d0e3713
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=2ddb2845 idxc_=NULL lcp_=[A6791+0,A6792+0,A6793+0,A6794+0,A6795+0,A6796+0] m_=[1,219,171,28,89,8,3,1,5,42,115,5] lc_=[0,2,118,74,106,127] fir1_=A6769+0 fir2_=A6771+0 fb1_=00000000 fb2_=00000000 n1_=42 n2_=20
+pc reset1.fir1 coef_=A6783+0 hist_=A6770+0 taps_=40 histLen_=111 room_=71 heap(444)#a56a423828819dd3
+pc reset1.fir2 coef_=A6784+0 hist_=A6772+0 taps_=20 histLen_=111 room_=91 heap(444)#a56a423828819dd3
+pc ctor unk0_=9ff74411 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[2086796048,1578205836,375812770,-578443058,-1776324875,1661869026,-1237339352,926692663,1017092621,1016625536,-940794321,-188777953] lc_=[-317507152,-769888222,135093492,-1087667443,903145997,-937309175] fir1_=A6979+0 fir2_=A6981+0 fb1_=4c30a976 fb2_=f4dcd8d1 n1_=3056558524 n2_=1010216614
+pc ctor.fir1 coef_=NULL hist_=A6980+0 taps_=8 histLen_=107 room_=99 heap(428)#8340229f5e349113
+pc ctor.fir2 coef_=NULL hist_=A6982+0 taps_=8 histLen_=107 room_=99 heap(428)#8340229f5e349113
+pc ctor unk0_=d33a010e idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[1958447816,-230217897,1806446753,799201016,-1250374607,-777054172,407740603,491351954,1281721238,445973874,-1103380876,-918981472] lc_=[1096150246,507517162,-1942456840,-1669953925,545457123,-1233328892] fir1_=A7165+0 fir2_=A7167+0 fb1_=c892c486 fb2_=08ec393f n1_=4154391868 n2_=3440030575
+pc ctor.fir1 coef_=NULL hist_=A7166+0 taps_=56 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pc ctor.fir2 coef_=NULL hist_=A7168+0 taps_=56 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pc ctor unk0_=7a580836 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-1552893436,1811586119,-305038674,-706758061,274234194,-618382214,440146277,-494622703,1805362865,-285770563,2010389170,-1852077875] lc_=[205751019,-304252864,-1063116816,-449088260,1196809255,-1698198520] fir1_=A7357+0 fir2_=A7359+0 fb1_=c82203ec fb2_=a650dfc5 n1_=584247760 n2_=1279076013
+pc ctor.fir1 coef_=NULL hist_=A7358+0 taps_=24 histLen_=123 room_=99 heap(492)#7b829f9c92d7e413
+pc ctor.fir2 coef_=NULL hist_=A7360+0 taps_=24 histLen_=123 room_=99 heap(492)#7b829f9c92d7e413
+pc setc unk0_=c0130a31 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-1246939001,460984888,807302771,-1077138140,1961546808,-699971318,-1538024703,1399034422,-387182796,1526547436,1039310467,286782262] lc_=[294321158,-577786669,-1981705215,1122645989,1945719844,2092803072] fir1_=A7515+0 fir2_=A7517+0 fb1_=1973e3dd fb2_=e65be3c0 n1_=122 n2_=43
+pc setc.fir1 coef_=A7525+0 hist_=A7516+0 taps_=24 histLen_=119 room_=55 heap(476)#fa6adc6bff874753
+pc setc.fir2 coef_=A7528+0 hist_=A7518+0 taps_=40 histLen_=119 room_=19 heap(476)#fa6adc6bff874753
+pc setc unk0_=abdb3bb0 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[1275569313,-1610128085,146045714,1349190238,-817564284,1195077382,992626991,851455406,-654713777,856808645,-1517663136,-493666500] lc_=[1770255434,885650789,893662521,955200935,1264244796,-912829457] fir1_=A7671+0 fir2_=A7673+0 fb1_=12db2d3a fb2_=30a6abfd n1_=4 n2_=49
+pc setc.fir1 coef_=A7679+0 hist_=A7672+0 taps_=4 histLen_=171 room_=99 heap(684)#c1237a66de33dd13
+pc setc.fir2 coef_=A7680+0 hist_=A7674+0 taps_=48 histLen_=171 room_=99 heap(684)#c1237a66de33dd13
+pc setc idxc_ = &mp->idxc_
+pc setc unk0_=fee353c5 idxc_=NULL lcp_=[A7879+0,A7880+0,A7881+0,A7882+0,A7883+0,A7884+0] m_=[8,61,7,198,37,25,304,149,3,17,2,348] lc_=[32,99,34,127,8,78] fir1_=A7869+0 fir2_=A7871+0 fb1_=00000000 fb2_=00000000 n1_=112 n2_=107
+pc setc.fir1 coef_=A7885+0 hist_=A7870+0 taps_=112 histLen_=123 room_=11 heap(492)#7b829f9c92d7e413
+pc setc.fir2 coef_=A7886+0 hist_=A7872+0 taps_=104 histLen_=123 room_=19 heap(492)#7b829f9c92d7e413
+pc ctor unk0_=6c8419f7 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[47994655,93309038,40572015,565825854,96539083,66491760,-1584486196,1123777584,-2111762256,-513067393,-2134170254,-603189548] lc_=[555761408,1700049120,-2052589442,-691295635,1059208234,842273577] fir1_=A8055+0 fir2_=A8057+0 fb1_=e935eaa8 fb2_=0e6f3bca n1_=3467910606 n2_=2156280048
+pc ctor.fir1 coef_=NULL hist_=A8056+0 taps_=48 histLen_=147 room_=99 heap(588)#faf66d6e34308093
+pc ctor.fir2 coef_=NULL hist_=A8058+0 taps_=48 histLen_=147 room_=99 heap(588)#faf66d6e34308093
+pc ctor unk0_=6aec2d74 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-1029199506,-1830071013,2011893983,-1542244080,231632295,134487253,-893564201,484386287,-778982920,474027182,-2029230747,-1576656592] lc_=[1431611337,139729509,-398748989,-1598280743,-147691279,170238377] fir1_=A8221+0 fir2_=A8223+0 fb1_=a97b5484 fb2_=a069bffe n1_=1592529726 n2_=2881057167
+pc ctor.fir1 coef_=NULL hist_=A8222+0 taps_=16 histLen_=115 room_=99 heap(460)#b85ca13f0b03da93
+pc ctor.fir2 coef_=NULL hist_=A8224+0 taps_=16 histLen_=115 room_=99 heap(460)#b85ca13f0b03da93
+pc setc unk0_=5f8fa8e0 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-380642563,-1980906467,-877132835,1807434384,915593387,1615253653,-226389528,-1330191952,-1362332489,-83203010,-875043954,1607543181] lc_=[-1796886723,-1729861783,-478749021,-261592298,562341497,2050069686] fir1_=A8411+0 fir2_=A8413+0 fb1_=897f22b0 fb2_=d77beba2 n1_=28 n2_=15
+pc setc.fir1 coef_=A8419+0 hist_=A8412+0 taps_=28 histLen_=127 room_=99 heap(508)#d5190400a4c1b0d3
+pc setc.fir2 coef_=A8420+0 hist_=A8414+0 taps_=12 histLen_=127 room_=99 heap(508)#d5190400a4c1b0d3
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=afc13df7 idxc_=NULL lcp_=[A8591+0,A8592+0,A8593+0,A8594+0,A8595+0,A8596+0] m_=[58,246,8,49,42,5,321,2,217,3,6,15] lc_=[116,97,78,66,63,128] fir1_=A8581+0 fir2_=A8583+0 fb1_=00000000 fb2_=00000000 n1_=88 n2_=42
+pc reset1.fir1 coef_=A8599+0 hist_=A8582+0 taps_=88 histLen_=183 room_=15 heap(732)#fd64d6a7be9f9353
+pc reset1.fir2 coef_=A8600+0 hist_=A8584+0 taps_=40 histLen_=183 room_=3 heap(732)#fd64d6a7be9f9353
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=c54aa92f idxc_=NULL lcp_=[A8803+0,A8804+0,A8805+0,A8806+0,A8807+0,A8808+0] m_=[1,4,1,64,379,107,27,375,1,155,47,39] lc_=[128,12,110,45,94,128] fir1_=A8793+0 fir2_=A8795+0 fb1_=00000000 fb2_=00000000 n1_=32 n2_=56
+pc reset1.fir1 coef_=A8801+0 hist_=A8794+0 taps_=32 histLen_=179 room_=147 heap(716)#f8c8923165a92693
+pc reset1.fir2 coef_=A8802+0 hist_=A8796+0 taps_=56 histLen_=179 room_=123 heap(716)#f8c8923165a92693
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=be658400 idxc_=NULL lcp_=[A8977+0,A8978+0,A8979+0,A8980+0,A8981+0,A8982+0] m_=[3,22,8,7,149,282,1,1,2,2,1,391] lc_=[-4,47,-1,127,-4,8] fir1_=A8963+0 fir2_=A8965+0 fb1_=00000000 fb2_=00000000 n1_=77 n2_=41
+pc reset1.fir1 coef_=A8983+0 hist_=A8964+0 taps_=76 histLen_=115 room_=39 heap(460)#b85ca13f0b03da93
+pc reset1.fir2 coef_=A8984+0 hist_=A8966+0 taps_=40 histLen_=115 room_=55 heap(460)#b85ca13f0b03da93
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=ad0ea4aa idxc_=NULL lcp_=[A9179+0,A9180+0,A9181+0,A9182+0,A9183+0,A9184+0] m_=[1,14,6,272,22,165,30,34,4,153,62,221] lc_=[66,3,128,127,3,3] fir1_=A9167+0 fir2_=A9169+0 fb1_=00000000 fb2_=00000000 n1_=80 n2_=16
+pc reset1.fir1 coef_=A9177+0 hist_=A9168+0 taps_=80 histLen_=127 room_=47 heap(508)#d5190400a4c1b0d3
+pc reset1.fir2 coef_=A9178+0 hist_=A9170+0 taps_=16 histLen_=127 room_=111 heap(508)#d5190400a4c1b0d3
+pc setc unk0_=78be59b5 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-1487080396,88348963,64706280,122995441,-1051891560,1382571782,-1437310616,540190632,-379742412,-1571480758,-1187880648,-2046190878] lc_=[260578421,-1575383609,911565196,40239854,1552400095,-211391826] fir1_=A9383+0 fir2_=A9385+0 fb1_=74aad4f1 fb2_=73b18e4a n1_=151 n2_=81
+pc setc.fir1 coef_=A9391+0 hist_=A9384+0 taps_=148 histLen_=167 room_=19 heap(668)#6cf46d712f1d0053
+pc setc.fir2 coef_=A9392+0 hist_=A9386+0 taps_=80 histLen_=167 room_=87 heap(668)#6cf46d712f1d0053
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=87930c62 idxc_=NULL lcp_=[A9583+0,A9584+0,A9585+0,A9586+0,A9587+0,A9588+0] m_=[1,7,378,19,41,293,29,7,13,6,376,48] lc_=[44,42,90,61,121,51] fir1_=A9571+0 fir2_=A9573+0 fb1_=00000000 fb2_=00000000 n1_=60 n2_=28
+pc reset1.fir1 coef_=A9581+0 hist_=A9572+0 taps_=60 histLen_=175 room_=27 heap(700)#06eb1274d373e9d3
+pc reset1.fir2 coef_=A9582+0 hist_=A9574+0 taps_=28 histLen_=175 room_=99 heap(700)#06eb1274d373e9d3
+pc reset0 idxc_ = &mp->idxc_
+pc reset0 unk0_=30f21818 idxc_=NULL lcp_=[A9777+0,A9778+0,A9779+0,A9780+0,A9781+0,A9782+0] m_=[8,35,4,47,7,7,31,12,149,332,277,28] lc_=[81,117,26,74,67,49] fir1_=A9761+0 fir2_=A9763+0 fb1_=00000000 fb2_=00000000 n1_=167 n2_=44
+pc reset0.fir1 coef_=A9769+0 hist_=A9762+0 taps_=164 histLen_=167 room_=3 heap(668)#6cf46d712f1d0053
+pc reset0.fir2 coef_=A9770+0 hist_=A9764+0 taps_=44 histLen_=167 room_=123 heap(668)#6cf46d712f1d0053
+pc reset0 unk0_=3844b084 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[-393970582,766053467,-836106068,-1101633339,-457451189,-1832270674,-154903565,2124234285,674666190,1969805387,743084421,-1231700005] lc_=[-464180257,-619470159,-506818887,584501174,-869024610,-317458753] fir1_=A9977+0 fir2_=A9979+0 fb1_=42836a32 fb2_=bae43453 n1_=101 n2_=4
+pc reset0.fir1 coef_=A9985+0 hist_=A9978+0 taps_=100 histLen_=163 room_=63 heap(652)#196054a582635393
+pc reset0.fir2 coef_=A9986+0 hist_=A9980+0 taps_=4 histLen_=163 room_=159 heap(652)#196054a582635393
+pc ctor unk0_=3b766878 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[1591097243,1068790237,-1633512918,1790537128,-1130048561,1985731728,973655258,189705802,741103242,1447305010,-606324762,-1395713901] lc_=[-561011155,-1878868852,2043925372,-655273505,1537765892,-1729366955] fir1_=A10195+0 fir2_=A10197+0 fb1_=4c11110b fb2_=16671b92 n1_=2445013098 n2_=3660752627
+pc ctor.fir1 coef_=NULL hist_=A10196+0 taps_=84 histLen_=183 room_=99 heap(732)#fd64d6a7be9f9353
+pc ctor.fir2 coef_=NULL hist_=A10198+0 taps_=84 histLen_=183 room_=99 heap(732)#fd64d6a7be9f9353
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=02ea9723 idxc_=NULL lcp_=[A10389+0,A10390+0,A10391+0,A10392+0,A10393+0,A10394+0] m_=[46,4,33,7,226,1,4,106,18,2,14,48] lc_=[128,70,127,128,68,128] fir1_=A10361+0 fir2_=A10363+0 fb1_=00000000 fb2_=00000000 n1_=22 n2_=86
+pc reset1.fir1 coef_=A10387+0 hist_=A10362+0 taps_=20 histLen_=115 room_=95 heap(460)#b85ca13f0b03da93
+pc reset1.fir2 coef_=A10388+0 hist_=A10364+0 taps_=84 histLen_=115 room_=31 heap(460)#b85ca13f0b03da93
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=0d2d16dc idxc_=NULL lcp_=[A10581+0,A10582+0,A10583+0,A10584+0,A10585+0,A10586+0] m_=[130,219,339,2,64,16,32,1,59,53,3,1] lc_=[0,123,3,34,127,91] fir1_=A10571+0 fir2_=A10573+0 fb1_=00000000 fb2_=00000000 n1_=103 n2_=114
+pc reset1.fir1 coef_=A10579+0 hist_=A10572+0 taps_=100 histLen_=111 room_=11 heap(444)#a56a423828819dd3
+pc reset1.fir2 coef_=NULL hist_=A10574+0 taps_=12 histLen_=111 room_=99 heap(444)#a56a423828819dd3
+pc setc unk0_=b8ff1406 idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[1274188333,575651119,-420839073,1188967357,-1958660418,-1655392799,-1620365681,832354899,2020583533,-178901026,1833977102,-1657666856] lc_=[1004103399,-1925498869,718382327,-892581202,798398685,-2090723939] fir1_=A10753+0 fir2_=A10755+0 fb1_=18adeaab fb2_=8012a0bf n1_=48 n2_=106
+pc setc.fir1 coef_=A10761+0 hist_=A10754+0 taps_=48 histLen_=183 room_=99 heap(732)#fd64d6a7be9f9353
+pc setc.fir2 coef_=A10762+0 hist_=A10756+0 taps_=104 histLen_=183 room_=79 heap(732)#fd64d6a7be9f9353
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=fea6c412 idxc_=NULL lcp_=[A10941+0,A10942+0,A10943+0,A10944+0,A10945+0,A10946+0] m_=[4,12,22,1,47,295,170,35,56,10,53,13] lc_=[128,67,117,128,48,89] fir1_=A10919+0 fir2_=A10921+0 fb1_=00000000 fb2_=00000000 n1_=127 n2_=65
+pc reset1.fir1 coef_=A10939+0 hist_=A10920+0 taps_=124 histLen_=127 room_=3 heap(508)#d5190400a4c1b0d3
+pc reset1.fir2 coef_=A10940+0 hist_=A10922+0 taps_=64 histLen_=127 room_=11 heap(508)#d5190400a4c1b0d3
+pc setc unk0_=239034df idxc_=NULL lcp_=[NULL,NULL,NULL,NULL,NULL,NULL] m_=[1001169150,-51337740,-503584577,1945684106,1673156435,1253919405,541400971,1848525070,248744152,-1908188757,968746215,267872265] lc_=[793367039,1421999259,-1172673268,-834606123,-426467272,-163216795] fir1_=A11119+0 fir2_=A11121+0 fb1_=a0fd4b15 fb2_=bfd332ff n1_=0 n2_=20
+pc setc.fir1 coef_=A11127+0 hist_=A11120+0 taps_=0 histLen_=131 room_=99 heap(524)#2a2f6b772810ad93
+pc setc.fir2 coef_=A11128+0 hist_=A11122+0 taps_=20 histLen_=131 room_=99 heap(524)#2a2f6b772810ad93
+pc reset1 idxc_ = &mp->idxc_
+pc reset1 unk0_=d247952b idxc_=NULL lcp_=[A11303+0,A11304+0,A11305+0,A11306+0,A11307+0,A11308+0] m_=[14,6,2,43,32,20,3,207,41,325,6,60] lc_=[-5,0,107,96,38,127] fir1_=A11293+0 fir2_=A11295+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=57
+pc reset1.fir1 coef_=A11309+0 hist_=A11294+0 taps_=0 histLen_=127 room_=47 heap(508)#d5190400a4c1b0d3
+pc reset1.fir2 coef_=A11310+0 hist_=A11296+0 taps_=56 histLen_=127 room_=71 heap(508)#d5190400a4c1b0d3
+calls: malloc 11340 free 11340 dbgprintf 2717
+COV trials                       500
+COV C2                           144
+COV D2                           136
+COV reset()                      510
+COV reset(params)                1187
+COV setCoefficients              1474
+COV level 0                      213
+COV level 1                      241
+COV level 2 (prints)             1519
+COV level >= 2^31 (prints: unsigned test) 728
+COV dtor with fir1_ NULL         135
+COV dtor with fir2_ NULL         132
+COV tap count 0                  481
+COV setCoefficients rejected     152
+COV constructor store-order probe 500
+COV reset(params) field copies verified 1187
+COV debug prints verified        3171
+COV untouched fields verified    500
+COV stage objects equal the references 2484
+COV reset(params) clears garbage fb1_ / fb2_ 1187
+COV trials with the block around 2^31 501
+COV dtor with a NULL block pointer 0
+HASH 50469602281c33a0 lines 40534
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=ff6aaaaf idxc_=NULL lcp_=[A11+0,A12+0,A13+0,A14+0,A15+0,A16+0] m_=[29,365,1,63,22,5,88,13,30,62,6,7] lc_=[127,3,-3,51,2,77] fir1_=A1+0 fir2_=A3+0 fb1_=00000000 fb2_=00000000 n1_=44 n2_=8
+pp setup.fir1 coef_=A9+0 hist_=A2+0 taps_=44 histLen_=123 room_=79 heap(492)#7b829f9c92d7e413
+pp setup.fir2 coef_=A10+0 hist_=A4+0 taps_=8 histLen_=123 room_=99 heap(492)#7b829f9c92d7e413
+pp idxc_ = &mp->idxc_
+pp unk0_=ff6aaaaf idxc_=NULL lcp_=[A11+0,A12+0,A13+0,A14+0,A15+0,A16+0] m_=[29,365,1,63,22,5,88,13,30,62,6,7] lc_=[127,3,-3,51,2,77] fir1_=A1+0 fir2_=A3+0 fb1_=4ed2ad61 fb2_=fffa283d n1_=44 n2_=8
+pp.fir1 coef_=A9+0 hist_=A2+0 taps_=44 histLen_=123 room_=75 heap(492)#c7e71048d63327fc
+pp.fir2 coef_=A10+0 hist_=A4+0 taps_=8 histLen_=123 room_=95 heap(492)#2cb0dee1427798fb
+pp idxc_ = &mp->idxc_
+pp unk0_=ff6aaaaf idxc_=NULL lcp_=[A11+0,A12+0,A13+0,A14+0,A15+0,A16+0] m_=[29,365,1,63,22,5,88,13,30,62,6,7] lc_=[127,3,-3,51,2,77] fir1_=A1+0 fir2_=A3+0 fb1_=d4371648 fb2_=fffa283d n1_=44 n2_=8
+pp.fir1 coef_=A9+0 hist_=A2+0 taps_=44 histLen_=123 room_=71 heap(492)#78e15ee3a5ce29ac
+pp.fir2 coef_=A10+0 hist_=A4+0 taps_=8 histLen_=123 room_=91 heap(492)#16cc2f640206fa83
+pp idxc_ = &mp->idxc_
+pp unk0_=ff6aaaaf idxc_=NULL lcp_=[A11+0,A12+0,A13+0,A14+0,A15+0,A16+0] m_=[29,365,1,63,22,5,88,13,30,62,6,7] lc_=[127,3,-3,51,2,77] fir1_=A1+0 fir2_=A3+0 fb1_=559f5b20 fb2_=fffa283d n1_=44 n2_=8
+pp.fir1 coef_=A9+0 hist_=A2+0 taps_=44 histLen_=123 room_=67 heap(492)#247c467bbd2e76b3
+pp.fir2 coef_=A10+0 hist_=A4+0 taps_=8 histLen_=123 room_=87 heap(492)#81205c1c428654eb
+pp idxc_ = &mp->idxc_
+pp unk0_=ff6aaaaf idxc_=NULL lcp_=[A11+0,A12+0,A13+0,A14+0,A15+0,A16+0] m_=[29,365,1,63,22,5,88,13,30,62,6,7] lc_=[127,3,-3,51,2,77] fir1_=A1+0 fir2_=A3+0 fb1_=d4ae452b fb2_=fffa283d n1_=44 n2_=8
+pp.fir1 coef_=A9+0 hist_=A2+0 taps_=44 histLen_=123 room_=63 heap(492)#92d1b11c6a80533b
+pp.fir2 coef_=A10+0 hist_=A4+0 taps_=8 histLen_=123 room_=83 heap(492)#9c783f34d9569eb3
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=7beaff41 idxc_=NULL lcp_=[A27+0,A28+0,A29+0,A30+0,A31+0,A32+0] m_=[8,47,15,1,3,4,6,7,236,6,5,7] lc_=[4,127,63,-2,88,85] fir1_=A17+0 fir2_=A19+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=0
+pp setup.fir1 coef_=A25+0 hist_=A18+0 taps_=0 histLen_=103 room_=99 heap(412)#c41607e58550b453
+pp setup.fir2 coef_=A26+0 hist_=A20+0 taps_=0 histLen_=103 room_=99 heap(412)#c41607e58550b453
+pp idxc_ = &mp->idxc_
+pp unk0_=7beaff41 idxc_=NULL lcp_=[A27+0,A28+0,A29+0,A30+0,A31+0,A32+0] m_=[8,47,15,1,3,4,6,7,236,6,5,7] lc_=[4,127,63,-2,88,85] fir1_=A17+0 fir2_=A19+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=0
+pp.fir1 coef_=A25+0 hist_=A18+0 taps_=0 histLen_=103 room_=99 heap(412)#c41607e58550b453
+pp.fir2 coef_=A26+0 hist_=A20+0 taps_=0 histLen_=103 room_=99 heap(412)#c41607e58550b453
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=8d8f6d96 idxc_=NULL lcp_=[A43+0,A44+0,A45+0,A46+0,A47+0,A48+0] m_=[51,26,4,61,240,18,13,39,1,5,1,1] lc_=[127,127,-5,101,20,127] fir1_=A33+0 fir2_=A35+0 fb1_=00000000 fb2_=00000000 n1_=72 n2_=48
+pp setup.fir1 coef_=A41+0 hist_=A34+0 taps_=72 histLen_=131 room_=59 heap(524)#2a2f6b772810ad93
+pp setup.fir2 coef_=A42+0 hist_=A36+0 taps_=48 histLen_=131 room_=83 heap(524)#2a2f6b772810ad93
+pp idxc_ = &mp->idxc_
+pp unk0_=8d8f6d96 idxc_=NULL lcp_=[A43+0,A44+0,A45+0,A46+0,A47+0,A48+0] m_=[51,26,4,61,240,18,13,39,1,5,1,1] lc_=[127,127,-5,101,20,127] fir1_=A33+0 fir2_=A35+0 fb1_=4490a827 fb2_=c4f38017 n1_=72 n2_=48
+pp.fir1 coef_=A41+0 hist_=A34+0 taps_=72 histLen_=131 room_=55 heap(524)#6588abfe54c962c7
+pp.fir2 coef_=A42+0 hist_=A36+0 taps_=48 histLen_=131 room_=79 heap(524)#d97eed850d0e9f48
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=5d962b4e idxc_=NULL lcp_=[A59+0,A60+0,A61+0,A62+0,A63+0,A64+0] m_=[63,31,284,30,55,373,228,1,1,236,1,62] lc_=[59,62,128,117,127,3] fir1_=A49+0 fir2_=A51+0 fb1_=00000000 fb2_=00000000 n1_=8 n2_=20
+pp setup.fir1 coef_=A57+0 hist_=A50+0 taps_=8 histLen_=123 room_=99 heap(492)#7b829f9c92d7e413
+pp setup.fir2 coef_=A58+0 hist_=A52+0 taps_=20 histLen_=123 room_=99 heap(492)#7b829f9c92d7e413
+pp idxc_ = &mp->idxc_
+pp unk0_=5d962b4e idxc_=NULL lcp_=[A59+0,A60+0,A61+0,A62+0,A63+0,A64+0] m_=[63,31,284,30,55,373,228,1,1,236,1,62] lc_=[59,62,128,117,127,3] fir1_=A49+0 fir2_=A51+0 fb1_=419ba1eb fb2_=4138348c n1_=8 n2_=20
+pp.fir1 coef_=A57+0 hist_=A50+0 taps_=8 histLen_=123 room_=95 heap(492)#ccf2e21db9aeb3d3
+pp.fir2 coef_=A58+0 hist_=A52+0 taps_=20 histLen_=123 room_=95 heap(492)#a19db300ab0c067c
+pp idxc_ = &mp->idxc_
+pp unk0_=5d962b4e idxc_=NULL lcp_=[A59+0,A60+0,A61+0,A62+0,A63+0,A64+0] m_=[63,31,284,30,55,373,228,1,1,236,1,62] lc_=[59,62,128,117,127,3] fir1_=A49+0 fir2_=A51+0 fb1_=4183116c fb2_=41dff16c n1_=8 n2_=20
+pp.fir1 coef_=A57+0 hist_=A50+0 taps_=8 histLen_=123 room_=91 heap(492)#669c1d1fb51ee7b6
+pp.fir2 coef_=A58+0 hist_=A52+0 taps_=20 histLen_=123 room_=91 heap(492)#a26aa0ada4bb5767
+pp idxc_ = &mp->idxc_
+pp unk0_=dc85d211 idxc_=NULL lcp_=[A379+0,A380+0,A381+0,A382+0,A383+0,A384+0] m_=[1,1,383,24,2,1,8,4,272,2,3,7] lc_=[108,0,39,117,109,41] fir1_=A369+0 fir2_=A371+0 fb1_=c36ca0db fb2_=421e4ca1 n1_=12 n2_=28
+pp.fir1 coef_=A377+0 hist_=A370+0 taps_=12 histLen_=139 room_=87 heap(556)#4f83be0651de749e
+pp.fir2 coef_=A378+0 hist_=A372+0 taps_=28 histLen_=139 room_=87 heap(556)#fdbc723134319bea
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=20e59587 idxc_=NULL lcp_=[A667+0,A668+0,A669+0,A670+0,A671+0,A672+0] m_=[4,36,57,62,246,8,8,6,1,41,279,5] lc_=[2,65,78,127,25,128] fir1_=A657+0 fir2_=A659+0 fb1_=00000000 fb2_=00000000 n1_=4 n2_=40
+pp setup.fir1 coef_=A665+0 hist_=A658+0 taps_=4 histLen_=147 room_=99 heap(588)#faf66d6e34308093
+pp setup.fir2 coef_=A666+0 hist_=A660+0 taps_=40 histLen_=147 room_=99 heap(588)#faf66d6e34308093
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=0c92e5a8 idxc_=NULL lcp_=[A923+0,A924+0,A925+0,A926+0,A927+0,A928+0] m_=[1,1,219,1,38,189,6,7,2,327,18,10] lc_=[35,30,35,56,0,81] fir1_=A913+0 fir2_=A915+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=8
+pp setup.fir1 coef_=A921+0 hist_=A914+0 taps_=0 histLen_=131 room_=99 heap(524)#2a2f6b772810ad93
+pp setup.fir2 coef_=A922+0 hist_=A916+0 taps_=8 histLen_=131 room_=99 heap(524)#2a2f6b772810ad93
+pp idxc_ = &mp->idxc_
+pp unk0_=792f87ef idxc_=NULL lcp_=[A1211+0,A1212+0,A1213+0,A1214+0,A1215+0,A1216+0] m_=[271,14,2,155,4,237,7,5,372,9,45,378] lc_=[8,120,18,8,127,127] fir1_=A1201+0 fir2_=A1203+0 fb1_=c0d17e8f fb2_=45bba93c n1_=60 n2_=56
+pp.fir1 coef_=A1209+0 hist_=A1202+0 taps_=60 histLen_=135 room_=63 heap(540)#2c50c5ea905e4fa5
+pp.fir2 coef_=A1210+0 hist_=A1204+0 taps_=56 histLen_=135 room_=67 heap(540)#75d881eeecafd0c7
+pp idxc_ = &mp->idxc_
+pp unk0_=0ba56f48 idxc_=NULL lcp_=[A1483+0,A1484+0,A1485+0,A1486+0,A1487+0,A1488+0] m_=[6,43,1,341,2,276,60,16,14,4,4,4] lc_=[61,34,-5,105,128,-5] fir1_=A1473+0 fir2_=A1475+0 fb1_=42e07b64 fb2_=00000000 n1_=4 n2_=0
+pp.fir1 coef_=A1481+0 hist_=A1474+0 taps_=4 histLen_=163 room_=71 heap(652)#eb5d181c69e1fd6d
+pp.fir2 coef_=A1482+0 hist_=A1476+0 taps_=0 histLen_=163 room_=99 heap(652)#196054a582635393
+pp idxc_ = &mp->idxc_
+pp unk0_=78fec554 idxc_=NULL lcp_=[A1755+0,A1756+0,A1757+0,A1758+0,A1759+0,A1760+0] m_=[233,286,43,1,2,12,4,27,15,7,115,195] lc_=[113,3,0,0,115,29] fir1_=A1745+0 fir2_=A1747+0 fb1_=beeece14 fb2_=4cd8bb4b n1_=72 n2_=40
+pp.fir1 coef_=A1753+0 hist_=A1746+0 taps_=72 histLen_=163 room_=87 heap(652)#f5892cddfa5c0892
+pp.fir2 coef_=A1754+0 hist_=A1748+0 taps_=40 histLen_=163 room_=95 heap(652)#91f0147ae1d1ae30
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=7f3747fb idxc_=NULL lcp_=[A1979+0,A1980+0,A1981+0,A1982+0,A1983+0,A1984+0] m_=[38,225,45,3,14,43,4,3,1,6,11,49] lc_=[13,2,11,67,127,15] fir1_=A1969+0 fir2_=A1971+0 fb1_=00000000 fb2_=00000000 n1_=12 n2_=28
+pp setup.fir1 coef_=A1977+0 hist_=A1970+0 taps_=12 histLen_=159 room_=99 heap(636)#c1b87d20e73ad6d3
+pp setup.fir2 coef_=A1978+0 hist_=A1972+0 taps_=28 histLen_=159 room_=99 heap(636)#c1b87d20e73ad6d3
+pp idxc_ = &mp->idxc_
+pp unk0_=8abe02ec idxc_=NULL lcp_=[A2251+0,A2252+0,A2253+0,A2254+0,A2255+0,A2256+0] m_=[1,60,28,1,5,173,2,4,28,27,6,6] lc_=[-2,0,128,0,35,127] fir1_=A2241+0 fir2_=A2243+0 fb1_=bd8b0318 fb2_=3efe3996 n1_=68 n2_=76
+pp.fir1 coef_=A2249+0 hist_=A2242+0 taps_=68 histLen_=151 room_=75 heap(604)#c8053aa52745f186
+pp.fir2 coef_=A2250+0 hist_=A2244+0 taps_=76 histLen_=151 room_=67 heap(604)#04399eed93ff31b7
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=817caaf4 idxc_=NULL lcp_=[A2523+0,A2524+0,A2525+0,A2526+0,A2527+0,A2528+0] m_=[4,20,7,52,6,1,1,326,6,226,11,1] lc_=[41,-4,49,110,3,1] fir1_=A2513+0 fir2_=A2515+0 fb1_=00000000 fb2_=00000000 n1_=80 n2_=76
+pp setup.fir1 coef_=A2521+0 hist_=A2514+0 taps_=80 histLen_=119 room_=39 heap(476)#fa6adc6bff874753
+pp setup.fir2 coef_=A2522+0 hist_=A2516+0 taps_=76 histLen_=119 room_=43 heap(476)#fa6adc6bff874753
+pp idxc_ = &mp->idxc_
+pp unk0_=332ea732 idxc_=NULL lcp_=[A2779+0,A2780+0,A2781+0,A2782+0,A2783+0,A2784+0] m_=[4,327,399,217,26,8,1,341,54,3,7,1] lc_=[-1,50,122,116,120,77] fir1_=A2769+0 fir2_=A2771+0 fb1_=41136d29 fb2_=7fd29f02 n1_=44 n2_=24
+pp.fir1 coef_=A2777+0 hist_=A2770+0 taps_=44 histLen_=131 room_=79 heap(524)#8f8b94d9e6eaf353
+pp.fir2 coef_=A2778+0 hist_=A2772+0 taps_=24 histLen_=131 room_=91 heap(524)#a8a690e60d3315f3
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=1f18b8cd idxc_=NULL lcp_=[A3035+0,A3036+0,A3037+0,A3038+0,A3039+0,A3040+0] m_=[25,7,2,345,49,1,1,2,3,42,1,30] lc_=[24,-4,120,85,-2,24] fir1_=A3025+0 fir2_=A3027+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=80
+pp setup.fir1 coef_=A3033+0 hist_=A3026+0 taps_=0 histLen_=147 room_=99 heap(588)#faf66d6e34308093
+pp setup.fir2 coef_=A3034+0 hist_=A3028+0 taps_=80 histLen_=147 room_=67 heap(588)#faf66d6e34308093
+pp idxc_ = &mp->idxc_
+pp unk0_=957255ae idxc_=NULL lcp_=[A3259+0,A3260+0,A3261+0,A3262+0,A3263+0,A3264+0] m_=[1,241,22,1,6,314,3,18,25,128,7,56] lc_=[34,2,82,0,31,93] fir1_=A3249+0 fir2_=A3251+0 fb1_=cb5439a6 fb2_=7ffb2240 n1_=96 n2_=0
+pp.fir1 coef_=A3257+0 hist_=A3250+0 taps_=96 histLen_=139 room_=19 heap(556)#fd348b468865793a
+pp.fir2 coef_=A3258+0 hist_=A3252+0 taps_=0 histLen_=139 room_=99 heap(556)#e9d226ff2d0e3713
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=95cabb95 idxc_=NULL lcp_=[A3515+0,A3516+0,A3517+0,A3518+0,A3519+0,A3520+0] m_=[111,14,1,8,356,1,227,5,52,1,1,73] lc_=[69,80,99,23,102,123] fir1_=A3505+0 fir2_=A3507+0 fb1_=00000000 fb2_=00000000 n1_=96 n2_=72
+pp setup.fir1 coef_=A3513+0 hist_=A3506+0 taps_=96 histLen_=103 room_=7 heap(412)#c41607e58550b453
+pp setup.fir2 coef_=A3514+0 hist_=A3508+0 taps_=72 histLen_=103 room_=31 heap(412)#c41607e58550b453
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=65986207 idxc_=NULL lcp_=[A3787+0,A3788+0,A3789+0,A3790+0,A3791+0,A3792+0] m_=[7,75,27,2,36,42,276,1,45,43,379,81] lc_=[3,88,91,113,128,0] fir1_=A3777+0 fir2_=A3779+0 fb1_=00000000 fb2_=00000000 n1_=36 n2_=76
+pp setup.fir1 coef_=A3785+0 hist_=A3778+0 taps_=36 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pp setup.fir2 coef_=A3786+0 hist_=A3780+0 taps_=76 histLen_=155 room_=79 heap(620)#a4f7439effd78a13
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=9f35d15d idxc_=NULL lcp_=[A4011+0,A4012+0,A4013+0,A4014+0,A4015+0,A4016+0] m_=[18,5,6,183,6,54,46,3,380,55,26,50] lc_=[46,17,-5,2,96,92] fir1_=A4001+0 fir2_=A4003+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=0
+pp setup.fir1 coef_=A4009+0 hist_=A4002+0 taps_=0 histLen_=107 room_=99 heap(428)#8340229f5e349113
+pp setup.fir2 coef_=A4010+0 hist_=A4004+0 taps_=0 histLen_=107 room_=99 heap(428)#8340229f5e349113
+pp idxc_ = &mp->idxc_
+pp unk0_=dddc62a5 idxc_=NULL lcp_=[A4299+0,A4300+0,A4301+0,A4302+0,A4303+0,A4304+0] m_=[1,3,1,1,2,5,1,1,1,209,3,27] lc_=[81,75,128,0,71,48] fir1_=A4289+0 fir2_=A4291+0 fb1_=3fb40ebc fb2_=4048dbfb n1_=68 n2_=64
+pp.fir1 coef_=A4297+0 hist_=A4290+0 taps_=68 histLen_=139 room_=67 heap(556)#eb3aa77bf894c4be
+pp.fir2 coef_=A4298+0 hist_=A4292+0 taps_=64 histLen_=139 room_=71 heap(556)#3925758ac01c70c5
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=34d2162a idxc_=NULL lcp_=[A4555+0,A4556+0,A4557+0,A4558+0,A4559+0,A4560+0] m_=[5,55,1,58,2,1,147,9,7,3,1,5] lc_=[42,115,127,127,21,79] fir1_=A4545+0 fir2_=A4547+0 fb1_=00000000 fb2_=00000000 n1_=36 n2_=0
+pp setup.fir1 coef_=A4553+0 hist_=A4546+0 taps_=36 histLen_=119 room_=83 heap(476)#fa6adc6bff874753
+pp setup.fir2 coef_=A4554+0 hist_=A4548+0 taps_=0 histLen_=119 room_=99 heap(476)#fa6adc6bff874753
+pp idxc_ = &mp->idxc_
+pp unk0_=5ad25ea5 idxc_=NULL lcp_=[A4779+0,A4780+0,A4781+0,A4782+0,A4783+0,A4784+0] m_=[26,35,54,35,63,238,198,1,5,45,3,21] lc_=[127,21,127,16,10,43] fir1_=A4769+0 fir2_=A4771+0 fb1_=00000000 fb2_=bf7dd7a2 n1_=0 n2_=68
+pp.fir1 coef_=A4777+0 hist_=A4770+0 taps_=0 histLen_=111 room_=99 heap(444)#a56a423828819dd3
+pp.fir2 coef_=A4778+0 hist_=A4772+0 taps_=68 histLen_=111 room_=35 heap(444)#fc2a5f3cd32b383c
+pp idxc_ = &mp->idxc_
+pp unk0_=3a26be66 idxc_=NULL lcp_=[A5067+0,A5068+0,A5069+0,A5070+0,A5071+0,A5072+0] m_=[1,62,51,4,1,31,2,57,6,52,25,1] lc_=[94,128,68,31,119,76] fir1_=A5057+0 fir2_=A5059+0 fb1_=c921e690 fb2_=c45b319a n1_=0 n2_=20
+pp.fir1 coef_=A5065+0 hist_=A5058+0 taps_=0 histLen_=135 room_=99 heap(540)#7dfba51ae290da53
+pp.fir2 coef_=A5066+0 hist_=A5060+0 taps_=20 histLen_=135 room_=83 heap(540)#e3bc2ddbfd2e3b5f
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=62106f5d idxc_=NULL lcp_=[A5291+0,A5292+0,A5293+0,A5294+0,A5295+0,A5296+0] m_=[220,1,285,9,16,14,2,7,42,33,39,1] lc_=[128,15,128,1,14,22] fir1_=A5281+0 fir2_=A5283+0 fb1_=00000000 fb2_=00000000 n1_=88 n2_=0
+pp setup.fir1 coef_=A5289+0 hist_=A5282+0 taps_=88 histLen_=151 room_=63 heap(604)#1708813d416d6d53
+pp setup.fir2 coef_=A5290+0 hist_=A5284+0 taps_=0 histLen_=151 room_=99 heap(604)#1708813d416d6d53
+pp idxc_ = &mp->idxc_
+pp unk0_=ca280a24 idxc_=NULL lcp_=[A5547+0,A5548+0,A5549+0,A5550+0,A5551+0,A5552+0] m_=[6,1,222,118,3,60,4,5,7,397,1,13] lc_=[80,91,58,128,39,-1] fir1_=A5537+0 fir2_=A5539+0 fb1_=c1868e78 fb2_=7fc00000 n1_=40 n2_=84
+pp.fir1 coef_=A5545+0 hist_=A5538+0 taps_=40 histLen_=143 room_=91 heap(572)#617dc233c5f340f5
+pp.fir2 coef_=A5546+0 hist_=A5540+0 taps_=84 histLen_=143 room_=51 heap(572)#af3a44479fb4c493
+pp idxc_ = &mp->idxc_
+pp unk0_=6b687d8b idxc_=NULL lcp_=[A5771+0,A5772+0,A5773+0,A5774+0,A5775+0,A5776+0] m_=[17,47,1,30,7,4,2,37,3,15,56,6] lc_=[128,-2,12,86,114,36] fir1_=A5761+0 fir2_=A5763+0 fb1_=4101790c fb2_=7fcba953 n1_=36 n2_=60
+pp.fir1 coef_=A5769+0 hist_=A5762+0 taps_=36 histLen_=123 room_=83 heap(492)#1f3c17edb49a572d
+pp.fir2 coef_=A5770+0 hist_=A5764+0 taps_=60 histLen_=123 room_=59 heap(492)#692fd0b8989c6343
+pp idxc_ = &mp->idxc_
+pp unk0_=b351810b idxc_=NULL lcp_=[A6027+0,A6028+0,A6029+0,A6030+0,A6031+0,A6032+0] m_=[5,6,236,182,5,1,57,43,54,53,33,7] lc_=[102,113,127,107,73,127] fir1_=A6017+0 fir2_=A6019+0 fb1_=c6eee541 fb2_=c498e2e2 n1_=44 n2_=32
+pp.fir1 coef_=A6025+0 hist_=A6018+0 taps_=44 histLen_=143 room_=83 heap(572)#c927d06261c04426
+pp.fir2 coef_=A6026+0 hist_=A6020+0 taps_=32 histLen_=143 room_=83 heap(572)#b36074fe1932e593
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=8dcfecc3 idxc_=NULL lcp_=[A6283+0,A6284+0,A6285+0,A6286+0,A6287+0,A6288+0] m_=[274,6,43,10,62,1,21,3,369,34,41,55] lc_=[90,120,70,13,62,83] fir1_=A6273+0 fir2_=A6275+0 fb1_=00000000 fb2_=00000000 n1_=80 n2_=32
+pp setup.fir1 coef_=A6281+0 hist_=A6274+0 taps_=80 histLen_=119 room_=39 heap(476)#fa6adc6bff874753
+pp setup.fir2 coef_=A6282+0 hist_=A6276+0 taps_=32 histLen_=119 room_=87 heap(476)#fa6adc6bff874753
+pp idxc_ = &mp->idxc_
+pp unk0_=29040085 idxc_=NULL lcp_=[A6475+0,A6476+0,A6477+0,A6478+0,A6479+0,A6480+0] m_=[60,156,64,9,12,1,20,7,6,41,63,311] lc_=[-4,1,127,77,32,-3] fir1_=A6465+0 fir2_=A6467+0 fb1_=c1f74d7f fb2_=46c440d7 n1_=48 n2_=0
+pp.fir1 coef_=A6473+0 hist_=A6466+0 taps_=48 histLen_=107 room_=35 heap(428)#003c03cdbe172603
+pp.fir2 coef_=A6474+0 hist_=A6468+0 taps_=0 histLen_=107 room_=99 heap(428)#8340229f5e349113
+pp idxc_ = &mp->idxc_
+pp unk0_=c2b698b1 idxc_=NULL lcp_=[A6747+0,A6748+0,A6749+0,A6750+0,A6751+0,A6752+0] m_=[151,227,6,1,31,64,56,1,7,38,55,34] lc_=[49,128,127,127,127,127] fir1_=A6737+0 fir2_=A6739+0 fb1_=c284d437 fb2_=45f08dbd n1_=40 n2_=60
+pp.fir1 coef_=A6745+0 hist_=A6738+0 taps_=40 histLen_=115 room_=47 heap(460)#d24b9cfec1bfe038
+pp.fir2 coef_=A6746+0 hist_=A6740+0 taps_=60 histLen_=115 room_=27 heap(460)#43c51a9c2b87b37c
+pp idxc_ = &mp->idxc_
+pp unk0_=a0973a49 idxc_=NULL lcp_=[A6923+0,A6924+0,A6925+0,A6926+0,A6927+0,A6928+0] m_=[8,52,115,13,55,2,19,63,20,1,39,37] lc_=[127,20,123,63,116,60] fir1_=A6913+0 fir2_=A6915+0 fb1_=47624d0f fb2_=447c6d5c n1_=8 n2_=68
+pp.fir1 coef_=A6921+0 hist_=A6914+0 taps_=8 histLen_=123 room_=87 heap(492)#011763493bd632f4
+pp.fir2 coef_=A6922+0 hist_=A6916+0 taps_=68 histLen_=123 room_=43 heap(492)#2dd1564ba18d4e99
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=4a3e1ae0 idxc_=NULL lcp_=[A7179+0,A7180+0,A7181+0,A7182+0,A7183+0,A7184+0] m_=[3,7,133,53,16,4,1,3,4,1,59,241] lc_=[113,102,62,57,20,127] fir1_=A7169+0 fir2_=A7171+0 fb1_=00000000 fb2_=00000000 n1_=36 n2_=28
+pp setup.fir1 coef_=A7177+0 hist_=A7170+0 taps_=36 histLen_=159 room_=99 heap(636)#c1b87d20e73ad6d3
+pp setup.fir2 coef_=A7178+0 hist_=A7172+0 taps_=28 histLen_=159 room_=99 heap(636)#c1b87d20e73ad6d3
+pp idxc_ = &mp->idxc_
+pp unk0_=832ded60 idxc_=NULL lcp_=[A7483+0,A7484+0,A7485+0,A7486+0,A7487+0,A7488+0] m_=[349,63,327,1,116,378,238,336,327,1,17,6] lc_=[19,3,0,115,104,2] fir1_=A7473+0 fir2_=A7475+0 fb1_=c153a770 fb2_=7fd244fa n1_=40 n2_=0
+pp.fir1 coef_=A7481+0 hist_=A7474+0 taps_=40 histLen_=131 room_=83 heap(524)#b76946669555741f
+pp.fir2 coef_=A7482+0 hist_=A7476+0 taps_=0 histLen_=131 room_=99 heap(524)#2a2f6b772810ad93
+pp idxc_ = &mp->idxc_
+pp unk0_=0043f08a idxc_=NULL lcp_=[A7755+0,A7756+0,A7757+0,A7758+0,A7759+0,A7760+0] m_=[6,8,41,2,342,37,212,2,95,64,1,32] lc_=[41,34,119,128,33,9] fir1_=A7745+0 fir2_=A7747+0 fb1_=ca34c979 fb2_=00000000 n1_=36 n2_=0
+pp.fir1 coef_=A7753+0 hist_=A7746+0 taps_=36 histLen_=143 room_=91 heap(572)#9adc537c566f718e
+pp.fir2 coef_=A7754+0 hist_=A7748+0 taps_=0 histLen_=143 room_=99 heap(572)#01c4291cb354c3d3
+pp idxc_ = &mp->idxc_
+pp unk0_=8e7f8465 idxc_=NULL lcp_=[A7995+0,A7996+0,A7997+0,A7998+0,A7999+0,A8000+0] m_=[240,35,336,32,39,39,3,31,41,263,27,7] lc_=[128,25,111,23,0,58] fir1_=A7985+0 fir2_=A7987+0 fb1_=420cfcf6 fb2_=00000000 n1_=52 n2_=0
+pp.fir1 coef_=A7993+0 hist_=A7986+0 taps_=52 histLen_=151 room_=83 heap(604)#3019bdd34ffde501
+pp.fir2 coef_=A7994+0 hist_=A7988+0 taps_=0 histLen_=151 room_=99 heap(604)#1708813d416d6d53
+pp idxc_ = &mp->idxc_
+pp unk0_=a717ea84 idxc_=NULL lcp_=[A8251+0,A8252+0,A8253+0,A8254+0,A8255+0,A8256+0] m_=[336,44,6,5,244,35,2,142,12,1,4,35] lc_=[2,128,83,21,94,116] fir1_=A8241+0 fir2_=A8243+0 fb1_=408420ba fb2_=00000000 n1_=64 n2_=0
+pp.fir1 coef_=A8249+0 hist_=A8242+0 taps_=64 histLen_=131 room_=55 heap(524)#435d21f221682a27
+pp.fir2 coef_=A8250+0 hist_=A8244+0 taps_=0 histLen_=131 room_=99 heap(524)#2a2f6b772810ad93
+pp idxc_ = &mp->idxc_
+pp unk0_=d718f31a idxc_=NULL lcp_=[A8475+0,A8476+0,A8477+0,A8478+0,A8479+0,A8480+0] m_=[17,1,1,39,30,4,25,44,15,384,6,1] lc_=[24,27,89,108,115,74] fir1_=A8465+0 fir2_=A8467+0 fb1_=420d43ee fb2_=fffbd781 n1_=56 n2_=96
+pp.fir1 coef_=A8473+0 hist_=A8466+0 taps_=56 histLen_=135 room_=67 heap(540)#b7be4d958ebe513f
+pp.fir2 coef_=A8474+0 hist_=A8468+0 taps_=96 histLen_=135 room_=27 heap(540)#35ca55895b46a27b
+pp idxc_ = &mp->idxc_
+pp unk0_=bafa4fb4 idxc_=NULL lcp_=[A8667+0,A8668+0,A8669+0,A8670+0,A8671+0,A8672+0] m_=[1,7,195,4,5,6,33,2,1,5,178,8] lc_=[74,0,37,2,7,5] fir1_=A8657+0 fir2_=A8659+0 fb1_=c702bfde fb2_=c6e44950 n1_=56 n2_=24
+pp.fir1 coef_=A8665+0 hist_=A8658+0 taps_=56 histLen_=131 room_=67 heap(524)#543a9a9021c40afe
+pp.fir2 coef_=A8666+0 hist_=A8660+0 taps_=24 histLen_=131 room_=91 heap(524)#1a6879a0b4590315
+pp idxc_ = &mp->idxc_
+pp unk0_=e9439afb idxc_=NULL lcp_=[A8891+0,A8892+0,A8893+0,A8894+0,A8895+0,A8896+0] m_=[50,1,19,8,302,6,36,19,7,1,1,4] lc_=[58,127,79,61,53,80] fir1_=A8881+0 fir2_=A8883+0 fb1_=46630a21 fb2_=c26eec05 n1_=72 n2_=44
+pp.fir1 coef_=A8889+0 hist_=A8882+0 taps_=72 histLen_=103 room_=23 heap(412)#f48e9408097831d7
+pp.fir2 coef_=A8890+0 hist_=A8884+0 taps_=44 histLen_=103 room_=51 heap(412)#6ff9a1496a85bf8d
+pp idxc_ = &mp->idxc_
+pp unk0_=d090bce9 idxc_=NULL lcp_=[A9131+0,A9132+0,A9133+0,A9134+0,A9135+0,A9136+0] m_=[6,60,6,1,5,368,1,19,36,3,263,149] lc_=[54,127,2,1,2,0] fir1_=A9121+0 fir2_=A9123+0 fb1_=c1ac22de fb2_=424e8e5e n1_=28 n2_=20
+pp.fir1 coef_=A9129+0 hist_=A9122+0 taps_=28 histLen_=163 room_=91 heap(652)#df436f094229a2d4
+pp.fir2 coef_=A9130+0 hist_=A9124+0 taps_=20 histLen_=163 room_=91 heap(652)#d1519d69eb1c6fba
+pp idxc_ = &mp->idxc_
+pp unk0_=9c0fb7b5 idxc_=NULL lcp_=[A9387+0,A9388+0,A9389+0,A9390+0,A9391+0,A9392+0] m_=[2,36,1,55,253,58,5,4,7,18,382,1] lc_=[22,0,41,21,90,128] fir1_=A9377+0 fir2_=A9379+0 fb1_=c9e2347a fb2_=4a02b237 n1_=36 n2_=68
+pp.fir1 coef_=A9385+0 hist_=A9378+0 taps_=36 histLen_=143 room_=95 heap(572)#f4ab643af1c3dd6b
+pp.fir2 coef_=A9386+0 hist_=A9380+0 taps_=68 histLen_=143 room_=71 heap(572)#cef65083c5c8abc1
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=b8941b12 idxc_=NULL lcp_=[A9611+0,A9612+0,A9613+0,A9614+0,A9615+0,A9616+0] m_=[4,1,54,46,6,22,64,63,8,340,3,347] lc_=[-4,-4,106,127,128,65] fir1_=A9601+0 fir2_=A9603+0 fb1_=00000000 fb2_=00000000 n1_=48 n2_=0
+pp setup.fir1 coef_=A9609+0 hist_=A9602+0 taps_=48 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pp setup.fir2 coef_=A9610+0 hist_=A9604+0 taps_=0 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pp idxc_ = &mp->idxc_
+pp unk0_=f7ab4a3d idxc_=NULL lcp_=[A9851+0,A9852+0,A9853+0,A9854+0,A9855+0,A9856+0] m_=[7,47,385,2,37,54,196,168,3,31,1,8] lc_=[33,96,40,10,128,104] fir1_=A9841+0 fir2_=A9843+0 fb1_=be97769d fb2_=bbcca006 n1_=16 n2_=52
+pp.fir1 coef_=A9849+0 hist_=A9842+0 taps_=16 histLen_=135 room_=95 heap(540)#88b2fcb1c3e88650
+pp.fir2 coef_=A9850+0 hist_=A9844+0 taps_=52 histLen_=135 room_=79 heap(540)#8746dabb0f9aaad5
+pp idxc_ = &mp->idxc_
+pp unk0_=109be8d7 idxc_=NULL lcp_=[A10043+0,A10044+0,A10045+0,A10046+0,A10047+0,A10048+0] m_=[15,2,262,279,7,121,8,43,1,7,17,48] lc_=[45,91,96,127,77,55] fir1_=A10033+0 fir2_=A10035+0 fb1_=c2c52e97 fb2_=00000000 n1_=96 n2_=0
+pp.fir1 coef_=A10041+0 hist_=A10034+0 taps_=96 histLen_=123 room_=15 heap(492)#47de8cc4afd49d38
+pp.fir2 coef_=A10042+0 hist_=A10036+0 taps_=0 histLen_=123 room_=99 heap(492)#7b829f9c92d7e413
+pp idxc_ = &mp->idxc_
+pp unk0_=84c5c9c4 idxc_=NULL lcp_=[A10331+0,A10332+0,A10333+0,A10334+0,A10335+0,A10336+0] m_=[4,3,1,24,216,8,2,13,398,36,22,1] lc_=[33,64,128,58,2,90] fir1_=A10321+0 fir2_=A10323+0 fb1_=3f06fa0b fb2_=3f79b73f n1_=36 n2_=92
+pp.fir1 coef_=A10329+0 hist_=A10322+0 taps_=36 histLen_=155 room_=91 heap(620)#9f67509a4ad343cd
+pp.fir2 coef_=A10330+0 hist_=A10324+0 taps_=92 histLen_=155 room_=55 heap(620)#ff63fd6feaa5404d
+pp idxc_ = &mp->idxc_
+pp unk0_=9bb80ef0 idxc_=NULL lcp_=[A10539+0,A10540+0,A10541+0,A10542+0,A10543+0,A10544+0] m_=[14,56,6,22,17,10,303,23,357,1,8,62] lc_=[90,77,16,2,-2,93] fir1_=A10529+0 fir2_=A10531+0 fb1_=00000000 fb2_=c56042ee n1_=0 n2_=88
+pp.fir1 coef_=A10537+0 hist_=A10530+0 taps_=0 histLen_=131 room_=99 heap(524)#2a2f6b772810ad93
+pp.fir2 coef_=A10538+0 hist_=A10532+0 taps_=88 histLen_=131 room_=39 heap(524)#141e974c3be00e33
+pp idxc_ = &mp->idxc_
+pp unk0_=442d6e42 idxc_=NULL lcp_=[A10811+0,A10812+0,A10813+0,A10814+0,A10815+0,A10816+0] m_=[64,1,1,13,2,20,1,63,6,1,4,8] lc_=[128,127,6,59,127,12] fir1_=A10801+0 fir2_=A10803+0 fb1_=40a5d275 fb2_=c108e09a n1_=92 n2_=68
+pp.fir1 coef_=A10809+0 hist_=A10802+0 taps_=92 histLen_=139 room_=35 heap(556)#35aab7ed3569e6c8
+pp.fir2 coef_=A10810+0 hist_=A10804+0 taps_=68 histLen_=139 room_=59 heap(556)#e1fdd767092dd417
+pp idxc_ = &mp->idxc_
+pp unk0_=8c810ebc idxc_=NULL lcp_=[A11083+0,A11084+0,A11085+0,A11086+0,A11087+0,A11088+0] m_=[155,8,1,8,59,5,17,15,9,2,138,96] lc_=[127,50,128,35,61,72] fir1_=A11073+0 fir2_=A11075+0 fb1_=c00e3d70 fb2_=3f83fbfb n1_=56 n2_=96
+pp.fir1 coef_=A11081+0 hist_=A11074+0 taps_=56 histLen_=127 room_=67 heap(508)#5469dc74f1261270
+pp.fir2 coef_=A11082+0 hist_=A11076+0 taps_=96 histLen_=127 room_=27 heap(508)#dda3a32025279394
+pp idxc_ = &mp->idxc_
+pp unk0_=af6bf55e idxc_=NULL lcp_=[A11323+0,A11324+0,A11325+0,A11326+0,A11327+0,A11328+0] m_=[1,7,36,7,41,345,1,2,7,28,3,1] lc_=[49,36,128,91,-1,105] fir1_=A11313+0 fir2_=A11315+0 fb1_=c2d8e8d7 fb2_=ffc00000 n1_=80 n2_=28
+pp.fir1 coef_=A11321+0 hist_=A11314+0 taps_=80 histLen_=107 room_=7 heap(428)#81294596c4ed6f60
+pp.fir2 coef_=A11322+0 hist_=A11316+0 taps_=28 histLen_=107 room_=59 heap(428)#b593c47a2683e26b
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=18b591b0 idxc_=NULL lcp_=[A11627+0,A11628+0,A11629+0,A11630+0,A11631+0,A11632+0] m_=[6,7,8,8,7,49,10,46,1,5,164,65] lc_=[128,1,69,89,87,105] fir1_=A11617+0 fir2_=A11619+0 fb1_=00000000 fb2_=00000000 n1_=80 n2_=0
+pp setup.fir1 coef_=A11625+0 hist_=A11618+0 taps_=80 histLen_=155 room_=75 heap(620)#a4f7439effd78a13
+pp setup.fir2 coef_=A11626+0 hist_=A11620+0 taps_=0 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pp idxc_ = &mp->idxc_
+pp unk0_=bb4e804d idxc_=NULL lcp_=[A11883+0,A11884+0,A11885+0,A11886+0,A11887+0,A11888+0] m_=[187,16,17,1,1,7,7,45,1,3,4,228] lc_=[127,0,114,87,127,68] fir1_=A11873+0 fir2_=A11875+0 fb1_=cafc78c2 fb2_=cd826300 n1_=28 n2_=84
+pp.fir1 coef_=A11881+0 hist_=A11874+0 taps_=28 histLen_=103 room_=71 heap(412)#3cbf1c6a072676cc
+pp.fir2 coef_=A11882+0 hist_=A11876+0 taps_=84 histLen_=103 room_=15 heap(412)#829c0c88bf6356b4
+pp idxc_ = &mp->idxc_
+pp unk0_=202b00f4 idxc_=NULL lcp_=[A12155+0,A12156+0,A12157+0,A12158+0,A12159+0,A12160+0] m_=[8,4,37,61,79,19,326,1,1,18,3,5] lc_=[69,122,104,128,24,19] fir1_=A12145+0 fir2_=A12147+0 fb1_=b6bd3486 fb2_=ffded2b1 n1_=0 n2_=0
+pp.fir1 coef_=A12153+0 hist_=A12146+0 taps_=0 histLen_=107 room_=99 heap(428)#8340229f5e349113
+pp.fir2 coef_=A12154+0 hist_=A12148+0 taps_=0 histLen_=107 room_=99 heap(428)#8340229f5e349113
+pp idxc_ = &mp->idxc_
+pp unk0_=6ee1394d idxc_=NULL lcp_=[A12411+0,A12412+0,A12413+0,A12414+0,A12415+0,A12416+0] m_=[33,30,18,1,51,6,5,73,2,48,1,60] lc_=[54,127,15,113,88,0] fir1_=A12401+0 fir2_=A12403+0 fb1_=3e9340e0 fb2_=bea764a7 n1_=84 n2_=96
+pp.fir1 coef_=A12409+0 hist_=A12402+0 taps_=84 histLen_=103 room_=11 heap(412)#377e576a821a5749
+pp.fir2 coef_=A12410+0 hist_=A12404+0 taps_=96 histLen_=103 room_=7 heap(412)#b6bc066fe84f2d87
+pp idxc_ = &mp->idxc_
+pp unk0_=bce76a6c idxc_=NULL lcp_=[A12667+0,A12668+0,A12669+0,A12670+0,A12671+0,A12672+0] m_=[6,15,392,42,35,104,26,58,7,57,2,53] lc_=[-3,0,127,128,83,127] fir1_=A12657+0 fir2_=A12659+0 fb1_=00000000 fb2_=c5705aa2 n1_=0 n2_=72
+pp.fir1 coef_=A12665+0 hist_=A12658+0 taps_=0 histLen_=155 room_=99 heap(620)#a4f7439effd78a13
+pp.fir2 coef_=A12666+0 hist_=A12660+0 taps_=72 histLen_=155 room_=75 heap(620)#a6beb7d76fc4a94c
+pp idxc_ = &mp->idxc_
+pp unk0_=486e684a idxc_=NULL lcp_=[A12923+0,A12924+0,A12925+0,A12926+0,A12927+0,A12928+0] m_=[62,1,254,2,4,20,12,267,9,289,49,75] lc_=[58,127,3,31,126,0] fir1_=A12913+0 fir2_=A12915+0 fb1_=c237921a fb2_=40311728 n1_=8 n2_=32
+pp.fir1 coef_=A12921+0 hist_=A12914+0 taps_=8 histLen_=135 room_=83 heap(540)#0f2206a0f8575d82
+pp.fir2 coef_=A12922+0 hist_=A12916+0 taps_=32 histLen_=135 room_=83 heap(540)#07ca3efda754e1ef
+pp idxc_ = &mp->idxc_
+pp unk0_=e6c79c19 idxc_=NULL lcp_=[A13211+0,A13212+0,A13213+0,A13214+0,A13215+0,A13216+0] m_=[275,7,22,1,265,28,270,7,60,8,91,5] lc_=[84,43,15,81,66,78] fir1_=A13201+0 fir2_=A13203+0 fb1_=c6313741 fb2_=c59b720a n1_=96 n2_=8
+pp.fir1 coef_=A13209+0 hist_=A13202+0 taps_=96 histLen_=151 room_=51 heap(604)#bd8bf0c75f6453a0
+pp.fir2 coef_=A13210+0 hist_=A13204+0 taps_=8 histLen_=151 room_=95 heap(604)#da2a028fef769294
+pp idxc_ = &mp->idxc_
+pp unk0_=a9cf843b idxc_=NULL lcp_=[A13467+0,A13468+0,A13469+0,A13470+0,A13471+0,A13472+0] m_=[56,65,181,6,12,263,57,24,1,8,15,108] lc_=[127,32,103,127,72,120] fir1_=A13457+0 fir2_=A13459+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=0
+pp.fir1 coef_=A13465+0 hist_=A13458+0 taps_=0 histLen_=159 room_=99 heap(636)#c1b87d20e73ad6d3
+pp.fir2 coef_=A13466+0 hist_=A13460+0 taps_=0 histLen_=159 room_=99 heap(636)#c1b87d20e73ad6d3
+pp idxc_ = &mp->idxc_
+pp unk0_=9d036bad idxc_=NULL lcp_=[A13723+0,A13724+0,A13725+0,A13726+0,A13727+0,A13728+0] m_=[1,68,8,51,87,35,57,76,41,24,14,180] lc_=[101,128,74,3,127,100] fir1_=A13713+0 fir2_=A13715+0 fb1_=bf2969c9 fb2_=ffea7224 n1_=36 n2_=16
+pp.fir1 coef_=A13721+0 hist_=A13714+0 taps_=36 histLen_=111 room_=31 heap(444)#acab966371166578
+pp.fir2 coef_=A13722+0 hist_=A13716+0 taps_=16 histLen_=111 room_=51 heap(444)#40e0c02d997473b1
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=714c1647 idxc_=NULL lcp_=[A13979+0,A13980+0,A13981+0,A13982+0,A13983+0,A13984+0] m_=[5,5,5,2,2,309,166,27,283,4,1,26] lc_=[12,127,116,58,128,-3] fir1_=A13969+0 fir2_=A13971+0 fb1_=00000000 fb2_=00000000 n1_=36 n2_=52
+pp setup.fir1 coef_=A13977+0 hist_=A13970+0 taps_=36 histLen_=119 room_=83 heap(476)#fa6adc6bff874753
+pp setup.fir2 coef_=A13978+0 hist_=A13972+0 taps_=52 histLen_=119 room_=67 heap(476)#fa6adc6bff874753
+pp idxc_ = &mp->idxc_
+pp unk0_=3a62af3c idxc_=NULL lcp_=[A14203+0,A14204+0,A14205+0,A14206+0,A14207+0,A14208+0] m_=[49,1,4,34,180,238,1,2,1,26,32,2] lc_=[28,92,29,127,19,0] fir1_=A14193+0 fir2_=A14195+0 fb1_=4ef29e95 fb2_=7fc4431d n1_=8 n2_=24
+pp.fir1 coef_=A14201+0 hist_=A14194+0 taps_=8 histLen_=131 room_=91 heap(524)#361c57c0284501bf
+pp.fir2 coef_=A14202+0 hist_=A14196+0 taps_=24 histLen_=131 room_=91 heap(524)#d8e8b7ec1173cd53
+pp idxc_ = &mp->idxc_
+pp unk0_=86813ce7 idxc_=NULL lcp_=[A14491+0,A14492+0,A14493+0,A14494+0,A14495+0,A14496+0] m_=[27,197,93,5,1,51,264,2,292,6,7,39] lc_=[128,127,2,10,43,47] fir1_=A14481+0 fir2_=A14483+0 fb1_=3f949023 fb2_=3e48a115 n1_=52 n2_=68
+pp.fir1 coef_=A14489+0 hist_=A14482+0 taps_=52 histLen_=151 room_=95 heap(604)#c98a923b64987935
+pp.fir2 coef_=A14490+0 hist_=A14484+0 taps_=68 histLen_=151 room_=79 heap(604)#8a03a30206d2bcec
+pp idxc_ = &mp->idxc_
+pp unk0_=165c2e7d idxc_=NULL lcp_=[A14731+0,A14732+0,A14733+0,A14734+0,A14735+0,A14736+0] m_=[365,1,2,14,126,41,6,20,134,61,6,261] lc_=[95,74,89,118,74,52] fir1_=A14721+0 fir2_=A14723+0 fb1_=cb23e8d2 fb2_=ffe848f0 n1_=92 n2_=60
+pp.fir1 coef_=A14729+0 hist_=A14722+0 taps_=92 histLen_=143 room_=35 heap(572)#f5f6fb2c9a5d0c3f
+pp.fir2 coef_=A14730+0 hist_=A14724+0 taps_=60 histLen_=143 room_=67 heap(572)#fdc953e0b31310d6
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=33c99304 idxc_=NULL lcp_=[A14987+0,A14988+0,A14989+0,A14990+0,A14991+0,A14992+0] m_=[5,1,5,64,2,239,323,24,1,31,7,61] lc_=[80,98,58,128,62,86] fir1_=A14977+0 fir2_=A14979+0 fb1_=00000000 fb2_=00000000 n1_=76 n2_=28
+pp setup.fir1 coef_=A14985+0 hist_=A14978+0 taps_=76 histLen_=123 room_=47 heap(492)#7b829f9c92d7e413
+pp setup.fir2 coef_=A14986+0 hist_=A14980+0 taps_=28 histLen_=123 room_=95 heap(492)#7b829f9c92d7e413
+pp idxc_ = &mp->idxc_
+pp unk0_=750ec7cf idxc_=NULL lcp_=[A15243+0,A15244+0,A15245+0,A15246+0,A15247+0,A15248+0] m_=[50,135,62,1,6,4,3,22,3,19,27,379] lc_=[90,116,106,3,99,41] fir1_=A15233+0 fir2_=A15235+0 fb1_=450fd1bd fb2_=00000000 n1_=4 n2_=0
+pp.fir1 coef_=A15241+0 hist_=A15234+0 taps_=4 histLen_=131 room_=87 heap(524)#651cab758f9e7cc4
+pp.fir2 coef_=A15242+0 hist_=A15236+0 taps_=0 histLen_=131 room_=99 heap(524)#2a2f6b772810ad93
+pp idxc_ = &mp->idxc_
+pp unk0_=930d380c idxc_=NULL lcp_=[A15483+0,A15484+0,A15485+0,A15486+0,A15487+0,A15488+0] m_=[34,5,50,351,324,8,201,329,2,393,290,49] lc_=[0,12,88,5,82,-5] fir1_=A15473+0 fir2_=A15475+0 fb1_=41796e8e fb2_=421570c3 n1_=88 n2_=16
+pp.fir1 coef_=A15481+0 hist_=A15474+0 taps_=88 histLen_=123 room_=23 heap(492)#b66ad1cb2c52367c
+pp.fir2 coef_=A15482+0 hist_=A15476+0 taps_=16 histLen_=123 room_=87 heap(492)#4ba6165a5eaf4dea
+pp idxc_ = &mp->idxc_
+pp unk0_=eb8a128b idxc_=NULL lcp_=[A15771+0,A15772+0,A15773+0,A15774+0,A15775+0,A15776+0] m_=[1,5,8,1,56,37,5,1,182,1,5,1] lc_=[35,-5,55,109,72,39] fir1_=A15761+0 fir2_=A15763+0 fb1_=40986423 fb2_=c50ebe1a n1_=88 n2_=0
+pp.fir1 coef_=A15769+0 hist_=A15762+0 taps_=88 histLen_=115 room_=19 heap(460)#33042b421e2fa4ea
+pp.fir2 coef_=A15770+0 hist_=A15764+0 taps_=0 histLen_=115 room_=99 heap(460)#b85ca13f0b03da93
+pp idxc_ = &mp->idxc_
+pp unk0_=194202d3 idxc_=NULL lcp_=[A15979+0,A15980+0,A15981+0,A15982+0,A15983+0,A15984+0] m_=[4,152,43,2,2,2,21,40,1,398,43,196] lc_=[1,40,1,127,128,97] fir1_=A15969+0 fir2_=A15971+0 fb1_=411be719 fb2_=404c37d1 n1_=52 n2_=68
+pp.fir1 coef_=A15977+0 hist_=A15970+0 taps_=52 histLen_=107 room_=43 heap(428)#b42c241432f2c0b4
+pp.fir2 coef_=A15978+0 hist_=A15972+0 taps_=68 histLen_=107 room_=27 heap(428)#fbfc2f124d106b43
+pp idxc_ = &mp->idxc_
+pp unk0_=4e8209cb idxc_=NULL lcp_=[A16187+0,A16188+0,A16189+0,A16190+0,A16191+0,A16192+0] m_=[15,7,276,16,1,16,24,389,1,4,9,1] lc_=[117,56,128,0,76,65] fir1_=A16177+0 fir2_=A16179+0 fb1_=40d437b0 fb2_=7fd48897 n1_=84 n2_=88
+pp.fir1 coef_=A16185+0 hist_=A16178+0 taps_=84 histLen_=159 room_=51 heap(636)#cbe0938f7c007949
+pp.fir2 coef_=A16186+0 hist_=A16180+0 taps_=88 histLen_=159 room_=47 heap(636)#967dff14e6b78d18
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=c004fabe idxc_=NULL lcp_=[A16411+0,A16412+0,A16413+0,A16414+0,A16415+0,A16416+0] m_=[6,62,3,326,3,6,59,10,4,45,6,5] lc_=[37,11,3,52,3,55] fir1_=A16401+0 fir2_=A16403+0 fb1_=00000000 fb2_=00000000 n1_=64 n2_=24
+pp setup.fir1 coef_=A16409+0 hist_=A16402+0 taps_=64 histLen_=143 room_=79 heap(572)#01c4291cb354c3d3
+pp setup.fir2 coef_=A16410+0 hist_=A16404+0 taps_=24 histLen_=143 room_=99 heap(572)#01c4291cb354c3d3
+pp idxc_ = &mp->idxc_
+pp unk0_=cddacd2b idxc_=NULL lcp_=[A16651+0,A16652+0,A16653+0,A16654+0,A16655+0,A16656+0] m_=[10,1,3,2,1,3,4,4,1,28,4,37] lc_=[3,60,120,95,116,71] fir1_=A16641+0 fir2_=A16643+0 fb1_=be7dcf2e fb2_=3e9534f4 n1_=60 n2_=40
+pp.fir1 coef_=A16649+0 hist_=A16642+0 taps_=60 histLen_=143 room_=79 heap(572)#566d2f175336dced
+pp.fir2 coef_=A16650+0 hist_=A16644+0 taps_=40 histLen_=143 room_=95 heap(572)#8333ebb6bdf9a40f
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=c22c4635 idxc_=NULL lcp_=[A16891+0,A16892+0,A16893+0,A16894+0,A16895+0,A16896+0] m_=[52,46,5,1,46,2,20,1,210,363,175,84] lc_=[128,127,14,5,52,81] fir1_=A16881+0 fir2_=A16883+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=36
+pp setup.fir1 coef_=A16889+0 hist_=A16882+0 taps_=0 histLen_=151 room_=99 heap(604)#1708813d416d6d53
+pp setup.fir2 coef_=A16890+0 hist_=A16884+0 taps_=36 histLen_=151 room_=99 heap(604)#1708813d416d6d53
+pp idxc_ = &mp->idxc_
+pp unk0_=8e90d8d2 idxc_=NULL lcp_=[A17115+0,A17116+0,A17117+0,A17118+0,A17119+0,A17120+0] m_=[166,5,1,320,79,8,47,3,59,305,4,1] lc_=[120,127,123,117,9,0] fir1_=A17105+0 fir2_=A17107+0 fb1_=00000000 fb2_=7fc00000 n1_=0 n2_=84
+pp.fir1 coef_=A17113+0 hist_=A17106+0 taps_=0 histLen_=107 room_=99 heap(428)#8340229f5e349113
+pp.fir2 coef_=A17114+0 hist_=A17108+0 taps_=84 histLen_=107 room_=15 heap(428)#294e1d21e468a93b
+pp idxc_ = &mp->idxc_
+pp unk0_=f05099da idxc_=NULL lcp_=[A17339+0,A17340+0,A17341+0,A17342+0,A17343+0,A17344+0] m_=[15,114,56,48,184,2,64,4,10,4,1,7] lc_=[28,18,128,56,95,74] fir1_=A17329+0 fir2_=A17331+0 fb1_=c00d8689 fb2_=3d65eb96 n1_=12 n2_=64
+pp.fir1 coef_=A17337+0 hist_=A17330+0 taps_=12 histLen_=127 room_=91 heap(508)#e34156d9e0cd11ca
+pp.fir2 coef_=A17338+0 hist_=A17332+0 taps_=64 histLen_=127 room_=55 heap(508)#7990724aed4ec04b
+pp idxc_ = &mp->idxc_
+pp unk0_=0bbc5f3e idxc_=NULL lcp_=[A17595+0,A17596+0,A17597+0,A17598+0,A17599+0,A17600+0] m_=[3,12,1,3,50,395,223,304,43,37,335,7] lc_=[5,54,0,2,18,69] fir1_=A17585+0 fir2_=A17587+0 fb1_=451851ae fb2_=c5d6330f n1_=36 n2_=24
+pp.fir1 coef_=A17593+0 hist_=A17586+0 taps_=36 histLen_=111 room_=71 heap(444)#b9a6f5b2071efde8
+pp.fir2 coef_=A17594+0 hist_=A17588+0 taps_=24 histLen_=111 room_=83 heap(444)#379747c054a0b57a
+pp idxc_ = &mp->idxc_
+pp unk0_=c868c7fd idxc_=NULL lcp_=[A17915+0,A17916+0,A17917+0,A17918+0,A17919+0,A17920+0] m_=[4,6,19,280,47,183,1,1,6,8,29,3] lc_=[17,127,48,44,48,0] fir1_=A17905+0 fir2_=A17907+0 fb1_=3db8df4a fb2_=ffc02301 n1_=8 n2_=56
+pp.fir1 coef_=A17913+0 hist_=A17906+0 taps_=8 histLen_=103 room_=79 heap(412)#426f0830cfdd2b33
+pp.fir2 coef_=A17914+0 hist_=A17908+0 taps_=56 histLen_=103 room_=31 heap(412)#d773fe0d4fcab622
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=bf1e97b8 idxc_=NULL lcp_=[A18203+0,A18204+0,A18205+0,A18206+0,A18207+0,A18208+0] m_=[54,24,3,9,3,383,4,33,375,2,1,1] lc_=[77,95,42,64,106,0] fir1_=A18193+0 fir2_=A18195+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=8
+pp setup.fir1 coef_=A18201+0 hist_=A18194+0 taps_=0 histLen_=119 room_=99 heap(476)#fa6adc6bff874753
+pp setup.fir2 coef_=A18202+0 hist_=A18196+0 taps_=8 histLen_=119 room_=99 heap(476)#fa6adc6bff874753
+pp idxc_ = &mp->idxc_
+pp unk0_=e6d486fc idxc_=NULL lcp_=[A18411+0,A18412+0,A18413+0,A18414+0,A18415+0,A18416+0] m_=[41,1,193,45,1,5,353,49,8,80,45,3] lc_=[127,124,128,2,127,113] fir1_=A18401+0 fir2_=A18403+0 fb1_=bf7fe93f fb2_=7fd1c48b n1_=96 n2_=40
+pp.fir1 coef_=A18409+0 hist_=A18402+0 taps_=96 histLen_=151 room_=43 heap(604)#f3eac88055838c16
+pp.fir2 coef_=A18410+0 hist_=A18404+0 taps_=40 histLen_=151 room_=87 heap(604)#eaf1b6d4af5a8f78
+pp idxc_ = &mp->idxc_
+pp unk0_=61da4da6 idxc_=NULL lcp_=[A18731+0,A18732+0,A18733+0,A18734+0,A18735+0,A18736+0] m_=[283,1,2,13,225,2,2,52,85,2,33,1] lc_=[120,49,69,88,77,123] fir1_=A18721+0 fir2_=A18723+0 fb1_=3dc07a44 fb2_=7ff3ed45 n1_=40 n2_=76
+pp.fir1 coef_=A18729+0 hist_=A18722+0 taps_=40 histLen_=123 room_=75 heap(492)#9598827f340098ca
+pp.fir2 coef_=A18730+0 hist_=A18724+0 taps_=76 histLen_=123 room_=39 heap(492)#4758f6259676a61c
+pp idxc_ = &mp->idxc_
+pp unk0_=20c640ea idxc_=NULL lcp_=[A18971+0,A18972+0,A18973+0,A18974+0,A18975+0,A18976+0] m_=[8,8,6,13,49,154,49,8,2,4,270,15] lc_=[28,85,91,58,127,51] fir1_=A18961+0 fir2_=A18963+0 fb1_=4185ec7c fb2_=40ea8bb0 n1_=16 n2_=60
+pp.fir1 coef_=A18969+0 hist_=A18962+0 taps_=16 histLen_=163 room_=95 heap(652)#9c97bfcfce701904
+pp.fir2 coef_=A18970+0 hist_=A18964+0 taps_=60 histLen_=163 room_=95 heap(652)#c27926b3beb5a7aa
+pp idxc_ = &mp->idxc_
+pp unk0_=16dd90aa idxc_=NULL lcp_=[A19259+0,A19260+0,A19261+0,A19262+0,A19263+0,A19264+0] m_=[1,245,8,61,8,26,54,173,315,1,6,27] lc_=[121,118,95,1,50,24] fir1_=A19249+0 fir2_=A19251+0 fb1_=4026b4c8 fb2_=00000000 n1_=76 n2_=0
+pp.fir1 coef_=A19257+0 hist_=A19250+0 taps_=76 histLen_=119 room_=35 heap(476)#832c85e75e32c753
+pp.fir2 coef_=A19258+0 hist_=A19252+0 taps_=0 histLen_=119 room_=99 heap(476)#fa6adc6bff874753
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=ddeb9794 idxc_=NULL lcp_=[A19547+0,A19548+0,A19549+0,A19550+0,A19551+0,A19552+0] m_=[3,5,64,6,2,4,3,2,3,75,8,5] lc_=[54,114,11,94,13,0] fir1_=A19537+0 fir2_=A19539+0 fb1_=00000000 fb2_=00000000 n1_=76 n2_=0
+pp setup.fir1 coef_=A19545+0 hist_=A19538+0 taps_=76 histLen_=103 room_=27 heap(412)#c41607e58550b453
+pp setup.fir2 coef_=A19546+0 hist_=A19540+0 taps_=0 histLen_=103 room_=99 heap(412)#c41607e58550b453
+pp idxc_ = &mp->idxc_
+pp unk0_=e1c44343 idxc_=NULL lcp_=[A19787+0,A19788+0,A19789+0,A19790+0,A19791+0,A19792+0] m_=[7,7,63,138,27,36,253,10,6,24,116,25] lc_=[31,63,53,127,60,128] fir1_=A19777+0 fir2_=A19779+0 fb1_=416cf58f fb2_=43538c40 n1_=52 n2_=8
+pp.fir1 coef_=A19785+0 hist_=A19778+0 taps_=52 histLen_=139 room_=83 heap(556)#ac0ccb8d98a5989f
+pp.fir2 coef_=A19786+0 hist_=A19780+0 taps_=8 histLen_=139 room_=95 heap(556)#419e5b52f6e4a97b
+pp idxc_ = &mp->idxc_
+pp unk0_=a2e4c6bc idxc_=NULL lcp_=[A20011+0,A20012+0,A20013+0,A20014+0,A20015+0,A20016+0] m_=[1,98,299,51,8,2,304,54,33,6,92,394] lc_=[62,95,42,128,75,121] fir1_=A20001+0 fir2_=A20003+0 fb1_=42eaddd3 fb2_=00000000 n1_=24 n2_=0
+pp.fir1 coef_=A20009+0 hist_=A20002+0 taps_=24 histLen_=123 room_=67 heap(492)#a8fcb7ec8a600a5d
+pp.fir2 coef_=A20010+0 hist_=A20004+0 taps_=0 histLen_=123 room_=99 heap(492)#7b829f9c92d7e413
+pp idxc_ = &mp->idxc_
+pp unk0_=a28e9013 idxc_=NULL lcp_=[A20267+0,A20268+0,A20269+0,A20270+0,A20271+0,A20272+0] m_=[50,12,7,1,1,52,8,8,3,6,19,3] lc_=[83,60,89,50,1,0] fir1_=A20257+0 fir2_=A20259+0 fb1_=bd60f01c fb2_=3cdd69a1 n1_=96 n2_=32
+pp.fir1 coef_=A20265+0 hist_=A20258+0 taps_=96 histLen_=119 room_=15 heap(476)#bcff8f48f47dc25b
+pp.fir2 coef_=A20266+0 hist_=A20260+0 taps_=32 histLen_=119 room_=79 heap(476)#e20758aea83c1331
+pp idxc_ = &mp->idxc_
+pp unk0_=2753c20c idxc_=NULL lcp_=[A20443+0,A20444+0,A20445+0,A20446+0,A20447+0,A20448+0] m_=[34,8,25,57,6,354,1,8,6,1,4,2] lc_=[41,61,23,38,111,84] fir1_=A20433+0 fir2_=A20435+0 fb1_=42247173 fb2_=c1c0c553 n1_=20 n2_=52
+pp.fir1 coef_=A20441+0 hist_=A20434+0 taps_=20 histLen_=147 room_=75 heap(588)#aae4f0dac6acdd61
+pp.fir2 coef_=A20442+0 hist_=A20436+0 taps_=52 histLen_=147 room_=71 heap(588)#a6775f5e820bb389
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=ffa90b9d idxc_=NULL lcp_=[A20747+0,A20748+0,A20749+0,A20750+0,A20751+0,A20752+0] m_=[30,2,116,53,1,29,7,39,46,10,7,46] lc_=[127,20,127,21,105,77] fir1_=A20737+0 fir2_=A20739+0 fb1_=00000000 fb2_=00000000 n1_=60 n2_=0
+pp setup.fir1 coef_=A20745+0 hist_=A20738+0 taps_=60 histLen_=123 room_=63 heap(492)#7b829f9c92d7e413
+pp setup.fir2 coef_=A20746+0 hist_=A20740+0 taps_=0 histLen_=123 room_=99 heap(492)#7b829f9c92d7e413
+pp idxc_ = &mp->idxc_
+pp unk0_=fabaf358 idxc_=NULL lcp_=[A20987+0,A20988+0,A20989+0,A20990+0,A20991+0,A20992+0] m_=[64,39,19,2,8,127,373,8,26,178,38,47] lc_=[87,111,114,124,108,39] fir1_=A20977+0 fir2_=A20979+0 fb1_=c54d12a7 fb2_=c528c88f n1_=80 n2_=44
+pp.fir1 coef_=A20985+0 hist_=A20978+0 taps_=80 histLen_=143 room_=55 heap(572)#a1429d23dec4ea7a
+pp.fir2 coef_=A20986+0 hist_=A20980+0 taps_=44 histLen_=143 room_=91 heap(572)#fa3aa6aead67093f
+pp idxc_ = &mp->idxc_
+pp unk0_=99b67cf9 idxc_=NULL lcp_=[A21179+0,A21180+0,A21181+0,A21182+0,A21183+0,A21184+0] m_=[2,1,24,55,39,4,1,3,6,1,37,8] lc_=[35,75,94,76,1,0] fir1_=A21169+0 fir2_=A21171+0 fb1_=c27000e6 fb2_=4501e163 n1_=8 n2_=92
+pp.fir1 coef_=A21177+0 hist_=A21170+0 taps_=8 histLen_=131 room_=87 heap(524)#cef3d0edfc846416
+pp.fir2 coef_=A21178+0 hist_=A21172+0 taps_=92 histLen_=131 room_=27 heap(524)#aecc8e1187a67827
+pp idxc_ = &mp->idxc_
+pp unk0_=4111ab1c idxc_=NULL lcp_=[A21467+0,A21468+0,A21469+0,A21470+0,A21471+0,A21472+0] m_=[4,1,1,328,1,4,41,383,1,4,1,29] lc_=[97,70,11,99,33,45] fir1_=A21457+0 fir2_=A21459+0 fb1_=c4821b9c fb2_=c7b239d7 n1_=36 n2_=8
+pp.fir1 coef_=A21465+0 hist_=A21458+0 taps_=36 histLen_=107 room_=67 heap(428)#f99cf612b47d3873
+pp.fir2 coef_=A21466+0 hist_=A21460+0 taps_=8 histLen_=107 room_=95 heap(428)#08f2230686a55cc7
+pp idxc_ = &mp->idxc_
+pp unk0_=c34cefb7 idxc_=NULL lcp_=[A21755+0,A21756+0,A21757+0,A21758+0,A21759+0,A21760+0] m_=[4,41,1,17,52,31,213,39,24,55,46,4] lc_=[33,21,127,22,37,110] fir1_=A21745+0 fir2_=A21747+0 fb1_=41d665a7 fb2_=cffd8af1 n1_=88 n2_=28
+pp.fir1 coef_=A21753+0 hist_=A21746+0 taps_=88 histLen_=139 room_=47 heap(556)#c20d27b00dd30656
+pp.fir2 coef_=A21754+0 hist_=A21748+0 taps_=28 histLen_=139 room_=95 heap(556)#0281a1ed33a53994
+pp idxc_ = &mp->idxc_
+pp unk0_=151bd65c idxc_=NULL lcp_=[A22043+0,A22044+0,A22045+0,A22046+0,A22047+0,A22048+0] m_=[1,201,2,60,7,362,5,108,35,1,1,6] lc_=[105,72,44,97,54,40] fir1_=A22033+0 fir2_=A22035+0 fb1_=c93dea7e fb2_=7fdb39b5 n1_=0 n2_=16
+pp.fir1 coef_=A22041+0 hist_=A22034+0 taps_=0 histLen_=103 room_=99 heap(412)#c41607e58550b453
+pp.fir2 coef_=A22042+0 hist_=A22036+0 taps_=16 histLen_=103 room_=67 heap(412)#eeeda9145f2beae7
+pp idxc_ = &mp->idxc_
+pp unk0_=57199361 idxc_=NULL lcp_=[A22267+0,A22268+0,A22269+0,A22270+0,A22271+0,A22272+0] m_=[35,214,40,8,57,21,2,11,3,40,41,53] lc_=[115,45,61,10,128,0] fir1_=A22257+0 fir2_=A22259+0 fb1_=c071bbe1 fb2_=ffea972c n1_=52 n2_=68
+pp.fir1 coef_=A22265+0 hist_=A22258+0 taps_=52 histLen_=151 room_=91 heap(604)#6aa5b57dd1cdf2b5
+pp.fir2 coef_=A22266+0 hist_=A22260+0 taps_=68 histLen_=151 room_=75 heap(604)#bad30bbe37e910b3
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=e27d44df idxc_=NULL lcp_=[A22491+0,A22492+0,A22493+0,A22494+0,A22495+0,A22496+0] m_=[1,3,7,123,6,10,3,7,1,8,8,1] lc_=[110,74,25,128,29,101] fir1_=A22481+0 fir2_=A22483+0 fb1_=00000000 fb2_=00000000 n1_=52 n2_=88
+pp setup.fir1 coef_=A22489+0 hist_=A22482+0 taps_=52 histLen_=131 room_=79 heap(524)#2a2f6b772810ad93
+pp setup.fir2 coef_=A22490+0 hist_=A22484+0 taps_=88 histLen_=131 room_=43 heap(524)#2a2f6b772810ad93
+pp idxc_ = &mp->idxc_
+pp unk0_=a500416c idxc_=NULL lcp_=[A22763+0,A22764+0,A22765+0,A22766+0,A22767+0,A22768+0] m_=[316,306,16,7,47,23,64,190,45,25,46,1] lc_=[75,0,44,38,2,12] fir1_=A22753+0 fir2_=A22755+0 fb1_=c07ae031 fb2_=7ff56598 n1_=16 n2_=80
+pp.fir1 coef_=A22761+0 hist_=A22754+0 taps_=16 histLen_=131 room_=95 heap(524)#dd2d74499a3e8909
+pp.fir2 coef_=A22762+0 hist_=A22756+0 taps_=80 histLen_=131 room_=47 heap(524)#8d0fc0cfcad468cb
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=4a3905c1 idxc_=NULL lcp_=[A23067+0,A23068+0,A23069+0,A23070+0,A23071+0,A23072+0] m_=[28,7,8,6,42,3,374,3,1,8,11,5] lc_=[97,58,127,46,0,64] fir1_=A23057+0 fir2_=A23059+0 fb1_=00000000 fb2_=00000000 n1_=0 n2_=12
+pp setup.fir1 coef_=A23065+0 hist_=A23058+0 taps_=0 histLen_=111 room_=99 heap(444)#a56a423828819dd3
+pp setup.fir2 coef_=A23066+0 hist_=A23060+0 taps_=12 histLen_=111 room_=99 heap(444)#a56a423828819dd3
+pp idxc_ = &mp->idxc_
+pp unk0_=71d427ea idxc_=NULL lcp_=[A23291+0,A23292+0,A23293+0,A23294+0,A23295+0,A23296+0] m_=[50,1,24,346,1,32,16,15,4,5,1,393] lc_=[29,4,66,111,102,32] fir1_=A23281+0 fir2_=A23283+0 fb1_=c4b8ae3e fb2_=c462b7c2 n1_=72 n2_=84
+pp.fir1 coef_=A23289+0 hist_=A23282+0 taps_=72 histLen_=131 room_=55 heap(524)#349d82a1d7085d5a
+pp.fir2 coef_=A23290+0 hist_=A23284+0 taps_=84 histLen_=131 room_=43 heap(524)#f5f0cb6c389e7351
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=5074c611 idxc_=NULL lcp_=[A23643+0,A23644+0,A23645+0,A23646+0,A23647+0,A23648+0] m_=[38,35,1,3,4,290,292,208,46,1,29,127] lc_=[119,38,0,-2,0,119] fir1_=A23633+0 fir2_=A23635+0 fb1_=00000000 fb2_=00000000 n1_=12 n2_=20
+pp setup.fir1 coef_=A23641+0 hist_=A23634+0 taps_=12 histLen_=127 room_=99 heap(508)#d5190400a4c1b0d3
+pp setup.fir2 coef_=A23642+0 hist_=A23636+0 taps_=20 histLen_=127 room_=99 heap(508)#d5190400a4c1b0d3
+pp setup idxc_ = &mp->idxc_
+pp setup unk0_=b13e3a0e idxc_=NULL lcp_=[A23915+0,A23916+0,A23917+0,A23918+0,A23919+0,A23920+0] m_=[1,60,115,7,24,7,20,75,53,61,22,2] lc_=[127,128,0,84,-3,-2] fir1_=A23905+0 fir2_=A23907+0 fb1_=00000000 fb2_=00000000 n1_=40 n2_=36
+pp setup.fir1 coef_=A23913+0 hist_=A23906+0 taps_=40 histLen_=103 room_=63 heap(412)#c41607e58550b453
+pp setup.fir2 coef_=A23914+0 hist_=A23908+0 taps_=36 histLen_=103 room_=67 heap(412)#c41607e58550b453
+calls: malloc 24000 free 24000 dbgprintf 0
+COV trials                       1500
+COV symbol 3 (parity path)       4268
+COV negative candidate index     12283
+COV non-negative candidate index 16938
+COV best found at the first candidate 14946
+COV best found at the last candidate 8458
+COV symbol with >= 2 updates     9631
+COV symbol without an update (stale best kept) 1480
+COV empty candidate range        134
+COV single-candidate range       4315
+COV NaN feedback (unordered compare) 4577
+COV n1_ == 0 (fir1 skipped)      226
+COV n2_ == 0 (fir2 skipped)      219
+COV row 0                        1415
+COV row 1                        1452
+COV row 2                        1401
+COV symbol 3 parity 1            2097
+COV symbol 3 parity 0            2171
+COV lc == 0                      861
+COV m == 1                       2402
+COV u >= 2^20                    6759
+COV candidate above the limit rejected 8832
+COV equal squared sum / limit    1010
+COV calls skipped (first symbol without a candidate) 1573
+COV feedback values poked        1164
+COV infinite feedback            92
+COV both FIRs active             1090
+COV negative index with a non-trivial table entry 11479
+COV process calls                4268
+COV objects with >= 4 calls      674
+COV candidate with s^2 within 1e-3 of the limit 0
+COV negative sum s               5235
+COV table entry 0 chosen         373
+COV update at the last candidate of symbol 3 2209
+COV state[] entry kept (no update) 1480
+COV trials with the block around 2^31 1501
+COV dtor with a NULL block pointer 0
+HASH af872d685f3eba96 lines 79646

@@ -1,0 +1,71 @@
+V90Equalizer::calcMeanErrorStatistics/0:623 CMPSIGN 64aefde9f6 compare as int32_t (no blob compare evidence)
+V90Equalizer::calcMeanErrorStatistics/0:623 LIT 85251383c8 1 -> 0
+V90Equalizer::linearEquFadeEdges/0:533 CMPSIGN cf21cc50e4 compare as int32_t (no blob compare evidence)
+V90Equalizer::linearEquFadeEdges/0:540 CMPSIGN 1fbe27926b compare as int32_t (no blob compare evidence)
+V90Equalizer::linearEquFadeEdges/0:546 CMPSIGN b46bab0205 compare as int32_t (no blob compare evidence)
+V90Equalizer::linearEquFadeEdges/0:546 SIGN 3c5760ecb7 decl unsigned i -> int
+V90Equalizer::restoreEqualizerToFloat/0:562 CMPSIGN 93d3fcc1e2 compare as int32_t (no blob compare evidence)
+V90Equalizer::restoreEqualizerToFloat/0:569 CMPSIGN 673226e3b1 compare as int32_t (no blob compare evidence)
+V90Equalizer::restoreEqualizerToFloat/0:569 SIGN df3ba73f8d decl unsigned i -> int
+V90Equalizer::setDfeCoeff/2:513 CMPSIGN 82d1cb4669 compare as int32_t (no blob compare evidence)
+V90Equalizer::setLinearEquCoeff/2:507 CMPSIGN b8b555a2a6 compare as int32_t (no blob compare evidence)
+V90Equalizer::zeroDfeCoefs/0:495 CMPSIGN 6329dbd25e compare as int32_t (no blob compare evidence)
+V90Equalizer::zeroDfeCoefs/0:500 CMPSIGN fb800a6ef5 compare as int32_t (no blob compare evidence)
+V90Equalizer::zeroLinearEquCoefs/0:482 CMPSIGN cc546da2d3 compare as int32_t (no blob compare evidence)
+V90Equalizer::zeroLinearEquCoefs/0:487 CMPSIGN 2cf5266935 compare as int32_t (no blob compare evidence)
+alignOff:215 CAST 7bffc0d9b8 cast (unsigned) -> (int)
+alignOff:215 LIT 59b0b27033 7ul -> 6ul
+alignOff:215 LIT f0f32f5918 7ul -> 6ul
+clampFade:150 REL 9ce13c7da5 >= -> >
+clampFade:151 REL 7d553d4375 <= -> <
+ctorBody:219 SIGN 0a1b0e659c decl unsigned dfeLen -> int
+ctorBody:219 SIGN 5367d3aa7f decl unsigned linLen -> int
+ctorBody:223 SIGN 25b2daaf8f decl int h -> unsigned
+ctorBody:223 WIDTH bf26d0f8f5 decl int h -> short
+ctorBody:235 ARITH 4aaf702ea5 + -> -
+ctorBody:235 CAST 5f03e6c16c cast (int) -> (unsigned)
+ctorBody:235 CAST bc9d8f26ce cast (unsigned) -> (int)
+ctorBody:235 CAST 8feebf4dc0 drop cast (int)
+ctorBody:235 CAST 75815ca019 drop cast (unsigned)
+ctorBody:235 LIT f8a589fd86 31 -> 29
+ctorBody:235 LIT 14cfc7b0e2 31 -> 30
+ctorBody:235 LIT 8fad03cfcc 31 -> 32
+ctorBody:235 LIT d8b1ce52c3 31 -> 33
+enterState:208 STMT 3e2ef8ffd0 delete statement
+join16:115 SIGN 702da3452f decl short hi -> unsigned short
+mulF:110 STMT 06b2206cad delete statement
+printStats:388 SIGN 3c169ca4d5 decl unsigned n -> int
+resetTables:314 CMPSIGN 9fb5f2fc73 compare as int32_t (no blob compare evidence)
+resetTables:314 SIGN 7f9c49d260 decl unsigned i -> int
+resetTables:325 CMPSIGN 13f80819b8 compare as int32_t (no blob compare evidence)
+resetTables:325 SIGN cdf1abec14 decl unsigned i -> int
+resetTables:337 CMPSIGN 5003a4d46c compare as int32_t (no blob compare evidence)
+resetTables:337 SIGN 6bf3b7e176 decl unsigned i -> int
+resetTables:341 CMPSIGN 67f052f1ee compare as int32_t (no blob compare evidence)
+resetTables:341 SIGN 1ae17b0c0b decl unsigned i -> int
+resetTables:347 CMPSIGN 8cd6da449c compare as int32_t (no blob compare evidence)
+resetTables:347 SIGN 3696e38d11 decl unsigned i -> int
+setFade:160 SIGN c968825183 decl unsigned la -> int
+setFade:161 SIGN ac3c630bb8 decl unsigned lb -> int
+trunc64lo:84 CMPSIGN b4867dad95 compare as int32_t (no blob compare evidence)
+trunc64lo:84 CMPSIGN b8b8d57eae compare as int32_t (no blob compare evidence)
+trunc64lo:84 CMPSIGN 1b485c73ad compare as uint32_t (no blob compare evidence)
+trunc64lo:84 CMPSIGN d71e9a72e3 compare as uint32_t (no blob compare evidence)
+trunc64lo:84 LIT c83578d495 0 -> (-1)
+trunc64lo:84 LIT af2a67be1d 0 -> (-2)
+trunc64lo:84 LIT 919c5616bd 0 -> 1
+trunc64lo:84 LIT 7ae2661208 0 -> 2
+trunc64lo:84 LOGIC 83afda591e && -> ||
+trunc64lo:84 REL 52aba6b72e < -> <=
+trunc64lo:84 REL 3f8edc3423 > -> >=
+trunc64lo:85 CAST aea7aea119 drop cast (long long)
+unpackDfe:384 CMPSIGN b16b87a34c compare as int32_t (no blob compare evidence)
+unpackDfe:384 SIGN 0836aef661 decl unsigned i -> int
+unpackLinear:379 CMPSIGN 3c590f9727 compare as int32_t (no blob compare evidence)
+unpackLinear:379 SIGN 1e7e9e7e6c decl unsigned i -> int
+wordOf:72 STMT cfb55e961e delete statement
+zeroDfe:170 SIGN 3aac67ec68 decl unsigned was16 -> int
+zeroDfe:173 CMPSIGN 808d6c0ec7 compare as int32_t (no blob compare evidence)
+zeroDfe:173 SIGN cdf68a892e decl unsigned k -> int
+zeroDfe:178 CMPSIGN 4ecf270586 compare as int32_t (no blob compare evidence)
+zeroDfe:178 SIGN bc9dcc6d88 decl unsigned k -> int

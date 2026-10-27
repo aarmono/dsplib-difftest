@@ -1,0 +1,153 @@
+V90Equalizer::process/5:175 SIGN 293aa23ed0 decl unsigned mmx54 -> int
+V90Equalizer::process/5:176 SIGN 51fccdddb6 decl unsigned i -> int
+V90Equalizer::process/5:177 SIGN 169488d963 decl unsigned cnt -> int
+V90Equalizer::process/5:182 SIGN 72cd3d34d5 decl unsigned ev -> int
+V90Equalizer::process/5:183 WIDTH 41dc691b19 decl int a16 -> short
+V90Equalizer::process/5:189 LIT 3b349927a2 0 -> (-1)
+V90Equalizer::process/5:189 LIT d86d3a6e15 0 -> (-2)
+V90Equalizer::process/5:189 LIT 85444c8ce6 0 -> 1
+V90Equalizer::process/5:189 LIT 4ddda2561a 0 -> 2
+V90Equalizer::process/5:189 STMT 7b677ab5f0 delete statement
+V90Equalizer::process/5:190 LIT cdcce564a0 0 -> (-1)
+V90Equalizer::process/5:190 LIT b56cd46f2e 0 -> (-2)
+V90Equalizer::process/5:190 LIT 1bd16efc5b 0 -> 1
+V90Equalizer::process/5:190 LIT 49623e71ab 0 -> 2
+V90Equalizer::process/5:190 STMT f6ebf66733 delete statement
+V90Equalizer::process/5:191 LIT 4fdab4705f 0 -> (-1)
+V90Equalizer::process/5:191 LIT f0cc6aebfd 0 -> (-2)
+V90Equalizer::process/5:191 LIT 44094d97f5 0 -> 1
+V90Equalizer::process/5:191 LIT 2c82c10ed5 0 -> 2
+V90Equalizer::process/5:191 STMT 8a3ab6b52d delete statement
+V90Equalizer::process/5:194 STMT 0ac9703c29 delete statement
+V90Equalizer::process/5:195 STMT 17115c2c5f delete statement
+V90Equalizer::process/5:196 STMT 7ec1f65612 delete statement
+V90Equalizer::process/5:197 STMT 267fc641a2 delete statement
+V90Equalizer::process/5:207 LIT 65775bc172 0 -> (-1)
+V90Equalizer::process/5:207 LIT 26697b7cf9 0 -> (-2)
+V90Equalizer::process/5:210 SIGN d0bb44e992 decl unsigned t -> int
+V90Equalizer::process/5:224 STMT 90742472f1 delete statement
+V90Equalizer::process/5:227 CMPSIGN 7c7b32c633 compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:244 CAST 07c79f5052 cast (int) -> (unsigned)
+V90Equalizer::process/5:244 CAST 925ea50e37 drop cast (int)
+V90Equalizer::process/5:244 CMPSIGN 70cf15b603 compare as uint32_t (no blob compare evidence)
+V90Equalizer::process/5:244 SIGN 8cf195f085 decl int t -> unsigned
+V90Equalizer::process/5:244 WIDTH 890a0376ff decl int t -> short
+V90Equalizer::process/5:248 CAST 6492d30157 cast (int) -> (unsigned)
+V90Equalizer::process/5:248 CAST 306db047a3 drop cast (int)
+V90Equalizer::process/5:248 CMPSIGN 93f3dd0df1 compare as uint32_t (no blob compare evidence)
+V90Equalizer::process/5:248 SIGN 6837f7aaf4 decl int t -> unsigned
+V90Equalizer::process/5:248 WIDTH d5aa43e759 decl int t -> short
+V90Equalizer::process/5:256 SIGN 60c5881f56 decl unsigned idx -> int
+V90Equalizer::process/5:263 SIGN 5a0888c3b5 decl unsigned idx -> int
+V90Equalizer::process/5:303 CMPSIGN ed9d06b173 compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:303 LIT 62b8359c4b 0x11 -> 0x12
+V90Equalizer::process/5:303 LIT 27257abe52 0x11 -> 0x13
+V90Equalizer::process/5:324 CMPSIGN 05f83bbba3 compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:327 CMPSIGN cb36c3b5fd compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:423 STMT c2e1788811 delete statement
+V90Equalizer::process/5:430 STMT cc0fe93a7f delete statement
+V90Equalizer::process/5:436 REL 07e7a35835 > -> >=
+V90Equalizer::process/5:437 CMPSIGN 3f028b1ee7 compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:437 REL 2ae6644cd2 >= -> >
+V90Equalizer::process/5:438 CAST 0e2dbe2840 cast (int) -> (unsigned)
+V90Equalizer::process/5:438 CAST e7f24b5367 drop cast (int)
+V90Equalizer::process/5:438 CMPSIGN c870e6d8e0 compare as uint32_t (no blob compare evidence)
+V90Equalizer::process/5:445 CAST 788dbc9a25 cast (int) -> (unsigned)
+V90Equalizer::process/5:445 CAST 560895e574 drop cast (int)
+V90Equalizer::process/5:445 CMPSIGN 9f6befef26 compare as uint32_t (no blob compare evidence)
+V90Equalizer::process/5:445 LIT 520012c1d3 0x18 -> 0x17
+V90Equalizer::process/5:445 LIT fc76456e35 0x18 -> 0x19
+V90Equalizer::process/5:445 LIT 83f447250b 0x18 -> 0x1a
+V90Equalizer::process/5:445 REL 451df45c20 > -> >=
+V90Equalizer::process/5:478 LIT d6354d806d 0 -> (-1)
+V90Equalizer::process/5:478 LIT 0928e643c7 0 -> (-2)
+V90Equalizer::process/5:478 LIT ec1197a395 0 -> 1
+V90Equalizer::process/5:478 LIT fb7f74fe0f 0 -> 2
+V90Equalizer::process/5:539 CMPSIGN 486e29a2cc compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:539 LIT 463fd0c95b 0x19 -> 0x1a
+V90Equalizer::process/5:539 LIT 4d8eeb66ab 0x19 -> 0x1b
+V90Equalizer::process/5:559 LIT e1f826b5d6 1 -> 0
+V90Equalizer::process/5:603 LIT 52e7ee2a61 1 -> 0
+V90Equalizer::process/5:631 CMPSIGN 2d4957b55a compare as uint32_t (no blob compare evidence)
+V90Equalizer::process/5:635 STMT 6f3f9a5a9a delete statement
+V90Equalizer::process/5:641 LIT e93e726595 2 -> 3
+V90Equalizer::process/5:641 LIT 08add409ff 2 -> 4
+V90Equalizer::process/5:646 STMT c4907e9001 delete statement
+V90Equalizer::process/5:659 CMPSIGN 23d56f2033 compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:659 LIT 9095843611 1 -> 0
+V90Equalizer::process/5:659 REL d99a6d59dc < -> <=
+V90Equalizer::process/5:662 LIT fbf299b4a4 0 -> 1
+V90Equalizer::process/5:662 REL cf541657f8 < -> <=
+V90Equalizer::process/5:663 SIGN 7239bba69d decl unsigned L -> int
+V90Equalizer::process/5:665 CMPSIGN 871225a31c compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:675 CAST d21c79abf6 drop cast (LD)
+V90Equalizer::process/5:675 CAST 0695fcfb05 drop cast (short)
+V90Equalizer::process/5:676 CAST 86ee5ba5e6 drop cast (short)
+V90Equalizer::process/5:677 REL 1dfa1e7f1a < -> <=
+V90Equalizer::process/5:682 STMT 7b1e747b38 delete statement
+V90Equalizer::process/5:688 LIT 544129a2cc 2 -> 3
+V90Equalizer::process/5:688 LIT acf3913118 2 -> 4
+V90Equalizer::process/5:694 STMT 5e17c9cee1 delete statement
+V90Equalizer::process/5:702 CMPSIGN ded9f7a881 compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:704 CMPSIGN d1fbd93aff compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:707 ARITH ea880a305d - -> +
+V90Equalizer::process/5:707 CMPSIGN eed8803e1e compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:707 LIT a973c90f65 1 -> (-1)
+V90Equalizer::process/5:707 LIT ed2ddd9564 1 -> 0
+V90Equalizer::process/5:707 REL 564cb17f26 < -> <=
+V90Equalizer::process/5:711 LIT 2a1a0805ca 0 -> 1
+V90Equalizer::process/5:711 REL 460a176473 < -> <=
+V90Equalizer::process/5:712 SIGN 02ea62a924 decl unsigned L -> int
+V90Equalizer::process/5:714 CMPSIGN afc10d1f0b compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:723 CMPSIGN 958b91b64e compare as int32_t (no blob compare evidence)
+V90Equalizer::process/5:731 CMPSIGN 6766fdf22f compare as int32_t (no blob compare evidence)
+absWrap:72 LIT ba331a7720 31 -> 29
+absWrap:72 LIT 66d7e85e8a 31 -> 30
+dot2:90 SIGN 80e3719106 decl unsigned cnt -> int
+dot2:92 CMPSIGN 375bac8a4c compare as int32_t (no blob compare evidence)
+dot2:92 LIT 855323d069 3 -> 4
+dot2:92 LIT dc93a72cb1 3 -> 5
+frac1000:84 WIDTH afa268bc2f decl int ip -> short
+intPart:80 CMPSIGN c1203dc647 compare as int32_t (no blob compare evidence)
+intPart:80 REL f5bebb5e79 < -> <=
+mmxUpdate:109 SIGN cd41dd6cc2 decl int count -> unsigned
+mmxUpdate:109 SIGN 9ddd4bec90 decl int mul -> unsigned
+mmxUpdate:110 CMPSIGN 72098105df compare as uint32_t (no blob compare evidence)
+mmxUpdate:110 SIGN af85545786 decl int k -> unsigned
+mmxUpdate:110 WIDTH a777f357c4 decl int k -> short
+mmxUpdate:111 SIGN 8a16e29c0e decl int c -> unsigned
+printHighError:157 CMPSIGN 57f8db9f47 compare as int32_t (no blob compare evidence)
+printHighError:157 REL 546b91111c < -> <=
+printHighError:160 SIGN 41829021b0 decl int yInt -> unsigned
+printHighError:162 SIGN f79c93e8da decl int eInt -> unsigned
+printHighError:165 SIGN 35ff7c2c28 decl int sgnE -> unsigned
+printHighError:165 WIDTH 08d91fc3a2 decl int sgnE -> short
+printHighError:166 SIGN d5b88ac027 decl int sgnY -> unsigned
+printHighError:166 WIDTH 2aba7ecd30 decl int sgnY -> short
+printRatio:149 SIGN 87fddd932f decl int s -> unsigned
+printRatio:149 WIDTH 9540c01dc3 decl int s -> short
+printRatio:151 SIGN f30ffc6425 decl int fr -> unsigned
+toFloat:137 SIGN e61d65a6a7 decl int q1 -> unsigned
+toFloat:137 SIGN 7c1c48fc24 decl int y16 -> unsigned
+toFloat:137 SIGN 4bc7db09ec decl unsigned i -> int
+toFloat:142 CAST f03d925339 drop cast (short)
+toFloat:143 STMT 18e6585d8d delete statement
+toFloat:144 CMPSIGN c2159c1cbf compare as int32_t (no blob compare evidence)
+toFloat:144 SIGN 3ce751d26a decl unsigned k -> int
+toMmx:121 SIGN 75998159bf decl unsigned i -> int
+toMmx:121 SIGN e89325f6af decl unsigned n -> int
+toMmx:124 STMT 996582d5d2 delete statement
+toMmx:130 SIGN 46e17a1793 decl unsigned k -> int
+toMmx:133 CMPSIGN 1e7aa6e538 compare as int32_t (no blob compare evidence)
+toMmx:133 SIGN 0326df8699 decl unsigned k -> int
+trunc16:60 CMPSIGN 581cb2c417 compare as int32_t (no blob compare evidence)
+trunc16:60 REL 81f5808e2d < -> <=
+trunc16:61 CAST ed8a39a191 cast (int) -> (unsigned)
+trunc64lo:66 CMPSIGN 40e4f7e143 compare as int32_t (no blob compare evidence)
+trunc64lo:66 CMPSIGN b3756d3f50 compare as int32_t (no blob compare evidence)
+trunc64lo:66 CMPSIGN 4acbef5148 compare as uint32_t (no blob compare evidence)
+trunc64lo:66 CMPSIGN 8425b42f80 compare as uint32_t (no blob compare evidence)
+trunc64lo:66 LOGIC bf325e2314 && -> ||
+trunc64lo:66 REL b3726d203a < -> <=
+trunc64lo:66 REL 6dfb73a7e2 > -> >=
+trunc64lo:67 CAST 42c2ce2a50 drop cast (long long)

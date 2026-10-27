@@ -1,0 +1,7 @@
+copyWordF:57 WIDTH 6b46fa0dc5 decl uint32_t w -> uint16_t
+copyWordF:58 LIT 040f6a4c21 4 -> 5
+copyWordF:58 LIT 5846b1c0ad 4 -> 6
+initialStateNote:73 SIGN d53ca783aa decl unsigned st -> int
+levelOf:66 SIGN 1b70ec1824 decl unsigned char code -> signed char
+pickLevel:96 CAST d8a2740c88 cast (unsigned short) -> (short)
+wordOf:43 STMT 31f1a0d209 delete statement

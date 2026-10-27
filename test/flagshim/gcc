@@ -1,0 +1,10 @@
+#!/bin/sh
+# X1 test shim: when PORT_XFLAGS is set (tools/run_changed.sh stage 1p / 1b-pinned; flags from test/flags.sh), it is appended to every compiler
+# command that names a library (src/) source, so that the unmodified build_and_diff_*.sh scripts test the PINNED flag set.  Otherwise a plain pass-through.
+real=/usr/bin/$(basename "$0")
+if [ -n "$PORT_XFLAGS" ]; then
+  for a in "$@"; do
+    case "$a" in src/*.c|src/*.cpp) exec "$real" "$@" $PORT_XFLAGS;; esac
+  done
+fi
+exec "$real" "$@"

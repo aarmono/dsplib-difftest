@@ -1,0 +1,33 @@
+# TESTREORG stage 2 - 9: build artifacts of the jobs (test/.build/<module>/<stem>_*; every job is moved since stage 9)
+test/.build/
+# build artifacts from test/build_and_diff.sh and friends
+test/*.out
+test/p01g64*
+tools/__pycache__/
+test/p02g64*
+test/p03g64*
+test/p03study*
+
+# P04 (tone detectors) test binaries / outputs
+test/p04g64*
+
+# P05 (Resampler hierarchy) test binaries / outputs
+test/p05g64*
+
+test/.stamps/
+
+
+test/__pycache__/
+
+# R17 voice API
+test/r17_*_test_blob
+test/r17_*_test_port
+test/r17_*_test_port_o2
+test/r17_*.o
+test/r17_*_blob.out
+test/r17_*_port.out
+test/r17_*_port_o2.out
+# RS4: objects / archive of the standalone library build (make in this directory)
+/obj32/
+/obj64/
+/objnative/

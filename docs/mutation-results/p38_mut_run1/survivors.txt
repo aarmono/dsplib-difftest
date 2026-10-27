@@ -1,0 +1,10 @@
+V90Phase4Demodulator::reset/4:195 LOGIC dec9ba488e && -> ||
+V90Phase4Demodulator::trn2dKnownDemod/0:167 LIT f670e95844 31 -> 29
+V90Phase4Demodulator::trn2dKnownDemod/0:167 LIT a8e2c8fbf7 31 -> 30
+V90Phase4Demodulator::trn2dKnownDemod/0:170 SIGN 0d7aa05a72 decl short sa -> unsigned short
+V90Phase4Demodulator::trn2dKnownDemod/0:170 WIDTH 1d0d8eb62e decl short sa -> int
+absIdiom:68 LIT 4cbcdf8f24 31 -> 29
+absIdiom:68 LIT b25963ad23 31 -> 30
+absIdiom:68 SIGN 19a3347bbf decl int s -> unsigned
+absIdiom:68 WIDTH f9777d2dcd decl int s -> short
+settle:86 SIGN df432261bd decl unsigned n -> int

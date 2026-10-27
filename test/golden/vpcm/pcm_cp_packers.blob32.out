@@ -1,0 +1,110 @@
+tables fltTable1 38b1b5c0136fa751 fltTable2 d3d8e20abad1ee85
+calls: malloc 0 free 0 edprintf 0 dbgprintf 2900
+COV short mode 0                 4053
+COV short mode 1                 3985
+COV uchar mode 0                 1319
+COV uchar mode 1                 1279
+COV other mode (no-op)           1364
+COV Q3.13 message                1671
+COV Q1.6 message                 1229
+COV in range, level 2: no message 3656
+COV out of range at level < 2    647
+COV NaN                          150
+COV inf                          154
+COV negative                     4112
+COV +0                           900
+COV -0                           839
+COV exactly on the grid          5725
+COV |f| >= 8                     2975
+COV f == 8                       401
+COV f == 1 (mode 1)              815
+COV f == -1 (mode 1)             380
+COV trials with the block around 2^31 1
+COV dtor with a NULL block pointer 0
+HASH b0bc4ae334f9538b lines 14923
+setmask w0_=9 listA_=#3889aa4197e22d5c listB_=#544dc00cee56ba7f cnt_=[29,24,16,12,32,0] flag_=145882318 w620_=2 w624_=2 f628_=80000000 f62c_=cb5b3c3f f630_=3fd20000 f634_=3f960000 idx_=[0,2791507196,2214577650,987182521,1309546655,501055488]
+setmask w0_=2629588864 listA_=#4ef3393bf7a93261 listB_=#55b0076daaea49a8 cnt_=[0,59,9,95,11,7] flag_=1277356219 w620_=2822938933 w624_=4230697501 f628_=80000000 f62c_=cc5c7ce7 f630_=bf540000 f634_=3473d6f3 idx_=[4175413524,1,2577827330,2791404760,1332342468,2974637651]
+setmask w0_=20 listA_=#76ab301aec3daa82 listB_=#eaa961242c83d73d cnt_=[9,24,9,51,117,12] flag_=2372263355 w620_=2 w624_=2277098302 f628_=3c4cad88 f62c_=49be6f23 f630_=3fc70000 f634_=80000001 idx_=[2603263262,4158284259,3831401491,3,831347331,1634827282]
+idx w0_=3711555297 listA_=#8a5849981cb93a5e listB_=#1b6153d7088e90d4 cnt_=[46,16,12,12,12,3] flag_=3941033792 w620_=3 w624_=2402085761 f628_=80000000 f62c_=3f014000 f630_=424de000 f634_=3ff20000 idx_=[0,1,2,3,4,5]
+setmask w0_=58 listA_=#3b6c20aad65d2638 listB_=#1169cfca0a76812f cnt_=[61,47,0,9,47,25] flag_=1741330107 w620_=2 w624_=0 f628_=3f9f82d9 f62c_=00000000 f630_=3ee00000 f634_=80000000 idx_=[0,2205068150,574410803,1896797067,2010109425,3990288870]
+setmask w0_=42 listA_=#936f2f7bc17ce043 listB_=#784199fa813aaac6 cnt_=[25,15,122,3,66,29] flag_=0 w620_=0 w624_=3 f628_=bd6f84d0 f62c_=bf8a0000 f630_=00000000 f634_=19958098 idx_=[162710208,3668062898,3238067587,326173659,4,3335815910]
+setmask w0_=1084945064 listA_=#6500d3b73d12d54f listB_=#46f7777b42cd02f2 cnt_=[51,11,11,2,76,24] flag_=0 w620_=1766724251 w624_=1 f628_=3edfe938 f62c_=80000000 f630_=c192039c f634_=cd8806d9 idx_=[2442613523,4279438951,1352799885,2098336840,4,2465157429]
+setmask w0_=1363568146 listA_=#03953143bbd2c390 listB_=#494a91cb8f82fc6f cnt_=[5,50,0,19,0,14] flag_=1 w620_=1015881051 w624_=795138457 f628_=60878cd5 f62c_=00800000 f630_=00000000 f634_=c1984000 idx_=[3977051843,1,830111921,3798029825,1036894110,144041976]
+idx w0_=2724406719 listA_=#580b61cdf6df1993 listB_=#b67f7f412a738ea4 cnt_=[20,116,116,0,19,0] flag_=1 w620_=0 w624_=0 f628_=3eb79289 f62c_=00000000 f630_=3f980000 f634_=3fd30000 idx_=[0,1,2,3,4,3660315369]
+setmask w0_=2351917998 listA_=#61669ab83e73f33f listB_=#29d6814debaf4457 cnt_=[5,110,0,60,110,18] flag_=587323343 w620_=1276153190 w624_=1118692892 f628_=3f6c0000 f62c_=3c554f10 f630_=41000001 f634_=69bdf55b idx_=[1147545308,2356778694,4195618575,3,1448893778,3089423063]
+setmask w0_=3035854828 listA_=#c0660029f5c32a4e listB_=#efd68bd49757da3e cnt_=[15,14,11,28,42,74] flag_=0 w620_=0 w624_=2 f628_=0aa9f1ed f62c_=409e8000 f630_=bda00000 f634_=bfea0000 idx_=[643490061,967643225,4199229565,4253574513,4,1480553383]
+setmask w0_=1522446682 listA_=#db80b90216be4af8 listB_=#dd6d610b2616afac cnt_=[22,56,38,101,12,6] flag_=2847948897 w620_=1 w624_=0 f628_=4f314cfd f62c_=3fe6e000 f630_=dab7855d f634_=bf478000 idx_=[2720682245,1,495146759,3835186142,4230501969,1024190593]
+idx w0_=26 listA_=#c6041291a59e0d49 listB_=#5be7502dcece45a9 cnt_=[11,4,4,8,123,19] flag_=1 w620_=3 w624_=3 f628_=7fa00000 f62c_=392bcb63 f630_=3f61abe4 f634_=7f7fffff idx_=[0,1,2,3,4,5]
+setmask w0_=17 listA_=#004b8331c0878166 listB_=#f58b9980f1bb9b20 cnt_=[62,0,18,0,37,0] flag_=1768262615 w620_=0 w624_=1 f628_=3fe00000 f62c_=3d11fe2e f630_=558f0093 f634_=bd7c0000 idx_=[0,2354037224,162797119,1618856613,2710206389,407020016]
+idx w0_=67 listA_=#cc7e646e20e393cf listB_=#a971ab51aff5a5d9 cnt_=[12,12,51,12,22,51] flag_=3234876292 w620_=0 w624_=1 f628_=ff800000 f62c_=bdc21e31 f630_=3c21fc6b f634_=42248000 idx_=[0,2,3,4,4280386291,3696653210]
+setmask w0_=50 listA_=#ef985be8551bde57 listB_=#f5adfe388bf02f1a cnt_=[51,1,24,5,22,112] flag_=53284994 w620_=1 w624_=0 f628_=cf4488f0 f62c_=80000000 f630_=bc11f4a1 f634_=00000000 idx_=[0,784956840,3979049420,3996284196,1819811504,1257866501]
+setmask w0_=1267911659 listA_=#8e03d952d5fa0e2a listB_=#5c219dbc1d816de3 cnt_=[78,68,0,70,48,0] flag_=1780288759 w620_=124854093 w624_=0 f628_=3f2c4000 f62c_=ff800000 f630_=4effffff f634_=bf7fffff idx_=[1826603936,2762622639,4195405115,1273278502,4,838972491]
+idx w0_=2654637899 listA_=#97158e3669f3d4bc listB_=#6492e6f3c24092f9 cnt_=[23,56,56,0,0,0] flag_=1 w620_=3 w624_=3006649028 f628_=b8000000 f62c_=40260000 f630_=bffc0000 f634_=7fc00000 idx_=[0,1,2,3,911406131,2079922991]
+setmask w0_=61 listA_=#50b03777c2d58e80 listB_=#3b4215ea46824bea cnt_=[37,72,18,18,18,3] flag_=337566452 w620_=0 w624_=2 f628_=00000001 f62c_=00000000 f630_=3e800000 f634_=41edc000 idx_=[0,406881243,2971706578,3792013437,676743135,1678091532]
+setmask w0_=762487574 listA_=#a75ae88b49ee619f listB_=#c207ed2e5d937705 cnt_=[9,0,6,41,10,21] flag_=2644390221 w620_=4119615986 w624_=1 f628_=bf2e712b f62c_=bec3869a f630_=3e0d965a f634_=b3321ecf idx_=[4212085402,3275484369,230823915,3,3126917173,2987006517]
+setmask w0_=34 listA_=#dcb22250074c7d40 listB_=#b13efe6e05e36b40 cnt_=[0,0,6,22,22,35] flag_=1 w620_=2902239253 w624_=3 f628_=41884000 f62c_=3f9a0000 f630_=80000000 f634_=bf067968 idx_=[1030432014,533931503,1034587656,286364684,3176821907,5]
+setmask w0_=3694465609 listA_=#718efba74fda72fe listB_=#45e92a7b7f4828f5 cnt_=[28,1,1,41,9,18] flag_=274930439 w620_=776199390 w624_=656050061 f628_=4254e000 f62c_=3f43c000 f630_=cf000000 f634_=bec80000 idx_=[4243669507,2121583043,1041358462,3,2539832835,1722186316]
+idx w0_=4222294797 listA_=#b28603316fd89958 listB_=#296690d3ad8b8e72 cnt_=[9,29,74,0,27,0] flag_=1 w620_=2 w624_=3 f628_=80000000 f62c_=be800000 f630_=41310000 f634_=4cd0074f idx_=[0,1,2,3,4,1429988763]
+idx w0_=3442058638 listA_=#7fc2969304408cc3 listB_=#a8836010c74e3975 cnt_=[7,0,23,0,7,0] flag_=0 w620_=1 w624_=1310856729 f628_=d8ca69de f62c_=3e800000 f630_=ac819010 f634_=00000000 idx_=[0,1,2,4,4284873782,3101775312]
+setmask w0_=4139568672 listA_=#2c4f45f9ce0c75d1 listB_=#7c4a6e4884f79989 cnt_=[6,14,2,79,0,28] flag_=1146469301 w620_=0 w624_=3 f628_=80000000 f62c_=65af6bff f630_=3efd8000 f634_=80000000 idx_=[1009341330,3585951098,1850562444,3,1910424484,463129523]
+idx w0_=1172574187 listA_=#38e3b2ced59a7130 listB_=#07a892232cb71000 cnt_=[0,10,4,11,25,11] flag_=1 w620_=0 w624_=1100095693 f628_=3f150000 f62c_=60363d83 f630_=3f920000 f634_=3f1c0000 idx_=[0,1,2,3,4,5]
+idx w0_=44 listA_=#fab65f131f5b934a listB_=#f07bb817346c55d6 cnt_=[23,3,27,0,7,3] flag_=1 w620_=1 w624_=1 f628_=41000000 f62c_=bf648000 f630_=bd179bbf f634_=bf9be000 idx_=[0,1,2,3,4,5]
+setmask w0_=59 listA_=#bce600cfb394687b listB_=#7eec2d410379b84c cnt_=[10,18,3,25,18,67] flag_=0 w620_=3 w624_=554149618 f628_=bf800001 f62c_=bf980000 f630_=cafd1735 f634_=3f1988f0 idx_=[1929832521,1594125263,2649085836,841138916,2125023508,5]
+idx w0_=13 listA_=#014a2efb059b1e1a listB_=#957e9cb669d9bb81 cnt_=[7,2,72,0,0,0] flag_=2689802142 w620_=0 w624_=1718226544 f628_=80000000 f62c_=3e936cf0 f630_=3c072052 f634_=3d76f94e idx_=[0,1,2,3,2633017234,2675270405]
+setmask w0_=55 listA_=#c648450b79dac381 listB_=#4df26ba568b3a31d cnt_=[81,22,76,18,19,35] flag_=2353281538 w620_=2567065998 w624_=657523867 f628_=3c67caf8 f62c_=be2b64aa f630_=3e3ff564 f634_=00000000 idx_=[1582956793,3690130873,1403657421,2763323598,4122014883,5]
+idx w0_=59 listA_=#3b43dc798b9a58bf listB_=#4f284712efdbab81 cnt_=[6,21,6,6,18,18] flag_=4187146547 w620_=1 w624_=1 f628_=901e3bf7 f62c_=3f57d21b f630_=c1af4000 f634_=74a575ff idx_=[0,1,2,4,5,2435260625]
+setmask w0_=4251987734 listA_=#d027332d5286c1cb listB_=#e6af85990f3407ba cnt_=[47,24,0,22,7,5] flag_=0 w620_=1 w624_=1 f628_=bf800000 f62c_=bfeac95e f630_=3fdc0000 f634_=3ea80000 idx_=[0,2905759139,3038003586,3558146441,2959848229,3188741124]
+calls: malloc 0 free 0 edprintf 0 dbgprintf 0
+COV getDataBitRate               696
+COV setDataBitRate               696
+COV flag 0 (offset 8)            345
+COV flag != 0 (offset 0x14)      351
+COV getConstellationsIndex       638
+COV a duplicate found            280
+COV all distinct                 358
+COV equal in A only              265
+COV getConstellationMask         681
+COV getCodecConstellationMask    647
+COV setConstellationMask         680
+COV setCodecConstellationMask    658
+COV group number >= 6 (maps to 0) 458
+COV round trip                   1338
+COV empty list                   239
+COV group 6 / 7 / big            458
+COV trials with the block around 2^31 4001
+COV dtor with a NULL block pointer 0
+HASH 0d986761b5027983 lines 5995
+calls: malloc 0 free 0 edprintf 12000 dbgprintf 2726
+COV call                         1500
+COV flag_ == 1 (codec arrays)    894
+COV flag_ != 1                   606
+COV one distinct list            2
+COV two distinct lists           11
+COV six distinct lists           956
+COV cleardown != 0               288
+COV w4 == 0                      369
+COV w4 != 0                      1131
+COV Q-format message inside the packer 1075
+COV wide fields (> 1)            1384
+COV cleardown == 0               1212
+COV level < 2                    354
+COV level >= 2                   1146
+COV w10 != 0 (s)                 1129
+COV w0 != 0 (')                  1108
+COV w14 negative                 708
+COV an empty list                639
+COV flag_ == 2 (not 1)           149
+COV trials with the block around 2^31 1501
+COV dtor with a NULL block pointer 0
+HASH 5b4ca0983a957af6 lines 16248
+calls: malloc 0 free 0 edprintf 36000 dbgprintf 0
+COV call                         6000
+COV NaN                          337
+COV |v| >= 2^31 (integer indefinite) 1410
+COV negative                     8314
+COV zero (sign '-')              4330
+COV fraction digits              16896
+COV positive (sign '+')          9609
+COV trials with the block around 2^31 6001
+COV dtor with a NULL block pointer 0
+HASH b450db7485ef61b3 lines 42010

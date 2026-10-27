@@ -1,0 +1,23 @@
+V90Phase3Demodulator::getV90Decision/1:161 WIDTH 860398e1d4 decl short s -> int
+V90Phase3Demodulator::getV90Decision/1:237 STMT c3631ae7f0 delete statement
+V90Phase3Demodulator::getV90Decision/1:335 WIDTH 4194a3ffad decl short m -> int
+V90Phase3Demodulator::getV90Decision/1:351 STMT 85ff030a73 delete statement
+V90Phase3Demodulator::getV90Decision/1:416 WIDTH 573b3ddf40 decl short r -> int
+V90Phase3Demodulator::getV90Decision/1:495 WIDTH 25dbd15023 decl short r -> int
+V90Phase3Demodulator::getV90Decision/1:525 WIDTH 1712c8637f decl short r -> int
+V90Phase3Demodulator::getV90Decision/1:533 SIGN cc350e8ede decl unsigned off -> int
+V90Phase3Demodulator::getV90Decision/1:664 LIT d006ee2c7a 0 -> (-1)
+V90Phase3Demodulator::getV90Decision/1:664 LIT 4a23372297 0 -> (-2)
+V90Phase3Demodulator::getV90Decision/1:664 LIT 40da3fa642 0 -> 1
+V90Phase3Demodulator::getV90Decision/1:664 LIT 5eaedecb2f 0 -> 2
+copyWordF:56 WIDTH c85acf6d8e decl uint32_t w -> uint16_t
+copyWordF:57 LIT 055d983c92 4 -> 5
+copyWordF:57 LIT 3ac4f2999a 4 -> 6
+signOf:68 LIT 6e79833c20 31 -> 29
+signOf:68 LIT 6be232eb7e 31 -> 30
+tblIdx:84 CAST df0600027a cast (unsigned short) -> (short)
+trunc16f:44 CMPSIGN e91f4fa218 compare as int32_t (no blob compare evidence)
+trunc16f:44 REL b1aeafd2ef < -> <=
+trunc16f:45 CAST 1d61195e86 cast (int) -> (unsigned)
+trunc16f:45 CAST 70b5a31360 drop cast (int)
+ucodeOf:71 SIGN 93b861f0f1 decl int absm -> unsigned

@@ -1,0 +1,514 @@
+dp_register 34 VPCM
+dp_register 90 VPCM
+dp_register 92 VPCM
+ops VPCM use=0 hangup=0
+create A dp=0x22 caller=0 -> ok
+create B dp=0x22 caller=1 -> ok
+call 0 A ret=0 out=ea6207e5 state: id=34 status=0 link=0 bits=0 train=0 tx=4 pend=0 silence=488 add=0
+call 0 B ret=0 out=ea6207e5 state: id=34 status=0 link=0 bits=0 train=0 tx=4 pend=0 silence=488 add=0
+change at call 0 A: status 0 -> 0, link 0 -> 0, id 0 -> 34, ret 0
+change at call 0 B: status 0 -> 0, link 0 -> 0, id 0 -> 34, ret 0
+call 250 A ret=0 out=eee5a61d state: id=34 status=0 link=0 bits=0 train=237 tx=4 pend=0 silence=0 add=0
+call 250 B ret=0 out=b04d0a3c state: id=34 status=0 link=0 bits=0 train=237 tx=4 pend=0 silence=0 add=0
+call 500 A ret=0 out=ab529498 state: id=34 status=0 link=0 bits=0 train=487 tx=4 pend=0 silence=0 add=0
+call 500 B ret=0 out=93491748 state: id=34 status=0 link=0 bits=0 train=487 tx=4 pend=0 silence=0 add=0
+call 750 A ret=0 out=704a44a8 state: id=34 status=0 link=0 bits=0 train=737 tx=4 pend=0 silence=0 add=0
+call 750 B ret=0 out=b2c38773 state: id=34 status=0 link=0 bits=0 train=737 tx=4 pend=0 silence=0 add=0
+call 1000 A ret=0 out=ea6207e5 state: id=34 status=0 link=0 bits=0 train=987 tx=4 pend=0 silence=0 add=0
+call 1000 B ret=0 out=163bad9d state: id=34 status=0 link=0 bits=0 train=987 tx=4 pend=0 silence=0 add=0
+change at call 1195 A: status 0 -> 1, link 0 -> 0, id 34 -> 34, ret 0
+change at call 1196 B: status 0 -> 1, link 0 -> 0, id 34 -> 34, ret 0
+change at call 1208 A: status 1 -> 2, link 0 -> 0, id 34 -> 34, ret 0
+call 1250 A ret=0 out=e9e3ba69 state: id=34 status=2 link=0 bits=0 train=1181 tx=4 pend=0 silence=0 add=0
+call 1250 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1182 tx=4 pend=0 silence=0 add=0
+call 1500 A ret=0 out=2ac9cace state: id=34 status=2 link=0 bits=0 train=1181 tx=4 pend=0 silence=0 add=0
+call 1500 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1182 tx=4 pend=0 silence=0 add=0
+call 1750 A ret=0 out=f40d1094 state: id=34 status=2 link=0 bits=0 train=1181 tx=4 pend=0 silence=0 add=0
+call 1750 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1182 tx=4 pend=0 silence=0 add=0
+call 2000 A ret=0 out=14f49c06 state: id=34 status=2 link=0 bits=0 train=1181 tx=4 pend=0 silence=0 add=0
+call 2000 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1182 tx=4 pend=0 silence=0 add=0
+call 2250 A ret=0 out=4cd43f03 state: id=34 status=2 link=0 bits=0 train=1181 tx=4 pend=0 silence=0 add=0
+call 2250 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1182 tx=4 pend=0 silence=0 add=0
+call 2500 A ret=0 out=a962280b state: id=34 status=2 link=0 bits=0 train=1181 tx=4 pend=0 silence=0 add=0
+call 2500 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1182 tx=4 pend=0 silence=0 add=0
+change at call 2602 A: status 2 -> 9, link 0 -> -1, id 34 -> 34, ret -1
+call 2750 A ret=0 out=ec149d82 state: id=34 status=9 link=-1 bits=0 train=1181 tx=4 pend=0 silence=0 add=0
+call 2750 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1182 tx=4 pend=0 silence=0 add=0
+change at call 2820 B: status 1 -> 0, link 0 -> 0, id 34 -> 34, ret 0
+call 3000 A ret=0 out=35dfb427 state: id=34 status=9 link=-1 bits=0 train=1181 tx=4 pend=0 silence=0 add=0
+call 3000 B ret=0 out=ea6207e5 state: id=34 status=0 link=0 bits=0 train=180 tx=4 pend=0 silence=0 add=0
+change at call 3014 A: status 9 -> 0, link -1 -> 0, id 34 -> 34, ret 0
+call 3250 A ret=0 out=ce23dc0e state: id=34 status=0 link=0 bits=0 train=236 tx=4 pend=0 silence=0 add=0
+call 3250 B ret=0 out=ea6207e5 state: id=34 status=0 link=0 bits=0 train=430 tx=4 pend=0 silence=0 add=0
+change at call 3256 A: status 0 -> 1, link 0 -> 0, id 34 -> 34, ret 0
+change at call 3257 B: status 0 -> 1, link 0 -> 0, id 34 -> 34, ret 0
+change at call 3269 A: status 1 -> 2, link 0 -> 0, id 34 -> 34, ret 0
+call 3500 A ret=0 out=f2b3aa52 state: id=34 status=2 link=0 bits=0 train=241 tx=4 pend=0 silence=0 add=0
+call 3500 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 3750 A ret=0 out=f857755d state: id=34 status=2 link=0 bits=0 train=241 tx=4 pend=0 silence=0 add=0
+call 3750 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 4000 A ret=0 out=7096afd7 state: id=34 status=2 link=0 bits=0 train=241 tx=4 pend=0 silence=0 add=0
+call 4000 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 4250 A ret=0 out=d3343ad3 state: id=34 status=2 link=0 bits=0 train=241 tx=4 pend=0 silence=0 add=0
+call 4250 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 4500 A ret=0 out=29a31f7d state: id=34 status=2 link=0 bits=0 train=241 tx=4 pend=0 silence=0 add=0
+call 4500 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+change at call 4605 A: status 2 -> 9, link 0 -> -1, id 34 -> 34, ret -1
+call 4750 A ret=0 out=682744f7 state: id=34 status=9 link=-1 bits=0 train=241 tx=4 pend=0 silence=0 add=0
+call 4750 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+change at call 4924 B: status 1 -> 0, link 0 -> 0, id 34 -> 34, ret 0
+call 5000 A ret=0 out=d7262a76 state: id=34 status=9 link=-1 bits=0 train=241 tx=4 pend=0 silence=0 add=0
+call 5000 B ret=0 out=ea6207e5 state: id=34 status=0 link=0 bits=0 train=76 tx=4 pend=0 silence=0 add=0
+change at call 5116 A: status 9 -> 0, link -1 -> 0, id 34 -> 34, ret 0
+call 5250 A ret=0 out=ea6207e5 state: id=34 status=0 link=0 bits=0 train=134 tx=4 pend=0 silence=0 add=0
+call 5250 B ret=0 out=d5fafad6 state: id=34 status=0 link=0 bits=0 train=326 tx=4 pend=0 silence=0 add=0
+change at call 5359 A: status 0 -> 1, link 0 -> 0, id 34 -> 34, ret 0
+change at call 5360 B: status 0 -> 1, link 0 -> 0, id 34 -> 34, ret 0
+change at call 5372 A: status 1 -> 2, link 0 -> 0, id 34 -> 34, ret 0
+call 5500 A ret=0 out=7a7e9c3d state: id=34 status=2 link=0 bits=0 train=242 tx=4 pend=0 silence=0 add=0
+call 5500 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=435 tx=4 pend=0 silence=0 add=0
+call 5750 A ret=0 out=c66d0302 state: id=34 status=2 link=0 bits=0 train=242 tx=4 pend=0 silence=0 add=0
+call 5750 B ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=435 tx=4 pend=0 silence=0 add=0
+final A outhash=bebb6b1a get=0 put=0 set=0 log=5986 hput=00000000 pair=0,0 delete=0
+final B outhash=527f4b97 get=0 put=0 set=0 log=5986 hput=00000000 pair=0,0 delete=0
+dp_deregister 34 VPCM
+dp_deregister 90 VPCM
+dp_deregister 92 VPCM
+calls: malloc 254 free 254
+COV trials with the block around 2^31 1
+COV dtor with a NULL block pointer 0
+HASH faac9ef2418edbc8 lines 25948
+dp_register 34 VPCM
+dp_register 90 VPCM
+dp_register 92 VPCM
+ops VPCM use=0 hangup=0
+create A dp=0x22 caller=1 -> ok
+create B dp=0x22 caller=0 -> ok
+call 0 A ret=0 out=ea6207e5 state: id=34 status=0 link=0 bits=0 train=0 tx=4 pend=0 silence=488 add=0
+call 0 B ret=0 out=ea6207e5 state: id=34 status=0 link=0 bits=0 train=0 tx=4 pend=0 silence=488 add=0
+change at call 0 A: status 0 -> 0, link 0 -> 0, id 0 -> 34, ret 0
+change at call 0 B: status 0 -> 0, link 0 -> 0, id 0 -> 34, ret 0
+call 250 A ret=0 out=b04d0a3c state: id=34 status=0 link=0 bits=0 train=237 tx=4 pend=0 silence=0 add=0
+call 250 B ret=0 out=eee5a61d state: id=34 status=0 link=0 bits=0 train=237 tx=4 pend=0 silence=0 add=0
+call 500 A ret=0 out=93491748 state: id=34 status=0 link=0 bits=0 train=487 tx=4 pend=0 silence=0 add=0
+call 500 B ret=0 out=ab529498 state: id=34 status=0 link=0 bits=0 train=487 tx=4 pend=0 silence=0 add=0
+call 750 A ret=0 out=371c94a7 state: id=34 status=0 link=0 bits=0 train=737 tx=4 pend=0 silence=0 add=0
+call 750 B ret=0 out=fec98624 state: id=34 status=0 link=0 bits=0 train=737 tx=4 pend=0 silence=0 add=0
+call 1000 A ret=0 out=99d39162 state: id=34 status=0 link=0 bits=0 train=987 tx=4 pend=0 silence=0 add=0
+call 1000 B ret=0 out=82b24d5f state: id=34 status=0 link=0 bits=0 train=987 tx=4 pend=0 silence=0 add=0
+change at call 1234 B: status 0 -> 1, link 0 -> 0, id 34 -> 34, ret 0
+change at call 1235 A: status 0 -> 1, link 0 -> 0, id 34 -> 34, ret 0
+change at call 1247 B: status 1 -> 2, link 0 -> 0, id 34 -> 34, ret 0
+call 1250 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1221 tx=4 pend=0 silence=0 add=0
+call 1250 B ret=0 out=c81d7fe5 state: id=34 status=2 link=0 bits=0 train=1220 tx=4 pend=0 silence=0 add=0
+call 1500 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1221 tx=4 pend=0 silence=0 add=0
+call 1500 B ret=0 out=659a4f30 state: id=34 status=2 link=0 bits=0 train=1220 tx=4 pend=0 silence=0 add=0
+call 1750 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1221 tx=4 pend=0 silence=0 add=0
+call 1750 B ret=0 out=b83de32c state: id=34 status=2 link=0 bits=0 train=1220 tx=4 pend=0 silence=0 add=0
+call 2000 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1221 tx=4 pend=0 silence=0 add=0
+call 2000 B ret=0 out=dc663cac state: id=34 status=2 link=0 bits=0 train=1220 tx=4 pend=0 silence=0 add=0
+call 2250 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1221 tx=4 pend=0 silence=0 add=0
+call 2250 B ret=0 out=791e9c5e state: id=34 status=2 link=0 bits=0 train=1220 tx=4 pend=0 silence=0 add=0
+call 2500 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1221 tx=4 pend=0 silence=0 add=0
+call 2500 B ret=0 out=ad5a0c7b state: id=34 status=2 link=0 bits=0 train=1220 tx=4 pend=0 silence=0 add=0
+call 2750 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=1221 tx=4 pend=0 silence=0 add=0
+call 2750 B ret=0 out=47afa8fb state: id=34 status=2 link=0 bits=0 train=1220 tx=4 pend=0 silence=0 add=0
+change at call 2815 B: status 2 -> 0, link 0 -> 0, id 34 -> 34, ret 0
+change at call 2822 A: status 1 -> 0, link 0 -> 0, id 34 -> 34, ret 0
+call 3000 A ret=0 out=ea6207e5 state: id=34 status=0 link=0 bits=0 train=178 tx=4 pend=0 silence=0 add=0
+call 3000 B ret=0 out=a0213262 state: id=34 status=0 link=0 bits=0 train=185 tx=4 pend=0 silence=0 add=0
+call 3250 A ret=0 out=ea6207e5 state: id=34 status=0 link=0 bits=0 train=428 tx=4 pend=0 silence=0 add=0
+call 3250 B ret=0 out=0e33c251 state: id=34 status=0 link=0 bits=0 train=435 tx=4 pend=0 silence=0 add=0
+change at call 3252 B: status 0 -> 1, link 0 -> 0, id 34 -> 34, ret 0
+change at call 3253 A: status 0 -> 1, link 0 -> 0, id 34 -> 34, ret 0
+change at call 3265 B: status 1 -> 2, link 0 -> 0, id 34 -> 34, ret 0
+call 3500 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=430 tx=4 pend=0 silence=0 add=0
+call 3500 B ret=0 out=7ccfdfe5 state: id=34 status=2 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 3750 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=430 tx=4 pend=0 silence=0 add=0
+call 3750 B ret=0 out=636acbb1 state: id=34 status=2 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 4000 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=430 tx=4 pend=0 silence=0 add=0
+call 4000 B ret=0 out=496c7ed0 state: id=34 status=2 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 4250 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=430 tx=4 pend=0 silence=0 add=0
+call 4250 B ret=0 out=a7e1cbda state: id=34 status=2 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 4500 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=430 tx=4 pend=0 silence=0 add=0
+call 4500 B ret=0 out=ccd86145 state: id=34 status=2 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 4750 A ret=0 out=ea6207e5 state: id=34 status=1 link=0 bits=0 train=430 tx=4 pend=0 silence=0 add=0
+call 4750 B ret=0 out=8261db20 state: id=34 status=2 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+change at call 4960 A: status 1 -> 0, link 0 -> 0, id 34 -> 34, ret 0
+call 5000 A ret=0 out=c26521d3 state: id=34 status=0 link=0 bits=0 train=40 tx=4 pend=0 silence=0 add=0
+call 5000 B ret=0 out=3d9373f8 state: id=34 status=2 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 5250 A ret=0 out=c26521d3 state: id=34 status=0 link=0 bits=0 train=290 tx=4 pend=0 silence=0 add=0
+call 5250 B ret=0 out=a09342ad state: id=34 status=2 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 5500 A ret=0 out=f87db2b9 state: id=34 status=0 link=0 bits=0 train=540 tx=4 pend=0 silence=0 add=0
+call 5500 B ret=0 out=282a4004 state: id=34 status=2 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 5750 A ret=0 out=f87db2b9 state: id=34 status=0 link=0 bits=0 train=790 tx=4 pend=0 silence=0 add=0
+call 5750 B ret=0 out=ea6207e5 state: id=34 status=2 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+final A outhash=3df42633 get=0 put=0 set=0 log=5986 hput=00000000 pair=0,0 delete=0
+final B outhash=78dbfe62 get=0 put=0 set=0 log=5986 hput=00000000 pair=0,0 delete=0
+dp_deregister 34 VPCM
+dp_deregister 90 VPCM
+dp_deregister 92 VPCM
+calls: malloc 254 free 254
+COV trials with the block around 2^31 1
+COV dtor with a NULL block pointer 0
+HASH 65e0f852ddbe2e08 lines 25626
+dp_register 34 VPCM
+dp_register 90 VPCM
+dp_register 92 VPCM
+ops VPCM use=0 hangup=0
+create A dp=0x5a caller=0 -> ok
+create B dp=0x5a caller=1 -> ok
+call 0 A ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=0 tx=4 pend=0 silence=488 add=384
+call 0 B ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=0 tx=4 pend=0 silence=488 add=384
+change at call 0 A: status 0 -> 0, link 0 -> 0, id 0 -> 90, ret 0
+change at call 0 B: status 0 -> 0, link 0 -> 0, id 0 -> 90, ret 0
+call 250 A ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=237 tx=4 pend=0 silence=0 add=384
+call 250 B ret=0 out=11c2be01 state: id=90 status=0 link=0 bits=0 train=237 tx=4 pend=0 silence=0 add=384
+call 500 A ret=0 out=0f6dde8c state: id=90 status=0 link=0 bits=0 train=487 tx=4 pend=0 silence=0 add=384
+call 500 B ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=487 tx=4 pend=0 silence=0 add=384
+change at call 597 B: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 598 A: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 600 B: status 1 -> 2, link 0 -> 0, id 90 -> 90, ret 0
+call 750 A ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=584 tx=4 pend=0 silence=0 add=384
+call 750 B ret=0 out=e2e8c4e9 state: id=90 status=2 link=0 bits=0 train=583 tx=4 pend=0 silence=0 add=384
+call 1000 A ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=584 tx=4 pend=0 silence=0 add=384
+call 1000 B ret=0 out=dccd51fd state: id=90 status=2 link=0 bits=0 train=583 tx=4 pend=0 silence=0 add=384
+call 1250 A ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=584 tx=4 pend=0 silence=0 add=384
+call 1250 B ret=0 out=1ad73729 state: id=90 status=2 link=0 bits=0 train=583 tx=4 pend=0 silence=0 add=384
+change at call 1391 B: status 2 -> 7, link 0 -> 0, id 90 -> 90, ret 0
+change at call 1398 B: status 7 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+change at call 1436 A: status 1 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+call 1500 A ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=64 tx=4 pend=0 silence=0 add=384
+call 1500 B ret=0 out=88962884 state: id=90 status=0 link=0 bits=0 train=102 tx=4 pend=0 silence=0 add=384
+call 1750 A ret=0 out=03b5a760 state: id=90 status=0 link=0 bits=0 train=314 tx=4 pend=0 silence=0 add=384
+call 1750 B ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=352 tx=4 pend=0 silence=0 add=384
+change at call 1846 B: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 1847 A: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 1849 B: status 1 -> 2, link 0 -> 0, id 90 -> 90, ret 0
+call 2000 A ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=410 tx=4 pend=0 silence=0 add=384
+call 2000 B ret=0 out=a85f0dbd state: id=90 status=2 link=0 bits=0 train=447 tx=4 pend=0 silence=0 add=384
+call 2250 A ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=410 tx=4 pend=0 silence=0 add=384
+call 2250 B ret=0 out=ee0292f7 state: id=90 status=2 link=0 bits=0 train=447 tx=4 pend=0 silence=0 add=384
+call 2500 A ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=410 tx=4 pend=0 silence=0 add=384
+call 2500 B ret=0 out=d47478f2 state: id=90 status=2 link=0 bits=0 train=447 tx=4 pend=0 silence=0 add=384
+change at call 2707 B: status 2 -> 7, link 0 -> 0, id 90 -> 90, ret 0
+change at call 2714 B: status 7 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+change at call 2723 A: status 1 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+call 2750 A ret=0 out=a880c6c1 state: id=90 status=0 link=0 bits=0 train=27 tx=4 pend=0 silence=0 add=384
+call 2750 B ret=0 out=d97bb090 state: id=90 status=0 link=0 bits=0 train=36 tx=4 pend=0 silence=0 add=384
+call 3000 A ret=0 out=74047736 state: id=90 status=0 link=0 bits=0 train=277 tx=4 pend=0 silence=0 add=384
+call 3000 B ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=286 tx=4 pend=0 silence=0 add=384
+change at call 3146 B: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 3147 A: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 3149 B: status 1 -> 2, link 0 -> 0, id 90 -> 90, ret 0
+call 3250 A ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+call 3250 B ret=0 out=dc0b9c1c state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+call 3500 A ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+call 3500 B ret=0 out=94e99165 state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+call 3750 A ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+call 3750 B ret=0 out=c11f714c state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+call 4000 A ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+call 4000 B ret=0 out=e4f5d1c1 state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+change at call 4007 B: status 2 -> 7, link 0 -> 0, id 90 -> 90, ret 0
+change at call 4014 B: status 7 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+change at call 4023 A: status 1 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+call 4250 A ret=0 out=eb85ddaf state: id=90 status=0 link=0 bits=0 train=227 tx=4 pend=0 silence=0 add=384
+call 4250 B ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=236 tx=4 pend=0 silence=0 add=384
+change at call 4446 B: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 4447 A: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 4449 B: status 1 -> 2, link 0 -> 0, id 90 -> 90, ret 0
+call 4500 A ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+call 4500 B ret=0 out=60260617 state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+call 4750 A ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+call 4750 B ret=0 out=4b6f2f32 state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+change at call 4941 A: status 1 -> 2, link 0 -> 0, id 90 -> 90, ret 0
+call 5000 A ret=0 out=97882074 state: id=90 status=2 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+call 5000 B ret=0 out=ea6207e5 state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+call 5250 A ret=0 out=51cc04f4 state: id=90 status=2 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+call 5250 B ret=0 out=ea6207e5 state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+call 5500 A ret=0 out=362f858a state: id=90 status=2 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+call 5500 B ret=0 out=ea6207e5 state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+change at call 5733 A: status 2 -> 7, link 0 -> 0, id 90 -> 90, ret 0
+change at call 5740 A: status 7 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+change at call 5748 B: status 2 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+call 5750 A ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=10 tx=4 pend=0 silence=0 add=384
+call 5750 B ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=2 tx=4 pend=0 silence=0 add=384
+final A outhash=d7ddd7d9 get=0 put=0 set=9 log=5986 hput=00000000 pair=0,0 delete=0
+final B outhash=e0971f05 get=0 put=0 set=9 log=5986 hput=00000000 pair=0,0 delete=0
+dp_deregister 34 VPCM
+dp_deregister 90 VPCM
+dp_deregister 92 VPCM
+calls: malloc 254 free 254
+COV trials with the block around 2^31 1
+COV dtor with a NULL block pointer 0
+HASH 096d7af7f081fb5c lines 26964
+dp_register 34 VPCM
+dp_register 90 VPCM
+dp_register 92 VPCM
+ops VPCM use=0 hangup=0
+create A dp=0x5a caller=1 -> ok
+create B dp=0x5a caller=0 -> ok
+call 0 A ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=0 tx=4 pend=0 silence=488 add=384
+call 0 B ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=0 tx=4 pend=0 silence=488 add=384
+change at call 0 A: status 0 -> 0, link 0 -> 0, id 0 -> 90, ret 0
+change at call 0 B: status 0 -> 0, link 0 -> 0, id 0 -> 90, ret 0
+call 250 A ret=0 out=11c2be01 state: id=90 status=0 link=0 bits=0 train=237 tx=4 pend=0 silence=0 add=384
+call 250 B ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=237 tx=4 pend=0 silence=0 add=384
+call 500 A ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=487 tx=4 pend=0 silence=0 add=384
+call 500 B ret=0 out=0f6dde8c state: id=90 status=0 link=0 bits=0 train=487 tx=4 pend=0 silence=0 add=384
+change at call 597 A: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 598 B: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 600 A: status 1 -> 2, link 0 -> 0, id 90 -> 90, ret 0
+call 750 A ret=0 out=e2e8c4e9 state: id=90 status=2 link=0 bits=0 train=583 tx=4 pend=0 silence=0 add=384
+call 750 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=584 tx=4 pend=0 silence=0 add=384
+call 1000 A ret=0 out=dccd51fd state: id=90 status=2 link=0 bits=0 train=583 tx=4 pend=0 silence=0 add=384
+call 1000 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=584 tx=4 pend=0 silence=0 add=384
+call 1250 A ret=0 out=1ad73729 state: id=90 status=2 link=0 bits=0 train=583 tx=4 pend=0 silence=0 add=384
+call 1250 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=584 tx=4 pend=0 silence=0 add=384
+change at call 1391 A: status 2 -> 7, link 0 -> 0, id 90 -> 90, ret 0
+change at call 1398 A: status 7 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+call 1500 A ret=0 out=d97bb090 state: id=90 status=0 link=0 bits=0 train=102 tx=4 pend=0 silence=0 add=384
+call 1500 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=584 tx=4 pend=0 silence=0 add=384
+call 1750 A ret=0 out=d97bb090 state: id=90 status=0 link=0 bits=0 train=352 tx=4 pend=0 silence=0 add=384
+call 1750 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=584 tx=4 pend=0 silence=0 add=384
+call 2000 A ret=0 out=d97bb090 state: id=90 status=0 link=0 bits=0 train=602 tx=4 pend=0 silence=0 add=384
+call 2000 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=584 tx=4 pend=0 silence=0 add=384
+change at call 2149 A: status 0 -> 9, link 0 -> -1, id 90 -> 90, ret -1
+call 2250 A ret=0 out=d97bb090 state: id=90 status=9 link=-1 bits=0 train=750 tx=4 pend=0 silence=0 add=384
+call 2250 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=584 tx=4 pend=0 silence=0 add=384
+change at call 2297 B: status 1 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+change at call 2459 A: status 9 -> 0, link -1 -> 0, id 90 -> 90, ret 0
+call 2500 A ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=41 tx=4 pend=0 silence=0 add=384
+call 2500 B ret=0 out=6d66072e state: id=90 status=0 link=0 bits=0 train=203 tx=4 pend=0 silence=0 add=384
+change at call 2706 A: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 2707 B: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 2709 A: status 1 -> 2, link 0 -> 0, id 90 -> 90, ret 0
+call 2750 A ret=0 out=2cba6093 state: id=90 status=2 link=0 bits=0 train=246 tx=4 pend=0 silence=0 add=384
+call 2750 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=409 tx=4 pend=0 silence=0 add=384
+call 3000 A ret=0 out=bf75a8b8 state: id=90 status=2 link=0 bits=0 train=246 tx=4 pend=0 silence=0 add=384
+call 3000 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=409 tx=4 pend=0 silence=0 add=384
+call 3250 A ret=0 out=e9efb09a state: id=90 status=2 link=0 bits=0 train=246 tx=4 pend=0 silence=0 add=384
+call 3250 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=409 tx=4 pend=0 silence=0 add=384
+call 3500 A ret=0 out=187d4e76 state: id=90 status=2 link=0 bits=0 train=246 tx=4 pend=0 silence=0 add=384
+call 3500 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=409 tx=4 pend=0 silence=0 add=384
+change at call 3567 A: status 2 -> 7, link 0 -> 0, id 90 -> 90, ret 0
+change at call 3574 A: status 7 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+change at call 3583 B: status 1 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+call 3750 A ret=0 out=f808d4c5 state: id=90 status=0 link=0 bits=0 train=176 tx=4 pend=0 silence=0 add=384
+call 3750 B ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=167 tx=4 pend=0 silence=0 add=384
+call 4000 A ret=0 out=f8564c5f state: id=90 status=0 link=0 bits=0 train=426 tx=4 pend=0 silence=0 add=384
+call 4000 B ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=417 tx=4 pend=0 silence=0 add=384
+change at call 4006 A: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 4007 B: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 4009 A: status 1 -> 2, link 0 -> 0, id 90 -> 90, ret 0
+call 4250 A ret=0 out=7b358f29 state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+call 4250 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+call 4500 A ret=0 out=4ffeaf82 state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+call 4500 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+call 4750 A ret=0 out=3e0c5734 state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+call 4750 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+change at call 4867 A: status 2 -> 7, link 0 -> 0, id 90 -> 90, ret 0
+change at call 4874 A: status 7 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+change at call 4883 B: status 1 -> 0, link 0 -> 0, id 90 -> 90, ret 0
+call 5000 A ret=0 out=daa2d73c state: id=90 status=0 link=0 bits=0 train=126 tx=4 pend=0 silence=0 add=384
+call 5000 B ret=0 out=ea6207e5 state: id=90 status=0 link=0 bits=0 train=117 tx=4 pend=0 silence=0 add=384
+call 5250 A ret=0 out=5cf6ffb4 state: id=90 status=0 link=0 bits=0 train=376 tx=4 pend=0 silence=0 add=384
+call 5250 B ret=0 out=edf16571 state: id=90 status=0 link=0 bits=0 train=367 tx=4 pend=0 silence=0 add=384
+change at call 5306 A: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 5307 B: status 0 -> 1, link 0 -> 0, id 90 -> 90, ret 0
+change at call 5309 A: status 1 -> 2, link 0 -> 0, id 90 -> 90, ret 0
+call 5500 A ret=0 out=415731ff state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+call 5500 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+call 5750 A ret=0 out=d97b5d4c state: id=90 status=2 link=0 bits=0 train=431 tx=4 pend=0 silence=0 add=384
+call 5750 B ret=0 out=ea6207e5 state: id=90 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=384
+final A outhash=977573d0 get=0 put=0 set=8 log=5986 hput=00000000 pair=0,0 delete=0
+final B outhash=690ddc30 get=0 put=0 set=8 log=5986 hput=00000000 pair=0,0 delete=0
+dp_deregister 34 VPCM
+dp_deregister 90 VPCM
+dp_deregister 92 VPCM
+calls: malloc 254 free 254
+COV trials with the block around 2^31 1
+COV dtor with a NULL block pointer 0
+HASH 099f378c17c8829e lines 26734
+dp_register 34 VPCM
+dp_register 90 VPCM
+dp_register 92 VPCM
+ops VPCM use=0 hangup=0
+create A dp=0x5c caller=0 -> ok
+create B dp=0x5c caller=1 -> ok
+call 0 A ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=0 tx=4 pend=0 silence=488 add=0
+call 0 B ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=0 tx=4 pend=0 silence=488 add=0
+change at call 0 A: status 0 -> 0, link 0 -> 0, id 0 -> 92, ret 0
+change at call 0 B: status 0 -> 0, link 0 -> 0, id 0 -> 92, ret 0
+call 250 A ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=237 tx=4 pend=0 silence=0 add=0
+call 250 B ret=0 out=b4d5a523 state: id=92 status=0 link=0 bits=0 train=237 tx=4 pend=0 silence=0 add=0
+call 500 A ret=0 out=f0812066 state: id=92 status=0 link=0 bits=0 train=487 tx=4 pend=0 silence=0 add=0
+call 500 B ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=487 tx=4 pend=0 silence=0 add=0
+change at call 596 B: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 597 A: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 609 B: status 1 -> 2, link 0 -> 0, id 92 -> 92, ret 0
+call 750 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=583 tx=4 pend=0 silence=0 add=0
+call 750 B ret=0 out=383fa060 state: id=92 status=2 link=0 bits=0 train=582 tx=4 pend=0 silence=0 add=0
+call 1000 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=583 tx=4 pend=0 silence=0 add=0
+call 1000 B ret=0 out=5d07a099 state: id=92 status=2 link=0 bits=0 train=582 tx=4 pend=0 silence=0 add=0
+call 1250 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=583 tx=4 pend=0 silence=0 add=0
+call 1250 B ret=0 out=20e1b980 state: id=92 status=2 link=0 bits=0 train=582 tx=4 pend=0 silence=0 add=0
+change at call 1400 B: status 2 -> 7, link 0 -> 0, id 92 -> 92, ret 0
+change at call 1407 B: status 7 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+change at call 1418 A: status 1 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+call 1500 A ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=82 tx=4 pend=0 silence=0 add=0
+call 1500 B ret=0 out=4354bc70 state: id=92 status=0 link=0 bits=0 train=93 tx=4 pend=0 silence=0 add=0
+call 1750 A ret=0 out=3d5e8d77 state: id=92 status=0 link=0 bits=0 train=332 tx=4 pend=0 silence=0 add=0
+call 1750 B ret=0 out=9ff4b0b0 state: id=92 status=0 link=0 bits=0 train=343 tx=4 pend=0 silence=0 add=0
+change at call 1837 B: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 1838 A: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 1850 B: status 1 -> 2, link 0 -> 0, id 92 -> 92, ret 0
+call 2000 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=419 tx=4 pend=0 silence=0 add=0
+call 2000 B ret=0 out=e2e8c4e9 state: id=92 status=2 link=0 bits=0 train=429 tx=4 pend=0 silence=0 add=0
+call 2250 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=419 tx=4 pend=0 silence=0 add=0
+call 2250 B ret=0 out=dccd51fd state: id=92 status=2 link=0 bits=0 train=429 tx=4 pend=0 silence=0 add=0
+call 2500 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=419 tx=4 pend=0 silence=0 add=0
+call 2500 B ret=0 out=26edf22d state: id=92 status=2 link=0 bits=0 train=429 tx=4 pend=0 silence=0 add=0
+change at call 2693 B: status 2 -> 7, link 0 -> 0, id 92 -> 92, ret 0
+change at call 2700 B: status 7 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+change at call 2709 A: status 1 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+call 2750 A ret=0 out=f1b8229c state: id=92 status=0 link=0 bits=0 train=41 tx=4 pend=0 silence=0 add=0
+call 2750 B ret=0 out=d97bb090 state: id=92 status=0 link=0 bits=0 train=50 tx=4 pend=0 silence=0 add=0
+call 3000 A ret=0 out=89088068 state: id=92 status=0 link=0 bits=0 train=291 tx=4 pend=0 silence=0 add=0
+call 3000 B ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=300 tx=4 pend=0 silence=0 add=0
+change at call 3130 B: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 3131 A: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 3143 B: status 1 -> 2, link 0 -> 0, id 92 -> 92, ret 0
+call 3250 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=421 tx=4 pend=0 silence=0 add=0
+call 3250 B ret=0 out=728dc6ea state: id=92 status=2 link=0 bits=0 train=429 tx=4 pend=0 silence=0 add=0
+call 3500 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=421 tx=4 pend=0 silence=0 add=0
+call 3500 B ret=0 out=189c2c0f state: id=92 status=2 link=0 bits=0 train=429 tx=4 pend=0 silence=0 add=0
+call 3750 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=421 tx=4 pend=0 silence=0 add=0
+call 3750 B ret=0 out=8b8c1c82 state: id=92 status=2 link=0 bits=0 train=429 tx=4 pend=0 silence=0 add=0
+change at call 3986 B: status 2 -> 7, link 0 -> 0, id 92 -> 92, ret 0
+change at call 3993 B: status 7 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+call 4000 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=421 tx=4 pend=0 silence=0 add=0
+call 4000 B ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=7 tx=4 pend=0 silence=0 add=0
+change at call 4001 A: status 1 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+call 4250 A ret=0 out=3317f4a5 state: id=92 status=0 link=0 bits=0 train=249 tx=4 pend=0 silence=0 add=0
+call 4250 B ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=257 tx=4 pend=0 silence=0 add=0
+change at call 4424 B: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 4425 A: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 4437 B: status 1 -> 2, link 0 -> 0, id 92 -> 92, ret 0
+call 4500 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=0
+call 4500 B ret=0 out=0454add5 state: id=92 status=2 link=0 bits=0 train=430 tx=4 pend=0 silence=0 add=0
+call 4750 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=0
+call 4750 B ret=0 out=dcd6c5b4 state: id=92 status=2 link=0 bits=0 train=430 tx=4 pend=0 silence=0 add=0
+change at call 4938 A: status 1 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+change at call 4943 B: status 2 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+call 5000 A ret=0 out=2245a8a7 state: id=92 status=0 link=0 bits=0 train=62 tx=4 pend=0 silence=0 add=0
+call 5000 B ret=0 out=9b9b31d3 state: id=92 status=0 link=0 bits=0 train=57 tx=4 pend=0 silence=0 add=0
+call 5250 A ret=0 out=bb52c5f3 state: id=92 status=0 link=0 bits=0 train=312 tx=4 pend=0 silence=0 add=0
+call 5250 B ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=307 tx=4 pend=0 silence=0 add=0
+change at call 5379 B: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 5380 A: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 5392 B: status 1 -> 2, link 0 -> 0, id 92 -> 92, ret 0
+call 5500 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=441 tx=4 pend=0 silence=0 add=0
+call 5500 B ret=0 out=00bf2307 state: id=92 status=2 link=0 bits=0 train=435 tx=4 pend=0 silence=0 add=0
+call 5750 A ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=441 tx=4 pend=0 silence=0 add=0
+call 5750 B ret=0 out=d3c6c819 state: id=92 status=2 link=0 bits=0 train=435 tx=4 pend=0 silence=0 add=0
+final A outhash=d02f1189 get=0 put=0 set=0 log=5986 hput=00000000 pair=0,0 delete=0
+final B outhash=cf695e3d get=0 put=0 set=0 log=5986 hput=00000000 pair=0,0 delete=0
+dp_deregister 34 VPCM
+dp_deregister 90 VPCM
+dp_deregister 92 VPCM
+calls: malloc 254 free 254
+COV trials with the block around 2^31 1
+COV dtor with a NULL block pointer 0
+HASH ab2719e6363a1ad9 lines 27135
+dp_register 34 VPCM
+dp_register 90 VPCM
+dp_register 92 VPCM
+ops VPCM use=0 hangup=0
+create A dp=0x5c caller=1 -> ok
+create B dp=0x5c caller=0 -> ok
+call 0 A ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=0 tx=4 pend=0 silence=488 add=0
+call 0 B ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=0 tx=4 pend=0 silence=488 add=0
+change at call 0 A: status 0 -> 0, link 0 -> 0, id 0 -> 92, ret 0
+change at call 0 B: status 0 -> 0, link 0 -> 0, id 0 -> 92, ret 0
+call 250 A ret=0 out=b4d5a523 state: id=92 status=0 link=0 bits=0 train=237 tx=4 pend=0 silence=0 add=0
+call 250 B ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=237 tx=4 pend=0 silence=0 add=0
+call 500 A ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=487 tx=4 pend=0 silence=0 add=0
+call 500 B ret=0 out=f0812066 state: id=92 status=0 link=0 bits=0 train=487 tx=4 pend=0 silence=0 add=0
+change at call 596 A: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 597 B: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 609 A: status 1 -> 2, link 0 -> 0, id 92 -> 92, ret 0
+call 750 A ret=0 out=383fa060 state: id=92 status=2 link=0 bits=0 train=582 tx=4 pend=0 silence=0 add=0
+call 750 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=583 tx=4 pend=0 silence=0 add=0
+call 1000 A ret=0 out=5d07a099 state: id=92 status=2 link=0 bits=0 train=582 tx=4 pend=0 silence=0 add=0
+call 1000 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=583 tx=4 pend=0 silence=0 add=0
+call 1250 A ret=0 out=20e1b980 state: id=92 status=2 link=0 bits=0 train=582 tx=4 pend=0 silence=0 add=0
+call 1250 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=583 tx=4 pend=0 silence=0 add=0
+change at call 1400 A: status 2 -> 7, link 0 -> 0, id 92 -> 92, ret 0
+change at call 1407 A: status 7 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+change at call 1417 B: status 1 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+call 1500 A ret=0 out=4354bc70 state: id=92 status=0 link=0 bits=0 train=93 tx=4 pend=0 silence=0 add=0
+call 1500 B ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=83 tx=4 pend=0 silence=0 add=0
+call 1750 A ret=0 out=9ff4b0b0 state: id=92 status=0 link=0 bits=0 train=343 tx=4 pend=0 silence=0 add=0
+call 1750 B ret=0 out=3d5e8d77 state: id=92 status=0 link=0 bits=0 train=333 tx=4 pend=0 silence=0 add=0
+change at call 1837 A: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 1838 B: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 1850 A: status 1 -> 2, link 0 -> 0, id 92 -> 92, ret 0
+call 2000 A ret=0 out=e2e8c4e9 state: id=92 status=2 link=0 bits=0 train=429 tx=4 pend=0 silence=0 add=0
+call 2000 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=420 tx=4 pend=0 silence=0 add=0
+call 2250 A ret=0 out=dccd51fd state: id=92 status=2 link=0 bits=0 train=429 tx=4 pend=0 silence=0 add=0
+call 2250 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=420 tx=4 pend=0 silence=0 add=0
+call 2500 A ret=0 out=26edf22d state: id=92 status=2 link=0 bits=0 train=429 tx=4 pend=0 silence=0 add=0
+call 2500 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=420 tx=4 pend=0 silence=0 add=0
+change at call 2693 A: status 2 -> 7, link 0 -> 0, id 92 -> 92, ret 0
+change at call 2700 A: status 7 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+change at call 2709 B: status 1 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+call 2750 A ret=0 out=d97bb090 state: id=92 status=0 link=0 bits=0 train=50 tx=4 pend=0 silence=0 add=0
+call 2750 B ret=0 out=01e4ab1c state: id=92 status=0 link=0 bits=0 train=41 tx=4 pend=0 silence=0 add=0
+call 3000 A ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=300 tx=4 pend=0 silence=0 add=0
+call 3000 B ret=0 out=89088068 state: id=92 status=0 link=0 bits=0 train=291 tx=4 pend=0 silence=0 add=0
+change at call 3130 A: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 3131 B: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 3143 A: status 1 -> 2, link 0 -> 0, id 92 -> 92, ret 0
+call 3250 A ret=0 out=728dc6ea state: id=92 status=2 link=0 bits=0 train=429 tx=4 pend=0 silence=0 add=0
+call 3250 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=421 tx=4 pend=0 silence=0 add=0
+call 3500 A ret=0 out=189c2c0f state: id=92 status=2 link=0 bits=0 train=429 tx=4 pend=0 silence=0 add=0
+call 3500 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=421 tx=4 pend=0 silence=0 add=0
+call 3750 A ret=0 out=064ec0c7 state: id=92 status=2 link=0 bits=0 train=429 tx=4 pend=0 silence=0 add=0
+call 3750 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=421 tx=4 pend=0 silence=0 add=0
+change at call 3986 A: status 2 -> 7, link 0 -> 0, id 92 -> 92, ret 0
+change at call 3993 A: status 7 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+call 4000 A ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=7 tx=4 pend=0 silence=0 add=0
+call 4000 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=421 tx=4 pend=0 silence=0 add=0
+change at call 4001 B: status 1 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+call 4250 A ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=257 tx=4 pend=0 silence=0 add=0
+call 4250 B ret=0 out=3317f4a5 state: id=92 status=0 link=0 bits=0 train=249 tx=4 pend=0 silence=0 add=0
+change at call 4424 A: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 4425 B: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 4437 A: status 1 -> 2, link 0 -> 0, id 92 -> 92, ret 0
+call 4500 A ret=0 out=0454add5 state: id=92 status=2 link=0 bits=0 train=430 tx=4 pend=0 silence=0 add=0
+call 4500 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=0
+call 4750 A ret=0 out=dcd6c5b4 state: id=92 status=2 link=0 bits=0 train=430 tx=4 pend=0 silence=0 add=0
+call 4750 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=423 tx=4 pend=0 silence=0 add=0
+change at call 4934 B: status 1 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+change at call 4936 A: status 2 -> 0, link 0 -> 0, id 92 -> 92, ret 0
+call 5000 A ret=0 out=a95a9b69 state: id=92 status=0 link=0 bits=0 train=64 tx=4 pend=0 silence=0 add=0
+call 5000 B ret=0 out=3d7d2e8c state: id=92 status=0 link=0 bits=0 train=66 tx=4 pend=0 silence=0 add=0
+call 5250 A ret=0 out=ea6207e5 state: id=92 status=0 link=0 bits=0 train=314 tx=4 pend=0 silence=0 add=0
+call 5250 B ret=0 out=4b5692cd state: id=92 status=0 link=0 bits=0 train=316 tx=4 pend=0 silence=0 add=0
+change at call 5373 A: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 5374 B: status 0 -> 1, link 0 -> 0, id 92 -> 92, ret 0
+change at call 5386 A: status 1 -> 2, link 0 -> 0, id 92 -> 92, ret 0
+call 5500 A ret=0 out=89eb1a5c state: id=92 status=2 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 5500 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=439 tx=4 pend=0 silence=0 add=0
+call 5750 A ret=0 out=848cccbf state: id=92 status=2 link=0 bits=0 train=436 tx=4 pend=0 silence=0 add=0
+call 5750 B ret=0 out=ea6207e5 state: id=92 status=1 link=0 bits=0 train=439 tx=4 pend=0 silence=0 add=0
+final A outhash=251c37d5 get=0 put=0 set=0 log=5986 hput=00000000 pair=0,0 delete=0
+final B outhash=df177be0 get=0 put=0 set=0 log=5986 hput=00000000 pair=0,0 delete=0
+dp_deregister 34 VPCM
+dp_deregister 90 VPCM
+dp_deregister 92 VPCM
+calls: malloc 254 free 254
+COV trials with the block around 2^31 1
+COV dtor with a NULL block pointer 0
+HASH 139e51bf20066d54 lines 27132

@@ -1,0 +1,126 @@
+[gen] 1521 generated, 1521 selected by policy/classes/sample
+[prepare] base build of build_and_diff_p46.sh: rc=0 6.3s
+[blob] running 3 scenario(s) of the real blob: 0 1 2
+[control] unmutated port through the replay pipeline ...
+[tce] compiling 1521 mutants at -O2 -S ...
+[tce] done in 47.4s
+[gcov] running 3 scenarios of the -O0 instrumented port ...
+[probes] site kind rel does not compile (      |                                                                                                          ^): dropped
+[probes] running 3 scenarios of the instrumented port (71 sites: acc,cv,asg)
+[run] 1157 live mutants in 1035 distinct object codes; 1035 to run (+10 TCE-validation)
+[run] 25/1045  2s  killed=25
+[run] 50/1045  25s  killed=47
+[run] 75/1045  27s  killed=70
+[run] 100/1045  29s  killed=95
+[run] 125/1045  31s  killed=120
+[run] 150/1045  34s  killed=145
+[run] 175/1045  38s  killed=170
+[run] 200/1045  41s  killed=193
+[run] 225/1045  44s  killed=218
+[run] 250/1045  48s  killed=243
+[run] 275/1045  52s  killed=267
+[run] 300/1045  55s  killed=292
+[run] 325/1045  59s  killed=317
+[run] 350/1045  68s  killed=340
+[run] 375/1045  70s  killed=364
+[run] 400/1045  72s  killed=389
+[run] 425/1045  73s  killed=414
+[run] 450/1045  74s  killed=439
+[run] 475/1045  76s  killed=464
+[run] 500/1045  77s  killed=489
+[run] 525/1045  79s  killed=514
+[run] 550/1045  81s  killed=539
+[run] 575/1045  83s  killed=564
+[run] 600/1045  85s  killed=589
+[run] 625/1045  87s  killed=614
+[run] 650/1045  108s  killed=639
+[run] 675/1045  134s  killed=661
+[run] 700/1045  160s  killed=686
+[run] 725/1045  187s  killed=711
+[run] 750/1045  219s  killed=733
+[run] 775/1045  245s  killed=758
+[run] 800/1045  274s  killed=782
+[run] 825/1045  301s  killed=807
+[run] 850/1045  327s  killed=832
+[run] 875/1045  331s  killed=857
+[run] 900/1045  333s  killed=882
+[run] 925/1045  335s  killed=907
+[run] 950/1045  336s  killed=932
+[run] 975/1045  339s  killed=957
+[run] 1000/1045  342s  killed=982
+[run] 1025/1045  345s  killed=1007
+[run] phase B wall 413s
+mutation report: /home/aarmono/Git/D-Modem/slmodemd/dsplibs-port/port/p46_vpcmflo_a.cpp   functions: dbgOn,setWord,modemParamByte3,chop16,ppmLogValue,nofBitsFor,mulF,copyMpInfo,logTimingOffsetV90,restoreSas,clearCpFlags,rateRenegIndication,logTimingOffsetV92,v92InitiateRrn,VPcmFloModem::v90RunDemodulator/4,VPcmFloModem::runPcmModem/7   source hash e475fed8e5df
+control (unmutated port via the replay pipeline): survived
+generated (by policy/classes/sample selection): 1521   invalid 226   TCE-equivalent 140   live 1155
+  live: killed 1127  survived 28  NOVALUE (probe: never run) 0  pending 0
+  survivors+NOVALUE by value probe: NOVALUE 0 (distinguishing value never occurs: identical on this harness; harness-gap candidates), SEEN 0 (value occurred, difference masked downstream: equivalence candidates), no probe 28
+
+class        gen invalid  TCE-eq  killed    surv    pend  surv tags: DIR/UNDIRECTED/PTR/-
+ARITH         26      21       0       5       0       0  
+BIT            5       0       0       5       0       0  
+CAST         108       0      97       7       4       0  NOISY=4
+CMPSIGN       28      12       6       5       5       0  UNDIRECTED=5
+LIT          976     158      14     795       9       0  -=9
+LOGIC          5       0       0       5       0       0  
+NEG           67       0       0      67       0       0  
+REL           61      12       0      47       2       0  -=2
+SIGN          31       2      15       9       5       0  NOISY=5
+STMT         203      21       0     181       1       0  -=1
+WIDTH         11       0       8       1       2       0  NOISY=2
+
+default directed policy (skips blob-sign-neutral accessor swaps and undirected noisy classes) keeps 1373 of 1521 mutants: TCE-equivalent 22, live 1127 (killed 1110, survived 17)
+  excluded by policy: CAST/NOISY 106, SIGN/NOISY 31, WIDTH/NOISY 11
+  (equivalent-mutant pre-filter + policy): live mutants needing a run: all 1155 -> policy 1127
+
+CPU seconds spent (build + scenario runs, distinct object codes): all run mutants 2227 s; default-policy subset 2039 s
+
+survivors by line execution (gcov, -O0 port over all scenarios): {'EXECUTED': 28}
+TCE validation: {"n": 10, "killed": 0, "ids": []}
+
+SURVIVORS (28; incl. NOVALUE), grouped by function / line.  [class direct exec probe] note
+  VPcmFloModem::runPcmModem/7:406  int ret = 0;
+      6e75f765f7 [SIGN NOISY EXECUTED] decl int ret -> unsigned   => unsigned ret = 0;
+      35b84871e5 [WIDTH NOISY EXECUTED] decl int ret -> short   => short ret = 0;
+  VPcmFloModem::runPcmModem/7:438  unsigned code = dem->state_;
+      f5beae7649 [SIGN NOISY EXECUTED] decl unsigned code -> int   => int code = dem->state_;
+  VPcmFloModem::runPcmModem/7:441  if (code <= 0x35) {
+      0992ad015f [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => if ((int32_t)(code) <= (int32_t)(0x35)) {
+      7f3a597f51 [LIT - EXECUTED] 0x35 -> 0x36   => if (code <= 0x36) {
+      a3fb515724 [LIT - EXECUTED] 0x35 -> 0x37   => if (code <= 0x37) {
+  VPcmFloModem::runPcmModem/7:477  if ((v & 2) == 0) *b3 = (unsigned char)(v & 0xfb);
+      7d51e58465 [LIT - EXECUTED] 0xfb -> 0xf9   => if ((v & 2) == 0) *b3 = (unsigned char)(v & 0xf9);
+  VPcmFloModem::runPcmModem/7:600  for (unsigned i = 0; i < n; i++) out[i] = mulF(out[i], 0.4f);
+      985cd01fff [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => for (unsigned i = 0; (int32_t)(i) < (int32_t)(n); i++) out[i] = mulF(out[i], 0.4f);
+  VPcmFloModem::runPcmModem/7:604  int ev = (int)m->event_;
+      9f4a8be02f [SIGN NOISY EXECUTED] decl int ev -> unsigned   => unsigned ev = (int)m->event_;
+  VPcmFloModem::runPcmModem/7:613  } else if (ev > 3) {
+      b588ceab1a [CMPSIGN UNDIRECTED EXECUTED] compare as uint32_t (no blob compare evidence)   => } else if ((uint32_t)(ev) > (uint32_t)(3)) {
+      211b7ff3d3 [LIT - EXECUTED] 3 -> 2   => } else if (ev > 2) {
+      f32e4df8f0 [LIT - EXECUTED] 3 -> 4   => } else if (ev > 4) {
+      28b36b14b9 [LIT - EXECUTED] 3 -> 5   => } else if (ev > 5) {
+      b81942f13f [REL - EXECUTED] > -> >=   => } else if (ev >= 3) {
+  VPcmFloModem::v90RunDemodulator/4:158  int ret = 0;
+      80c067dba3 [WIDTH NOISY EXECUTED] decl int ret -> short   => short ret = 0;
+  VPcmFloModem::v90RunDemodulator/4:177  unsigned code = v90_.dem_->state_;
+      8e75fe1801 [SIGN NOISY EXECUTED] decl unsigned code -> int   => int code = v90_.dem_->state_;
+  VPcmFloModem::v90RunDemodulator/4:178  if (code > 0x2b) return ret;
+      49fdb0a40a [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => if ((int32_t)(code) > (int32_t)(0x2b)) return ret;
+      fdf24b449a [LIT - EXECUTED] 0x2b -> 0x2c   => if (code > 0x2c) return ret;
+      4823b476aa [LIT - EXECUTED] 0x2b -> 0x2d   => if (code > 0x2d) return ret;
+  VPcmFloModem::v90RunDemodulator/4:201  unsigned rtd = v90_.info_->rtd_;
+      7cec90c1e4 [SIGN NOISY EXECUTED] decl unsigned rtd -> int   => int rtd = v90_.info_->rtd_;
+  VPcmFloModem::v90RunDemodulator/4:219  *b = (unsigned char)(v & 0xfb);
+      54fac83d92 [LIT - EXECUTED] 0xfb -> 0xf9   => *b = (unsigned char)(v & 0xf9);
+  chop16:94  if (!(v > -32769.0L && v < 32768.0L)) return (int)(short)0x8000;
+      814dba6f84 [CMPSIGN UNDIRECTED EXECUTED] compare as int32_t (no blob compare evidence)   => if (!((int32_t)(v) > (int32_t)(-32769.0L) && v < 32768.0L)) return (int)(short)0x8000;
+      531056aef5 [REL - EXECUTED] < -> <=   => if (!(v > -32769.0L && v <= 32768.0L)) return (int)(short)0x8000;
+  chop16:95  return (int)(short)(int)v;
+      bcaa4b8348 [CAST NOISY EXECUTED] cast (int) -> (unsigned)   => return (int)(short)(unsigned)v;
+      44904e7870 [CAST NOISY EXECUTED] drop cast (int)   => return (int)(short)v;
+      6f052a6f24 [CAST NOISY EXECUTED] drop cast (short)   => return (int)(int)v;
+  copyMpInfo:119  m->mpRate2_ = (uint16_t)(2 * (int)(short)m->v90_.mp_.rateMask_);
+      a2dfe0b9b7 [CAST NOISY EXECUTED] cast (int) -> (unsigned)   => m->mpRate2_ = (uint16_t)(2 * (unsigned)(short)m->v90_.mp_.rateMask_);
+  mulF:107  __asm__("" : "+t"(p));
+      907265000c [STMT - EXECUTED] delete statement   => ;
+

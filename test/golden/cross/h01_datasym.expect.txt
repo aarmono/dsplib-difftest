@@ -1,0 +1,31 @@
+# Known differences between a blob data symbol and the port object that replaces it (test/cross/h01_datasym.py).  <symbol> <SIZE|BYTES|RELOC>  # reason
+# CRRv32_CLK: blob 8 bytes (4 shorts 0, 8192, 16384, 24576); the port declares 5 shorts because FPM_FSE_receive reaches index 4, which in the blob reads the first short
+# of the NEXT symbol CRRv32_PLL_K2 (= 0, no gap: 0x74b8 + 8 = 0x74c0; see src/v32/v32_tables.c).  First 8 bytes are identical (checked here by hand: 00000020004000600000).
+CRRv32_CLK SIZE
+# FSEv32_decision: 6 shorts; the blob has 3 relocations (function pointers FSE_decision_4pt / 16pt / 32pt) that the port, which cannot place relocations in a plain C
+# table, leaves as zeros.  H01: NO instruction or relocation of dsplibs.o references this symbol (scanned every relocation against .data / the symbol name and every
+# in-place addend in the table's address range), i.e. it is dead data in the blob; the V32FP_recreate comment about a "decision table" refers to FSE_decision_AB.
+FSEv32_decision RELOC
+# X3 (found at the switch-over: these 18 were NEW at a166b62 already, i.e. since the R-rows R06 - R30 added tables after the list was written; identical set at a166b62 and at X3).
+# Reviewed with the reloc tuples (offset, type, target, addend) of blob and port: the content bytes (relocated words masked), the relocation count, the offsets and the types are equal;
+# only the TARGET NAME / ADDEND differ, because the blob's pointer tables point into mergeable string sections (.rodata.str1.1 / .str1.4) or relative to .rodata / .text section
+# symbols while the port's point at the named port objects / strings (a different but equivalent target, resolved by the linker):
+AGCv17_CFG RELOC
+AGCv27_CFG RELOC
+AGCv29_CFG RELOC
+TONE_CFG RELOC
+toneiir_configuration_allpass RELOC
+V17RX_MESG RELOC
+V17TX_MESG RELOC
+V21RX_MESG RELOC
+V21TX_MESG RELOC
+V27RX_MESG RELOC
+V27TX_MESG RELOC
+V29RX_MESG RELOC
+V29TX_MESG RELOC
+v8StatusName RELOC
+vxx_control RELOC
+vxx_create RELOC
+vxx_status RELOC
+# V22_MESG: the blob has 25 relocations inside the 100 bytes, the port none: R07 found that V22_MESG is NOT a message table but 25 single-precision floats (a decaying window), unreferenced in the blob (src/v22/v22_loopback.c)
+V22_MESG RELOC

@@ -1,0 +1,232 @@
+sf ctor c0_=00000000 c1_=00000000 c2_=00000000 c3_=00000000 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf set c0_=3f34f917 c1_=c0000000 c2_=00000000 c3_=40c00000 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 2 -> 40279e3e19908fe9d6f3
+sf prog c0_=3f34f917 c1_=c0000000 c2_=00000000 c3_=40c00000 s0_=c6cf4e00 s1_=c552b298 s2_=c881a465 s3_=51854e27 N_=2
+sf metric n 2 -> 402be5d3740621e44cbf
+sf metric n 2 -> 402b957d3b6fa00052df
+sf prog c0_=3f34f917 c1_=c0000000 c2_=00000000 c3_=40c00000 s0_=c5b14800 s1_=460c502d s2_=c999b9ea s3_=53e70a2e N_=2
+sf prog c0_=3f34f917 c1_=c0000000 c2_=00000000 c3_=40c00000 s0_=463c2800 s1_=46615108 s2_=ca96d1a4 s3_=55ec77fa N_=2
+sf metric n 3 -> 4037ef2580d8d8f16bdd
+sf metric n 0 -> 402bec77fa0000000000
+sf metric n 0 -> 402bec77fa0000000000
+sf metric n 0 -> 402bec77fa0000000000
+sf metric n 0 -> 403da93cec0000000000
+sf metric n 6 -> 40348a8e27eba7ece9e7
+sf metric n 0 -> 7fff8000000000000000
+sf metric n 0 -> 4005d367d00000000000
+sf metric n 1 -> 401da61ca9bcfa8fabe1
+sf metric n 2 -> 401d8039d81000000000
+sf prog c0_=b1414c91 c1_=3f7a6296 c2_=c0e00000 c3_=33cd0342 s0_=c7000000 s1_=48144fc0 s2_=47db1fae s3_=52cf8e96 N_=3
+sf metric n 6 -> 4027840e71d3372cdaf3
+sf metric n 1 -> 4021a5644541f98b802d
+sf metric n 0 -> 4012b098300000000000
+sf prog c0_=bea8a01d c1_=bed987de c2_=b7b7ef64 c3_=4057f1c5 s0_=c1d80000 s1_=c3073395 s2_=c52dc66f s3_=4ba5557b N_=2
+sf prog c0_=bf000000 c1_=c1000000 c2_=3f000000 c3_=3f000000 s0_=46ffe400 s1_=477ff200 s2_=48a7fe40 s3_=51de7b68 N_=2
+sf metric n 1 -> 405ef4d00808dae885c2
+sf metric n 1 -> 7fff8000000000000000
+sf metric n 6 -> 4064af5b034bfb2563c8
+sf metric n 0 -> 401d85d6380000000000
+sf prog c0_=00000000 c1_=c0400000 c2_=40000000 c3_=00000000 s0_=46fffe00 s1_=c6fffe00 s2_=c917fa20 s3_=52c6f084 N_=2
+sf metric n 4 -> 405997d8c19816e0cd8c
+sf metric n 5 -> 7fff8000000000000000
+sf metric n 1 -> 401dfffe02ba00000000
+sf metric n 6 -> 401d8000012c00000000
+sf metric n 1 -> 4029a1bce23c498d2a98
+sf metric n 4 -> 401e806baed300000000
+sf prog c0_=c1000000 c1_=3e800000 c2_=00000000 c3_=3f800000 s0_=c7000000 s1_=56b5eae9 s2_=56c674a1 s3_=6e1c49c5 N_=2
+sf metric n 0 -> 00000000000000000000
+sf metric n 2 -> 4014e08a0c959a1f9bc1
+sf ctor c0_=00000000 c1_=00000000 c2_=00000000 c3_=00000000 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 3 -> 4031b72ceeb420c67ffc
+sf metric n 6 -> 401989e83c9da4ad4d90
+sf metric n 4 -> 4007d83af1cba2f7ee82
+sf metric n 1 -> 401d9cb6928bb0d97b52
+sf metric n 7 -> 40458a033351465ec118
+sf ctor c0_=00000000 c1_=00000000 c2_=00000000 c3_=00000000 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 1 -> 7fff8000000000000000
+sf metric n 0 -> 402bf653840000000000
+sf metric n 0 -> 405ee400c70000000000
+sf metric n 1 -> 4033df6be3a2e6be2000
+sf metric n 3 -> 401edbbbe7940df90fab
+sf metric n 1 -> 400a845d609dbf60d2c4
+sf prog c0_=00000000 c1_=00000000 c2_=00000000 c3_=00000000 s0_=40800000 s1_=40800000 s2_=40800000 s3_=cc683ef1 N_=1
+sf metric n 4 -> 402890251bca5f47df58
+sf metric n 1 -> 4047c39d7fbaf1797d70
+sf metric n 3 -> 401ed13d8c0000000000
+sf metric n 4 -> 403090f803cde7c0c307
+sf metric n 7 -> 402c906f8d0000000000
+sf set c0_=3ea75d0c c1_=3e6bb277 c2_=3f1f2b40 c3_=3e2d5b01 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 1 -> 401ee11a0aa84be0a99f
+sf metric n 0 -> 401e8731eb0000000000
+sf metric n 0 -> 4012b692fd0000000000
+sf metric n 1 -> 40099722000000000000
+sf metric n 6 -> 401eb1eead76529b5c51
+sf metric n 0 -> 4014881f4d0000000000
+sf metric n 1 -> 406286a2e552acacf7c8
+sf metric n 0 -> 401b832eb50000000000
+sf ctor c0_=00000000 c1_=00000000 c2_=00000000 c3_=00000000 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 1 -> 401cfffee65bce1b8cff
+sf metric n 1 -> 4006c3ffffffdcf10840
+sf metric n 0 -> 401dba8e300000000000
+sf metric n 5 -> 4016b6a20fa3f020a730
+sf prog c0_=3cefd7fc c1_=be739ff7 c2_=bc96fc06 c3_=bcbc9025 s0_=c6d6ae00 s1_=c6d462ba s2_=c6e811b8 s3_=4f357ec5 N_=5
+sf metric n 1 -> 4058f607e01b63ec4c23
+sf metric n 0 -> 401eeaba610000000000
+sf metric n 1 -> 4042f2587b51f62340c0
+sf prog c0_=3e800000 c1_=3e800000 c2_=bf800000 c3_=bf000000 s0_=40400000 s1_=47200259 s2_=4780014f s3_=4fbc2976 N_=2
+sf metric n 0 -> 7fff8000000000000000
+sf metric n 6 -> 4020a9d793b747366e04
+sf prog c0_=00000000 c1_=00000000 c2_=00000000 c3_=00000000 s0_=c0000000 s1_=c0000000 s2_=c0000000 s3_=43270000 N_=2
+sf metric n 0 -> 40319f018d0000000000
+sf metric n 6 -> 4025b1883db53bb842f8
+sf metric n 0 -> 00000000000000000000
+sf prog c0_=bd75577f c1_=41000000 c2_=00000000 c3_=3d6afc78 s0_=c6e46200 s1_=c6f1621c s2_=7f800000 s3_=7f800000 N_=8
+sf metric n 6 -> 4026f2992bef1f4cffa5
+sf metric n 5 -> 401f83e6c668735a48f7
+sf metric n 5 -> 40579d081f18b5f2537c
+sf set c0_=00000000 c1_=00000000 c2_=3e09a5c9 c3_=30d614c4 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 3 -> 4066a3a72e7d753f78cc
+sf metric n 5 -> 402086153cf48e72b016
+sf metric n 0 -> 40259d084d0000000000
+sf metric n 2 -> 4052b7baed52c842b15e
+sf metric n 3 -> 403388fe5bab5315be26
+sf prog c0_=00000000 c1_=00000000 c2_=00000000 c3_=00000000 s0_=c0400000 s1_=c0400000 s2_=c0400000 s3_=42880000 N_=2
+sf metric n 7 -> 403be565c19e72cd99b4
+sf metric n 1 -> 4025f68c5b0f4dcaaf94
+sf metric n 6 -> 409df81c252c5628f7bd
+sf metric n 5 -> 402198aecb5a46c6caaf
+sf metric n 1 -> 406cc0f4e7d646a7d627
+sf prog c0_=3eb3375c c1_=bdbc7b2b c2_=be11549e c3_=3f045d90 s0_=43df8000 s1_=4301cf07 s2_=44024562 s3_=49a9d7a9 N_=1
+sf metric n 1 -> 4043c8b0a3b79f4f1983
+sf metric n 1 -> 402fcf186a8f38553dfd
+sf metric n 0 -> 00000000000000000000
+sf metric n 1 -> 401fa2969700ac79077e
+sf set c0_=bf800000 c1_=40000000 c2_=40000000 c3_=40e00000 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 1 -> 4016d2164d0000000000
+sf metric n 1 -> 402b8071fdbf25880000
+sf metric n 0 -> 00000000000000000000
+sf metric n 1 -> 402ac6f16e6101000000
+sf metric n 1 -> 4052a207f56522bef067
+sf prog c0_=40400000 c1_=40c00000 c2_=41000000 c3_=bf800000 s0_=c3030000 s1_=4fb12b07 s2_=565f544f s3_=6d4864a0 N_=4
+sf metric n 0 -> 40058c7c610000000000
+sf prog c0_=4ce8ff94 c1_=40c00000 c2_=40e00000 c3_=3ee9f57e s0_=40a00000 s1_=ff800000 s2_=ff800000 s3_=7f800000 N_=1
+sf metric n 0 -> 4022df6d100000000000
+sf metric n 2 -> 400a98a6f5a000000000
+sf metric n 4 -> 4058a61539136db94a7c
+sf metric n 1 -> 4025a48fdff10d2e0d69
+sf metric n 1 -> 401ee1165f2250a98dcc
+sf metric n 6 -> 403fa5aca510966a4699
+sf metric n 4 -> 4007bb00000000000000
+sf metric n 3 -> 407ea282e7bb0732bb58
+sf metric n 0 -> 7fff8000000000000000
+sf prog c0_=40000000 c1_=3f000000 c2_=3f000000 c3_=be000000 s0_=c46b8000 s1_=4b12fd52 s2_=4b503dbd s3_=5761dbfa N_=2
+sf metric n 2 -> 4023af6aad9a8887fcf2
+sf metric n 5 -> 403ff97bcd4b6deec312
+sf metric n 7 -> 4021e671bf31995a0eba
+sf metric n 0 -> 40079700000000000000
+sf metric n 0 -> 7fff8000000000000000
+sf metric n 6 -> 4021bffaba24413f8911
+sf prog c0_=3f800000 c1_=c3d10696 c2_=3f800000 c3_=3ee52e6b s0_=46f03200 s1_=46f03200 s2_=5a8048b5 s3_=758091c3 N_=2
+sf metric n 1 -> 4053d015bb69085ed30f
+sf metric n 0 -> 4022f485510000000000
+sf metric n 2 -> 403c82fa8bc8b7123e91
+sf metric n 7 -> 4023e64d9319cdac6219
+sf metric n 0 -> 00000000000000000000
+sf metric n 0 -> 404693426e0000000000
+sf prog c0_=c0800000 c1_=c0a00000 c2_=40400000 c3_=c0000000 s0_=c41cc000 s1_=542d6372 s2_=571c6dc0 s3_=6ec6fe0c N_=5
+sf metric n 0 -> 401ca010680000000000
+sf metric n 6 -> 401fae150b30d400f695
+sf metric n 0 -> 00000000000000000000
+sf metric n 1 -> 402ecbc38ddc5d3cdb79
+sf ctor c0_=00000000 c1_=00000000 c2_=00000000 c3_=00000000 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 1 -> 4022e33995763d76f36a
+sf metric n 0 -> 00000000000000000000
+sf metric n 6 -> ffffc000000000000000
+sf metric n 5 -> 401d824b4921c87e661e
+sf prog c0_=00000000 c1_=00000000 c2_=00000000 c3_=00000000 s0_=461b9000 s1_=461b9000 s2_=461b9000 s3_=4e8bd2c4 N_=1
+sf metric n 1 -> 4002f000000000000000
+sf metric n 0 -> 4022d822ae0000000000
+sf prog c0_=c0e00000 c1_=40e00000 c2_=c0c00000 c3_=c0e00000 s0_=46d17400 s1_=ddd472a1 s2_=dfdab88a s3_=7f800000 N_=7
+sf metric n 0 -> 403fc348c50000000000
+sf metric n 5 -> 40779c9e76e37652f6ff
+sf set c0_=c0800000 c1_=3344fd07 c2_=bf000000 c3_=bcc892f6 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 4 -> 42999c32698f6a4135ca
+sf metric n 5 -> 401fde43ae4c552d7858
+sf metric n 5 -> 401fb48678d9d87af602
+sf reset c0_=454dd14a c1_=00000000 c2_=00000000 c3_=c1000000 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 0 -> 403ca9ce590000000000
+sf metric n 1 -> 4013bfc7a00000000000
+sf metric n 1 -> 4041bcc4f605640923c6
+sf metric n 7 -> 401eccb2bc0000000000
+sf metric n 0 -> 00000000000000000000
+sf metric n 6 -> 40b6e7bba4fc099c7064
+sf prog c0_=bc970980 c1_=beb6718b c2_=beea2af6 c3_=3e58ccd0 s0_=461d7000 s1_=46b49eac s2_=45f3082e s3_=50165653 N_=3
+sf metric n 6 -> 407f8992fd8c06d57c42
+sf metric n 1 -> 4023f7ea25048b9c568e
+sf metric n 1 -> 402f9c3f1ffb8cefe25b
+sf metric n 2 -> 400ab4c463b5f0527317
+sf reset c0_=c0800000 c1_=bf000000 c2_=41000000 c3_=3e000000 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 1 -> 40109b31800000000000
+sf metric n 6 -> 408bdfb63d950029077c
+sf prog c0_=41100000 c1_=40000000 c2_=40e00000 c3_=c0400000 s0_=00000000 s1_=c6bd9200 s2_=c73ec600 s3_=4f1298c7 N_=2
+sf metric n 0 -> 4043d699070000000000
+sf metric n 0 -> 405680d0890000000000
+sf metric n 4 -> 7fff8000000000000000
+sf ctor c0_=00000000 c1_=00000000 c2_=00000000 c3_=00000000 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 1 -> 401e8e423fd8735a431a
+sf metric n 1 -> 4005fcda67b2c8115e5e
+sf metric n 5 -> 4026d13d59d8d7bb8738
+sf metric n 2 -> 7fff8000000000000000
+sf metric n 7 -> 402efd94f9c3f1e0c000
+sf metric n 2 -> 4022a166fd5fc531a1ea
+sf metric n 0 -> 00000000000000000000
+sf metric n 1 -> 40109ed2800000000000
+sf prog c0_=3dbcc7ee c1_=3e3cb0f5 c2_=4059be3a c3_=bd87220b s0_=c41b4000 s1_=45d29175 s2_=46ff5863 s3_=5038cb83 N_=3
+sf metric n 2 -> 401f84a86cbcaef08b6c
+sf metric n 4 -> 40118eb3600000000000
+sf metric n 2 -> 40338206ee75bf5cb350
+sf ctor c0_=00000000 c1_=00000000 c2_=00000000 c3_=00000000 s0_=00000000 s1_=00000000 s2_=00000000 s3_=00000000 N_=2
+sf metric n 1 -> 4014e425c11d6e0af461
+sf metric n 1 -> 4021812a478aef6440b3
+sf metric n 2 -> 40068226f63d7c469bb4
+sf prog c0_=c0800000 c1_=40a00000 c2_=41100000 c3_=00000000 s0_=c0400000 s1_=50cff322 s2_=5117eadb s3_=62b56b3c N_=2
+sf metric n 0 -> ffffc000000000000000
+sf metric n 1 -> 401cfb786f5c00000000
+sf metric n 1 -> 400adc1d783af0765e68
+sf prog c0_=c0800000 c1_=3e000000 c2_=3e800000 c3_=41000000 s0_=45798000 s1_=c9d04d39 s2_=ca951157 s3_=58d0ab2b N_=2
+sf metric n 1 -> 4018dce9fa46e7e4744d
+sf metric n 0 -> 4061e6202f0000000000
+sf metric n 6 -> 401f8024111f80000000
+sf metric n 0 -> 401df243920000000000
+sf metric n 4 -> 401b9b48dd1e89ca6894
+sf prog c0_=00000000 c1_=00000000 c2_=00000000 c3_=00000000 s0_=43d38000 s1_=43d38000 s2_=43d38000 s3_=4a06a8d4 N_=2
+sf prog c0_=3f7c14f3 c1_=be8528e3 c2_=bd5a6ee8 c3_=3d0a4b88 s0_=40800000 s1_=400318dc s2_=4024e61d s3_=41ef355d N_=2
+sf metric n 0 -> 4027911a790000000000
+sf hash cebe8f3fba150d5f
+calls: malloc 2500 free 2500 edprintf 0 dbgprintf 0
+COV ctor                         2500
+COV C2 used                      759
+COV reset                        2107
+COV setFilterCoeff               2500
+COV progress                     22429
+COV getMetric                    31890
+COV N_ == 0                      3114
+COV N_ == 1                      4575
+COV N_ == 2 (default)            32391
+COV N_ >= 3                      16144
+COV getMetric n == 0             8038
+COV getMetric n == 1             8243
+COV getMetric n >= 3             15609
+COV extended metric differs from its float rounding 19833
+COV non-finite state             3868
+COV |input| >= 16384             623938
+COV input -32768                 107740
+COV all-zero coefficients        198
+COV obj unchanged by getMetric   31890
+COV ctor defaults checked        2500
+COV special coefficient words    0
+COV signalling NaN coefficient words 0
+COV state poked                  2205
+COV trials with the block around 2^31 2501
+COV dtor with a NULL block pointer 0
+HASH 0b8468ae48d0ad48 lines 66251

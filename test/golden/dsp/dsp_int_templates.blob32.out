@@ -1,0 +1,771 @@
+SDE s=0 x=0 r=0 st=0
+SDE s=0 x=1 r=1 st=1
+SDE s=0 x=2 r=2 st=2
+SDE s=0 x=3 r=3 st=3
+SDE s=0 x=4 r=4 st=4
+SDE s=0 x=5 r=5 st=5
+SDE s=0 x=6 r=6 st=6
+SDE s=0 x=7 r=7 st=7
+SDE s=0 x=8 r=8 st=8
+SDE s=0 x=9 r=9 st=9
+SDE s=0 x=10 r=10 st=10
+SDE s=0 x=11 r=11 st=11
+SDE s=0 x=12 r=12 st=12
+SDE s=0 x=13 r=13 st=13
+SDE s=0 x=14 r=14 st=14
+SDE s=0 x=15 r=15 st=15
+SDE s=0 x=16 r=16 st=16
+SDE s=0 x=17 r=17 st=17
+SDE s=0 x=18 r=18 st=18
+SDE s=0 x=19 r=19 st=19
+SDE s=0 x=20 r=20 st=20
+SDE s=0 x=21 r=21 st=21
+SDE s=0 x=22 r=22 st=22
+SDE s=0 x=23 r=23 st=23
+SDE s=0 x=24 r=24 st=24
+SDE s=0 x=25 r=25 st=25
+SDE s=0 x=26 r=26 st=26
+SDE s=0 x=27 r=27 st=27
+SDE s=0 x=28 r=28 st=28
+SDE s=0 x=29 r=29 st=29
+SDE s=0 x=30 r=30 st=30
+SDE s=0 x=31 r=31 st=31
+SDE s=0 x=32 r=32 st=32
+SDE s=0 x=33 r=33 st=33
+SDE s=0 x=34 r=34 st=34
+SDE s=0 x=35 r=35 st=35
+SDE s=0 x=36 r=36 st=36
+SDE s=0 x=37 r=37 st=37
+SDE s=0 x=38 r=38 st=38
+SDE s=0 x=39 r=39 st=39
+SDE s=3 x=229 r=230 st=230
+SDE s=7 x=202 r=205 st=205
+SDE s=11 x=175 r=164 st=164
+SDE s=15 x=148 r=155 st=155
+SDE s=19 x=121 r=106 st=106
+SDE s=23 x=94 r=73 st=73
+SDE s=27 x=67 r=88 st=88
+SDE s=31 x=40 r=55 st=55
+SDE s=35 x=13 r=46 st=46
+SDE s=38 x=242 r=212 st=212
+SDE s=42 x=215 r=253 st=253
+SDE s=46 x=188 r=146 st=146
+SDE s=50 x=161 r=147 st=147
+SDE s=54 x=134 r=176 st=176
+SDE s=58 x=107 r=81 st=81
+SDE s=62 x=80 r=110 st=110
+SDE s=66 x=53 r=119 st=119
+SDE s=70 x=26 r=92 st=92
+SDE s=73 x=255 r=182 st=182
+SDE s=77 x=228 r=169 st=169
+SDE s=81 x=201 r=152 st=152
+SDE s=85 x=174 r=251 st=251
+SDE s=89 x=147 r=202 st=202
+SDE s=93 x=120 r=37 st=37
+SDE s=97 x=93 r=60 st=60
+SDE s=101 x=66 r=39 st=39
+SDE s=105 x=39 r=78 st=78
+SDE s=109 x=12 r=97 st=97
+SDE s=112 x=241 r=129 st=129
+SDE s=116 x=214 r=162 st=162
+SDE s=120 x=187 r=195 st=195
+SDE s=124 x=160 r=220 st=220
+SDE s=128 x=133 r=5 st=5
+SDE s=132 x=106 r=238 st=238
+SDE s=136 x=79 r=199 st=199
+SDE s=140 x=52 r=184 st=184
+SDE s=144 x=25 r=137 st=137
+SDE s=147 x=254 r=109 st=109
+SDE s=151 x=227 r=116 st=116
+SDE s=155 x=200 r=83 st=83
+SDE s=159 x=173 r=50 st=50
+SDE s=163 x=146 r=49 st=49
+SDE s=167 x=119 r=208 st=208
+SDE s=171 x=92 r=247 st=247
+SDE s=175 x=65 r=238 st=238
+SDE s=179 x=38 r=149 st=149
+SDE s=183 x=11 r=188 st=188
+SDE s=186 x=240 r=74 st=74
+SDE s=190 x=213 r=107 st=107
+SDE s=194 x=186 r=120 st=120
+SDE s=198 x=159 r=89 st=89
+SDE s=202 x=132 r=78 st=78
+SDE s=206 x=105 r=167 st=167
+SDE s=210 x=78 r=156 st=156
+SDE s=214 x=51 r=229 st=229
+SDE s=218 x=24 r=194 st=194
+SDE s=221 x=253 r=32 st=32
+SDE s=225 x=226 r=3 st=3
+SDE s=229 x=199 r=34 st=34
+SDE s=233 x=172 r=69 st=69
+SDE s=237 x=145 r=124 st=124
+SDE s=241 x=118 r=135 st=135
+SDE s=245 x=91 r=174 st=174
+SDE s=249 x=64 r=185 st=185
+SDE s=253 x=37 r=216 st=216
+serial uchar: 200000 round trips, final enc state 221 dec state 221
+calls: malloc 0 free 0
+COV sde.process calls            265536
+COV sdd.process calls            265536
+COV all 256x256 (state,in)       65536
+COV encode->decode round trips   200000
+COV state/in with bit 7 set      49152
+HASH eaf3338d91e1e77d lines 331079
+SDDI s=0 x=0 r=0 st=0
+SDDI s=0 x=1 r=1 st=1
+SDDI s=0 x=-1 r=-1 st=-1
+SDDI s=0 x=2 r=2 st=2
+SDDI s=0 x=2147483647 r=2147483647 st=2147483647
+SDDI s=0 x=-2147483648 r=-2147483648 st=-2147483648
+SDDI s=0 x=-2147483647 r=-2147483647 st=-2147483647
+SDDI s=0 x=1431655765 r=1431655765 st=1431655765
+SDDI s=0 x=-1431655766 r=-1431655766 st=-1431655766
+SDDI s=0 x=255 r=255 st=255
+SDDI s=0 x=256 r=256 st=256
+SDDI s=0 x=-65536 r=-65536 st=-65536
+SDDI s=0 x=65536 r=65536 st=65536
+SDDI s=1 x=0 r=1 st=0
+SDDI s=1 x=1 r=0 st=1
+SDDI s=1 x=-1 r=-2 st=-1
+SDDI s=1 x=2 r=3 st=2
+SDDI s=1 x=2147483647 r=2147483646 st=2147483647
+SDDI s=1 x=-2147483648 r=-2147483647 st=-2147483648
+SDDI s=1 x=-2147483647 r=-2147483648 st=-2147483647
+SDDI s=1 x=1431655765 r=1431655764 st=1431655765
+SDDI s=1 x=-1431655766 r=-1431655765 st=-1431655766
+SDDI s=1 x=255 r=254 st=255
+SDDI s=1 x=256 r=257 st=256
+SDDI s=1 x=-65536 r=-65535 st=-65536
+SDDI s=1 x=65536 r=65537 st=65536
+SDDI s=-1 x=0 r=-1 st=0
+SDDI s=-1 x=1 r=-2 st=1
+SDDI s=-1 x=-1 r=0 st=-1
+SDDI s=-1 x=2 r=-3 st=2
+SDDI s=2 x=0 r=2 st=0
+SDDI s=2147483647 x=0 r=2147483647 st=0
+SDDI s=-2147483648 x=0 r=-2147483648 st=0
+SDDI s=-2147483647 x=0 r=-2147483647 st=0
+SDDI s=1431655765 x=0 r=1431655765 st=0
+SDDI s=-1431655766 x=0 r=-1431655766 st=0
+SDDI s=255 x=0 r=255 st=0
+SDDI s=256 x=0 r=256 st=0
+SDDI s=-65536 x=0 r=-65536 st=0
+SDDI s=65536 x=0 r=65536 st=0
+SDDI s=-1265728887 x=-690586621 r=1649999498
+SDDI s=1843511364 x=1021386459 r=1359011487
+SDDI s=973299696 x=17341621 r=990626629
+SDDI s=-1511297933 x=-576434093 r=2018458656
+SDDI s=-1626239833 x=-75501511 r=1684962462
+SDDI s=1292456712 x=-2091369814 r=-833525342
+SDDI s=150 x=-1699249784 r=-1699249890
+SDDI s=-486023377 x=-495935069 r=24608396
+SDDI s=1789125327 x=1542956621 r=827606146
+SDDI s=-1013183772 x=477018986 r=-537742962
+SDDI s=-108190595 x=1711396722 r=-1618152689
+SDDI s=-1806616170 x=1123571089 r=-693539833
+serial int: final state 508863545
+calls: malloc 0 free 0
+COV sddi.process calls           300169
+COV edge x edge pairs            169
+COV negative input               142314
+COV bits 31..16 differ           299255
+HASH c3bd55f09071d649 lines 300244
+PDE ctor state=A1+0 cap=0 n=0 heap(0)=
+PDE state=A1+0 cap=0 n=0 heap(0)=
+PDE state=A1+0 cap=0 n=0 heap(0)=
+PDE state=A1+0 cap=0 n=0 heap(0)=
+PDE state=A1+0 cap=0 n=0 heap(0)=
+PDE reset n=0 -> 0 n_=0
+PDE state=A1+0 cap=0 n=0 heap(0)=
+PDE state=A1+0 cap=0 n=0 heap(0)=
+PDE ctor state=A2+0 cap=1 n=0 heap(1)=00
+PDE state=A2+0 cap=1 n=0 heap(1)=00
+PDE state=A2+0 cap=1 n=0 heap(1)=00
+PDE reset n=2 -> 1 n_=0
+PDE state=A91+0 cap=15 n=15 heap(15)=80522f7a80d84638edbe74ffda8075
+PDE ctor state=A96+0 cap=17 n=0 heap(17)=0000000000000000000000000000000000
+PDE state=A189+0 cap=57 n=57 heap(57)=ababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+PDE state=A285+0 cap=9 n=0 heap(9)=000000000000000000
+PDE ctor state=A287+0 cap=24 n=0 heap(24)=000000000000000000000000000000000000000000000000
+PDE state=A390+0 cap=62 n=22 heap(62)=bb79f5d9ebe1c9e38e21e0f2762a73f21bc31720ae8fe620b282c4044e8127fa75bd00000000000000000000000000000000000000000000000000000000
+PDE reset n=34 -> 1 n_=32
+PDE state=A580+0 cap=58 n=58 heap(58)=cececececececececececececececececececececececececececececececececececececececececececececececececececececececececece
+PDE state=A672+0 cap=432 n=6 heap(432)#cb53d7a5b6101263
+PDE ctor state=A700+0 cap=0 n=0 heap(0)=
+PDE reset n=4294967295 -> 1 n_=5
+PDE reset n=56 -> 1 n_=42
+PDE state=A962+0 cap=41 n=0 heap(41)=0000000000000000000000000000000000000000000000000000000000000000000000000000000000
+PDE reset n=0 -> 0 n_=0
+PDE reset n=20 -> 0 n_=20
+PDE ctor state=A1245+0 cap=432 n=0 heap(432)#e2101ba9613f1fc3
+PDE state=A1258+0 cap=1 n=0 heap(1)=00
+PDE state=A1347+0 cap=318 n=196 heap(318)#4ae4612a45a1f1af
+PDE state=A1446+0 cap=45 n=0 heap(45)=c22b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+PDE ctor state=A1457+0 cap=2 n=0 heap(2)=0000
+PDE ctor state=A1489+0 cap=43 n=0 heap(43)=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+PDE reset n=69 -> 1 n_=0
+calls: malloc 1600 free 1600
+COV ctor                         1600
+COV dtor                         1600
+COV reset ok (n <= cap)          7851
+COV reset error (n > cap)        4758
+COV reset n == 0                 1888
+COV reset n == cap               1809
+COV reset 0 < n < cap            4154
+COV reset n == 0xffffffff        1582
+COV cap == 0 (malloc(0))         24
+COV process                      23272
+COV process with n_ == 0         9152
+COV process in place             3518
+COV process with n_ == cap > 0   4365
+COV ctor zero-fills the block    1600
+COV reset value with high bits   12560
+COV failed reset leaves n_ and lanes 4758
+COV trials with the block around 2^31 1601
+COV dtor with a NULL block pointer 137
+HASH afc481726425ea98 lines 78181
+PDD ctor state=A1+0 cap=0 n=0 heap(0)=
+PDD state=A1+0 cap=0 n=0 heap(0)=
+PDD state=A1+0 cap=0 n=0 heap(0)=
+PDD state=A1+0 cap=0 n=0 heap(0)=
+PDD state=A1+0 cap=0 n=0 heap(0)=
+PDD reset n=0 -> 0 n_=0
+PDD state=A1+0 cap=0 n=0 heap(0)=
+PDD state=A1+0 cap=0 n=0 heap(0)=
+PDD ctor state=A2+0 cap=1 n=0 heap(1)=00
+PDD state=A2+0 cap=1 n=0 heap(1)=00
+PDD state=A2+0 cap=1 n=0 heap(1)=00
+PDD reset n=2 -> 1 n_=0
+PDD state=A91+0 cap=15 n=15 heap(15)=f2205d08f2aa344a9fcc068da8f207
+PDD ctor state=A96+0 cap=17 n=0 heap(17)=0000000000000000000000000000000000
+PDD state=A189+0 cap=57 n=57 heap(57)=ababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+PDD state=A285+0 cap=9 n=0 heap(9)=000000000000000000
+PDD ctor state=A287+0 cap=24 n=0 heap(24)=000000000000000000000000000000000000000000000000
+PDD state=A390+0 cap=62 n=22 heap(62)=8240cce0d2d8f0dab718d9cb4f134acb22fa2e1997b627f6ecce796adbc32265b44a00000000000000000000000000000000000000000000000000000000
+PDD reset n=34 -> 1 n_=32
+PDD state=A580+0 cap=58 n=58 heap(58)=cececececececececececececececececececececececececececececececececececececececececececececececececececececececececece
+PDD state=A672+0 cap=432 n=6 heap(432)#cb53d7a5b6101263
+PDD ctor state=A700+0 cap=0 n=0 heap(0)=
+PDD reset n=4294967295 -> 1 n_=5
+PDD reset n=56 -> 1 n_=42
+PDD state=A962+0 cap=41 n=0 heap(41)=0000000000000000000000000000000000000000000000000000000000000000000000000000000000
+PDD reset n=0 -> 0 n_=0
+PDD reset n=20 -> 0 n_=20
+PDD ctor state=A1245+0 cap=432 n=0 heap(432)#e2101ba9613f1fc3
+PDD state=A1258+0 cap=1 n=0 heap(1)=00
+PDD state=A1347+0 cap=318 n=196 heap(318)#bea75aca9fe7d714
+PDD state=A1446+0 cap=45 n=0 heap(45)=0ce500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+PDD ctor state=A1457+0 cap=2 n=0 heap(2)=0000
+PDD ctor state=A1489+0 cap=43 n=0 heap(43)=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+PDD reset n=69 -> 1 n_=0
+calls: malloc 1600 free 1600
+COV ctor                         1600
+COV dtor                         1600
+COV reset ok (n <= cap)          7851
+COV reset error (n > cap)        4758
+COV reset n == 0                 1888
+COV reset n == cap               1809
+COV reset 0 < n < cap            4154
+COV reset n == 0xffffffff        1582
+COV cap == 0 (malloc(0))         24
+COV process                      23272
+COV process with n_ == 0         9152
+COV process in place             3518
+COV process with n_ == cap > 0   4365
+COV ctor zero-fills the block    1600
+COV reset value with high bits   12560
+COV failed reset leaves n_ and lanes 4758
+COV trials with the block around 2^31 1601
+COV dtor with a NULL block pointer 137
+HASH 7aa7fefb05260507 lines 78181
+Q ctor buf=A1+0 last=A1+0 rd=A1+0 wr=A1+0 size=1 heap(4)=42495057
+Q end buf=A1+0 last=A1+0 rd=A1+0 wr=A1+0 size=1 heap(4)=42495057
+Q ctor buf=A2+0 last=A2+4 rd=A2+0 wr=A2+0 size=2 heap(8)=4f565d646b727980
+Q end buf=A2+0 last=A2+4 rd=A2+4 wr=A2+0 size=2 heap(8)=cd458ebfeee3e6d9
+Q ctor/arb buf=A3+0 last=A3+8 rd=A3+4 wr=A3+24 size=3 heap(12)=5c636a71787f868d949ba2a9
+Q end buf=A3+0 last=A3+8 rd=A3+8 wr=A3+4 size=3 heap(12)=032cfefe6aaeed61ec67132b
+Q ctor buf=A4+0 last=A4+12 rd=A4+0 wr=A4+0 size=4 heap(16)=6970777e858c939aa1a8afb6bdc4cbd2
+Q end buf=A4+0 last=A4+12 rd=A4+0 wr=A4+0 size=4 heap(16)=1bb68e10e6d5150293cbe7ffde1f0e2a
+Q ctor buf=A5+0 last=A5+16 rd=A5+0 wr=A5+0 size=5 heap(20)=767d848b9299a0a7aeb5bcc3cad1d8dfe6edf4fb
+Q end buf=A5+0 last=A5+16 rd=A5+0 wr=A5+8 size=5 heap(20)=389883ff613e7f28460600bbc025d227a32c23ec
+Q ctor/arb buf=A6+0 last=A6+20 rd=A6+16 wr=A6+16 size=6 heap(24)=838a91989fa6adb4bbc2c9d0d7dee5ecf3fa01080f161d24
+Q end buf=A6+0 last=A6+20 rd=A6+16 wr=A6+12 size=6 heap(24)=d53eb9fff73a970d7c344aaf5d15245bda2e3a7865597d80
+Q ctor buf=A7+0 last=A7+28 rd=A7+0 wr=A7+0 size=8 heap(32)=90979ea5acb3bac1c8cfd6dde4ebf2f900070e151c232a31383f464d545b6269
+Q end buf=A7+0 last=A7+28 rd=A7+28 wr=A7+24 size=8 heap(32)=bc1a73d39360c43390a83968a57928123d941df5f634c1533e61f621efb6e612
+Q ctor buf=A8+0 last=A8+32 rd=A8+0 wr=A8+0 size=9 heap(36)=9da4abb2b9c0c7ced5dce3eaf1f8ff060d141b222930373e454c535a61686f767d848b92
+Q end buf=A8+0 last=A8+32 rd=A8+0 wr=A8+12 size=9 heap(36)=b076e6d805de2a8afb71c0ffc0bd087d7536e08644f0dbbd57ede5b5e9d77bbc7fbcdd7f
+Q ctor/arb buf=A9+0 last=A9+60 rd=A9+44 wr=A9+8 size=16 heap(64)=aab1b8bfc6cdd4dbe2e9f0f7fe050c131a21282f363d444b525960676e757c838a91989fa6adb4bbc2c9d0d7dee5ecf3fa01080f161d242b323940474e555c63
+Q end buf=A9+0 last=A9+60 rd=A9+48 wr=A9+24 size=16 heap(64)=361591aeda8bd146e3470ac7e91b7ec5cb1b4632a264f47f4c6025a2b52ef8ffd692b8211d867c570b182392e0eba74cf7d33fc59f4ba9bb8090585e12f79b41
+Q ctor buf=A10+0 last=A10+64 rd=A10+0 wr=A10+0 size=17 heap(68)=b7bec5ccd3dae1e8eff6fd040b121920272e353c434a51585f666d747b828990979ea5acb3bac1c8cfd6dde4ebf2f900070e151c232a31383f464d545b626970787f868d
+Q end buf=A10+0 last=A10+64 rd=A10+0 wr=A10+0 size=17 heap(68)=e67f9f973e7ceeffaebc115231d983ff12e50be785aba6308cedd485bf3f97bad9f7b4c08e914cdb0520399e4e10914e7f457173ac18fdb860867d31936860eeb09acfe1
+Q end buf=A499+0 last=A499+72 rd=A499+16 wr=A499+16 size=19 heap(76)=53d0eca60ff1b3b6b8c98477ccc6b0a29489ebc868b619a6293f1dc0de00cd75fb90806125bf3f659b34d51da1c01d758f5a93c4484327a4ae94dd4121a03a9f5c0b921299bdc6d3b18e79ff
+Q ctor buf=A998+0 last=A998+72 rd=A998+0 wr=A998+0 size=19 heap(76)=e3eaf1f8ff060d141b222930373e454c535a61686f767d848b9299a0a7aeb5bcc3cad1d8dfe6edf4fb020910171e252c333a41484f565d646b727980878e959ca4abb2b9c0c7ced5dce3eaf1
+Q end buf=A1496+0 last=A1496+124 rd=A1496+0 wr=A1496+48 size=32 heap(128)=ba912b9d5f00f6ff2998cb33f07a385e680c66146d6cc47fd9344d5eb9a21484171b899cb865e77aa176ec1a520cdbba2fa0d44d326fa8aeebb1f130420a5ac84af15a3a8cdbe183e53ddecbc6f1157669415d485093a3df43033fe919585a215b872d63c8e79cff6d3c1b8b2eaee3d85d010c12f0ce5b03d82f2d452af2857a
+Q ctor/arb buf=A1995+0 last=A1995+40 rd=A1995+4 wr=A1995+0 size=11 heap(44)=848b9299a0a7aeb5bcc3cad1d8dfe6edf4fb020910171e252c333a41484f565d646b727980878e959ca3aab1
+queue random done
+calls: malloc 2400 free 2400
+COV ctor                         2400
+COV dtor                         2400
+COV reset()                      7204
+COV write(float) ok              66347
+COV write(float) full            27236
+COV write(float) at last_        4551
+COV write(n) no wrap             21870
+COV write(n) lands on last_+1    1408
+COV write(n) wraps               7582
+COV write(n) fails               46178
+COV write(0)                     18160
+COV write(n >= 2^31)             18860
+COV write(n) fills to full       9337
+COV read(n) no wrap              24821
+COV read(n) lands on last_+1     2001
+COV read(n) wraps                8253
+COV read(n) fails                42388
+COV read(0)                      18161
+COV read(n >= 2^31)              19012
+COV read(n) drains               12209
+COV capacity 0 (size 1)          66
+COV arbitrary rd/wr state        800
+COV size > 192                   10
+COV write(n) wraps by one        1086
+COV read(n) wraps by one         1362
+COV n-op with rd_/wr_ one past the end 143
+COV n-op with rd_/wr_ beyond last_+1 285
+COV capacity > 32767 (16-bit index traps) 4
+COV trials with the block around 2^31 2401
+COV dtor with a NULL block pointer 197
+HASH 7e33414e6cdc1279 lines 300232
+QX buf=A1+0 last=A1+0 rd=A1+0 wr=A1+0 size=1 heap(4)=42495057
+QX buf=A2+0 last=A2+0 rd=A2+0 wr=A2+0 size=1 heap(4)=4f565d64
+QX buf=A3+0 last=A3+0 rd=A3+0 wr=A3+0 size=1 heap(4)=5c636a71
+QX buf=A4+0 last=A4+0 rd=A4+0 wr=A4+0 size=1 heap(4)=6970777e
+QX buf=A5+0 last=A5+0 rd=A5+0 wr=A5+0 size=1 heap(4)=767d848b
+QX buf=A6+0 last=A6+0 rd=A6+0 wr=A6+0 size=1 heap(4)=838a9198
+QX buf=A998+0 last=A998+12 rd=A998+0 wr=A998+16 size=4 heap(16)=e3eaf1f8ff060d141b222930373e454c
+QX buf=A1995+0 last=A1995+16 rd=A1995+16 wr=A1995+4 size=5 heap(20)=848b9299a0a7aeb5bcc3cad1d8dfe6edf4fb0209
+QX buf=A2992+0 last=A2992+20 rd=A2992+4 wr=A2992+0 size=6 heap(24)=252c333a41484f565d646b727980878e959ca3aab1b8bfc6
+QX buf=A3989+0 last=A3989+20 rd=A3989+20 wr=A3989+20 size=6 heap(24)=c6cdd4dbe2e9f0f7fe050c131a21282f363d444b52596067
+QS buf=A4432+0 last=A4432+4 rd=A4432+0 wr=A4432+4 size=2 heap(8)=e773740961686f76
+QS buf=A4643+0 last=A4643+4 rd=A4643+0 wr=A4643+0 size=2 heap(8)=fc030a11181f262d
+QS buf=A4854+0 last=A4854+4 rd=A4854+0 wr=A4854+4 size=2 heap(8)=d6f4b45bcfd6dde4
+QS buf=A5065+0 last=A5065+8 rd=A5065+8 wr=A5065+4 size=3 heap(12)=4d76529657cef5acc40d82ac
+QS buf=A5276+0 last=A5276+8 rd=A5276+0 wr=A5276+8 size=3 heap(12)=93f77122c8fcc0e45960676e
+QS buf=A5487+0 last=A5487+8 rd=A5487+0 wr=A5487+8 size=3 heap(12)=4ac3768edd04a62e10171e25
+QS buf=A5698+0 last=A5698+12 rd=A5698+0 wr=A5698+12 size=4 heap(16)=d7b4dfff2424e866a76102dbe3eaf1f8
+QS buf=A5909+0 last=A5909+12 rd=A5909+8 wr=A5909+12 size=4 heap(16)=da7f56a9e817bfc28df6b7429aa1a8af
+QS buf=A6120+0 last=A6120+12 rd=A6120+0 wr=A6120+8 size=4 heap(16)=2348473e11f1f791353c434a51585f66
+QS buf=A6331+0 last=A6331+16 rd=A6331+0 wr=A6331+8 size=5 heap(20)=36c83fd741c61bb8ecf3fa01080f161d242b3239
+QS buf=A6542+0 last=A6542+16 rd=A6542+16 wr=A6542+16 size=5 heap(20)=ab48af2f50e039d3b56496fcbdc2f27fdbe2e9f0
+QS buf=A6753+0 last=A6753+16 rd=A6753+0 wr=A6753+12 size=5 heap(20)=52cfe9ebef43c6de48e4ba7f767d848b9299a0a7
+queue exhaustive done
+calls: malloc 6903 free 6903
+COV ctor                         6903
+COV dtor                         6903
+COV reset()                      271
+COV write(float) ok              1767
+COV write(float) full            387
+COV write(float) at last_        118
+COV write(n) no wrap             1700
+COV write(n) lands on last_+1    166
+COV write(n) wraps               375
+COV write(n) fails               3721
+COV write(0)                     193
+COV read(n) no wrap              1563
+COV read(n) lands on last_+1     76
+COV read(n) wraps                283
+COV read(n) fails                3950
+COV read(0)                      193
+COV capacity 0 (size 1)          148
+COV arbitrary rd/wr state        4403
+COV write(n) wraps by one        175
+COV read(n) wraps by one         106
+COV exhaustive (state,op) pairs  4403
+COV n-op with rd_/wr_ one past the end 542
+COV n-op with rd_/wr_ beyond last_+1 382
+COV trials with the block around 2^31 6904
+COV dtor with a NULL block pointer 592
+HASH eea778d3cc649d3e lines 42042
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=4200
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=5f5f
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=2525
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=4f4f
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=4d4d
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=4d4d
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=8787
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=2222
+Scrambler<uchar,uchar> buf=A55+0 head0=A55+63 t1_0=A55+73 end=A55+127 wr=A55+34 t1=A55+44 t2=A55+98 tail=64 heap(128)=41619cc68cedcbd2d16070b3c81aacd60dfee2d754c96853442294928ff6c724f62e867cbb27736c995c3c28a6a244980c455e948c18358d14d02c8f36c0c3e041619cc68cedcbd2d16070b3c81aacd60dfee2d754c96853442294928ff6c724f62e86ccf612bccb9bbe9a3f9afbcc242a642e0d59fe9946fd397e99101a6bc0
+Scrambler<uchar,uchar> buf=A109+0 head0=A109+30 t1_0=A109+43 end=A109+56 wr=A109+2 t1=A109+15 t2=A109+28 tail=26 heap(57)=619f66bfa77f9ea4db50dc99755fc941d2c11f00c3cc341a4d6840e9786c67619f661665c7d51c1e2138bfa77f9ea4db50dc99755fc941d2c1
+Scrambler<uchar,uchar> buf=A160+0 head0=A160+28 t1_0=A160+32 end=A160+56 wr=A160+2 t1=A160+6 t2=A160+30 tail=28 heap(57)=48ac1f2239a03acfe77f8ffd63b42365a73263f786f17881c7d7c4fa1948ac1ff22a1f7f9f441f956cad113cc95f9d628bb9aa900ec0118dfb
+Scrambler<uchar,uchar> buf=A214+0 head0=A214+25 t1_0=A214+29 end=A214+51 wr=A214+9 t1=A214+13 t2=A214+35 tail=26 heap(52)=879a2b42143b30988be35ac385dfc105ae449dfd037a81f4adab879a2b42143b30988be333cda7bfcf04ec5ee459f5c339208f4d
+Scrambler<uchar,uchar> buf=A268+0 head0=A268+78 t1_0=A268+103 end=A268+122 wr=A268+53 t1=A268+78 t2=A268+97 tail=44 heap(123)=d1d8dfe6edf4fb020910171e252c333a41484f565d646b727980878e959ca3aab1b8bfc6cdd4dbe2e9f0f7fe050c131a21282f363d44d51eca71d301ac095f560ee5cc0cc0e06ae747c952cd56393b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Scrambler<uchar,uchar> buf=A317+0 head0=A317+100 t1_0=A317+128 end=A317+164 wr=A317+39 t1=A317+67 t2=A317+103 tail=64 heap(165)=9e155d2930844580ff376c3e2d7d676ab6a968c7eaf88070bcc9173fee41030bcaf120827ed1f710a2576935f8683b211ce6fc29825d81ab66893a881595a6362d6fc13593d183b2ccb63b8019a34ace51a86ab96f617409283f58b3fa1e3ae68c6ec337d39e155d2930844580ff376c3e2d7d676ab6a968c7eaf88070bcc9173fee41030bcaf120827ed1f710603b7f6122b920c845730d6d713b5e0bac2f61b072a19eac
+Scrambler<uchar,uchar> buf=A373+0 head0=A373+45 t1_0=A373+49 end=A373+58 wr=A373+28 t1=A373+32 t2=A373+41 tail=13 heap(59)=843bd7d3ba0c8f39d1c0fd1453cceeb014a146984e223785abc0dbe979176305b0c9fdc478c9fdc478c9de9ec1c800000000000000000000000000
+Scrambler<uchar,uchar> buf=A430+0 head0=A430+35 t1_0=A430+54 end=A430+60 wr=A430+34 t1=A430+53 t2=A430+59 tail=25 heap(61)=150c943b54793e72eeb2284fddd82d738425d742cb318776028f446d67cce8451807292f150c943b54793e72eeb2284fddd82d738425d742cb31877602
+Scrambler<uchar,uchar> buf=A481+0 head0=A481+32 t1_0=A481+39 end=A481+48 wr=A481+18 t1=A481+25 t2=A481+34 tail=16 heap(49)=2df74dd368e60bc823cf0cb7214c6e24e5d482af2892142f400ce2fbfaf224882f2df74dd368e60bc823cf0cb7214c6e24
+Scrambler<uchar,uchar> buf=A540+0 head0=A540+77 t1_0=A540+90 end=A540+122 wr=A540+46 t1=A540+59 t2=A540+91 tail=45 heap(123)=a1a8afb6bdc4cbd2d9e0e7eef5fc030a11181f262d343b424950575e656c737a81888f969da4abb2b9c0c7ced5dce3767723a53becc137603af86b043889b57831530167d73c2d85a78bbb6929dd010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+Scrambler<uchar,uchar> buf=A596+0 head0=A596+38 t1_0=A596+56 end=A596+63 wr=A596+38 t1=A596+56 t2=A596+63 tail=25 heap(64)=7980878e959ca3aab1b8bfc6cdd4dbe2e9f0f7fe050c131a21282f363d444b525960676e757c8300000000000000000000000000000000000000000000000000
+Scrambler<uchar,uchar> buf=A647+0 head0=A647+88 t1_0=A647+93 end=A647+144 wr=A647+88 t1=A647+93 t2=A647+144 tail=56 heap(145)=d29c6e4f0faeeca1c61b14ee037c93bf7539aeb46bd061ab7f3c198c6edfb4cc50439691641f9fe0c9bae902c16ee12a4119e4f648830d851f6f970b7956600fbe8090cf553116e418b36783767bedfe3bc48a759f9f8149b40101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+Scrambler<uchar,uchar> modelled trials done
+calls: malloc 660 free 660
+COV ctor                         660
+COV dtor                         660
+COV reset(v & 1 == 0)            817
+COV reset(v & 1 == 1)            829
+COV reset(v with bits above bit 0 / garbage) 1646
+COV process(h)                   290556
+COV process(array)               5912
+COV process(array, n == 0)       647
+COV processAllOnes               863
+COV processAllZeros              859
+COV wrap (copyHistoryTail path)  10452
+COV wrap inside process(h)       6956
+COV wrap inside process(array)   3253
+COV config slack+1 == p2         57
+COV config slack > p2+8          454
+COV config p1 == p2              68
+COV config p1 == 1               74
+COV config p1 == 0               0
+COV config p2 == 0               0
+COV long run past many wraps     653
+COV direct resetHistoryIndexes   0
+COV direct copyHistoryTail       0
+COV arbitrary start position     0
+COV config slack+1 < p2 (overlapping tail copy) 0
+COV config p1 > p2 (tap beyond the history) 0
+COV config p1 < p2               592
+COV trials with the block around 2^31 661
+COV dtor with a NULL block pointer 56
+HASH aed3c346c31a75c6 lines 37398
+Scrambler<int,uchar> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=4249505700000000
+Scrambler<int,uchar> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=0200000002000000
+Scrambler<int,uchar> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=8b0000008b000000
+Scrambler<int,uchar> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=5c0000005c000000
+Scrambler<int,uchar> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=c0000000c0000000
+Scrambler<int,uchar> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=4c0000004c000000
+Scrambler<int,uchar> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=4c0000004c000000
+Scrambler<int,uchar> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=4c0000004c000000
+Scrambler<int,uchar> buf=A61+0 head0=A61+156 t1_0=A61+192 end=A61+196 wr=A61+44 t1=A61+80 t2=A61+84 tail=10 heap(200)#b3cd0b776c7bfb52
+Scrambler<int,uchar> buf=A116+0 head0=A116+108 t1_0=A116+136 end=A116+176 wr=A116+32 t1=A116+60 t2=A116+100 tail=17 heap(180)=4a00000089000000e8000000ec0000003800000073000000ec000000a20000000f0000005300000087000000f40000005f000000a5000000f40000001d000000e900000024000000dc000000ba000000540000008a000000ff000000ab0000006c0000000200000056000000b10000004a00000089000000e8000000ec0000003800000073000000ec000000a20000000f00000077000000a6000000ea000000dd0000003b000000b2000000a500000040000000
+Scrambler<int,uchar> buf=A174+0 head0=A174+148 t1_0=A174+188 end=A174+212 wr=A174+20 t1=A174+60 t2=A174+84 tail=16 heap(216)#16eee55160e2212b
+Scrambler<int,uchar> buf=A231+0 head0=A231+164 t1_0=A231+176 end=A231+228 wr=A231+20 t1=A231+32 t2=A231+84 tail=16 heap(232)#d076d885171f5227
+Scrambler<int,uchar> buf=A283+0 head0=A283+244 t1_0=A283+268 end=A283+340 wr=A283+20 t1=A283+44 t2=A283+116 tail=24 heap(344)#23cab28fe62ddd23
+Scrambler<int,uchar> buf=A334+0 head0=A334+264 t1_0=A334+312 end=A334+476 wr=A334+216 t1=A334+264 t2=A334+428 tail=53 heap(480)#6c8b13a6a0bd8236
+Scrambler<int,uchar> buf=A392+0 head0=A392+104 t1_0=A392+156 end=A392+156 wr=A392+104 t1=A392+156 t2=A392+156 tail=13 heap(160)=ea00000069000000180000001f000000b3000000b1000000d7000000eb0000007a0000007f000000f0000000e3000000470000004e00000073000000b50000004f00000022000000b7000000c00000002400000076000000720000009e00000081000000d40000003400000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+Scrambler<int,uchar> buf=A446+0 head0=A446+248 t1_0=A446+280 end=A446+396 wr=A446+248 t1=A446+280 t2=A446+396 tail=37 heap(400)#8dd39ac1dfe27fc9
+Scrambler<int,uchar> buf=A501+0 head0=A501+224 t1_0=A501+276 end=A501+328 wr=A501+224 t1=A501+276 t2=A501+328 tail=26 heap(332)#ff00df96e1e0022b
+Scrambler<int,uchar> buf=A554+0 head0=A554+376 t1_0=A554+612 end=A554+612 wr=A554+308 t1=A554+544 t2=A554+544 tail=59 heap(616)#91c3035d5e361a59
+Scrambler<int,uchar> buf=A613+0 head0=A613+128 t1_0=A613+152 end=A613+224 wr=A613+28 t1=A613+52 t2=A613+124 tail=24 heap(228)#efcfcf0d9d8796c3
+Scrambler<int,uchar> modelled trials done
+calls: malloc 660 free 660
+COV ctor                         660
+COV dtor                         660
+COV reset(v & 1 == 0)            1670
+COV reset(v & 1 == 1)            1619
+COV reset(v with bits above bit 0 / garbage) 2952
+COV process(h) [n/a]             0
+COV process(array)               145512
+COV process(array, n == 0)       1491
+COV processAllOnes               0
+COV processAllZeros              0
+COV wrap (copyHistoryTail path)  9639
+COV wrap inside process(h)       0
+COV wrap inside process(array)   6744
+COV config slack+1 == p2         57
+COV config slack > p2+8          457
+COV config p1 == p2              73
+COV config p1 == 1               71
+COV config p1 == 0               0
+COV config p2 == 0               0
+COV long run past many wraps     651
+COV direct resetHistoryIndexes   0
+COV direct copyHistoryTail       0
+COV arbitrary start position     0
+COV config slack+1 < p2 (overlapping tail copy) 0
+COV config p1 > p2 (tap beyond the history) 0
+COV config p1 < p2               587
+COV trials with the block around 2^31 661
+COV dtor with a NULL block pointer 52
+HASH 942dc9007446dbbb lines 36092
+Scrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=4200
+Scrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=5f5f
+Scrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=2525
+Scrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=4f4f
+Scrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=4d4d
+Scrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=4d4d
+Scrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=8787
+Scrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=8701
+Scrambler<uchar,int> buf=A54+0 head0=A54+63 t1_0=A54+73 end=A54+127 wr=A54+15 t1=A54+25 t2=A54+79 tail=64 heap(128)=f3fa01080f161d242b323940474e55bdc51c8a2f3a3cf88a0ca519283e25fdcf9f294b967e7050df062f69ad10a789e4753445a87ed89d1c8cd8ced821f10ce200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Scrambler<uchar,int> buf=A107+0 head0=A107+65 t1_0=A107+123 end=A107+126 wr=A107+28 t1=A107+86 t2=A107+89 tail=61 heap(127)=1a36564d0132285ea94f9db4303de647f8f001071fbe5723072b5699862a3fca0982b5c08a9b9d31e478a9d3a83dfab7e588f676032842d860f5cb12849c0616f76600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Scrambler<uchar,int> buf=A161+0 head0=A161+44 t1_0=A161+53 end=A161+85 wr=A161+5 t1=A161+14 t2=A161+46 tail=41 heap(86)=442dca69400e9edf2f6c175c808049d82aa81b22cbb32f4a76bc2ad556b84118ae1c0503b85677cb84e497510b0101010101010101010101010101010101010101010101010101010101010101010101010101010101
+Scrambler<uchar,int> buf=A214+0 head0=A214+65 t1_0=A214+102 end=A214+125 wr=A214+65 t1=A214+102 t2=A214+125 tail=60 heap(126)=131a21282f363d444b525960676e757c838a91989fa6adb4bbc2c93547af679e38ee537535c9401b328e03f99be102e31adf27a74bc287a514fc57b67cccf0ce69b0010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+Scrambler<uchar,int> buf=A271+0 head0=A271+66 t1_0=A271+79 end=A271+112 wr=A271+31 t1=A271+44 t2=A271+77 tail=46 heap(113)=f8ff060d141b222930373e454c535a61686f767d848b9299a0a7aeb5bcc3cad1255e2fb94c4b7e6594796a9a44e220bb182d8d7a3d7243236f2aa2affe46e74a653c7701010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+Scrambler<uchar,int> buf=A327+0 head0=A327+20 t1_0=A327+25 end=A327+27 wr=A327+20 t1=A327+25 t2=A327+27 tail=7 heap(28)=27f9ae00a4212a505da59f4423e8b01ff4e9cf3df501010101010101
+Scrambler<uchar,int> buf=A383+0 head0=A383+61 t1_0=A383+67 end=A383+117 wr=A383+61 t1=A383+67 t2=A383+117 tail=56 heap(118)=a8afb6bdc4cbd2d9e0e7eef5fc030a11181f262d343b424950575e656c737a81888f969da4abb2b9c0c7ced5dce3eaf1f8ff143e471e4155d071718e85320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Scrambler<uchar,int> buf=A438+0 head0=A438+59 t1_0=A438+100 end=A438+119 wr=A438+59 t1=A438+100 t2=A438+119 tail=60 heap(120)=737a81888f969da4abb2b9c0c7ced5dce3eaf1f8ff060d141b222930373e454c535a61686f767d848b9299a0a7aeb5bcc3cad1d8dfe6edf4fb020910000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Scrambler<uchar,int> buf=A490+0 head0=A490+61 t1_0=A490+68 end=A490+92 wr=A490+61 t1=A490+68 t2=A490+92 tail=31 heap(93)=171e252c333a41484f565d646b727980878e959ca3aab1b8bfc6cdd4dbe2e9f0f7fe050c131a21282f363d444b525960676e757c838a91989fa6adb4bbc200000000000000000000000000000000000000000000000000000000000000
+Scrambler<uchar,int> buf=A542+0 head0=A542+67 t1_0=A542+77 end=A542+96 wr=A542+31 t1=A542+41 t2=A542+60 tail=29 heap(97)=d9b85afeea16c0141af8e69fb127dfde0144e9be42e6e5a0cf343f246190886899eff3587856b82c2a7a79441a8d6a30832636d59347f0143de962acf9cf039e4568be370101010101010101010101010101010101010101010101010101010101
+Scrambler<uchar,int> buf=A598+0 head0=A598+68 t1_0=A598+89 end=A598+112 wr=A598+68 t1=A598+89 t2=A598+112 tail=44 heap(113)=edfc6cd602cc4eebd70c01adaefee708bce0189d713b90ecd03ed8ed3af17119945e442dc3797ef26c4adbab174834eb662aadab874c18b844b2ecc01beb8cd3d4a75a94700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Scrambler<uchar,int> buf=A651+0 head0=A651+62 t1_0=A651+91 end=A651+100 wr=A651+62 t1=A651+91 t2=A651+100 tail=38 heap(101)=7ec4ee408550a576dbac143debfe153407c6bb4b95b0ffcdf4157470e05c61e5f274d8f6bba30c9b7d7f8283034c8b1eda590bd59ecdd7080d549023581f700101010101010101010101010101010101010101010101010101010101010101010101010101
+Scrambler<uchar,int> modelled trials done
+calls: malloc 660 free 660
+COV ctor                         660
+COV dtor                         660
+COV reset(v & 1 == 0)            4677
+COV reset(v & 1 == 1)            4647
+COV reset(v with bits above bit 0 / garbage) 9324
+COV process(h)                   290749
+COV process(array) [n/a]         0
+COV process(array, n == 0)       0
+COV processAllOnes               0
+COV processAllZeros              0
+COV wrap (copyHistoryTail path)  4761
+COV wrap inside process(h)       5612
+COV wrap inside process(array)   0
+COV config slack+1 == p2         61
+COV config slack > p2+8          460
+COV config p1 == p2              70
+COV config p1 == 1               64
+COV config p1 == 0               0
+COV config p2 == 0               0
+COV long run past many wraps     655
+COV direct resetHistoryIndexes   0
+COV direct copyHistoryTail       0
+COV arbitrary start position     0
+COV config slack+1 < p2 (overlapping tail copy) 0
+COV config p1 > p2 (tap beyond the history) 0
+COV config p1 < p2               590
+COV trials with the block around 2^31 661
+COV dtor with a NULL block pointer 64
+HASH b6205c6362388b6c lines 37082
+Descrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=4200
+Descrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=5f5f
+Descrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=2525
+Descrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=4f4f
+Descrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=4d4d
+Descrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=4d4d
+Descrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=8787
+Descrambler<uchar,int> buf=A1+0 head0=A1+0 t1_0=A1+1 end=A1+1 wr=A1+0 t1=A1+1 t2=A1+1 tail=1 heap(2)=2222
+Descrambler<uchar,int> buf=A57+0 head0=A57+200 t1_0=A57+201 end=A57+264 wr=A57+104 t1=A57+105 t2=A57+168 tail=64 heap(265)#c55d82f9287ccf50
+Descrambler<uchar,int> buf=A113+0 head0=A113+76 t1_0=A113+128 end=A113+136 wr=A113+76 t1=A113+128 t2=A113+136 tail=60 heap(137)=f2f900070e151c232a31383f464d545b626970777e858c939aa1a8afb6bdc4cbd2d9e0e7eef5fc030a11181f262d343b424950575e656c737a81888f969da4abb3bac1c8cfd6dde4ebf2f90007000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Descrambler<uchar,int> buf=A168+0 head0=A168+55 t1_0=A168+56 end=A168+93 wr=A168+55 t1=A168+56 t2=A168+93 tail=38 heap(94)=71f4bd03023935445c7ab5c5f482e7bc62efb553be2cae62638f84b990fce34c1a42ec20ef16a7f347fe5a4add0d57849d88615f0a8973140000000000000000000000000000000000000000000000000000000000000000000000000000
+Descrambler<uchar,int> buf=A225+0 head0=A225+46 t1_0=A225+56 end=A225+59 wr=A225+46 t1=A225+56 t2=A225+59 tail=13 heap(60)=ec7ba3d52f63312ef9ba94fff2b0943fc85ca0620698dc00e411fe270273591632cb222b9af94b277853ebdc9ed45501010101010101010101010101
+Descrambler<uchar,int> buf=A278+0 head0=A278+66 t1_0=A278+71 end=A278+113 wr=A278+41 t1=A278+46 t2=A278+88 tail=47 heap(114)=f9135623587236d0091e38d80d90574f052b76eae1c56d21d92f9d182c31c62290642f13b0e794068a07b21441d9a8ba46cbd7977d8ff7856835ab8f2b597cd80ebe0af9135623587236d0091e38d80d90574f052b76eae1c56d21d92f9d182c31c62290642f13b0e794068a0780d19f2d02
+Descrambler<uchar,int> buf=A336+0 head0=A336+42 t1_0=A336+49 end=A336+49 wr=A336+34 t1=A336+41 t2=A336+41 tail=7 heap(50)=7a306f3188d98008d444855a328fa5d5609882085f00799f4d4b2da66a5c312a42c377a840ab052cf5a9e37a306f3188d980
+Descrambler<uchar,int> buf=A389+0 head0=A389+27 t1_0=A389+32 end=A389+35 wr=A389+27 t1=A389+32 t2=A389+35 tail=8 heap(36)=631e40caf6ef01f340d8f768abc4b3505642cf4f959f7f9a28655ea9631e40caf6ef01f3
+Descrambler<uchar,int> buf=A445+0 head0=A445+10 t1_0=A445+11 end=A445+12 wr=A445+1 t1=A445+2 t2=A445+3 tail=2 heap(13)=d316af09136381c547a7d8d316
+Descrambler<uchar,int> buf=A504+0 head0=A504+23 t1_0=A504+33 end=A504+36 wr=A504+14 t1=A504+24 t2=A504+27 tail=13 heap(37)=70770b1ed4447fad1baab98c4ec6982223d462291c723ae770770b1ed4447fad1baab98c4e
+Descrambler<uchar,int> buf=A559+0 head0=A559+67 t1_0=A559+102 end=A559+113 wr=A559+32 t1=A559+67 t2=A559+78 tail=46 heap(114)=39afb833cb9a836b5c8439afcef7c573b79940bfce053eaf93b237ff9b20611505035e2172892e1fc8c58a0c9cb8fb50d0ff2430a4107ae3c484ea54a8807be111aa2ad100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Descrambler<uchar,int> buf=A614+0 head0=A614+28 t1_0=A614+32 end=A614+45 wr=A614+14 t1=A614+18 t2=A614+31 tail=17 heap(46)=a3784eb109f2f93469df55d111ef99a770d9cf6d233efd769be40adff5a3784eb109f2f93469df55d111ef99c884
+Descrambler<uchar,int> buf=A667+0 head0=A667+28 t1_0=A667+46 end=A667+51 wr=A667+3 t1=A667+21 t2=A667+26 tail=23 heap(52)=a4f659e4112db2522b870be64eb5624ff1e6dde035dd8d0752d9bbe038a4f659e4cd20b8b83074520ff806bca3bfd9e04953ea5e
+Descrambler<uchar,int> modelled trials done
+calls: malloc 680 free 680
+COV ctor                         680
+COV dtor                         680
+COV reset(v & 1 == 0)            1705
+COV reset(v & 1 == 1)            1648
+COV reset(v with bits above bit 0 / garbage) 3353
+COV process(h)                   292268
+COV process(array)               6022
+COV process(array, n == 0)       690
+COV processAllOnes               0
+COV processAllZeros              0
+COV wrap (copyHistoryTail path)  9193
+COV wrap inside process(h)       7982
+COV wrap inside process(array)   3099
+COV config slack+1 == p2         67
+COV config slack > p2+8          458
+COV config p1 == p2              62
+COV config p1 == 1               65
+COV config p1 == 0               56
+COV config p2 == 0               4
+COV long run past many wraps     673
+COV direct resetHistoryIndexes   0
+COV direct copyHistoryTail       0
+COV arbitrary start position     0
+COV config slack+1 < p2 (overlapping tail copy) 0
+COV config p1 > p2 (tap beyond the history) 0
+COV config p1 < p2               618
+COV trials with the block around 2^31 681
+COV dtor with a NULL block pointer 46
+HASH ecb3294fbc423bf0 lines 37422
+Descrambler<int,int> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=4249505700000000
+Descrambler<int,int> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=17f9347c17f9347c
+Descrambler<int,int> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=23f736d223f736d2
+Descrambler<int,int> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=c9d899d9c9d899d9
+Descrambler<int,int> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=c9d899d900000000
+Descrambler<int,int> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=c9d899d900000000
+Descrambler<int,int> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=c9d899d901000000
+Descrambler<int,int> buf=A1+0 head0=A1+0 t1_0=A1+4 end=A1+4 wr=A1+0 t1=A1+4 t2=A1+4 tail=1 heap(8)=c9d899d901000000
+Descrambler<int,int> buf=A58+0 head0=A58+800 t1_0=A58+804 end=A58+1056 wr=A58+800 t1=A58+804 t2=A58+1056 tail=64 heap(1060)#7dae51a81b783050
+Descrambler<int,int> buf=A111+0 head0=A111+148 t1_0=A111+196 end=A111+260 wr=A111+104 t1=A111+152 t2=A111+216 tail=28 heap(264)#75c205dce8b7dbe8
+Descrambler<int,int> buf=A173+0 head0=A173+280 t1_0=A173+340 end=A173+504 wr=A173+216 t1=A173+276 t2=A173+440 tail=56 heap(508)#516aae85bc04d944
+Descrambler<int,int> buf=A227+0 head0=A227+380 t1_0=A227+392 end=A227+620 wr=A227+168 t1=A227+180 t2=A227+408 tail=60 heap(624)#68ede7da650b0858
+Descrambler<int,int> buf=A282+0 head0=A282+164 t1_0=A282+184 end=A282+204 wr=A282+48 t1=A282+68 t2=A282+88 tail=10 heap(208)#363412ca2036ad6c
+Descrambler<int,int> buf=A338+0 head0=A338+120 t1_0=A338+152 end=A338+168 wr=A338+120 t1=A338+152 t2=A338+168 tail=12 heap(172)=7e9a2db29dedb5b8557340c21d9ca67bba13fbfc37d6ee3864dbcaf51185e27abfda92139965ea23f698926c079ae950cda3fabab1f7529fd149859c2f95b7dbcde079cf5780cab0d72136d99edaa21b45b430d3f0eb3742058a1766d4cc53d23e8c9af4a0d06852eed67b9789a6502b34be421dd473f25f5c2fe549000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Descrambler<int,int> buf=A394+0 head0=A394+8 t1_0=A394+16 end=A394+16 wr=A394+8 t1=A394+16 t2=A394+16 tail=2 heap(20)=64ba3e68f4b17ecb60b0e6660000000000000000
+Descrambler<int,int> buf=A450+0 head0=A450+232 t1_0=A450+376 end=A450+376 wr=A450+232 t1=A450+376 t2=A450+376 tail=36 heap(380)#18ee7827bd0182e2
+Descrambler<int,int> buf=A508+0 head0=A508+236 t1_0=A508+276 end=A508+400 wr=A508+236 t1=A508+276 t2=A508+400 tail=41 heap(404)#ed19890960b9711b
+Descrambler<int,int> buf=A563+0 head0=A563+156 t1_0=A563+164 end=A563+228 wr=A563+88 t1=A563+96 t2=A563+160 tail=18 heap(232)#ac48a219745a2420
+Descrambler<int,int> buf=A616+0 head0=A616+0 t1_0=A616+4 end=A616+4 wr=A616+0 t1=A616+4 t2=A616+4 tail=1 heap(8)=21be92dc00000000
+Descrambler<int,int> buf=A671+0 head0=A671+104 t1_0=A671+104 end=A671+112 wr=A671+104 t1=A671+104 t2=A671+112 tail=2 heap(116)=18f4553c155df31b1e6c6d40a20d535ff65368d57c33166f07511d9f6a32f52f42b9ae4ec3a46de1c75b451ccd6556fba6866f93a313df44301d8137dc15cb8d8c5d4d3575e2e2ce6b32312d8b14a60f86113102705ed0aee2a22ee1c55d1c2a756578865df1276c7b83bdf50100000001000000
+Descrambler<int,int> modelled trials done
+calls: malloc 680 free 680
+COV ctor                         680
+COV dtor                         680
+COV reset(v & 1 == 0)            4588
+COV reset(v & 1 == 1)            4647
+COV reset(v with bits above bit 0 / garbage) 8336
+COV process(h)                   294885
+COV process(array) [n/a]         0
+COV process(array, n == 0)       0
+COV processAllOnes               0
+COV processAllZeros              0
+COV wrap (copyHistoryTail path)  5209
+COV wrap inside process(h)       8110
+COV wrap inside process(array)   0
+COV config slack+1 == p2         61
+COV config slack > p2+8          461
+COV config p1 == p2              80
+COV config p1 == 1               65
+COV config p1 == 0               48
+COV config p2 == 0               4
+COV long run past many wraps     675
+COV direct resetHistoryIndexes   0
+COV direct copyHistoryTail       0
+COV arbitrary start position     0
+COV config slack+1 < p2 (overlapping tail copy) 0
+COV config p1 > p2 (tap beyond the history) 0
+COV config p1 < p2               600
+COV trials with the block around 2^31 681
+COV dtor with a NULL block pointer 59
+HASH b5aa95d27d658daa lines 37232
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+3 t1_0=A1+8 end=A1+15 wr=A1+3 t1=A1+8 t2=A1+15 tail=12 heap(16)=42495057000000000000000000000000
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+3 t1_0=A1+8 end=A1+15 wr=A1+0 t1=A1+5 t2=A1+12 tail=12 heap(16)=2383640823a929fa23a929fa23a929fa
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+3 t1_0=A1+8 end=A1+15 wr=A1+0 t1=A1+5 t2=A1+12 tail=12 heap(16)=09d0244909b3529c09b3529c09b3529c
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+3 t1_0=A1+8 end=A1+15 wr=A1+0 t1=A1+5 t2=A1+12 tail=12 heap(16)=13cbb27b130b6dce130b6dce130b6dce
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+3 t1_0=A1+8 end=A1+15 wr=A1+1 t1=A1+6 t2=A1+13 tail=12 heap(16)=fe9eaee7fe9e3a01fe9e3a01fe9e3a01
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+3 t1_0=A1+8 end=A1+15 wr=A1+0 t1=A1+5 t2=A1+12 tail=12 heap(16)=093aceb8095137320951373209513732
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+3 t1_0=A1+8 end=A1+15 wr=A1+2 t1=A1+7 t2=A1+14 tail=12 heap(16)=542a25f3542a2570542a2570542a2570
+Scrambler<uchar,uchar> buf=A1+0 head0=A1+3 t1_0=A1+8 end=A1+15 wr=A1+0 t1=A1+5 t2=A1+12 tail=12 heap(16)=6c3d49786c8b6a8d6c8b6a8d6c8b6a8d
+Scrambler<uchar,uchar> buf=A55+0 head0=A55+23 t1_0=A55+30 end=A55+42 wr=A55+17 t1=A55+24 t2=A55+36 tail=19 heap(43)=56bc71560cd0a12008693c27f82863d1e87ca139952dd4bb56bc71560cd0a12008693c27f82863d1e87cfa
+Scrambler<uchar,uchar> buf=A109+0 head0=A109+5 t1_0=A109+8 end=A109+9 wr=A109+1 t1=A109+4 t2=A109+5 tail=4 heap(10)=a0d0491bfe74a0d0eb09
+Scrambler<uchar,uchar> buf=A165+0 head0=A165+14 t1_0=A165+18 end=A165+20 wr=A165+4 t1=A165+8 t2=A165+10 tail=6 heap(21)=fbb36a3d207bf633c408aab8d1a67afbb36a3d20ed
+Scrambler<uchar,uchar> buf=A211+0 head0=A211+3 t1_0=A211+9 end=A211+13 wr=A211+0 t1=A211+6 t2=A211+10 tail=10 heap(14)=7deb628a7dd717e87dd717e87dd7
+Scrambler<uchar,uchar> buf=A267+0 head0=A267+32 t1_0=A267+43 end=A267+57 wr=A267+32 t1=A267+43 t2=A267+57 tail=25 heap(58)=1c4f216893518a7ecb83e188bdfe3164f2bba70a4cf4acbad7d964fd5271422a9301010101010101010101010101010101010101010101010101
+Scrambler<uchar,uchar> buf=A324+0 head0=A324+6 t1_0=A324+9 end=A324+13 wr=A324+3 t1=A324+6 t2=A324+10 tail=7 heap(14)=c75d9dc60b718fc75d9dc6c8f14f
+Scrambler<uchar,uchar> buf=A385+0 head0=A385+22 t1_0=A385+23 end=A385+52 wr=A385+22 t1=A385+23 t2=A385+52 tail=30 heap(53)=c2c9d0d7dee5ecf3fa01080f161d242b323940474e555c000000000000000000000000000000000000000000000000000000000000
+Scrambler<uchar,uchar> buf=A440+0 head0=A440+14 t1_0=A440+15 end=A440+20 wr=A440+7 t1=A440+8 t2=A440+13 tail=6 heap(21)=8d949ba2a9b0b7be8b1c7c876fe8ef000000000000
+Scrambler<uchar,uchar> buf=A493+0 head0=A493+17 t1_0=A493+19 end=A493+29 wr=A493+10 t1=A493+12 t2=A493+22 tail=12 heap(30)=52b3c124276649ca0730ad5f9d3176ab20b252b3c124276649ca0730ad28
+Scrambler<uchar,uchar> buf=A546+0 head0=A546+7 t1_0=A546+15 end=A546+37 wr=A546+3 t1=A546+11 t2=A546+33 tail=30 heap(38)=0000000000000000000000000000000000000000000000000000000000000000000000000000
+Scrambler<uchar,uchar> buf=A604+0 head0=A604+24 t1_0=A604+39 end=A604+39 wr=A604+24 t1=A604+39 t2=A604+39 tail=15 heap(40)=d7d6f77995d8e29156ba1a6bf67054afe1151150f453a9dec8d7d6f77995d8e29156ba1a6bf67054
+Scrambler<uchar,uchar> buf=A655+0 head0=A655+12 t1_0=A655+30 end=A655+39 wr=A655+8 t1=A655+26 t2=A655+35 tail=27 heap(40)=fd2c1b9ee6df07701e657b1bdcfd2c1b9ee6df07701ed0a3b3ddfd2c1b9ee6df07701ed0a3b3ddfd
+Scrambler<uchar,uchar> buf=A712+0 head0=A712+35 t1_0=A712+56 end=A712+60 wr=A712+9 t1=A712+30 t2=A712+34 tail=25 heap(61)=e9f05b769f657576827793521b0a0ddd6d40ce3822627cb137a4394f307db6afae7851e000000000000000000000000000000000000000000000000000
+Scrambler<uchar,uchar> buf=A769+0 head0=A769+8 t1_0=A769+10 end=A769+13 wr=A769+7 t1=A769+9 t2=A769+12 tail=5 heap(14)=041254e926ff45f541041254e926
+Scrambler<uchar,uchar> buf=A822+0 head0=A822+18 t1_0=A822+33 end=A822+48 wr=A822+14 t1=A822+29 t2=A822+44 tail=30 heap(49)=4a68d60b5577b7ba26b0f25b20260eace3a7674a68d60b5577b7ba26b0f25b20260e082e1bf04a68d60b5577b7ba26b0f2
+Scrambler<uchar,uchar> buf=A873+0 head0=A873+10 t1_0=A873+23 end=A873+25 wr=A873+2 t1=A873+15 t2=A873+17 tail=15 heap(26)=56f1d0a3867f239fc2d11456f1d0205cbb849b1eef3f56f1d020
+Scrambler<uchar,uchar> buf=A929+0 head0=A929+23 t1_0=A929+25 end=A929+40 wr=A929+2 t1=A929+4 t2=A929+19 tail=17 heap(41)=36b799a4e84e131b400e8a18b28e95559b033e10b49691ac36b799fc15eaffe75e0b118fbe36856105
+Scrambler<uchar,uchar> buf=A983+0 head0=A983+5 t1_0=A983+35 end=A983+33 wr=A983+1 t1=A983+31 t2=A983+29 tail=28 heap(34)=698bb1e7b4ba698b27a43d72698b27a43d72698b27a43d72698b27a43d72698b27a4
+Scrambler<int,uchar> buf=A1041+0 head0=A1041+0 t1_0=A1041+0 end=A1041+4 wr=A1041+0 t1=A1041+0 t2=A1041+4 tail=1 heap(8)=5800000000000000
+Scrambler<int,uchar> buf=A1095+0 head0=A1095+24 t1_0=A1095+40 end=A1095+116 wr=A1095+24 t1=A1095+40 t2=A1095+116 tail=23 heap(120)=3b000000080000001a0000003a000000750000002e000000980000003b000000080000001a0000003a000000750000002e000000980000003b000000080000001a0000003a000000750000002e000000980000003b000000080000001a0000003a000000750000002e000000980000003b00000008000000
+Scrambler<int,uchar> buf=A1147+0 head0=A1147+36 t1_0=A1147+52 end=A1147+84 wr=A1147+32 t1=A1147+48 t2=A1147+80 tail=12 heap(88)=6a00000070000000d9000000610000002d0000000c00000066000000880000002f000000d90000006a00000070000000d9000000610000002d0000000c00000066000000880000002f000000cd0000006a00000070000000
+Scrambler<int,uchar> buf=A1200+0 head0=A1200+76 t1_0=A1200+84 end=A1200+112 wr=A1200+76 t1=A1200+84 t2=A1200+112 tail=9 heap(116)=1d0000004e0000009d000000c5000000a60000004800000062000000380000006e0000000a00000028000000a7000000d200000038000000850000002500000058000000880000000500000020000000010000000100000001000000010000000100000001000000010000000100000001000000
+Scrambler<int,uchar> buf=A1257+0 head0=A1257+60 t1_0=A1257+84 end=A1257+88 wr=A1257+60 t1=A1257+84 t2=A1257+88 tail=7 heap(92)=eb0000005900000025000000c70000004200000019000000240000004b000000f300000069000000e100000045000000f6000000b00000007d000000d600000001000000010000000100000001000000010000000100000001000000
+Scrambler<int,uchar> buf=A1309+0 head0=A1309+4 t1_0=A1309+8 end=A1309+36 wr=A1309+4 t1=A1309+8 t2=A1309+36 tail=8 heap(40)=ab00000089000000ab00000089000000ab00000089000000ab00000089000000ab00000089000000
+Scrambler<int,uchar> buf=A1364+0 head0=A1364+16 t1_0=A1364+32 end=A1364+40 wr=A1364+16 t1=A1364+32 t2=A1364+40 tail=6 heap(44)=57000000fe000000d700000068000000c800000057000000fe000000d700000068000000c800000057000000
+Scrambler<int,uchar> buf=A1416+0 head0=A1416+12 t1_0=A1416+12 end=A1416+56 wr=A1416+4 t1=A1416+4 t2=A1416+48 tail=11 heap(60)=f70000008f000000fc00000023000000f70000008f00000057000000a4000000f70000008f00000057000000a4000000f70000008f00000057000000
+Scrambler<int,uchar> buf=A1472+0 head0=A1472+24 t1_0=A1472+28 end=A1472+56 wr=A1472+4 t1=A1472+8 t2=A1472+36 tail=8 heap(60)=b80000002f0000000300000077000000630000006a0000002e000000b80000002f0000000300000077000000630000006a0000002e000000b8000000
+Scrambler<int,uchar> buf=A1527+0 head0=A1527+4 t1_0=A1527+40 end=A1527+44 wr=A1527+0 t1=A1527+36 t2=A1527+40 tail=10 heap(48)=220000001900000022000000630000002200000063000000220000006300000022000000630000002200000063000000
+Scrambler<int,uchar> buf=A1583+0 head0=A1583+44 t1_0=A1583+60 end=A1583+164 wr=A1583+28 t1=A1583+44 t2=A1583+148 tail=30 heap(168)=f0000000f0000000be0000000b00000020000000f7000000aa000000b5000000c3000000e80000003e000000ef000000f0000000f0000000be0000000b00000020000000f7000000aa000000b5000000c3000000e80000003e000000ef000000f0000000f0000000be0000000b00000020000000f7000000aa000000b5000000c3000000e80000003e000000ef000000f0000000f0000000be0000000b00000020000000f7000000
+Scrambler<int,uchar> buf=A1637+0 head0=A1637+100 t1_0=A1637+112 end=A1637+212 wr=A1637+100 t1=A1637+112 t2=A1637+212 tail=28 heap(216)#c8d5f0f561e250ac
+Scrambler<int,uchar> buf=A1691+0 head0=A1691+36 t1_0=A1691+44 end=A1691+120 wr=A1691+32 t1=A1691+40 t2=A1691+116 tail=21 heap(124)=24000000830000004f000000170000000700000072000000cb00000077000000150000002700000024000000830000004f000000170000000700000072000000cb00000077000000150000006100000024000000830000004f000000170000000700000072000000cb00000077000000150000006100000024000000
+Scrambler<int,uchar> buf=A1744+0 head0=A1744+80 t1_0=A1744+112 end=A1744+148 wr=A1744+40 t1=A1744+72 t2=A1744+108 tail=17 heap(152)=260000006f0000001e000000f60000001f00000057000000c50000003f00000091000000d400000065000000be000000d30000004e00000083000000af000000f000000002000000ad0000005f000000aa000000260000006f0000001e000000f60000001f00000057000000c50000003f00000091000000d400000065000000430000000a0000007500000071000000c000000001000000
+Scrambler<int,uchar> buf=A1798+0 head0=A1798+92 t1_0=A1798+144 end=A1798+196 wr=A1798+24 t1=A1798+76 t2=A1798+128 tail=26 heap(200)#3bb89ffc9d8a6ee3
+Scrambler<int,uchar> buf=A1851+0 head0=A1851+40 t1_0=A1851+40 end=A1851+52 wr=A1851+40 t1=A1851+40 t2=A1851+52 tail=3 heap(56)=1c000000e80000002c000000c3000000360000000d000000030000006500000080000000e4000000d40000001c000000e80000002c000000
+Scrambler<int,uchar> buf=A1905+0 head0=A1905+8 t1_0=A1905+12 end=A1905+24 wr=A1905+8 t1=A1905+12 t2=A1905+24 tail=4 heap(28)=590000001e000000c8000000590000001e000000c800000059000000
+Scrambler<int,uchar> buf=A1960+0 head0=A1960+88 t1_0=A1960+160 end=A1960+192 wr=A1960+88 t1=A1960+160 t2=A1960+192 tail=26 heap(196)#db1733a2f4f3c094
+Scrambler<uchar,int> buf=A2014+0 head0=A2014+2 t1_0=A2014+3 end=A2014+8 wr=A2014+2 t1=A2014+3 t2=A2014+8 tail=6 heap(9)=7933ca000000000000
+Scrambler<uchar,int> buf=A2072+0 head0=A2072+14 t1_0=A2072+31 end=A2072+31 wr=A2072+14 t1=A2072+31 t2=A2072+31 tail=17 heap(32)=e659f2001744f646834f8c21d45b8e0000000000000000000000000000000000
+Scrambler<uchar,int> buf=A2126+0 head0=A2126+13 t1_0=A2126+21 end=A2126+26 wr=A2126+13 t1=A2126+21 t2=A2126+26 tail=13 heap(27)=51d00854a85dfd3f9d81f7e289c300000000000000000000000000
+Scrambler<uchar,int> buf=A2179+0 head0=A2179+18 t1_0=A2179+38 end=A2179+48 wr=A2179+18 t1=A2179+38 t2=A2179+48 tail=30 heap(49)=dce3eaf1f8ff060d141b222930373e454c535a010101010101010101010101010101010101010101010101010101010101
+Scrambler<uchar,int> buf=A2231+0 head0=A2231+6 t1_0=A2231+9 end=A2231+10 wr=A2231+6 t1=A2231+9 t2=A2231+10 tail=4 heap(11)=ccaa575e4dedbd01010101
+Scrambler<uchar,int> buf=A2284+0 head0=A2284+21 t1_0=A2284+22 end=A2284+32 wr=A2284+19 t1=A2284+20 t2=A2284+30 tail=11 heap(33)=e74746b4266b27c6a97772e453ce6061d01b11485773e74746b4266b27c6a97772
+Scrambler<uchar,int> buf=A2338+0 head0=A2338+4 t1_0=A2338+6 end=A2338+10 wr=A2338+4 t1=A2338+6 t2=A2338+10 tail=6 heap(11)=85fafc8a5685fafc8a5685
+Scrambler<uchar,int> buf=A2392+0 head0=A2392+10 t1_0=A2392+13 end=A2392+30 wr=A2392+10 t1=A2392+13 t2=A2392+30 tail=20 heap(31)=0f0eee07cc7c69533090320f0eee07cc7c69533090320f0eee07cc7c695330
+Scrambler<uchar,int> buf=A2446+0 head0=A2446+6 t1_0=A2446+22 end=A2446+31 wr=A2446+5 t1=A2446+21 t2=A2446+30 tail=25 heap(32)=ace24b8663b757ace24b8663b7eface24b8663b7eface24b8663b7eface24b86
+Scrambler<uchar,int> buf=A2502+0 head0=A2502+8 t1_0=A2502+12 end=A2502+12 wr=A2502+8 t1=A2502+12 t2=A2502+12 tail=4 heap(13)=adcecc37a30b61ac4dadcecc37
+Scrambler<uchar,int> buf=A2559+0 head0=A2559+16 t1_0=A2559+38 end=A2559+38 wr=A2559+16 t1=A2559+38 t2=A2559+38 tail=22 heap(39)=2d3dd1f5e359734aec9f9fd836151c579a00000000000000000000000000000000000000000000
+Scrambler<uchar,int> buf=A2616+0 head0=A2616+7 t1_0=A2616+17 end=A2616+36 wr=A2616+7 t1=A2616+17 t2=A2616+36 tail=29 heap(37)=5e4dce062fa0cf360101010101010101010101010101010101010101010101010101010101
+Scrambler<uchar,int> buf=A2670+0 head0=A2670+18 t1_0=A2670+41 end=A2670+41 wr=A2670+18 t1=A2670+41 t2=A2670+41 tail=23 heap(42)=d8158964a83525e877794d5299e46458010abc0000000000000000000000000000000000000000000000
+Scrambler<uchar,int> buf=A2724+0 head0=A2724+19 t1_0=A2724+41 end=A2724+48 wr=A2724+19 t1=A2724+41 t2=A2724+48 tail=29 heap(49)=8a598fbe1429514f59e29b18f8de3415de34454b0000000000000000000000000000000000000000000000000000000000
+Scrambler<uchar,int> buf=A2774+0 head0=A2774+11 t1_0=A2774+14 end=A2774+41 wr=A2774+11 t1=A2774+14 t2=A2774+41 tail=30 heap(42)=582e0af5ab909c82fa0bf0e7000000000000000000000000000000000000000000000000000000000000
+Scrambler<uchar,int> buf=A2830+0 head0=A2830+11 t1_0=A2830+23 end=A2830+31 wr=A2830+11 t1=A2830+23 t2=A2830+31 tail=20 heap(32)=244ab91a37af831da2de8da80101010101010101010101010101010101010101
+Scrambler<uchar,int> buf=A2886+0 head0=A2886+29 t1_0=A2886+55 end=A2886+57 wr=A2886+28 t1=A2886+54 t2=A2886+56 tail=28 heap(58)=7bfefceadfdae7dbda62a6fc365f9880adc1787bbb8a54ec5ea3b925035e7bfefceadfdae7dbda62a6fc365f9880adc1787bbb8a54ec5ea3b925
+Scrambler<uchar,int> buf=A2943+0 head0=A2943+16 t1_0=A2943+24 end=A2943+26 wr=A2943+16 t1=A2943+24 t2=A2943+26 tail=10 heap(27)=a8afb6bdc4cbd2e290cbd1de7dbbc530e701010101010101010101
+Scrambler<uchar,int> buf=A2998+0 head0=A2998+6 t1_0=A2998+14 end=A2998+15 wr=A2998+6 t1=A2998+14 t2=A2998+15 tail=9 heap(16)=db4b6ee6bf0368010101010101010101
+Descrambler<uchar,int> buf=A3052+0 head0=A3052+3 t1_0=A3052+12 end=A3052+16 wr=A3052+0 t1=A3052+9 t2=A3052+13 tail=13 heap(17)=9c75859f9ccc420d9ccc420d9ccc420d9c
+Descrambler<uchar,int> buf=A3106+0 head0=A3106+15 t1_0=A3106+19 end=A3106+27 wr=A3106+15 t1=A3106+19 t2=A3106+27 tail=12 heap(28)=a8510587e135c5fb66550b31d83930fc010101010101010101010101
+Descrambler<uchar,int> buf=A3162+0 head0=A3162+11 t1_0=A3162+11 end=A3162+13 wr=A3162+6 t1=A3162+6 t2=A3162+8 tail=2 heap(14)=b67a401a3317b26073e369fbb67a
+Descrambler<uchar,int> buf=A3221+0 head0=A3221+3 t1_0=A3221+14 end=A3221+18 wr=A3221+2 t1=A3221+13 t2=A3221+17 tail=15 heap(19)=a567faf2a567fa0ba567fa0ba567fa0ba567fa
+Descrambler<uchar,int> buf=A3275+0 head0=A3275+9 t1_0=A3275+9 end=A3275+12 wr=A3275+9 t1=A3275+9 t2=A3275+12 tail=3 heap(13)=c3a240b4f62f411858b4c3a240
+Descrambler<uchar,int> buf=A3329+0 head0=A3329+8 t1_0=A3329+14 end=A3329+17 wr=A3329+4 t1=A3329+10 t2=A3329+13 tail=9 heap(18)=3326071fc2f88f19563326071fc2c8b96d37
+Descrambler<uchar,int> buf=A3381+0 head0=A3381+1 t1_0=A3381+8 end=A3381+9 wr=A3381+1 t1=A3381+8 t2=A3381+9 tail=8 heap(10)=04f60000000000000000
+Descrambler<uchar,int> buf=A3433+0 head0=A3433+21 t1_0=A3433+22 end=A3433+36 wr=A3433+0 t1=A3433+1 t2=A3433+15 tail=15 heap(37)=636a3f2c9020c4925fa24f298adca7318ae6dbacccef63b3495cb0b2f98df39ccbb4d6abc1
+Descrambler<uchar,int> buf=A3486+0 head0=A3486+7 t1_0=A3486+24 end=A3486+27 wr=A3486+7 t1=A3486+24 t2=A3486+27 tail=20 heap(28)=42b070e9fa5baf0142b070e9fa5baf0142b070e9fa5baf0142b070e9
+Descrambler<uchar,int> buf=A3544+0 head0=A3544+13 t1_0=A3544+16 end=A3544+16 wr=A3544+13 t1=A3544+16 t2=A3544+16 tail=3 heap(17)=9b0e3cfd4c05edb84343e95316d2010101
+Descrambler<uchar,int> buf=A3601+0 head0=A3601+7 t1_0=A3601+16 end=A3601+17 wr=A3601+0 t1=A3601+9 t2=A3601+10 tail=10 heap(18)=a0188bab84f18319a0216e98976895bca021
+Descrambler<uchar,int> buf=A3654+0 head0=A3654+27 t1_0=A3654+40 end=A3654+44 wr=A3654+7 t1=A3654+20 t2=A3654+24 tail=17 heap(45)=ef41fe13aa6dda18b2bb03ba9229a625ddf2df8347e0ff87223dc4e7ef41fe13aa6dda18974653a3d33822ef30
+Descrambler<uchar,int> buf=A3705+0 head0=A3705+0 t1_0=A3705+1 end=A3705+3 wr=A3705+0 t1=A3705+1 t2=A3705+3 tail=3 heap(4)=d7000000
+Descrambler<uchar,int> buf=A3762+0 head0=A3762+21 t1_0=A3762+23 end=A3762+37 wr=A3762+17 t1=A3762+19 t2=A3762+33 tail=16 heap(38)=499b888c18a6e520a4c8d5c0428e3e20e2309b324733499b888c18a6e520a4c8d5c0428e3e20
+Descrambler<uchar,int> buf=A3817+0 head0=A3817+16 t1_0=A3817+19 end=A3817+22 wr=A3817+12 t1=A3817+15 t2=A3817+18 tail=6 heap(23)=b3409ca2bceab0795067e8324ed07c2183b3409ca2bcea
+Descrambler<uchar,int> buf=A3873+0 head0=A3873+11 t1_0=A3873+36 end=A3873+41 wr=A3873+9 t1=A3873+34 t2=A3873+39 tail=30 heap(42)=f0b3fcd3b7551719574de392f0b3fcd3b7551719574d0477f0b3fcd3b7551719574d0477f0b3fcd3b755
+Descrambler<uchar,int> buf=A3929+0 head0=A3929+9 t1_0=A3929+20 end=A3929+33 wr=A3929+9 t1=A3929+20 t2=A3929+33 tail=24 heap(34)=5afdad97cb298fe2baf45afdad97cb298fe2bafb5afdad97cb298fe2bafb5afdad97
+Descrambler<uchar,int> buf=A3984+0 head0=A3984+14 t1_0=A3984+15 end=A3984+21 wr=A3984+3 t1=A3984+4 t2=A3984+10 tail=7 heap(22)=bec28c3d7169c6eb53d83b1dcbecabbec28c3dae4379
+Descrambler<int,int> buf=A4037+0 head0=A4037+8 t1_0=A4037+16 end=A4037+28 wr=A4037+8 t1=A4037+16 t2=A4037+28 tail=5 heap(32)=efe3ff3603bc746b48247d610100000001000000010000000100000001000000
+Descrambler<int,int> buf=A4090+0 head0=A4090+68 t1_0=A4090+68 end=A4090+128 wr=A4090+68 t1=A4090+68 t2=A4090+128 tail=15 heap(132)=c11ab32bf197b91490c7ee35f6f9619f7e7c9ff0cf2d2838b79b5b8e4cc43d42e0d20ebb8f2fba5d17325108b837c8704d23f70e5c5c7d6e015e2ed16b3b4c46ad86e5c8cdc2e1a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Descrambler<int,int> buf=A4150+0 head0=A4150+100 t1_0=A4150+192 end=A4150+212 wr=A4150+100 t1=A4150+192 t2=A4150+212 tail=28 heap(216)#d0b5a56c7b61e34b
+Descrambler<int,int> buf=A4205+0 head0=A4205+4 t1_0=A4205+4 end=A4205+4 wr=A4205+4 t1=A4205+4 t2=A4205+4 tail=0 heap(8)=bec5ccd3dae1e8ef
+Descrambler<int,int> buf=A4258+0 head0=A4258+24 t1_0=A4258+96 end=A4258+108 wr=A4258+24 t1=A4258+96 t2=A4258+108 tail=21 heap(112)=a8164c5fd4f97f030cfc651eb24692c600f619e4448a5443af106341000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Descrambler<int,int> buf=A4312+0 head0=A4312+36 t1_0=A4312+60 end=A4312+64 wr=A4312+28 t1=A4312+52 t2=A4312+56 tail=7 heap(68)=930a083271f0aa68161c7d9096a300c0e2090fa7f81a0841e5a4b2cc6b209e385f76bc68eaf82907930a083271f0aa68161c7d9096a300c0e2090fa7f81a0841e5a4b2cc
+Descrambler<int,int> buf=A4369+0 head0=A4369+68 t1_0=A4369+84 end=A4369+112 wr=A4369+68 t1=A4369+84 t2=A4369+112 tail=11 heap(116)=289c55b6d96bb7f3e660706bad27151731f9d348b516770cf3a7bda7a5aa14715e84f01730c359bcd45316f220ce0477ba8c504c3a4e3051a26b72fa81ae96133c80951d8a8fb96f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Descrambler<int,int> buf=A4424+0 head0=A4424+72 t1_0=A4424+104 end=A4424+136 wr=A4424+72 t1=A4424+104 t2=A4424+136 tail=16 heap(140)=574bf5a2a76943dbc8e8f31e2dfd9da3b5314f873d0a80edbf96d78ad92be2af8e8170b364ae1b3c6d111ae37df449f096fea22d79fff8d2aa56bfb7cc60600e9e48f5cab4780f72b0015b3100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Descrambler<int,int> buf=A4479+0 head0=A4479+28 t1_0=A4479+48 end=A4479+68 wr=A4479+28 t1=A4479+48 t2=A4479+68 tail=10 heap(72)=7a02bc5790fc7be1dd809f711d95e540bee4c34a1950033cde0e642aa2c3890600000000000000000000000000000000000000000000000000000000000000000000000000000000
+Descrambler<int,int> buf=A4534+0 head0=A4534+44 t1_0=A4534+72 end=A4534+128 wr=A4534+44 t1=A4534+72 t2=A4534+128 tail=21 heap(132)=a351d1dd17fd5bf9bd95a0353426781dda27517c771dc1f21b4100fb486c8e16cceabd546969c20c9a194a92550ac352010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+Descrambler<int,int> buf=A4590+0 head0=A4590+8 t1_0=A4590+8 end=A4590+8 wr=A4590+8 t1=A4590+8 t2=A4590+8 tail=0 heap(12)=af597f98a03a78260f484763
+Descrambler<int,int> buf=A4642+0 head0=A4642+68 t1_0=A4642+72 end=A4642+96 wr=A4642+52 t1=A4642+56 t2=A4642+80 tail=7 heap(100)=36fe16053f5d0d222cc146002f2786deb0ae0789081e8e04ced50ef992e7161d053a4f2d0b4adb41e6f2d6b246bb45d09f42cf62a60c450881b8ca87e71e950f564b5f3b879d5edc36fe16053f5d0d222cc146002f2786deb0ae0789081e8e04ced50ef9
+Descrambler<int,int> buf=A4691+0 head0=A4691+4 t1_0=A4691+40 end=A4691+40 wr=A4691+4 t1=A4691+40 t2=A4691+40 tail=9 heap(44)=2fccfb12fb4649b9000000000000000000000000000000000000000000000000000000000000000000000000
+Descrambler<int,int> buf=A4743+0 head0=A4743+40 t1_0=A4743+44 end=A4743+44 wr=A4743+40 t1=A4743+44 t2=A4743+44 tail=1 heap(48)=c5361a7c3b657afd1595815a30929061adfe73ec5750ec3f69d92e72aa6efeabe53cff116f9ba540047e9e93c5361a7c
+Descrambler<int,int> buf=A4799+0 head0=A4799+60 t1_0=A4799+108 end=A4799+136 wr=A4799+56 t1=A4799+104 t2=A4799+132 tail=19 heap(140)=33bc6bbbc52b36f1eb2bc53146997e96068ef61727ee3d54ef1b02d9c8687868d6f7356f5e0202a05bfebd0059530bbbaea39159a9f00236e86a9ae0373db8dc00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Descrambler<int,int> buf=A4849+0 head0=A4849+104 t1_0=A4849+184 end=A4849+196 wr=A4849+40 t1=A4849+120 t2=A4849+132 tail=23 heap(200)#7fa9b8400e6a497e
+Descrambler<int,int> buf=A4905+0 head0=A4905+92 t1_0=A4905+96 end=A4905+188 wr=A4905+76 t1=A4905+80 t2=A4905+172 tail=24 heap(192)=895dee3b201be4a7227ffeb01ec642f188af18f18ae82555a8e26e07695430a090d2b0ee667cb79d9632f0f531758709c3724bba78359498bee031bd80bb6da126afc17d527dadedd1c1170cce9f81cb3725e25222cf613ccecc6610af3f7eeb010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+Descrambler<int,int> buf=A4961+0 head0=A4961+84 t1_0=A4961+84 end=A4961+132 wr=A4961+84 t1=A4961+84 t2=A4961+132 tail=12 heap(136)=92b18420fb059ce782d1169849c9eff129b52dfe6f7f8917436e500585133a5b7652df9b25e771741287068526c0810ec34c40bc37497269877455a8f8b4260c59aa7866d43874d7aedc05788af99481849cd8382a7caee1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+odd configs done
+calls: malloc 5000 free 5000
+COV ctor                         5000
+COV dtor                         5000
+COV reset(v & 1 == 0)            20020
+COV reset(v & 1 == 1)            20143
+COV reset(v with bits above bit 0 / garbage) 38349
+COV process(h)                   799983
+COV process(array)               35949
+COV process(array, n == 0)       4014
+COV processAllOnes               1233
+COV processAllZeros              1240
+COV wrap (copyHistoryTail path)  61360
+COV wrap inside process(h)       130211
+COV wrap inside process(array)   28534
+COV config slack+1 == p2         205
+COV config slack > p2+8          426
+COV config p1 == p2              591
+COV config p1 == 1               491
+COV config p1 == 0               613
+COV config p2 == 0               77
+COV long run past many wraps     0
+COV direct resetHistoryIndexes   3779
+COV direct copyHistoryTail       3743
+COV arbitrary start position     2500
+COV config slack+1 < p2 (overlapping tail copy) 2448
+COV config p1 > p2 (tap beyond the history) 167
+COV config p1 < p2               4242
+COV trials with the block around 2^31 5001
+COV dtor with a NULL block pointer 392
+HASH 3521026737de95f0 lines 277502

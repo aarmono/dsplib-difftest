@@ -1,0 +1,1698 @@
+init vptr_=V:RT+0 coef_=A1+0 hist_=A2+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=41918000 L_=12 taps_=12 histLen_=120 wr_=12 need_=0 borrowed_=1 off_=38a86753 gainA_=00000000 gainB_=00000000 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(480)#4ecd8062ba2f5a03
+init.coef n=144 #a2ef8242576c05a5
+obj vptr_=V:F2+0 coef_=A1+0 hist_=A2+0 phase_=0000000000000000 pend_=[3ea2aeb7,00000000,00000000,00000000,00000000] pendCount_=1 step_=41918000 L_=12 taps_=12 histLen_=120 wr_=12 need_=0 borrowed_=1 off_=38a86753 gainA_=00000000 gainB_=00000000 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(480)#4ecd8062ba2f5a03
+obj.coef n=144 #a2ef8242576c05a5
+obj vptr_=V:F2+0 coef_=A1+0 hist_=A2+0 phase_=4025600000000000 pend_=[bbbb608d,00000000,00000000,00000000,00000000] pendCount_=1 step_=41918000 L_=12 taps_=12 histLen_=120 wr_=48 need_=1 borrowed_=1 off_=38a86753 gainA_=00000000 gainB_=00000000 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(480)#71a6614e9ff151ba
+obj.coef n=144 #a2ef8242576c05a5
+obj vptr_=V:F2+0 coef_=A1+0 hist_=A2+0 phase_=3fed800000000000 pend_=[bd95f0f0,be032222,be032222,3f236e5c,bda6d0db] pendCount_=1 step_=41918000 L_=12 taps_=12 histLen_=120 wr_=55 need_=2 borrowed_=1 off_=38a86753 gainA_=baa2b998 gainB_=37c2313c errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=2 pad64_=00000000 energy_=be1f0209 energyPrev_=3d222a49 bpf_=bdf75576 bpfPrev_=3b8f04f6 errAcc_=3c5051b1 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(480)#133f97201eebe014
+obj.coef n=144 #a2ef8242576c05a5
+obj vptr_=V:F2+0 coef_=A1+0 hist_=A2+0 phase_=401a800000000000 pend_=[be321cd0,3ea95f25,bf71f03d,3da20a25,3eb7cb55] pendCount_=1 step_=41918000 L_=12 taps_=12 histLen_=120 wr_=35 need_=1 borrowed_=1 off_=38a86753 gainA_=3b517f00 gainB_=38dcb46f errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=3d67891e energyPrev_=3f1c240a bpf_=be50a8e4 bpfPrev_=3f2749b8 errAcc_=be7043ba dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(480)#0b87e8efbed31cf7
+obj.coef n=144 #a2ef8242576c05a5
+obj vptr_=V:F2+0 coef_=A1+0 hist_=A2+0 phase_=4010000000000000 pend_=[3ef267cf,3ea95f25,bf71f03d,3da20a25,3eb7cb55] pendCount_=1 step_=41918000 L_=12 taps_=12 histLen_=120 wr_=110 need_=2 borrowed_=1 off_=38a86753 gainA_=3b517f00 gainB_=38dcb46f errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=3d67891e energyPrev_=3f1c240a bpf_=be50a8e4 bpfPrev_=3f2749b8 errAcc_=be7043ba dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(480)#da6efc85dd63ac61
+obj.coef n=144 #a2ef8242576c05a5
+obj vptr_=V:F0+0 coef_=A5895+0 hist_=A5896+0 phase_=3ff0000000000000 pend_=[c2100000,41a00000,c1800000,c2700000,c2380000] pendCount_=1 step_=409f0000 L_=3 taps_=40 histLen_=67 wr_=57 need_=2 borrowed_=1 heap(268)#8294866a401b5f8d
+obj.coef n=120 #a7fea357f72288e5
+obj vptr_=V:F0+0 coef_=A11809+0 hist_=A11810+0 phase_=4002000000000000 pend_=[3ee2af85,3c91efaa,3f755037,bd949a3a,bd6358ea] pendCount_=1 step_=40140000 L_=4 taps_=13 histLen_=41 wr_=31 need_=1 borrowed_=1 heap(164)=c39db93c505fb53c7915273e1f9ecb3b360becbc4b939f3c54df7cbd9e2299bc3de81c3c3de81c3c9e2299bc3de81c3cdc3e2ebc6f604f3d35d18c3c99b4ce3c14aca13d357d9a3dd5cfa03bf6e860be29e5fcbdbfa3a93be8ee893cd571703fd3715d3ef953a5bca795873cd0ba35bc3aa92dbf262150bfb6e7293d85afe23e360becbc4b939f3c54df7cbd9e2299bc3de81c3c3de81c3c9e2299bc3de81c3cdc3e2ebc
+obj.coef n=52 #21ea5dabdfb22c98
+init vptr_=V:RS+0 coef_=A17713+0 hist_=A17715+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40020000 L_=2 taps_=13 histLen_=149 wr_=13 need_=0 borrowed_=1 heap(596)#60875ec386a810f3
+init.coef n=26 #b7512c0b1146bbd8
+obj vptr_=V:F0+0 coef_=A23570+0 hist_=A23571+0 phase_=3ff9400000000000 pend_=[3dc58748,b1fb4f73,00000000,00000000,00000000] pendCount_=1 step_=40c90000 L_=2 taps_=128 histLen_=1280 wr_=183 need_=1 borrowed_=1 heap(5120)#409000a46b79b1d2
+obj.coef n=256 #170a88ea6abd385d
+obj vptr_=V:F0+0 coef_=A29457+0 hist_=A29458+0 phase_=401fffffc0000000 pend_=[bceaa9f6,3e1a24cb,3db2512c,be1fdb2d,bea02244] pendCount_=1 step_=419e0000 L_=8 taps_=8 histLen_=80 wr_=21 need_=0 borrowed_=1 heap(320)#27e83c5422ec5cd2
+obj.coef n=64 #facb1a1c9a6af827
+obj vptr_=V:F0+0 coef_=A35331+0 hist_=A35333+0 phase_=0000000000000000 pend_=[bd3cbe56,bee94b3a,bee94b3a,bbfbf9dc,be6c3584] pendCount_=1 step_=403c0000 L_=1 taps_=12 histLen_=120 wr_=34 need_=2 borrowed_=1 heap(480)#01c044ccac422f54
+obj.coef n=12 #9fa503ef06a33a52
+obj vptr_=V:F0+0 coef_=A41227+0 hist_=A41228+0 phase_=400f800000000000 pend_=[42300000,c23c0000,42080000,c27c0000,42340000] pendCount_=1 step_=40c08000 L_=5 taps_=24 histLen_=240 wr_=147 need_=1 borrowed_=1 heap(960)#1b377529273bca82
+obj.coef n=120 #c5c1559af7c63b15
+calls: malloc 43817 free 43817 hooks 482843 edprintf 351 dbgprintf 0
+COV trials                       2400
+COV Resampler objects            1379
+COV ResamplerTimingOffset objects 323
+COV ResamplerTiming objects      347
+COV V90Resampler objects         351
+COV C2 constructors              942
+COV coefficient-pointer constructors 2400
+COV float (designed table) constructors 0
+COV deleting destructor through vtable slot 1 779
+COV D1                           1111
+COV D2                           510
+COV interposed virtual call recorded 482843
+COV real timingCorrection override ran in resample 0
+COV hook policy: jitter          492
+COV hook policy: jumps           463
+COV hook policy: negative phase  498
+COV hook policy: boundary phases 478
+COV resample: need > total exit  5281
+COV resample: tail store         29855
+COV resample: n == 0             2122
+COV resample: n == 1             4990
+COV history wrap (w == histLen)  5582
+COV taps % 4 != 0 (dot remainder) 1200
+COV idx + 1 >= L (look-ahead row 0) 171681
+COV idx + 1 < L (next row)       311162
+COV phase clamped to 0 (negative) 19927
+COV phase wrapped more than once 122503
+COV phase wrapped once           141348
+COV pending samples shifted      37108
+COV pendCount_ >= 2 consumed     2026
+COV need_ >= 2 consumed in one output 118807
+COV step < 1 (outputs without input) 0
+COV step > L (several samples per output) 1784
+COV designed table checked against the LowPassFIR rearrangement 0
+COV float form with taps % 4 != 0 0
+COV history allocation failure   0
+COV histLen == 0 (taps == 0)     0
+COV taps == 0                    0
+COV negative timing offset       0
+COV positive timing offset       0
+COV setTimingOffset              0
+COV getTimingOffsetPPM           0
+COV reset() through vtable slot 2 0
+COV timingCorrection branch A (parity even) 0
+COV timingCorrection branch B (parity odd) 0
+COV parity_ > 2 (poked)          0
+COV SdHalfBaudDft n&3 == 0       0
+COV SdHalfBaudDft n&3 == 1       0
+COV SdHalfBaudDft n&3 == 2       0
+COV SdHalfBaudDft n&3 == 3       0
+COV SdHalfBaudDft completed 256 samples 0
+COV SdHalfBaudDft after completion (ignored) 0
+COV adjustHalfBaudBpfGain not done (ignored) 0
+COV adjust: P == 0               0
+COV adjust: P NaN                0
+COV adjust: N > 4                0
+COV adjust: 2 < N <= 4           0
+COV adjust: 1 <= N <= 2          0
+COV adjust: N < 1                0
+COV adjust: N == 4               0
+COV trials with the block around 2^31 2401
+COV dtor with a NULL block pointer 176
+COV adjust: N == 2               0
+COV adjust: N == 1               0
+COV debug print 1                0
+COV debug print 2                0
+COV debug print 3                0
+COV debug print of a negative value 0
+COV debug print of an out-of-int32-range value 0
+COV ResamplerTiming::reset(unsigned) 0
+COV invertPhase                  0
+COV addPhase a > 0               0
+COV addPhase a <= 0 / NaN        0
+COV setBllState same state (early return) 0
+COV setBllState state > 15       0
+COV setBllState flag changed     0
+COV timing history record        0
+COV timing history index wrap    0
+COV params->0x160 == 0 (no history) 5132
+COV getTimingHistoryMean         0
+COV getTimingHistoryStd          0
+COV getTimingHistoryStd with a negative variance (rounding) 0
+COV signalling-NaN words         0
+COV designed dot products        0
+COV get/setNormalizedPhase       0
+COV L == 0                       0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+HASH b6083d15c65eb7ad lines 686367
+obj vptr_=V:RT+0 coef_=A4+0 hist_=A2+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=3fb00000 L_=11 taps_=56 histLen_=162 wr_=56 need_=0 borrowed_=0 off_=bebec8b4 gainA_=00000000 gainB_=00000000 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(648)#569fb413ca76afe3
+obj.coef n=616 #75d6c905967495df
+init vptr_=V:RS+0 coef_=A8+0 hist_=A6+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40dc8000 L_=3 taps_=16 histLen_=53 wr_=16 need_=0 borrowed_=0 heap(212)#47a1f9c7b1d3def3
+init.coef n=48 #ae725c408527bf60
+obj vptr_=V:RS+0 coef_=A8+0 hist_=A6+0 phase_=0000000000000000 pend_=[bdad96e2,00000000,00000000,00000000,00000000] pendCount_=1 step_=40dc8000 L_=3 taps_=16 histLen_=53 wr_=16 need_=0 borrowed_=0 heap(212)#47a1f9c7b1d3def3
+obj.coef n=48 #ae725c408527bf60
+obj vptr_=V:RS+0 coef_=A8+0 hist_=A6+0 phase_=0000000000000000 pend_=[3e2893b7,00000000,00000000,00000000,00000000] pendCount_=1 step_=40dc8000 L_=3 taps_=16 histLen_=53 wr_=50 need_=2 borrowed_=0 heap(212)#c17b3e9e058fa49c
+obj.coef n=48 #ae725c408527bf60
+obj vptr_=V:RS+0 coef_=A8+0 hist_=A6+0 phase_=3fce000000000000 pend_=[be1daeea,00000000,00000000,00000000,00000000] pendCount_=1 step_=40dc8000 L_=3 taps_=16 histLen_=53 wr_=38 need_=1 borrowed_=0 heap(212)#bbbcf8a9b72cc3db
+obj.coef n=48 #ae725c408527bf60
+obj vptr_=V:RS+0 coef_=A8+0 hist_=A6+0 phase_=4004a00000000000 pend_=[3f2972df,3ea81912,00000000,00000000,00000000] pendCount_=1 step_=40dc8000 L_=3 taps_=16 histLen_=53 wr_=23 need_=2 borrowed_=0 heap(212)#a7b26fe2955a2021
+obj.coef n=48 #ae725c408527bf60
+obj vptr_=V:RS+0 coef_=A5075+0 hist_=A5073+0 phase_=3fe8000000000000 pend_=[bf7979e7,00000000,00000000,00000000,00000000] pendCount_=1 step_=418e0000 L_=16 taps_=40 histLen_=427 wr_=79 need_=2 borrowed_=0 heap(1708)#6733c76e4b0e441c
+obj.coef n=640 #13ee424f4cbcb131
+obj vptr_=V:F0+0 coef_=A10176+0 hist_=A10174+0 phase_=0000000000000000 pend_=[bc65a1e7,00000000,00000000,00000000,00000000] pendCount_=1 step_=41a00000 L_=5 taps_=12 histLen_=120 wr_=22 need_=2 borrowed_=0 heap(480)#9ae65e988035116d
+obj.coef n=60 #00c7ec1e081fb0f3
+obj vptr_=V:RT+0 coef_=A15174+0 hist_=A15172+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40dc0000 L_=8 taps_=40 histLen_=400 wr_=40 need_=0 borrowed_=0 off_=00000000 gainA_=3e1b0189 gainB_=3ce82fab errOut_=b2b167f3 f58_=00000000 lastCorr_=b1458a73 parity_=2 pad64_=00000000 energy_=386ee85f energyPrev_=38bb5f6e bpf_=bbf74e65 bpfPrev_=bc1adde4 errAcc_=b2cc293b dftN_=15 dftMag_=00000000 dftRe_=3f0f792e dftIm_=cbfe739e dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(1600)#3fdd062f1d350e83
+obj.coef n=320 #ab384ca20d650ebd
+obj vptr_=V:F2+0 coef_=A20206+0 hist_=A20204+0 phase_=401a800000000000 pend_=[3e476f84,be38ed2c,3f704183,be8560de,be0cbb98] pendCount_=1 step_=41320000 L_=8 taps_=24 histLen_=55 wr_=25 need_=1 borrowed_=0 off_=39ab51ff gainA_=ba40ff3c gainB_=b89b28de errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=bdac92e0 energyPrev_=3c1f2a72 bpf_=be9aad02 bpfPrev_=3ec4ebcd errAcc_=bed7697f dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(220)#9e28d2611f323aa6
+obj.coef n=192 #3b671eb5e5e2f44d
+obj vptr_=V:VR+0 coef_=A25250+0 hist_=A25248+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=3f840000 L_=2 taps_=8 histLen_=20 wr_=8 need_=0 borrowed_=0 off_=00000000 gainA_=00000000 gainB_=00000000 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=0 stateFlag_=1 params_=A25247+0 tHist_=A25251+0 tHistLen_=4 tHistIdx_=0 tCount_=0 heap.hist_(80)=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 heap.tHist_(16)=00000000000000000000000000000000
+obj.coef n=16 #271d521e79120395
+calls: malloc 28323 free 28323 hooks 79360 edprintf 2366 dbgprintf 185
+COV trials                       900
+COV Resampler objects            674
+COV ResamplerTimingOffset objects 671
+COV ResamplerTiming objects      667
+COV V90Resampler objects         688
+COV C2 constructors              1345
+COV coefficient-pointer constructors 0
+COV float (designed table) constructors 2700
+COV deleting destructor through vtable slot 1 689
+COV D1                           1341
+COV D2                           670
+COV interposed virtual call recorded 79360
+COV real timingCorrection override ran in resample 46010
+COV hook policy: jitter          298
+COV hook policy: jumps           292
+COV hook policy: negative phase  0
+COV hook policy: boundary phases 0
+COV resample: need > total exit  2580
+COV resample: tail store         12878
+COV resample: n == 0             1563
+COV resample: n == 1             1954
+COV history wrap (w == histLen)  2055
+COV taps % 4 != 0 (dot remainder) 0
+COV idx + 1 >= L (look-ahead row 0) 55507
+COV idx + 1 < L (next row)       95610
+COV phase clamped to 0 (negative) 612
+COV phase wrapped more than once 40272
+COV phase wrapped once           50130
+COV pending samples shifted      14527
+COV pendCount_ >= 2 consumed     470
+COV need_ >= 2 consumed in one output 37660
+COV step < 1 (outputs without input) 0
+COV step > L (several samples per output) 0
+COV designed table checked against the LowPassFIR rearrangement 900
+COV float form with taps % 4 != 0 725
+COV history allocation failure   0
+COV histLen == 0 (taps == 0)     0
+COV taps == 0                    0
+COV negative timing offset       171
+COV positive timing offset       159
+COV setTimingOffset              330
+COV getTimingOffsetPPM           370
+COV reset() through vtable slot 2 3665
+COV timingCorrection branch A (parity even) 11896
+COV timingCorrection branch B (parity odd) 11498
+COV parity_ > 2 (poked)          105
+COV SdHalfBaudDft n&3 == 0       11564
+COV SdHalfBaudDft n&3 == 1       11535
+COV SdHalfBaudDft n&3 == 2       11507
+COV SdHalfBaudDft n&3 == 3       11478
+COV SdHalfBaudDft completed 256 samples 117
+COV SdHalfBaudDft after completion (ignored) 8738
+COV adjustHalfBaudBpfGain not done (ignored) 21
+COV adjust: P == 0               2
+COV adjust: P NaN                0
+COV adjust: N > 4                40
+COV adjust: 2 < N <= 4           13
+COV adjust: 1 <= N <= 2          14
+COV adjust: N < 1                71
+COV adjust: N == 4               0
+COV trials with the block around 2^31 2701
+COV dtor with a NULL block pointer 214
+COV adjust: N == 2               2
+COV adjust: N == 1               1
+COV debug print 1                67
+COV debug print 2                62
+COV debug print 3                56
+COV debug print of a negative value 34
+COV debug print of an out-of-int32-range value 4
+COV ResamplerTiming::reset(unsigned) 73
+COV invertPhase                  81
+COV addPhase a > 0               52
+COV addPhase a <= 0 / NaN        41
+COV setBllState same state (early return) 5
+COV setBllState state > 15       35
+COV setBllState flag changed     107
+COV timing history record        352
+COV timing history index wrap    26
+COV params->0x160 == 0 (no history) 2636
+COV getTimingHistoryMean         102
+COV getTimingHistoryStd          102
+COV getTimingHistoryStd with a negative variance (rounding) 31
+COV signalling-NaN words         0
+COV designed dot products        0
+COV get/setNormalizedPhase       1501
+COV L == 0                       0
+COV setBllState case             2
+COV setBllState case             12
+COV setBllState case             17
+COV setBllState case             15
+COV setBllState case             14
+COV setBllState case             15
+COV setBllState case             12
+COV setBllState case             14
+COV setBllState case             13
+COV setBllState case             13
+COV setBllState case             16
+COV setBllState case             21
+COV setBllState case             14
+COV setBllState case             14
+COV setBllState case             12
+COV setBllState case             17
+HASH cb13c748895559de lines 210330
+init vptr_=V:RO+0 coef_=A1+0 hist_=A2+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=3f0d4929 L_=3 taps_=20 histLen_=200 wr_=20 need_=0 borrowed_=1 off_=3e599482 heap(800)#f2d3ae5b862ea903
+init.coef n=60 #8d77205f7745c3d8
+obj vptr_=V:RO+0 coef_=A1+0 hist_=A2+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=3f0d4929 L_=3 taps_=20 histLen_=200 wr_=20 need_=0 borrowed_=1 off_=3e599482 heap(800)#f2d3ae5b862ea903
+obj.coef n=60 #8d77205f7745c3d8
+obj vptr_=V:RO+0 coef_=A1+0 hist_=A2+0 phase_=3ff2abe538000000 pend_=[c1100000,3f800000,00000000,00000000,00000000] pendCount_=1 step_=3f0d4929 L_=3 taps_=20 histLen_=200 wr_=27 need_=0 borrowed_=1 off_=3e599482 heap(800)#ce7a98793072c2ed
+obj.coef n=60 #8d77205f7745c3d8
+obj vptr_=V:RO+0 coef_=A1+0 hist_=A2+0 phase_=3fe4f25da0000000 pend_=[c1d80000,c2000000,c2000000,41f80000,c2180000] pendCount_=1 step_=3f0d4929 L_=3 taps_=20 histLen_=200 wr_=82 need_=0 borrowed_=1 off_=00000000 heap(800)#24eb7bff67ccc711
+obj.coef n=60 #8d77205f7745c3d8
+obj vptr_=V:RO+0 coef_=A1+0 hist_=A2+0 phase_=3ff2e8a7c0000000 pend_=[41d80000,420c0000,40000000,c25c0000,422c0000] pendCount_=2 step_=3f0d4929 L_=3 taps_=20 histLen_=200 wr_=177 need_=0 borrowed_=1 off_=3e617dfb heap(800)#1015bbc707ad16b1
+obj.coef n=60 #8d77205f7745c3d8
+getppm 00000000
+getppm 00000000
+obj vptr_=V:RO+0 coef_=A7701+0 hist_=A7702+0 phase_=400f000000000000 pend_=[3e0dc2c2,3cc2f6a6,bcad2025,3e05b704,bec6aea8] pendCount_=1 step_=41380000 L_=16 taps_=8 histLen_=19 wr_=18 need_=1 borrowed_=1 off_=00000000 heap(76)=8c5101bfd1cedebbbd10b83bcc6c763c002a633e1e51983d4f23b3bcee1117bc0f1d783dd4a7d0bd58fca0bee5bbfa3c1a9634bf0b095bbec2f26fbd3efe7a3d56b8463e631cf03dee1117bc
+obj.coef n=128 #24998bf9c95f9725
+obj vptr_=V:RO+0 coef_=A11547+0 hist_=A11548+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=400e0000 L_=1 taps_=65 histLen_=650 wr_=65 need_=0 borrowed_=1 off_=00000000 heap(2600)#20c495baafb77b63
+obj.coef n=65 #1357d1c60f15c3ce
+obj vptr_=V:RO+0 coef_=A15399+0 hist_=A15401+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=41cc7ed3 L_=16 taps_=100 histLen_=274 wr_=100 need_=0 borrowed_=1 off_=c0c039c6 heap(1096)#1855e7c2bae8a4e3
+obj.coef n=1600 #52fd2f9b3900a617
+getppm c7a9ec00
+getppm 00000000
+obj vptr_=V:RO+0 coef_=A26989+0 hist_=A26991+0 phase_=3fff0374d0000000 pend_=[bd7334a9,00000000,00000000,00000000,00000000] pendCount_=1 step_=40060000 L_=2 taps_=33 histLen_=330 wr_=34 need_=0 borrowed_=1 off_=bf47ed91 heap(1320)#f662eef0dba9fc73
+obj.coef n=66 #2c9494464ae88f18
+getppm 00000000
+calls: malloc 33719 free 33719 hooks 0 edprintf 0 dbgprintf 0
+COV trials                       1200
+COV Resampler objects            0
+COV ResamplerTimingOffset objects 1200
+COV ResamplerTiming objects      0
+COV V90Resampler objects         0
+COV C2 constructors              464
+COV coefficient-pointer constructors 646
+COV float (designed table) constructors 554
+COV deleting destructor through vtable slot 1 307
+COV D1                           573
+COV D2                           320
+COV interposed virtual call recorded 0
+COV real timingCorrection override ran in resample 347998
+COV hook policy: jitter          0
+COV hook policy: jumps           0
+COV hook policy: negative phase  0
+COV hook policy: boundary phases 0
+COV resample: need > total exit  3529
+COV resample: tail store         25729
+COV resample: n == 0             4640
+COV resample: n == 1             2858
+COV history wrap (w == histLen)  2955
+COV taps % 4 != 0 (dot remainder) 0
+COV idx + 1 >= L (look-ahead row 0) 121335
+COV idx + 1 < L (next row)       222735
+COV phase clamped to 0 (negative) 0
+COV phase wrapped more than once 64968
+COV phase wrapped once           103717
+COV pending samples shifted      26254
+COV pendCount_ >= 2 consumed     0
+COV need_ >= 2 consumed in one output 60783
+COV step < 1 (outputs without input) 0
+COV step > L (several samples per output) 0
+COV designed table checked against the LowPassFIR rearrangement 0
+COV float form with taps % 4 != 0 266
+COV history allocation failure   0
+COV histLen == 0 (taps == 0)     0
+COV taps == 0                    0
+COV negative timing offset       1989
+COV positive timing offset       1960
+COV setTimingOffset              3949
+COV getTimingOffsetPPM           3986
+COV reset() through vtable slot 2 9600
+COV timingCorrection branch A (parity even) 0
+COV timingCorrection branch B (parity odd) 0
+COV parity_ > 2 (poked)          0
+COV SdHalfBaudDft n&3 == 0       0
+COV SdHalfBaudDft n&3 == 1       0
+COV SdHalfBaudDft n&3 == 2       0
+COV SdHalfBaudDft n&3 == 3       0
+COV SdHalfBaudDft completed 256 samples 0
+COV SdHalfBaudDft after completion (ignored) 0
+COV adjustHalfBaudBpfGain not done (ignored) 0
+COV adjust: P == 0               0
+COV adjust: P NaN                0
+COV adjust: N > 4                0
+COV adjust: 2 < N <= 4           0
+COV adjust: 1 <= N <= 2          0
+COV adjust: N < 1                0
+COV adjust: N == 4               0
+COV trials with the block around 2^31 1201
+COV dtor with a NULL block pointer 87
+COV adjust: N == 2               0
+COV adjust: N == 1               0
+COV debug print 1                0
+COV debug print 2                0
+COV debug print 3                0
+COV debug print of a negative value 0
+COV debug print of an out-of-int32-range value 0
+COV ResamplerTiming::reset(unsigned) 0
+COV invertPhase                  0
+COV addPhase a > 0               0
+COV addPhase a <= 0 / NaN        0
+COV setBllState same state (early return) 0
+COV setBllState state > 15       0
+COV setBllState flag changed     0
+COV timing history record        0
+COV timing history index wrap    0
+COV params->0x160 == 0 (no history) 0
+COV getTimingHistoryMean         0
+COV getTimingHistoryStd          0
+COV getTimingHistoryStd with a negative variance (rounding) 0
+COV signalling-NaN words         0
+COV designed dot products        0
+COV get/setNormalizedPhase       5795
+COV L == 0                       0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+HASH 6b97073b6e657d9f lines 224174
+init vptr_=V:RT+0 coef_=A1+0 hist_=A2+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40cc0000 L_=8 taps_=64 histLen_=640 wr_=64 need_=0 borrowed_=1 off_=c01f1eb8 gainA_=3d69e90a gainB_=3b31fcce errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(2560)#13d497b2fb477b83
+init.coef n=512 #aa279c60639266aa
+obj vptr_=V:RT+0 coef_=A1+0 hist_=A2+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40cc0000 L_=8 taps_=64 histLen_=640 wr_=64 need_=0 borrowed_=1 off_=00000000 gainA_=3d69e90a gainB_=3b31fcce errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(2560)#13d497b2fb477b83
+obj.coef n=512 #aa279c60639266aa
+obj vptr_=V:RT+0 coef_=A1+0 hist_=A2+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40cc0000 L_=8 taps_=64 histLen_=640 wr_=64 need_=0 borrowed_=1 off_=00000000 gainA_=3d69e90a gainB_=3b31fcce errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=4afa1a39 dftRe_=00000000 dftIm_=00000000 dftDone_=1 pad8d_=000000 bpfGain_=3d230fd0 heap(2560)#13d497b2fb477b83
+obj.coef n=512 #aa279c60639266aa
+obj vptr_=V:RT+0 coef_=A1+0 hist_=A2+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40cc0000 L_=8 taps_=64 histLen_=640 wr_=64 need_=0 borrowed_=1 off_=00000000 gainA_=3d69e90a gainB_=3b31fcce errOut_=2b55ba6a f58_=00000000 lastCorr_=00000000 parity_=1 pad64_=00000000 energy_=3150b80b energyPrev_=00000000 bpf_=3867275a bpfPrev_=00000000 errAcc_=ab55ba6a dftN_=0 dftMag_=4afa1a39 dftRe_=00000000 dftIm_=00000000 dftDone_=1 pad8d_=000000 bpfGain_=3d230fd0 heap(2560)#13d497b2fb477b83
+obj.coef n=512 #aa279c60639266aa
+obj vptr_=V:RT+0 coef_=A1+0 hist_=A2+0 phase_=3ff3ffffedc52680 pend_=[bdaf26d8,00000000,00000000,00000000,00000000] pendCount_=1 step_=40cc0000 L_=8 taps_=64 histLen_=640 wr_=74 need_=1 borrowed_=1 off_=b1308b30 gainA_=3d69e90a gainB_=3b31fcce errOut_=334ee1fd f58_=00000000 lastCorr_=b1308b30 parity_=1 pad64_=00000000 energy_=3a10c904 energyPrev_=39fc9f0c bpf_=3cc085d4 bpfPrev_=3cb3d220 errAcc_=b34ee1fd dftN_=0 dftMag_=4afa1a39 dftRe_=00000000 dftIm_=00000000 dftDone_=1 pad8d_=000000 bpfGain_=3d230fd0 heap(2560)#0b0a0c644e14d2e3
+obj.coef n=512 #aa279c60639266aa
+obj vptr_=V:RT+0 coef_=A1+0 hist_=A2+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40cc0000 L_=8 taps_=64 histLen_=640 wr_=64 need_=0 borrowed_=1 off_=00000000 gainA_=00000000 gainB_=00000000 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(2560)#13d497b2fb477b83
+obj.coef n=512 #aa279c60639266aa
+obj vptr_=V:RT+0 coef_=A2894+0 hist_=A2892+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=3e9381b2 L_=1 taps_=64 histLen_=640 wr_=64 need_=0 borrowed_=0 off_=00000000 gainA_=3ca7fc3b gainB_=3ab49f31 errOut_=30cb0563 f58_=00000000 lastCorr_=2e916cfc parity_=2 pad64_=00000000 energy_=3705d240 energyPrev_=36b3dc59 bpf_=bb391700 bpfPrev_=bb17bb08 errAcc_=314ed81e dftN_=48 dftMag_=00000000 dftRe_=47c7f873 dftIm_=c959d3af dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(2560)#13d497b2fb477b83
+obj.coef n=64 #e34d27cd93f3796d
+obj vptr_=V:RT+0 coef_=A5852+0 hist_=A5850+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=42160000 L_=16 taps_=4 histLen_=40 wr_=4 need_=0 borrowed_=0 off_=00000000 gainA_=3b417c8e gainB_=3ce70e0c errOut_=314e0c13 f58_=00000000 lastCorr_=b090d2bd parity_=1 pad64_=00000000 energy_=3735e5ef energyPrev_=36c6bd09 bpf_=3b57ca9a bpfPrev_=bb1f7e9c errAcc_=b14e0c13 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(160)=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+obj.coef n=64 #ac3fb371e65cf841
+obj vptr_=V:RT+0 coef_=A8724+0 hist_=A8722+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=41d50000 L_=12 taps_=8 histLen_=20 wr_=8 need_=0 borrowed_=0 off_=00000000 gainA_=3d642090 gainB_=3a9cb0bf errOut_=32984e1f f58_=00000000 lastCorr_=00000000 parity_=1 pad64_=00000000 energy_=3894bc4a energyPrev_=00000000 bpf_=bc09fa92 bpfPrev_=00000000 errAcc_=b2984e1f dftN_=221 dftMag_=00000000 dftRe_=4e5cf9cd dftIm_=4e568732 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(80)=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+obj.coef n=96 #987f10d169adec61
+obj vptr_=V:RT+0 coef_=A11630+0 hist_=A11628+0 phase_=3fc7ffc2168705f0 pend_=[3f07dcac,00000000,00000000,00000000,00000000] pendCount_=1 step_=3fec0000 L_=2 taps_=32 histLen_=88 wr_=77 need_=1 borrowed_=0 off_=b4695d8e gainA_=3e5ff371 gainB_=3c5a4bd4 errOut_=35e58513 f58_=00000000 lastCorr_=b4695d8e parity_=1 pad64_=00000000 energy_=3b8cc656 energyPrev_=3a46524e bpf_=3d863c49 bpfPrev_=3ce1529b errAcc_=b5e58513 dftN_=246 dftMag_=00000000 dftRe_=4da8ab59 dftIm_=cf48f3a2 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(352)#0c5d2fac2e23d7be
+obj.coef n=64 #c6bdc308049eac5d
+obj vptr_=V:RT+0 coef_=A14481+0 hist_=A14482+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=42570000 L_=16 taps_=6 histLen_=16 wr_=6 need_=0 borrowed_=1 off_=00000000 gainA_=3bd44c64 gainB_=3a47bf67 errOut_=b9551ee5 f58_=00000000 lastCorr_=b5e02936 parity_=2 pad64_=00000000 energy_=3bd54700 energyPrev_=3ed3a53d bpf_=3da539c1 bpfPrev_=bf2497a0 errAcc_=b9d91893 dftN_=145 dftMag_=00000000 dftRe_=4e7cf14c dftIm_=ce41c1d7 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(64)=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+obj.coef n=96 #ebe481d3c5b04b8a
+obj vptr_=V:RT+0 coef_=A17402+0 hist_=A17404+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=41f00000 L_=16 taps_=6 histLen_=63 wr_=6 need_=0 borrowed_=1 off_=00000000 gainA_=3c9f5bf6 gainB_=3ab2a134 errOut_=b2adf17b f58_=00000000 lastCorr_=afb5989e parity_=2 pad64_=00000000 energy_=370f5d6e energyPrev_=38465cea bpf_=3b3f9380 bpfPrev_=bbe158a1 errAcc_=b30481e6 dftN_=256 dftMag_=3e370bd4 dftRe_=c02c0aa3 dftIm_=40a5aa95 dftDone_=1 pad8d_=000000 bpfGain_=3d230fd0 heap(252)#1659f46363b364d3
+obj.coef n=96 #f56cff9a9369f970
+obj vptr_=V:RT+0 coef_=A20337+0 hist_=A20335+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=3f000000 L_=2 taps_=128 histLen_=1302 wr_=128 need_=0 borrowed_=0 off_=00000000 gainA_=00000000 gainB_=00000000 errOut_=22054a6d f58_=00000000 lastCorr_=00000000 parity_=1 pad64_=00000000 energy_=26818051 energyPrev_=2682d579 bpf_=b300bf99 bpfPrev_=330168c0 errAcc_=a2054a6d dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 heap(5208)#40a2f81050bee5a3
+obj.coef n=256 #f0a297c412991679
+calls: malloc 20930 free 20930 hooks 0 edprintf 0 dbgprintf 2366
+COV trials                       1200
+COV Resampler objects            0
+COV ResamplerTimingOffset objects 0
+COV ResamplerTiming objects      1200
+COV V90Resampler objects         0
+COV C2 constructors              464
+COV coefficient-pointer constructors 676
+COV float (designed table) constructors 524
+COV deleting destructor through vtable slot 1 288
+COV D1                           595
+COV D2                           317
+COV interposed virtual call recorded 0
+COV real timingCorrection override ran in resample 207921
+COV hook policy: jitter          0
+COV hook policy: jumps           0
+COV hook policy: negative phase  0
+COV hook policy: boundary phases 0
+COV resample: need > total exit  1914
+COV resample: tail store         14604
+COV resample: n == 0             2377
+COV resample: n == 1             1574
+COV history wrap (w == histLen)  1002
+COV taps % 4 != 0 (dot remainder) 0
+COV idx + 1 >= L (look-ahead row 0) 78461
+COV idx + 1 < L (next row)       129460
+COV phase clamped to 0 (negative) 0
+COV phase wrapped more than once 38713
+COV phase wrapped once           63655
+COV pending samples shifted      10656
+COV pendCount_ >= 2 consumed     0
+COV need_ >= 2 consumed in one output 35044
+COV step < 1 (outputs without input) 0
+COV step > L (several samples per output) 0
+COV designed table checked against the LowPassFIR rearrangement 0
+COV float form with taps % 4 != 0 262
+COV history allocation failure   0
+COV histLen == 0 (taps == 0)     0
+COV taps == 0                    0
+COV negative timing offset       400
+COV positive timing offset       365
+COV setTimingOffset              765
+COV getTimingOffsetPPM           812
+COV reset() through vtable slot 2 22785
+COV timingCorrection branch A (parity even) 105211
+COV timingCorrection branch B (parity odd) 104428
+COV parity_ > 2 (poked)          782
+COV SdHalfBaudDft n&3 == 0       75455
+COV SdHalfBaudDft n&3 == 1       75305
+COV SdHalfBaudDft n&3 == 2       75181
+COV SdHalfBaudDft n&3 == 3       75033
+COV SdHalfBaudDft completed 256 samples 878
+COV SdHalfBaudDft after completion (ignored) 223981
+COV adjustHalfBaudBpfGain not done (ignored) 176
+COV adjust: P == 0               112
+COV adjust: P NaN                0
+COV adjust: N > 4                375
+COV adjust: 2 < N <= 4           116
+COV adjust: 1 <= N <= 2          158
+COV adjust: N < 1                996
+COV adjust: N == 4               5
+COV trials with the block around 2^31 1201
+COV dtor with a NULL block pointer 95
+COV adjust: N == 2               15
+COV adjust: N == 1               8
+COV debug print 1                853
+COV debug print 2                788
+COV debug print 3                725
+COV debug print of a negative value 305
+COV debug print of an out-of-int32-range value 68
+COV ResamplerTiming::reset(unsigned) 967
+COV invertPhase                  962
+COV addPhase a > 0               629
+COV addPhase a <= 0 / NaN        360
+COV setBllState same state (early return) 0
+COV setBllState state > 15       0
+COV setBllState flag changed     0
+COV timing history record        0
+COV timing history index wrap    0
+COV params->0x160 == 0 (no history) 0
+COV getTimingHistoryMean         0
+COV getTimingHistoryStd          0
+COV getTimingHistoryStd with a negative variance (rounding) 0
+COV signalling-NaN words         0
+COV designed dot products        0
+COV get/setNormalizedPhase       5929
+COV L == 0                       0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+HASH 70c058b879c90994 lines 186498
+init vptr_=V:VR+0 coef_=A1+0 hist_=A3+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40cc0000 L_=8 taps_=64 histLen_=640 wr_=64 need_=0 borrowed_=1 off_=c01f1eb8 gainA_=3e7519ab gainB_=3b51810a errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=0 stateFlag_=1 params_=A2+0 tHist_=A4+0 tHistLen_=8 tHistIdx_=0 tCount_=0 heap.hist_(2560)#13d497b2fb477b83 heap.tHist_(32)=0000000000000000000000000000000000000000000000000000000000000000
+init.coef n=512 #aa279c60639266aa
+obj vptr_=V:VR+0 coef_=A1+0 hist_=A3+0 phase_=400ff5c3e01e603a pend_=[3daf4b67,00000000,00000000,00000000,00000000] pendCount_=1 step_=40cc0000 L_=8 taps_=64 histLen_=640 wr_=81 need_=0 borrowed_=1 off_=c01f1eb8 gainA_=3e7519ab gainB_=3b51810a errOut_=b435222a f58_=00000000 lastCorr_=c01f1eb8 parity_=2 pad64_=00000000 energy_=3a70878b energyPrev_=3aa4317f bpf_=bcf824ea bpfPrev_=3d10f8b7 errAcc_=b4ea5c14 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=18 stateFlag_=1 params_=A2+0 tHist_=A4+0 tHistLen_=8 tHistIdx_=1 tCount_=0 heap.hist_(2560)#32beef80d83fb5d5 heap.tHist_(32)=006ebec800000000000000000000000000000000000000000000000000000000
+obj.coef n=512 #aa279c60639266aa
+obj vptr_=V:VR+0 coef_=A1+0 hist_=A3+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40cc0000 L_=8 taps_=64 histLen_=640 wr_=64 need_=0 borrowed_=1 off_=00000000 gainA_=00000000 gainB_=00000000 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=0 stateFlag_=1 params_=A2+0 tHist_=A4+0 tHistLen_=8 tHistIdx_=0 tCount_=0 heap.hist_(2560)#13d497b2fb477b83 heap.tHist_(32)=0000000000000000000000000000000000000000000000000000000000000000
+obj.coef n=512 #aa279c60639266aa
+stats mean 00000000 std 00000000
+obj vptr_=V:VR+0 coef_=A1+0 hist_=A3+0 phase_=4006000000000000 pend_=[3c5f604f,00000000,00000000,00000000,00000000] pendCount_=1 step_=40cc0000 L_=8 taps_=64 histLen_=640 wr_=77 need_=1 borrowed_=1 off_=00000000 gainA_=00000000 gainB_=00000000 errOut_=b554f6af f58_=00000000 lastCorr_=00000000 parity_=2 pad64_=00000000 energy_=386fbd51 energyPrev_=3ad3b982 bpf_=3bf7bc83 bpfPrev_=bd249f81 errAcc_=b5d3aece dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=14 stateFlag_=1 params_=A2+0 tHist_=A4+0 tHistLen_=8 tHistIdx_=1 tCount_=0 heap.hist_(2560)#f77e195e5685cb56 heap.tHist_(32)=0000000000000000000000000000000000000000000000000000000000000000
+obj.coef n=512 #aa279c60639266aa
+obj vptr_=V:VR+0 coef_=A1+0 hist_=A3+0 phase_=3ff5ffffb322d5c0 pend_=[3d14b222,bd8792e7,3bac9f5f,bcb1fc52,3c5cb774] pendCount_=1 step_=40cc0000 L_=8 taps_=64 histLen_=640 wr_=345 need_=1 borrowed_=1 off_=31c59e75 gainA_=3c3e0f90 gainB_=b94f86e3 errOut_=b69491dc f58_=00000000 lastCorr_=b33e6856 parity_=2 pad64_=00000000 energy_=388d25b1 energyPrev_=3c11f81c bpf_=bc0669b8 bpfPrev_=bdc14eef errAcc_=b710deac dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=10 stateFlag_=1 params_=A2+0 tHist_=A4+0 tHistLen_=8 tHistIdx_=2 tCount_=0 heap.hist_(2560)#2104aa4b8933e296 heap.tHist_(32)=0000000007816c3a000000000000000000000000000000000000000000000000
+obj.coef n=512 #aa279c60639266aa
+obj vptr_=V:VR+0 coef_=A3145+0 hist_=A3148+0 phase_=0000000000000000 pend_=[3dc16d0b,00000000,00000000,00000000,00000000] pendCount_=1 step_=40b90000 L_=5 taps_=6 histLen_=60 wr_=6 need_=0 borrowed_=1 off_=00000000 gainA_=00000000 gainB_=00000000 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=0 stateFlag_=1 params_=A3146+0 tHist_=A3149+0 tHistLen_=8 tHistIdx_=0 tCount_=0 heap.hist_(240)#5999e18f5b6f16c3 heap.tHist_(32)=0000000000000000000000000000000000000000000000000000000000000000
+obj.coef n=30 #8416da2b22019216
+init vptr_=V:VR+0 coef_=A6121+0 hist_=A6124+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=3fe00000 L_=2 taps_=12 histLen_=120 wr_=12 need_=0 borrowed_=1 off_=bf16147b gainA_=3e956445 gainB_=3d4c7ab1 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=0 stateFlag_=1 params_=A6122+0 tHist_=A6125+0 tHistLen_=6 tHistIdx_=0 tCount_=0 heap.hist_(480)#4ecd8062ba2f5a03 heap.tHist_(24)=000000000000000000000000000000000000000000000000
+init.coef n=24 #3fa1e7cfefcd475e
+obj vptr_=V:VR+0 coef_=A9124+0 hist_=A9126+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40ae0000 L_=6 taps_=64 histLen_=151 wr_=64 need_=0 borrowed_=1 off_=00000000 gainA_=00000000 gainB_=00000000 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=1 stateCount_=0 stateFlag_=1 params_=A9125+0 tHist_=A9127+0 tHistLen_=1 tHistIdx_=0 tCount_=0 heap.hist_(604)#1708813d416d6d53 heap.tHist_(4)=00000000
+obj.coef n=384 #77849a614ff26216
+obj vptr_=V:VR+0 coef_=A12249+0 hist_=A12247+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=3fd80000 L_=1 taps_=4 histLen_=40 wr_=4 need_=0 borrowed_=0 off_=00000000 gainA_=00000000 gainB_=00000000 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=0 stateFlag_=1 params_=A12245+0 tHist_=A12250+0 tHistLen_=20 tHistIdx_=0 tCount_=0 heap.hist_(160)=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 heap.tHist_(80)=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+obj.coef n=4 #417061aae8e54091
+obj vptr_=V:VR+0 coef_=A15327+0 hist_=A15329+0 phase_=3ff13b9580000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40a68000 L_=3 taps_=65 histLen_=650 wr_=65 need_=0 borrowed_=1 off_=3f89dcac gainA_=3b1abd68 gainB_=3bab6125 errOut_=3165174b f58_=00000000 lastCorr_=3f89dcac parity_=1 pad64_=00000000 energy_=375fb8be energyPrev_=00000000 bpf_=3b6f5137 bpfPrev_=00000000 errAcc_=b165174b dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=0 stateFlag_=1 params_=A15328+0 tHist_=A15330+0 tHistLen_=0 tHistIdx_=0 tCount_=0 heap.hist_(2600)#20c495baafb77b63 heap.tHist_(0)=
+obj.coef n=195 #5903ce164010704e
+obj vptr_=V:VR+0 coef_=A18306+0 hist_=A18309+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=4009d2f8 L_=3 taps_=20 histLen_=205 wr_=20 need_=0 borrowed_=1 off_=00000000 gainA_=00000000 gainB_=00000000 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=0 stateFlag_=1 params_=A18307+0 tHist_=A18310+0 tHistLen_=12 tHistIdx_=0 tCount_=0 heap.hist_(820)#7857c3b332f66373 heap.tHist_(48)=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+obj.coef n=60 #2d7b605c2b3b08a4
+stats mean 00000000 std 00000000
+init vptr_=V:VR+0 coef_=A24348+0 hist_=A24350+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=402e0000 L_=2 taps_=2 histLen_=20 wr_=2 need_=0 borrowed_=1 off_=3f64fbe7 gainA_=3e82dc0c gainB_=3c1cdcad errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=0 stateFlag_=1 params_=A24349+0 tHist_=A24351+0 tHistLen_=12 tHistIdx_=0 tCount_=0 heap.hist_(80)=0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 heap.tHist_(48)=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+init.coef n=4 #9707af007fd7e68b
+calls: malloc 24629 free 24629 hooks 0 edprintf 25800 dbgprintf 826
+COV trials                       1200
+COV Resampler objects            0
+COV ResamplerTimingOffset objects 0
+COV ResamplerTiming objects      0
+COV V90Resampler objects         1200
+COV C2 constructors              460
+COV coefficient-pointer constructors 645
+COV float (designed table) constructors 555
+COV deleting destructor through vtable slot 1 310
+COV D1                           599
+COV D2                           291
+COV interposed virtual call recorded 0
+COV real timingCorrection override ran in resample 219165
+COV hook policy: jitter          0
+COV hook policy: jumps           0
+COV hook policy: negative phase  0
+COV hook policy: boundary phases 0
+COV resample: need > total exit  2148
+COV resample: tail store         15616
+COV resample: n == 0             2970
+COV resample: n == 1             1725
+COV history wrap (w == histLen)  1099
+COV taps % 4 != 0 (dot remainder) 0
+COV idx + 1 >= L (look-ahead row 0) 77876
+COV idx + 1 < L (next row)       141289
+COV phase clamped to 0 (negative) 0
+COV phase wrapped more than once 39494
+COV phase wrapped once           69728
+COV pending samples shifted      11770
+COV pendCount_ >= 2 consumed     0
+COV need_ >= 2 consumed in one output 35640
+COV step < 1 (outputs without input) 0
+COV step > L (several samples per output) 0
+COV designed table checked against the LowPassFIR rearrangement 0
+COV float form with taps % 4 != 0 269
+COV history allocation failure   0
+COV histLen == 0 (taps == 0)     0
+COV taps == 0                    0
+COV negative timing offset       386
+COV positive timing offset       384
+COV setTimingOffset              770
+COV getTimingOffsetPPM           860
+COV reset() through vtable slot 2 21265
+COV timingCorrection branch A (parity even) 111997
+COV timingCorrection branch B (parity odd) 108307
+COV parity_ > 2 (poked)          782
+COV SdHalfBaudDft n&3 == 0       60584
+COV SdHalfBaudDft n&3 == 1       60382
+COV SdHalfBaudDft n&3 == 2       60177
+COV SdHalfBaudDft n&3 == 3       59967
+COV SdHalfBaudDft completed 256 samples 515
+COV SdHalfBaudDft after completion (ignored) 8205
+COV adjustHalfBaudBpfGain not done (ignored) 109
+COV adjust: P == 0               0
+COV adjust: P NaN                0
+COV adjust: N > 4                195
+COV adjust: 2 < N <= 4           57
+COV adjust: 1 <= N <= 2          52
+COV adjust: N < 1                286
+COV adjust: N == 4               5
+COV trials with the block around 2^31 1201
+COV dtor with a NULL block pointer 99
+COV adjust: N == 2               1
+COV adjust: N == 1               3
+COV debug print 1                292
+COV debug print 2                277
+COV debug print 3                257
+COV debug print of a negative value 117
+COV debug print of an out-of-int32-range value 0
+COV ResamplerTiming::reset(unsigned) 364
+COV invertPhase                  361
+COV addPhase a > 0               224
+COV addPhase a <= 0 / NaN        124
+COV setBllState same state (early return) 218
+COV setBllState state > 15       620
+COV setBllState flag changed     1634
+COV timing history record        4872
+COV timing history index wrap    397
+COV params->0x160 == 0 (no history) 6793
+COV getTimingHistoryMean         1792
+COV getTimingHistoryStd          1792
+COV getTimingHistoryStd with a negative variance (rounding) 546
+COV signalling-NaN words         0
+COV designed dot products        0
+COV get/setNormalizedPhase       5870
+COV L == 0                       0
+COV setBllState case             33
+COV setBllState case             215
+COV setBllState case             212
+COV setBllState case             237
+COV setBllState case             227
+COV setBllState case             234
+COV setBllState case             212
+COV setBllState case             214
+COV setBllState case             192
+COV setBllState case             224
+COV setBllState case             220
+COV setBllState case             219
+COV setBllState case             219
+COV setBllState case             217
+COV setBllState case             227
+COV setBllState case             233
+HASH 794f9751945fc46f lines 220510
+init vptr_=V:RS+0 coef_=A1+0 hist_=NULL phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=401f0000 L_=1 taps_=1 histLen_=3 wr_=1 need_=0 borrowed_=1
+init.coef n=1 #6c0ea6ba65a13e4f
+obj vptr_=V:RS+0 coef_=A1+0 hist_=NULL phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=401f0000 L_=1 taps_=1 histLen_=3 wr_=1 need_=0 borrowed_=1
+obj.coef n=1 #6c0ea6ba65a13e4f
+obj vptr_=V:RS+0 coef_=A1+0 hist_=NULL phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=401f0000 L_=1 taps_=1 histLen_=3 wr_=1 need_=0 borrowed_=1
+obj.coef n=1 #6c0ea6ba65a13e4f
+obj vptr_=V:RS+0 coef_=A1+0 hist_=NULL phase_=3faba9dfa0000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=401f0000 L_=1 taps_=1 histLen_=3 wr_=1 need_=0 borrowed_=1
+obj.coef n=1 #6c0ea6ba65a13e4f
+obj vptr_=V:RS+0 coef_=A1+0 hist_=NULL phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=401f0000 L_=1 taps_=1 histLen_=3 wr_=1 need_=0 borrowed_=1
+obj.coef n=1 #6c0ea6ba65a13e4f
+init vptr_=V:VR+0 coef_=A5+0 hist_=NULL phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=411e4000 L_=3 taps_=4 histLen_=40 wr_=4 need_=0 borrowed_=0 off_=bda20c4a gainA_=3ed52319 gainB_=3b72db61 errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0 state_=0 stateCount_=0 stateFlag_=1 params_=A3+0 tHist_=A6+0 tHistLen_=0 tHistIdx_=0 tCount_=0 heap.tHist_(0)=
+init.coef n=12 #ef806310f875311e
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+init vptr_=V:RO+0 coef_=A2330+0 hist_=A2328+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40bc0000 L_=2 taps_=0 histLen_=100 wr_=0 need_=0 borrowed_=0 off_=3f4e0c4a heap(400)#5c2597ab80ad3e43
+init.coef n=0 #cbf29ce484222325
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+obj vptr_=V:RT+0 coef_=A4607+0 hist_=NULL phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=3ffc0000 L_=4294967295 taps_=0 histLen_=0 wr_=0 need_=0 borrowed_=1 off_=00000000 gainA_=3cefbeb1 gainB_=3abb6ec2 errOut_=3249ae2c f58_=00000000 lastCorr_=bec69375 parity_=1 pad64_=00000000 energy_=3844f416 energyPrev_=00000000 bpf_=bbe08b4f bpfPrev_=00000000 errAcc_=b249ae2c dftN_=0 dftMag_=00000000 dftRe_=00000000 dftIm_=00000000 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0
+obj.coef n=0 #cbf29ce484222325
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+obj vptr_=V:RO+0 coef_=A7030+0 hist_=NULL phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40600000 L_=0 taps_=3 histLen_=30 wr_=3 need_=0 borrowed_=1 off_=00000000
+obj.coef n=0 #cbf29ce484222325
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+init vptr_=V:RO+0 coef_=A9522+0 hist_=NULL phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40460000 L_=3 taps_=8 histLen_=80 wr_=8 need_=0 borrowed_=0 off_=3f3953f8
+init.coef n=24 #f3236fe3eea2d76c
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+obj vptr_=V:RO+0 coef_=NULL hist_=A11870+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40cc0000 L_=2 taps_=0 histLen_=2 wr_=0 need_=0 borrowed_=0 off_=00000000 heap(8)=0000000000000000
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+obj vptr_=V:RT+0 coef_=A14112+0 hist_=NULL phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=40c48000 L_=3 taps_=0 histLen_=1 wr_=0 need_=0 borrowed_=1 off_=00000000 gainA_=3cc38b0a gainB_=3a84182d errOut_=00000000 f58_=00000000 lastCorr_=00000000 parity_=0 pad64_=00000000 energy_=00000000 energyPrev_=00000000 bpf_=00000000 bpfPrev_=00000000 errAcc_=00000000 dftN_=137 dftMag_=00000000 dftRe_=cc3dd56b dftIm_=4df09406 dftDone_=0 pad8d_=000000 bpfGain_=3d230fd0
+obj.coef n=0 #cbf29ce484222325
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+init vptr_=V:RO+0 coef_=NULL hist_=A16581+0 phase_=0000000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=0 step_=3f280000 L_=1 taps_=4 histLen_=40 wr_=4 need_=0 borrowed_=0 off_=be361cac heap(160)=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 1 live blocks
+LEAK s5 2 live blocks
+LEAK s5 1 live blocks
+calls: malloc 16928 free 16027 hooks 0 edprintf 7426 dbgprintf 584
+COV trials                       3000
+COV Resampler objects            738
+COV ResamplerTimingOffset objects 742
+COV ResamplerTiming objects      762
+COV V90Resampler objects         758
+COV C2 constructors              1478
+COV coefficient-pointer constructors 1844
+COV float (designed table) constructors 1156
+COV deleting destructor through vtable slot 1 887
+COV D1                           1436
+COV D2                           677
+COV interposed virtual call recorded 0
+COV real timingCorrection override ran in resample 34325
+COV hook policy: jitter          0
+COV hook policy: jumps           0
+COV hook policy: negative phase  0
+COV hook policy: boundary phases 0
+COV resample: need > total exit  820
+COV resample: tail store         4992
+COV resample: n == 0             898
+COV resample: n == 1             436
+COV history wrap (w == histLen)  772
+COV taps % 4 != 0 (dot remainder) 0
+COV idx + 1 >= L (look-ahead row 0) 29259
+COV idx + 1 < L (next row)       21084
+COV phase clamped to 0 (negative) 0
+COV phase wrapped more than once 15242
+COV phase wrapped once           19244
+COV pending samples shifted      4829
+COV pendCount_ >= 2 consumed     0
+COV need_ >= 2 consumed in one output 13972
+COV step < 1 (outputs without input) 0
+COV step > L (several samples per output) 0
+COV designed table checked against the LowPassFIR rearrangement 0
+COV float form with taps % 4 != 0 0
+COV history allocation failure   889
+COV histLen == 0 (taps == 0)     1018
+COV taps == 0                    1710
+COV negative timing offset       527
+COV positive timing offset       570
+COV setTimingOffset              1097
+COV getTimingOffsetPPM           1140
+COV reset() through vtable slot 2 22812
+COV timingCorrection branch A (parity even) 11083
+COV timingCorrection branch B (parity odd) 10364
+COV parity_ > 2 (poked)          104
+COV SdHalfBaudDft n&3 == 0       34121
+COV SdHalfBaudDft n&3 == 1       34041
+COV SdHalfBaudDft n&3 == 2       33947
+COV SdHalfBaudDft n&3 == 3       33864
+COV SdHalfBaudDft completed 256 samples 347
+COV SdHalfBaudDft after completion (ignored) 26905
+COV adjustHalfBaudBpfGain not done (ignored) 73
+COV adjust: P == 0               4
+COV adjust: P NaN                0
+COV adjust: N > 4                132
+COV adjust: 2 < N <= 4           27
+COV adjust: 1 <= N <= 2          45
+COV adjust: N < 1                189
+COV adjust: N == 4               0
+COV trials with the block around 2^31 3001
+COV dtor with a NULL block pointer 244
+COV adjust: N == 2               2
+COV adjust: N == 1               3
+COV debug print 1                207
+COV debug print 2                195
+COV debug print 3                182
+COV debug print of a negative value 60
+COV debug print of an out-of-int32-range value 4
+COV ResamplerTiming::reset(unsigned) 286
+COV invertPhase                  208
+COV addPhase a > 0               143
+COV addPhase a <= 0 / NaN        62
+COV setBllState same state (early return) 28
+COV setBllState state > 15       110
+COV setBllState flag changed     292
+COV timing history record        574
+COV timing history index wrap    197
+COV params->0x160 == 0 (no history) 403
+COV getTimingHistoryMean         328
+COV getTimingHistoryStd          328
+COV getTimingHistoryStd with a negative variance (rounding) 108
+COV signalling-NaN words         0
+COV designed dot products        0
+COV get/setNormalizedPhase       4305
+COV L == 0                       361
+COV setBllState case             3
+COV setBllState case             35
+COV setBllState case             39
+COV setBllState case             41
+COV setBllState case             46
+COV setBllState case             46
+COV setBllState case             44
+COV setBllState case             53
+COV setBllState case             41
+COV setBllState case             47
+COV setBllState case             35
+COV setBllState case             35
+COV setBllState case             51
+COV setBllState case             45
+COV setBllState case             40
+COV setBllState case             35
+HASH c847845a9d8f4297 lines 143383
+obj vptr_=V:F0+0 coef_=A2+0 hist_=A3+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=3f800000 L_=1 taps_=12 histLen_=17 wr_=13 need_=1 borrowed_=1 heap(68)=00000040000000bf0000803e0000803d000000bd000000bd000000bc000000bd0000003f00000041000000be000000410000003f000000009a970b3c6b24733f27bc5abe
+obj.coef n=12 #fb3e665acb43ca29
+obj vptr_=V:F0+0 coef_=A5+0 hist_=A6+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=40000000 L_=2 taps_=9 histLen_=14 wr_=10 need_=1 borrowed_=1 heap(56)=0000003f000000c3000080bb0000803f000000bc0000803b00008042000080bb000000bc00000041fdcf643e5fb2c9bd467d963d01ccde3e
+obj.coef n=18 #1ddc3d36dbdddcf5
+obj vptr_=V:F0+0 coef_=A8+0 hist_=A9+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=40000000 L_=2 taps_=13 histLen_=15 wr_=14 need_=1 borrowed_=1 heap(60)=000080c200000040000080bc000080c20000003f0000003d000080410000803f00000040000000bd0000003c000080bc0000003f000080c3bde539bd
+obj.coef n=26 #65e5603b98ab64d0
+obj vptr_=V:F0+0 coef_=A11+0 hist_=A12+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=3f800000 L_=1 taps_=17 histLen_=18 wr_=17 need_=1 borrowed_=1 heap(72)=0000003d000080bc0000803c000080c3000080410000804100000042000080c000000042000080430000803b000000c000000040000080bb000080c1000080c00000004100000000
+obj.coef n=17 #6a1f190b5f4a85a4
+obj vptr_=V:F0+0 coef_=A14+0 hist_=A15+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=40000000 L_=2 taps_=5 histLen_=10 wr_=6 need_=1 borrowed_=1 heap(40)=0000803e00000042000080400000803f0000803c000000c25150553cf922a53e4d8e41bf6e0236be
+obj.coef n=10 #69de1c1f192d82fc
+obj vptr_=V:F0+0 coef_=A17+0 hist_=A18+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=40000000 L_=2 taps_=6 histLen_=10 wr_=7 need_=1 borrowed_=1 heap(40)=00008043000080bb000000400000803d0000003f000080c1000080bd2433b43c6c36923c671197bd
+obj.coef n=12 #c592f585e85e988e
+obj vptr_=V:F0+0 coef_=A1499+0 hist_=A1500+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=40000000 L_=2 taps_=13 histLen_=14 wr_=13 need_=1 borrowed_=1 heap(56)=000000be0000803b0000803e000080bc000000420000803d000000bd000080bc000000bf0000003c000000bf000080bb000080c2000080c2
+obj.coef n=26 #87bb171aeea5e898
+obj vptr_=V:F0+0 coef_=A2996+0 hist_=A2997+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=40000000 L_=2 taps_=12 histLen_=16 wr_=13 need_=1 borrowed_=1 heap(64)=000080c0000000c200008040000000410000003e0000803b0000803f000080bc000000c1000000c1000000c100000040000000c0e372f73d3440033c80f938bd
+obj.coef n=24 #f228d17192805487
+obj vptr_=V:F0+0 coef_=A4493+0 hist_=A4494+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=3f800000 L_=1 taps_=13 histLen_=18 wr_=14 need_=1 borrowed_=1 heap(72)=0000003c000000c0000000c3000080c00000803d000000c3000080bf000000c30000003e0000003c000080bd000000c30000803d000000be00000000bd3556be507b933e8deb693e
+obj.coef n=13 #ac0632113d5eedc9
+obj vptr_=V:F0+0 coef_=A5990+0 hist_=A5991+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=40000000 L_=2 taps_=6 histLen_=12 wr_=7 need_=1 borrowed_=1 heap(48)=000080be00008043000080c00000803e00000043000080bc000080c32875e13cf3d2d13df920473d765defbeac4819be
+obj.coef n=12 #6a869b544b3f77b7
+obj vptr_=V:F0+0 coef_=A7487+0 hist_=A7488+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=3f800000 L_=1 taps_=12 histLen_=13 wr_=12 need_=1 borrowed_=1 heap(52)=00000040000000c3000000400000003c000080c200008043000080bf00008041000000c0000000bd000000c00000804100000000
+obj.coef n=12 #b2ec3af35e100d4b
+obj vptr_=V:F0+0 coef_=A8984+0 hist_=A8985+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=3f800000 L_=1 taps_=6 histLen_=7 wr_=6 need_=1 borrowed_=1 heap(28)=000080be000000c1000080bd000000bd000080410000003e00000000
+obj.coef n=6 #0e06a0431fe33744
+obj vptr_=V:F0+0 coef_=A10481+0 hist_=A10482+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=3f800000 L_=1 taps_=17 histLen_=23 wr_=18 need_=1 borrowed_=1 heap(92)=000000bc0000003c00000043000080c0000000bd000000c3000000be000000c3000080c10000804300008043000080c3000080c0000080c3000080be000080bc000080400000004300000000971ee8bbb04d5b3fe0f6c3beb2f1723c
+obj.coef n=17 #78ba4a04c6e7e251
+obj vptr_=V:F0+0 coef_=A11978+0 hist_=A11979+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=40000000 L_=2 taps_=17 histLen_=19 wr_=18 need_=1 borrowed_=1 heap(76)=00000041000080c0000000c20000803d000000c30000003e0000004300000040000080c30000003d000000bc000080c1000000bf000000c00000803f0000803c0000803d000080411b08cc3d
+obj.coef n=34 #148cdb93f475c027
+obj vptr_=V:F0+0 coef_=A13475+0 hist_=A13476+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=40000000 L_=2 taps_=7 histLen_=13 wr_=8 need_=1 borrowed_=1 heap(52)=000000bc0000803e00000042000080c2000000bc0000803c000080c2000080be3585f5bc6e999fbde1164ebf306cdb3efa1ab6bb
+obj.coef n=14 #8f27594dce4393bc
+obj vptr_=V:F0+0 coef_=A14972+0 hist_=A14973+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=3f800000 L_=1 taps_=7 histLen_=11 wr_=8 need_=1 borrowed_=1 heap(44)=000080c200008040000000bd0000803f0000003d0000803e000080bf000080c200000000a7d6bc3b2a6996bb
+obj.coef n=7 #eec9610df58ca2f0
+obj vptr_=V:F0+0 coef_=A16469+0 hist_=A16470+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=40000000 L_=2 taps_=7 histLen_=8 wr_=7 need_=1 borrowed_=1 heap(32)=0000003f0000003c000000bd0000003e0000803d000000c00000003f0000003f
+obj.coef n=14 #de7309cda0fba1e8
+obj vptr_=V:F0+0 coef_=A17966+0 hist_=A17967+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=40000000 L_=2 taps_=24 histLen_=27 wr_=25 need_=1 borrowed_=1 heap(108)=0000803c0000803f00000042000080c20000804200000043000080bf000080c3000000bd0000804000000043000080bd0000003e0000803e000000430000003c000000c30000803b00000043000000410000803f000000c2000080bb0000803c000000bc5e614f3c638551bd
+obj.coef n=48 #5127b38591c347cc
+obj vptr_=V:F0+0 coef_=A19463+0 hist_=A19464+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=40000000 L_=2 taps_=12 histLen_=13 wr_=12 need_=1 borrowed_=1 heap(52)=000000be000000c2000080bf0000804300008040000000bf000080410000003e000080420000003c0000003e0000003c0000003c
+obj.coef n=24 #af34ab39765d75c9
+obj vptr_=V:F0+0 coef_=A20960+0 hist_=A20961+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=3f800000 L_=1 taps_=10 histLen_=13 wr_=11 need_=1 borrowed_=1 heap(52)=0000803e0000803d000000bc000080bd0000803c000000c000008043000000bf000080be000000c300000043000000003e9c2b3d
+obj.coef n=10 #5aaeac4ab7291d46
+obj vptr_=V:F0+0 coef_=A22457+0 hist_=A22458+0 phase_=3fe0000000000000 pend_=[00000000,00000000,00000000,00000000,00000000] pendCount_=1 step_=3f800000 L_=1 taps_=13 histLen_=17 wr_=14 need_=1 borrowed_=1 heap(68)=000080400000803c000080c0000080c00000003e00008040000000bf0000803c0000803c000000c000008043000080bd000080c0000000c200000000ae7b9abb898ed13e
+obj.coef n=13 #3881487cbc9a9328
+calls: malloc 22500 free 22500 hooks 15000 edprintf 0 dbgprintf 0
+COV trials                       7500
+COV Resampler objects            7500
+COV ResamplerTimingOffset objects 0
+COV ResamplerTiming objects      0
+COV V90Resampler objects         0
+COV C2 constructors              3719
+COV coefficient-pointer constructors 7500
+COV float (designed table) constructors 0
+COV deleting destructor through vtable slot 1 0
+COV D1                           7500
+COV D2                           0
+COV interposed virtual call recorded 15000
+COV real timingCorrection override ran in resample 0
+COV hook policy: jitter          0
+COV hook policy: jumps           0
+COV hook policy: negative phase  0
+COV hook policy: boundary phases 0
+COV resample: need > total exit  0
+COV resample: tail store         7500
+COV resample: n == 0             0
+COV resample: n == 1             0
+COV history wrap (w == histLen)  0
+COV taps % 4 != 0 (dot remainder) 4542
+COV idx + 1 >= L (look-ahead row 0) 7464
+COV idx + 1 < L (next row)       7536
+COV phase clamped to 0 (negative) 0
+COV phase wrapped more than once 0
+COV phase wrapped once           15000
+COV pending samples shifted      0
+COV pendCount_ >= 2 consumed     0
+COV need_ >= 2 consumed in one output 0
+COV step < 1 (outputs without input) 0
+COV step > L (several samples per output) 0
+COV designed table checked against the LowPassFIR rearrangement 0
+COV float form with taps % 4 != 0 0
+COV history allocation failure   0
+COV histLen == 0 (taps == 0)     0
+COV taps == 0                    0
+COV negative timing offset       0
+COV positive timing offset       0
+COV setTimingOffset              0
+COV getTimingOffsetPPM           0
+COV reset() through vtable slot 2 0
+COV timingCorrection branch A (parity even) 0
+COV timingCorrection branch B (parity odd) 0
+COV parity_ > 2 (poked)          0
+COV SdHalfBaudDft n&3 == 0       0
+COV SdHalfBaudDft n&3 == 1       0
+COV SdHalfBaudDft n&3 == 2       0
+COV SdHalfBaudDft n&3 == 3       0
+COV SdHalfBaudDft completed 256 samples 0
+COV SdHalfBaudDft after completion (ignored) 0
+COV adjustHalfBaudBpfGain not done (ignored) 0
+COV adjust: P == 0               0
+COV adjust: P NaN                0
+COV adjust: N > 4                0
+COV adjust: 2 < N <= 4           0
+COV adjust: 1 <= N <= 2          0
+COV adjust: N < 1                0
+COV adjust: N == 4               0
+COV trials with the block around 2^31 7501
+COV dtor with a NULL block pointer 0
+COV adjust: N == 2               0
+COV adjust: N == 1               0
+COV debug print 1                0
+COV debug print 2                0
+COV debug print 3                0
+COV debug print of a negative value 0
+COV debug print of an out-of-int32-range value 0
+COV ResamplerTiming::reset(unsigned) 0
+COV invertPhase                  0
+COV addPhase a > 0               0
+COV addPhase a <= 0 / NaN        0
+COV setBllState same state (early return) 0
+COV setBllState state > 15       0
+COV setBllState flag changed     0
+COV timing history record        0
+COV timing history index wrap    0
+COV params->0x160 == 0 (no history) 0
+COV getTimingHistoryMean         0
+COV getTimingHistoryStd          0
+COV getTimingHistoryStd with a negative variance (rounding) 0
+COV signalling-NaN words         0
+COV designed dot products        4841
+COV get/setNormalizedPhase       0
+COV L == 0                       0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+COV setBllState case             0
+HASH 945c238c3699fe06 lines 82603

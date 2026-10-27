@@ -1,0 +1,28 @@
+VPcmFloModem::runPcmModem/7:406 SIGN 6e75f765f7 decl int ret -> unsigned
+VPcmFloModem::runPcmModem/7:406 WIDTH 35b84871e5 decl int ret -> short
+VPcmFloModem::runPcmModem/7:438 SIGN f5beae7649 decl unsigned code -> int
+VPcmFloModem::runPcmModem/7:441 CMPSIGN 0992ad015f compare as int32_t (no blob compare evidence)
+VPcmFloModem::runPcmModem/7:441 LIT 7f3a597f51 0x35 -> 0x36
+VPcmFloModem::runPcmModem/7:441 LIT a3fb515724 0x35 -> 0x37
+VPcmFloModem::runPcmModem/7:477 LIT 7d51e58465 0xfb -> 0xf9
+VPcmFloModem::runPcmModem/7:600 CMPSIGN 985cd01fff compare as int32_t (no blob compare evidence)
+VPcmFloModem::runPcmModem/7:604 SIGN 9f4a8be02f decl int ev -> unsigned
+VPcmFloModem::runPcmModem/7:613 CMPSIGN b588ceab1a compare as uint32_t (no blob compare evidence)
+VPcmFloModem::runPcmModem/7:613 LIT 211b7ff3d3 3 -> 2
+VPcmFloModem::runPcmModem/7:613 LIT f32e4df8f0 3 -> 4
+VPcmFloModem::runPcmModem/7:613 LIT 28b36b14b9 3 -> 5
+VPcmFloModem::runPcmModem/7:613 REL b81942f13f > -> >=
+VPcmFloModem::v90RunDemodulator/4:158 WIDTH 80c067dba3 decl int ret -> short
+VPcmFloModem::v90RunDemodulator/4:177 SIGN 8e75fe1801 decl unsigned code -> int
+VPcmFloModem::v90RunDemodulator/4:178 CMPSIGN 49fdb0a40a compare as int32_t (no blob compare evidence)
+VPcmFloModem::v90RunDemodulator/4:178 LIT fdf24b449a 0x2b -> 0x2c
+VPcmFloModem::v90RunDemodulator/4:178 LIT 4823b476aa 0x2b -> 0x2d
+VPcmFloModem::v90RunDemodulator/4:201 SIGN 7cec90c1e4 decl unsigned rtd -> int
+VPcmFloModem::v90RunDemodulator/4:219 LIT 54fac83d92 0xfb -> 0xf9
+chop16:94 CMPSIGN 814dba6f84 compare as int32_t (no blob compare evidence)
+chop16:94 REL 531056aef5 < -> <=
+chop16:95 CAST bcaa4b8348 cast (int) -> (unsigned)
+chop16:95 CAST 44904e7870 drop cast (int)
+chop16:95 CAST 6f052a6f24 drop cast (short)
+copyMpInfo:119 CAST a2dfe0b9b7 cast (int) -> (unsigned)
+mulF:107 STMT 907265000c delete statement
